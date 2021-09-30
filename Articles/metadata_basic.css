@@ -1,0 +1,28 @@
+ .mention {
+ 	color: #0081a7;
+ }
+
+ .concept:hover {
+ 	color: red;
+ 	font-weight: 700;
+ }
+ 
+ .place:hover {
+ 	color: green !important;
+ 	font-weight: 700;
+ }
+
+ .organization:hover {
+ 	color:  #5271FF !important;
+ 	font-weight: 700;
+ }
+ 
+ .date:hover {
+ 	color: #B47EB3 !important;
+ 	font-weight: 700;
+ }
+
+ .person:hover {
+ 	color: #FFB7C3 !important;
+ 	font-weight: 700;
+ }

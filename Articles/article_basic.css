@@ -1,0 +1,201 @@
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.bigger{
+	padding-left: 15%;
+	padding-right: 15%;
+	width: auto;
+}
+
+img{
+	position: relative;
+	width: 100%;
+	margin-top: 3%;
+}
+
+
+figcaption{
+	color: #343a40;
+	font-size: 110%;
+	font-weight: 900;
+}
+
+.expand{
+	margin-right: -15% !important;
+	margin-left: -15% !important;
+	width: 130%;
+}
+
+
+h1 {
+	color: black;
+	font-size: 350%;
+	text-align: center;
+	float: none !important;
+}
+
+
+h2 {
+	color: black;
+	font-size: 200%;
+	text-align: left;
+}
+
+p{
+	color: black;
+	font-size: 130%;
+	text-align: left;
+	display: block;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.red{
+	color: #a4161a !important;
+}
+
+.grey{
+	color: #343a40;
+}
+
+.yellow{
+	background: #fdc500;
+	height: 1px;
+}
+
+.author {
+	display: block !important;
+	margin-bottom: 3%;
+	height: 100%;
+}
+
+.centered {
+	display: inline !important;
+	float: right;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 85%;
+	height: 60%;
+
+}
+
+.smallChar {
+	color: #6c757d !important;
+	font-size: 90% !important;
+	font-weight: 300 !important;
+	text-align: left;
+	display: block;
+}
+
+.subtitle{
+	font-size: 140%;
+	color: #343a40;
+	font-weight: 700;
+}
+
+.thin{
+	font-weight: 400 !important;
+}
+
+.datePublished{
+	color: #6c757d !important;
+	font-size: 90%;
+	font-weight: 500;
+}
+
+.caption{
+	text-align: left !important;
+	color: #495057;
+	font-size: 110%;
+	display: inline !important;
+}
+
+.captionArticle{
+	color: black;
+	font-size: 110%;
+	font-weight: 900;
+}
+
+.namePhoto{
+	color: #6c757d;
+	font-size: 100%;
+	font-weight: 500;
+	text-align: left;
+}
+
+.nameAuthor{
+	color: black;
+	font-size: 90%;
+	font-weight: 700 !important;
+}
+
+.center {
+	display: block !important;
+	position: relative;
+	margin-bottom: 3%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.small{
+	width: 25%;
+}
+
+.medium{
+	font-size:250% !important 
+}
+
+.midSmall{
+	font-size: 170% !important;
+	font-weight: 400;
+}
+
+.left{
+	float: left;
+	text-align: left;
+}
+
+.right{
+	float: right;
+	text-align: left;
+}
+
+.clear{
+	float: none;
+	width: 100%;
+}
+
+
+.follow{
+	display: inline !important;
+}
+
+.dropCap {
+	float: left; 
+	width: 0.8em; 
+	font-size: 570%; 
+	line-height: 80%;
+}
+
+ .close {
+ 	margin-top: -1em !important;
+ 	margin-bottom: 1em !important;
+ }
+
+ .distant {
+ 	margin-top: 2em;
+ }
+
+ .isolate {
+ 	margin-right: 30%;
+ 	margin-left: 0%;
+ 	width: 80%;
+ 	margin-top: -1em !important;
+ }
