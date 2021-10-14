@@ -1,0 +1,1081 @@
+/*********************************************************
+	//
+ _oo\
+(__/ \  _  _
+   \  \/ \/ \		TEMPLATE DI GIULIA
+   (         )\		
+    \_______/  \
+     [[] [[]
+     [[] [[]
+**********************************************************/
+*{margin: 0px; padding: 0px;}
+
+
+
+body{font-size: 1em;}
+html{font-size: 100%;}
+ul, ol{ list-style: none;}
+a, li{text-decoration: none !important;}
+a img{border:none !important;}
+
+header, footer, section, article, figure, aside, video, audio, hgroup, nav{display: block;}
+
+h1, h2, h3, h4, h5, h6, label {font-family: 'Bebas Neue', cursive !important; color: white;} 
+p, a, ul, li {font-family: 'Roboto', sans-serif !important; color: white;}
+
+hr {border: 0.125em white solid;}
+
+button {
+  direction: none;
+  font-family: 'Bebas Neue', cursive !important;
+  color: white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 0.125em white solid;
+  cursor:pointer;
+  overflow: hidden;
+}
+
+.large_button{
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+.little_button{
+  font-size: 1em;
+  padding: 0.5em;
+}
+
+button:hover{
+  background-color: rgba(255,255,255,0.3);
+}
+
+.b-contain *, .b-contain *::before, .b-contain *::after {
+  box-sizing: content-box !important;
+}
+
+.b-contain input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.b-contain span {
+  line-height: 1.19;
+  font-size: 1.32rem;
+  font-family: inherit;
+}
+
+.b-contain {
+  display: table;
+  position: relative;
+  padding-left: 2.04rem;
+  cursor: pointer;
+  margin-bottom: 1.17rem;
+}
+
+.b-contain input[type="checkbox"] ~ .b-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  width: 1.51rem;
+  background: rgba(241, 245, 248, 0);
+  transition: background 250ms;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 0rem;
+}
+
+.b-contain input[type="checkbox"] ~ .b-input::after {
+  content: '';
+  position: absolute;
+  display: none;
+  left: 0.57rem;
+  top: 0.28rem;
+  width: .25rem;
+  height: .6rem;
+  border: solid rgba(255, 255, 255, 1);
+  border-width: 0 3px 3px 0;
+  transition: background 250ms;
+  transform: rotate(45deg);
+}
+
+
+.b-contain input:disabled ~ .b-input::after {
+  border-color: rgba(135, 149, 161, 1);
+}
+
+.b-contain input:checked ~ .b-input::after {
+  display: block;
+}
+
+
+
+.clear{clear: both;}
+.left{float: left;}
+.right {float: right;}
+
+/* scrivere codice da qui */
+
+
+/*background*/
+
+body {
+	background: radial-gradient(circle at bottom, navy 0, black 100%);
+   	height: 100vh;
+  	overflow: hidden;
+}
+
+.space {
+	height: 300%;
+	width: 200%;
+  background: rgba(16,4,67,0.10) center / 200px 200px round;
+  border: 1px dashed purple;
+  bottom: 0;
+  left: -50%;
+  position: absolute;
+  right: 0;
+  top: -50%;
+}
+
+.stars1 {
+  animation: space 100s ease-in-out infinite;
+  background-image:
+    radial-gradient(
+      1px 1px at 25px 5px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      1px 1px at 50px 25px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      1px 1px at 125px 20px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      1.5px 1.5px at 50px 75px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      2px 2px at 15px 125px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      2.5px 2.5px at 110px 80px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    );
+}
+.stars2 {
+  animation: space 220s ease-in-out infinite;
+  background-image:
+    radial-gradient(
+      1px 1px at 75px 125px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      1px 1px at 100px 75px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      1.5px 1.5px at 199px 100px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      2px 2px at 20px 50px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      2.5px 2.5px at 100px 5px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      2.5px 2.5px at 5px 5px, 
+      white, 
+      rgba(255, 255, 255, 0)
+	);
+}
+	
+.stars3 {
+  animation: space 280s ease-in-out infinite;
+  background-image:
+    radial-gradient(
+      1px 1px at 10px 10px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      1px 1px at 150px 150px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      1.5px 1.5px at 60px 170px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      1.5px 1.5px at 175px 180px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      2px 2px at 195px 95px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      2.5px 2.5px at 95px 145px, 
+      white, 
+      rgba(255, 255, 255, 0)
+    );
+}
+
+@keyframes space {
+  40% {
+    opacity: 0.85;
+  }
+  50% {
+    opacity: 0.15;
+  }
+  60% {
+    opacity: 0.85;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*NAVIGATOR*/
+
+.nav{
+	z-index: 2;
+	position: fixed;
+  overflow: hidden;
+  height: 15%;
+  width: 90%;
+	top: 5%;
+	left: 5%;
+	right: 5%;
+  bottom: 5%;
+}
+
+.menu {
+  margin-top: 1em;
+  margin-left: 0.5em;
+}
+
+.menu_item {
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  display: inline;
+  text-align: left;
+}
+
+/*-----logo------*/
+
+.logo{
+	width: fit-content;
+}
+
+.up_logo{
+	font-size: 4em;
+}
+
+.bottom_logo{
+	margin-top: -14px;
+	font-size: 3em;
+}
+
+/*-----arrow-----*/
+
+.arrow {
+  border: solid white;
+  border-width: 0 0.3em 0.3em 0;
+  display: inline-block;
+  padding: 0.3em;
+}
+
+.a_right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.a_left {
+  transform: rotate(135deg) !important;
+  -webkit-transform: rotate(135deg) !important;
+}
+
+.a_up {
+  transform: rotate(-135deg) !important ;
+  -webkit-transform: rotate(-135deg) !important;
+}
+
+.a_down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+/*-----Lens------*/ 
+
+.lensbox, .lens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lensbox {
+    top: 10px;
+    position: relative;
+    border: 0.125em white solid;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.lens {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    overflow: hidden;
+    overflow-x: scroll;
+    transition: 0.6s;
+}
+
+/* Hide scrollbar Chrome, Safari, Opera */
+.lens::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar IE, Edge, Firefox */
+.lens {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.lens_menu_icon{
+    position: absolute;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    pointer-events: none;
+    transition: 1s;
+}
+
+.lensbox input:checked ~ .lens {
+    width: 300px;
+}
+
+.lens li {
+    list-style: none;
+    margin: 0 5px;
+    transition: 0.5s;
+}
+
+.lensbox input {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.lensbox span {
+    display: none;
+    position: absolute;
+    left: 15px;
+    width: 30px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: white;
+    pointer-events: none;
+    transition: 0.8s;
+}
+
+.lensbox input:checked ~ span {
+    display: block;
+}
+
+
+.lensbox span:nth-child(3) {
+    transform: translateY(-8px);
+}
+
+.lensbox input:checked ~ span:nth-child(3) {
+    transform: translateY(0) rotate(-45deg);
+}
+.lensbox span:nth-child(4) {
+    transform: translateY(8px);
+}
+
+.lensbox input:checked ~ span:nth-child(4) {
+    transform: translateY(0) rotate(45deg);
+}
+
+.lensbox input:checked ~ .lens_menu_icon{
+  display: none;
+}
+
+
+
+/*-----Team + disclamer------*/
+
+.info_box{
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    z-index: 5;
+    right: 5%;
+    bottom: 5%;
+}
+
+.world {
+  border: 0.125em white solid;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+
+
+/*disclamer*/
+
+
+#allert{
+  z-index: 7;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(22 9 70 / 68%);;
+  display: none;
+}
+
+#allert:target {
+  visibility: visible;
+  display: block;
+}
+
+.allert_box{
+  border:  0.125em white solid;
+  width: 70%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    right: 15%;
+    transform: translate(0, -50%);
+  transition: all 5s ease-in-out;
+}
+
+.allert_box .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.allert_box .close:hover {
+  color: #06D85F;
+}
+
+.allert_content {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: rgba(16,4,67,1) center / 200px 200px round;
+      width: 85%;
+    height: 85%;
+    padding-top: 2%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    margin: 3% auto;
+}
+
+.allert_content h1, h3, p, hr {
+  margin-bottom: 28px;
+}
+
+.disclamer  {
+  width: 70%;
+  height: auto;
+}
+
+/*team*/
+
+.team_box{
+  width: 26%;
+  border-right:  0.125em white solid;
+}
+
+.person{
+  width: 78%;
+
+}
+
+#Camilla{
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border:  0.125em white solid;
+  border-radius: 50%;
+  background-image: url("img/delfino.jpg");
+  margin-bottom: 20px;
+}
+
+.team_text{
+  width: 100%;
+}
+
+.team_text h3, hr{
+  margin-bottom: 1.0625em;
+}
+
+
+
+
+/*CONTENT - ARCHIVE*/
+
+.scrolling_content{
+  position: absolute;
+  z-index: 3;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  height: 75%;
+  width: 90%;
+  top: 20%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+}
+
+/* Hide scrollbar Chrome, Safari, Opera */
+.scrolling_content::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar IE, Edge, Firefox */
+.scrolling_content {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.card {
+  width: fit-content;
+  height: 90%;
+  display: inline-block;
+  margin-right: 50px;  
+  border:  0.125em white solid;
+
+}
+
+.issue {
+  position: relative;
+  width: 350px;
+  height: 100%;
+}
+
+.articles {
+  display: none;
+  width: 200px;
+  height: 100%;
+}
+
+.article_box{
+  position: relative;
+  width: 100%;
+  height: 33.2%;
+  border-bottom:  0.125em white solid;
+  border-left:  0.125em white solid;
+}
+
+.no_bottom_border{
+  border-bottom: none !important;
+}
+
+#issue_first{
+	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/issue.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+#article {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/article.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(86,20,182,0.5) ;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+div.issue:hover .overlay {
+  height: 100%;
+}
+
+div.article_box:hover .overlay {
+  height: 100%;
+}
+
+
+.margin_cards {
+  width: 90%;
+  height: 90%;
+  margin: 10% auto;
+  overflow: hidden;
+}
+
+.arrow_box_archive {
+    width: 10%;
+    padding-top: 7%;
+}
+
+
+.text_issue{
+  white-space: normal !important;
+  width: 85%;
+  height: 60%;
+}
+
+
+.text_issue h1, hr, p {
+  margin-top: 15px;
+}
+
+.text_issue button {
+  position: absolute;
+  bottom: 10%;
+}
+
+.text_article{
+  white-space: normal !important;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+.text_article h3, hr, p{
+  margin-top: 7px;
+}
+
+.text_article button {
+  position: absolute;
+  bottom: 5%;
+}
+
+
+
+/*-----Sidebar menu------*/
+
+.metadata_menu {
+    border: 0.125em white solid;
+    border-left: none;
+    position: absolute;
+    width: 22%;
+    height: 90%;
+}
+
+
+.arrow_box {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+
+.metadataviewr_box {
+    top: 10%;
+    left: 5%;
+    width: 79%;
+    height: 80%;
+    position: inherit;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/* Hide scrollbar Chrome, Safari, Opera */
+.metadataviewr_box::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar IE, Edge, Firefox */
+.metadataviewr_box {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/*-----Form------*/
+
+.mv_form_box {
+    width: 100%;
+    margin-top: 1em;
+    margin-left: 0.3em;
+    position: relative;
+}
+
+.form_margin{
+  margin-top: 1em;
+}
+
+.refresh{
+  position: absolute;
+  right: 0.5em;
+  top: 0.2em;
+}
+
+.refresh svg {
+  transition: transform .7s ease-in-out;
+}
+.refresh svg:hover {
+  transform: rotate(360deg);
+}
+
+/*-----Select menu------*/
+
+
+.custom-select {
+  margin-bottom: 1em;
+  width: 90%;
+  text-align: left;
+  position: relative;
+  font-family: 'Bebas Neue', cursive !important;
+  color: white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 0.125em white solid;
+  cursor:pointer;
+  font-size: 1.5em;
+}
+
+.custom-select select {
+  display: none;
+}
+
+.select-selected {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  
+}
+
+.select-selected:after {
+  font-size: 0.7em;
+  float: right;
+  content: "";
+  position: absolute;
+  top: 1.1625em;
+  right: 7%;
+  width: 0;
+  height: 0;
+  border: solid white;
+  border-width: 0 0.2em 0.2em 0;
+  display: inline-block;
+  padding: 0.3em;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.select-selected.select-arrow-active:after {
+  transform: rotate(-135deg) !important ;
+  -webkit-transform: rotate(-135deg) !important;
+}
+
+.select-items div,.select-selected {
+  padding: 6.5%;
+  border: 1.5px solid transparent;
+  border-color: transparent transparent rgba(225, 225, 225, 225.5) transparent;
+  font-family: 'Bebas Neue', cursive !important;
+  color: white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  
+}
+}/* two class to close!!! NON CANCELLARE*/
+
+
+.select-items {
+  position: absolute;
+  background-color: rgba(86,20,182,0.5);
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(86,20,182,0.5);
+}
+
+
+
+/*-----ARTICLE VIEWER------*/
+
+.content_viewer{
+  overflow: hidden;
+    position: absolute;
+    z-index: 3;
+    height: 75%;
+    width: 118%;
+    top: 20%;
+    left: -23%;
+    right: 5%;
+    bottom: 5%;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.move {
+  left: 0 !Important;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.content_article{
+  overflow: hidden;
+    height: 100%;
+    width: 76%;
+}
+
+#one_article{
+  border-top: 0.125em white solid;
+  border-bottom: 0.125em white solid;
+  border-left: 0.125em white solid;
+  width: 99.6%;
+  height: 99.4%;
+  display: none;
+}
+
+.one_colum{
+  width: 100%;
+  height: 100%;
+}
+
+#two_article{
+  border-top: 0.125em white solid;
+  border-bottom: 0.125em white solid;
+  border-left: 0.125em white solid;
+  width: 99.6%;
+  height: 99.4%;
+  display: none;
+}
+
+.two_colum{
+  width: 50%;
+  height: 100%;
+}
+
+#three_article{
+  border-top: 0.125em white solid;
+  border-bottom: 0.125em white solid;
+  border-left: 0.125em white solid;
+  width: 99.6%;
+  height: 99.4%;
+  display: block;
+}
+
+.three_colum{
+  width: 33.333333333333333%;
+  height: 100%;
+}
+
+.metadata{
+  border-right: 0.125em white solid;
+  border-bottom: 0.125em white solid;
+  width: 100%;
+  height: fit-content;
+}
+
+
+.article{
+  border-right: 0.125em white solid;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  height: 84%;
+}
+
+.text_meta{
+  padding: 5%;
+    width: 90%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Hide scrollbar Chrome, Safari, Opera */
+.text_meta::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar IE, Edge, Firefox */
+.text_meta {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#meta_down{
+  margin-top: 2px;
+}
+
+.meta{
+  width: 94%;
+}
+
+
+.meta li {
+    font-size: 1.2em;
+    color: white;
+    line-height: 2em;
+    margin: 1em;
+    margin-left: 0 !important;
+    display: inline;
+    text-align: left;
+
+}
+
+.meta ol{
+  width: 100%;
+  height: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar Chrome, Safari, Opera */
+ol::-webkit-scrollbar {
+    display: none;
+}
+
+.meta_down{
+  width: fit-content;
+  display: inline-block;
+}
+
+.meta_down ol{
+  height: fit-content;
+  max-height: 9.5em;
+  margin-bottom: 0.5em;
+  display: block !important;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  white-space: normal !important;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none; 
+}
+
+.meta_down li{
+  display: block !important;
+  line-height: 0.8em;
+}
+
+.show_meta{
+    width: fit-content;
+    height: fit-content;
+    max-height: 21em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-top: 0.5em;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+.show_meta::-webkit-scrollbar {
+    display: none;
+}
+
+.Place, .Person, .Date, .Concept, .Organization {
+  display: none;
+}
+
+.text{
+    width: 90%;
+    height: 90%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+
+/* Hide scrollbar Chrome, Safari, Opera */
+.text::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar IE, Edge, Firefox */
+.text {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
