@@ -106,9 +106,3 @@ $(document).ready(function(){
   })
 })
 
-//Put the article in the div
-
-fetch('js/schifo.txt',  {mode: 'no-cors'})
-  .then(response => response.text())
-  .then(text => document.getElementById("text1").innerHTML=(text))
-
