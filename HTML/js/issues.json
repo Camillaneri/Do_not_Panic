@@ -1,0 +1,39 @@
+[ {
+	"name":"Deep Thoughts",
+	"articles":[
+	   "Flat Earthers What They Believe and Why",
+	   "Documentary Follows Pastafarians",
+	   "What is QANON"
+	],
+	"sources":[
+	   "https://www.scientificamerican.com/podcast/episode/flat-earthers-what-they-believe-and-why/",
+	   "https://www.theguardian.com/world/2019/sep/18/documentary-follows-pastafarians-strain-for-recognition",
+	   "https://www.nytimes.com/article/what-is-qanon.html"
+	]
+ },
+ {
+	"name":"Magratears",
+	"articles":[
+	   "7 ancient sites some people think were built by Aliens",
+	   "The secret part of central Norway that everyone misses in the rush to the fjords",
+	   "Nazca Lines - The aliens have landed"
+	],
+	"sources":[
+	   "https://www.nationalgeographic.com/travel/article/ancient-sites-built-by-aliens",
+	   "https://www.telegraph.co.uk/travel/activity-and-adventure/secret-part-central-norway-everyone-misses-rush-fjords/",
+	   "https://www.wanderlust.co.uk/content/exploring-the-nazca-lines-peru/"
+	]
+ },
+ {
+	"name":"Vogueon",
+	"articles":[
+	   "Amanda McKittrick Ros, the Worst Novelist in History",
+	   "William McGonagall - The story of our best worst poet",
+	   "The Good, the Bad, and the Good Bad"
+	],
+	"sources":[
+	   "https://slate.com/culture/2013/01/was-amanda-mckittrick-ros-the-worst-novelist-in-history.html",
+	   "https://www.thenational.scot/news/18565141.william-mcgonagall-story-best-worst-poet/",
+	   "https://www.poetryfoundation.org/articles/69448/the-good-the-bad-and-the-good-bad"
+	]
+ }]
