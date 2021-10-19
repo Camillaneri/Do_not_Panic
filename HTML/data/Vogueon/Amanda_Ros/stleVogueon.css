@@ -1,0 +1,179 @@
+body{font-size: 1em;}
+html{font-size: 100%;}
+ul, ol{ list-style: none;}
+a, li{text-decoration: none !important;}
+a img{border:none !important;}
+
+header, footer, section, article, figure, aside, video, audio, hgroup, nav{display: block;}
+
+h1, h2, h3, h4, h5, h6, label {font-family: 'Bebas Neue', cursive !important; color: white;} 
+p, a, ul, li, figcaption  {font-family: 'Roboto', sans-serif !important; color: white;}
+
+hr {border: 0.125em white solid;}
+
+.display{display: block !important;}
+
+.clear{clear: both;}
+.left{float: left;}
+.right {float: right;}
+
+body{
+
+    overflow: hidden;
+      height: 99.4%;
+      width: 76%;
+      background-color: #58bb73ba;
+      border: 0.125em white solid;
+  }
+  
+h1 {
+    color: black !important;
+    font-weight: lighter;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+h2 {
+    color: black !important;
+    font-weight: lighter;
+    margin-bottom: 0.5em;
+  }
+  
+ h3 {
+    color: black !important;
+    font-weight: lighter;
+    margin-bottom: 0.5em;
+  }
+  
+ a {
+    color: black !important;
+    font-weight: lighter;
+  }
+  
+ p {
+    color: black !important;
+    font-weight: lighter;
+    margin: 1em 0 !important;
+  }
+  
+ hr {
+    border: 0.01em black solid !important;
+  }
+  
+ img{
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+ figcaption {
+    color: black !important;
+    text-align: left;
+    font-size: 1.125em;
+    margin-bottom: 0.5em;
+  }
+  
+  article {
+    margin: 0 auto;
+  }
+  
+  .bigger{
+    padding-left: 15%;
+    padding-right: 15%;
+    width: auto;
+  }
+  
+  .italic{
+    font-style: italic;
+  }
+  
+  
+  .author {
+    display: block !important;
+    margin-bottom: 3%;
+    height: 100%;
+  }
+  
+  .namePhoto{
+    font-size: 0.8em !important;
+    font-weight: 500;
+  }
+  
+  .subtitle{
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+  }
+  
+  .thin{
+    font-size: 0.8em;
+    font-weight: 400 !important;
+  }
+  
+  .datePublished{
+    font-size: 0.875em;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+  }
+  
+  .caption{
+    text-align: left !important;
+    font-size: 1.2em;
+    display: inline !important;
+  }
+  
+  .namePhoto{
+    font-size: 1em;
+    font-weight: 500;
+    display: inline;
+  }
+  
+  .nameAuthor{
+    color: black;
+    font-weight: 700 !important;
+  }
+  
+  .center {
+    display: block !important;
+    position: relative;
+    margin-bottom: 3%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  .small{
+    width: 25% !important;
+  }
+  
+  .midSmall{
+    font-size: 170% !important;
+    font-weight: 400;
+  }
+  
+   .isolate {
+    margin-right: 30%;
+    margin-left: 0%;
+    width: 80%;
+    margin-top: -1em !important;
+   }
+  
+  .follow{
+    display: inline !important;
+  }
+  
+  .dropCap {
+    float: left; 
+    width: 0.8em; 
+    font-size: 570%; 
+    line-height: 80%;
+  }
+  
+  
+  .smallChar {
+    font-size: 0.875em !important;
+    font-weight: 300 !important;
+    text-align: left;
+    display: block;
+  }
