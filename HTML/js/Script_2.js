@@ -9,17 +9,21 @@ function from_issue(){
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
   var sources = JSON.parse(localStorage.sources);
+  var issue_select = '"'+  issue_id + '_issue"';
   document.getElementById("article_1_name").innerHTML=articles[0];
   document.getElementById("article_2_name").innerHTML=articles[1];
   document.getElementById("article_3_name").innerHTML=articles[2];
   document.getElementById("article_1_source").href=sources[0];
   document.getElementById("article_2_source").href=sources[1];
   document.getElementById("article_3_source").href=sources[2];
-  if (issue_id == "Deep-Thoughts" || issue_id == "Magratears" || issue_id == "Vogueon" && name_article == ""){
+  if (name_article == ""){
     document.getElementById("article_1").click();
     document.getElementById("article_2").click();
     document.getElementById("article_3").click();
     article_selector(issue_id, name_article, 3);
+  } else {
+    document.getElementById("article_1").click();
+    article_selector(issue_id, name_article, 1);
   }
   }
 
@@ -27,10 +31,17 @@ function from_issue(){
     var articles = JSON.parse(localStorage.articles);
     var sources = JSON.parse(localStorage.sources);
     console.log(issue, article, articles, sources);
-    for (i=0; i<num_article; i++){
+    for (i=0; i<3; i++){
+      if (num_article == 3){
   		var name =  "/data/" + issue + "/" + articles[i] + ".txt";
       var id = "text_" + num_article + "_" + (i+1);
       populator (name, id);
+      }
+      else if (articles [i] == article){
+      var name =  "/data/" + issue + "/" + articles[i] + ".txt";
+      var id = "text_" + num_article + "_1";
+      populator (name, id);
+      }
     }
   }
 
