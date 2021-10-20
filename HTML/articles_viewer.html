@@ -16,10 +16,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/Script.js"></script>
 <script type="text/javascript" src="js/Script_2.js"></script>
-<script type="text/javascript" src="js/issues.json"></script>
+<script type="text/javascript" src="data.json"></script>
 
 </head>
-<body onload="from_issue()">
+<body onLoad="from_issue()">
 	
 	<div id="allert">
 		<div class="allert_box">
@@ -164,7 +164,7 @@
 						             	<div class="dropdown_item">
 						             		<label class="b-contain left">
 												<h1>Article 1</h1>
-												<input type="checkbox" class="article" name="Article" value="1" onclick="getCheckedBoxes('Article')">
+												<input type="checkbox" id="article_1" class="article" name="Article" value="1" onclick="getCheckedBoxes('Article')">
 												<div class="b-input"></div>
 											</label>
 						             		<a class="right" href="#">Source</a> 
@@ -173,7 +173,7 @@
 						             	<div class="dropdown_item">
 						             		<label class="b-contain left">
 												<h1>Article 2</h1>
-												<input type="checkbox" class="article" name="Article" value="2"  onclick="getCheckedBoxes('Article')">
+												<input type="checkbox" id="article_2" class="article" name="Article" value="2"  onclick="getCheckedBoxes('Article')">
 												<div class="b-input"></div>
 											</label>
 						             		<a class="right" href="#">Source</a> 
@@ -182,7 +182,7 @@
 						             	<div class="dropdown_item">
 						             		<label class="b-contain left">
 												<h1>Article 3</h1>
-												<input type="checkbox" class="article" name="Article" value="3"  onclick="getCheckedBoxes('Article')">
+												<input type="checkbox" id="article_3" class="article" name="Article" value="3"  onclick="getCheckedBoxes('Article')">
 												<div class="b-input"></div>
 											</label>
 						             		<a class="right" href="#">Source</a> 
