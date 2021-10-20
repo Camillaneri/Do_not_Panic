@@ -7,6 +7,14 @@ function issue_selected(issue_id, name_article){
 function from_issue(){
   var issue_id = localStorage.issue_id;
   var name_article = localStorage.name_article;
+  var articles = JSON.parse(localStorage.articles);
+  var sources = JSON.parse(localStorage.sources);
+  document.getElementById("article_1_name").innerHTML=articles[0];
+  document.getElementById("article_2_name").innerHTML=articles[1];
+  document.getElementById("article_3_name").innerHTML=articles[2];
+  document.getElementById("article_1_source").href=sources[0];
+  document.getElementById("article_2_source").href=sources[1];
+  document.getElementById("article_3_source").href=sources[2];
   if (issue_id == "Deep-Thoughts" || issue_id == "Magratears" || issue_id == "Vogueon" && name_article == ""){
     document.getElementById("article_1").click();
     document.getElementById("article_2").click();
