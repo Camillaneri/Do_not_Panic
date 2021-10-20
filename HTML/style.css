@@ -31,6 +31,11 @@ hr {border: 0.125em white solid;}
 .left{float: left;}
 .right {float: right;}
 
+@media only screen and (max-heigh: 1199.8px), 
+screen and (max-width: 1268.8px) {
+  body{font-size: 0.7em;}
+}
+
 /*----button----*/
 
 button {
