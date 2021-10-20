@@ -486,15 +486,21 @@ body {
 
 .allert_box{
   border:  0.125em white solid;
-  width: 70%;
-    height: auto;
+  width: 60%;
+    height: 60%;
     position: absolute;
     top: 50%;
-    left: 15%;
-    right: 15%;
-    transform: translate(0, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
   transition: all 5s ease-in-out;
 }
+
+/*@media only screen and (max-width: 1429px) {
+  .allert_box {
+    width: 70%;
+    height: 70%;
+  }
+}*/
 
 .allert_box .close {
   position: absolute;
@@ -506,25 +512,22 @@ body {
   text-decoration: none;
   color: white;
 }
+
 .allert_box .close:hover {
   color: #06D85F;
 }
 
 .allert_content {
-  overflow-y: scroll;
-  overflow-x: hidden;
-  background: rgba(16,4,67,0.6);
-    width: 85%;
-    height: 85%;
-    padding-top: 2%;
-    padding-right: 4%;
-    padding-bottom: 2%;
-    padding-left: 4%;
-    margin: 3% auto;
+  background: rgba(16,4,67,1);
+  position: relative;
+    width: 100%;
+    height: 100%;
+    
 }
 
 
 .disclamer  {
+  display: none;
   width: 70%;
   height: auto;
 }
@@ -532,18 +535,22 @@ body {
 /*team*/
 
 .team_box{
-  width: 26%;
-  height: 100%;
-  background-color: bisque;
-  border-right:  0.125em white solid;
+  overflow: hidden;
+  margin-left: 3%;
+  width: 20%;
+  height: 90%;
+  margin-top: 2.5%;
+}
+
+.team_box h1 {
+  margin-bottom: 0.5em;
 }
 
 .person{
   width: 100%;
-  height: 33.333333333%;
-  
-  border-bottom:  0.125em white solid;
-  margin-bottom: 20px;
+  height: 26.333333%;
+  border-bottom: 0.125em white solid;
+  margin-bottom: 1.3em;
 }
 
 #Camilla{
