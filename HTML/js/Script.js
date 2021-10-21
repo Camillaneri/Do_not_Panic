@@ -106,3 +106,32 @@ $(document).ready(function(){
   })
 })
 
+
+
+
+$(document).ready(function(){
+  $("#team_explain_Camilla").click(function(){
+    $('#team_explain_Camilla').toggleClass('a_up');
+    $('.team_box').toggleClass('team_box_scroll');
+    $('#Camilla').toggleClass('fit');
+    $("div#Camilla > div.explain").toggle();
+  });
+})
+
+$(document).ready(function(){
+  $("#team_explain_Giorgia").click(function(){
+    $('#team_explain_Giorgia').toggleClass('a_up');
+    $('.team_box').toggleClass('team_box_scroll');
+    $('#Giorgia').toggleClass('fit');
+    $("div#Giorgia > div.explain").toggle();
+  });
+})
+
+$(document).ready(function(){
+  $("#team_explain_Giulia").click(function(){
+    $('#team_explain_Giulia').toggleClass('a_up');
+    $('.team_box').toggleClass('team_box_scroll');
+    $('#Giulia').toggleClass('fit');
+    $("div#Giulia > div.explain").toggle();
+  });
+})

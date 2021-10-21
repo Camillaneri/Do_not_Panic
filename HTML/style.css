@@ -33,7 +33,8 @@ hr {border: 0.125em white solid;}
 
 @media only screen and (max-heigh: 1199.8px), 
 screen and (max-width: 1268.8px) {
-  body{font-size: 0.7em;}
+  body{font-size: 0em;};
+   html{font-size: 0%;};
 }
 
 /*----button----*/
@@ -532,9 +533,18 @@ body {
 
 
 .disclamer  {
-  display: none;
-  width: 70%;
+  width: 62%;
   height: auto;
+  margin-top: 2.5%;
+  margin-right: 10%;
+}
+
+.disclamer h1{
+  margin-bottom: 0.5em;
+}
+
+.disclamer hr, p, ul {
+  margin-bottom: 1em;
 }
 
 /*team*/
@@ -547,6 +557,23 @@ body {
   margin-top: 2.5%;
 }
 
+.team_box_scroll{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Hide scrollbar Chrome, Safari, Opera */
+.team_box_scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar IE, Edge, Firefox */
+.team_box_scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 .team_box h1 {
   margin-bottom: 0.5em;
 }
@@ -555,23 +582,51 @@ body {
   width: 100%;
   height: 26.333333%;
   border-bottom: 0.125em white solid;
-  margin-bottom: 1.3em;
+  transition: .5s ease;
+  
+}
+
+.fit{
+  height: fit-content !important;
+  transition: .5s ease;
 }
 
 #Camilla{
   /*background-image: url("img/delfino.jpg");*/
   background-color: #06D85F;
+  margin-bottom: 1.3em;
+}
+
+#Giorgia{
+  /*background-image: url("img/delfino.jpg");*/
+  background-color: #d8ca06;
+  margin-bottom: 1.3em;
+}
+
+#Giulia{
+  /*background-image: url("img/delfino.jpg");*/
+  background-color: #c606d8;
+}
+
+.empty{
+  width: 100%;
+  height: 6em;
+  
 }
 
 .team_text{
+  width: 90%;
+  margin: 0 5%;
+  padding-bottom: 0.625em;
+}
+
+.explain{
+  padding-top: 0.625em;
   width: 100%;
+  display: none;
+  background-color: rgba(125, 84, 236, 0.5);
+  transition: .5s ease;
 }
-
-.team_text h3, hr{
-  margin-bottom: 1.0625em;
-}
-
-
 
 
 /*CONTENT - ARCHIVE*/
