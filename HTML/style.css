@@ -442,6 +442,7 @@ body {
 }
 
 .lensbox {
+   
     top: 10px;
     position: relative;
     border: 0.125em white solid;
@@ -481,10 +482,44 @@ body {
 }
 
 .lensbox input:checked ~ .lens {
-    width: 300px;
+  
+    width: 25rem;
+    
+}
+
+
+#future:hover {
+  border-bottom: .25em white solid;
+  transition: .3s ease-in-out;
+}
+
+#Y2000s:hover {
+  border-bottom: .25em white solid;
+  transition: .3s ease-in-out;
+}
+
+#Y80s:hover {
+  border-bottom: .25em white solid;
+  transition: .3s ease-in-out;
+}
+
+#Y40ss:hover {
+  border-bottom: .25em white solid;
+  transition: .3s ease-in-out;
+}
+
+#Y2000s:hover {
+  border-bottom: .25em white solid;
+  transition: .3s ease-in-out;
+}
+
+#no_style{
+  border-bottom: .25em white solid;
+  transition: .3s ease-in-out;
 }
 
 .lens li {
+    display: inline;
     list-style: none;
     margin: 0 5px;
     transition: 0.5s;
@@ -788,8 +823,34 @@ body {
   left: 5%;
 }
 
-#article {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/article.jpeg");
+#article_cover_1_1 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/pasta.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
+#article_cover_1_2 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
+#article_cover_1_3 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -813,6 +874,45 @@ body {
   left: 5%;
 }
 
+#article_cover_2_1 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/pasta.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
+#article_cover_2_2 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
+#article_cover_2_3 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
 #issue_therd_cover{
 	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Vogueon_default.jpeg");
 	background-repeat: no-repeat;
@@ -823,6 +923,45 @@ body {
   position: absolute;
   top: 5%;
   left: 5%;
+}
+
+#article_cover_3_1 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/pasta.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
+#article_cover_3_2 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
+#article_cover_3_3 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
 }
 
 .overlay {
@@ -867,7 +1006,7 @@ div.article_box:hover .overlay {
 
 
 .text_issue h1, hr, p {
-  margin-top: 15px;
+  margin-top: 0.9375em;
 }
 
 .text_issue button {
@@ -883,8 +1022,8 @@ div.article_box:hover .overlay {
 }
 
 
-.text_article h3, hr, p{
-  margin-top: 7px;
+.text_article h3, hr{
+  margin-top: 0.7em;
 }
 
 .text_article button {
