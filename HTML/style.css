@@ -302,6 +302,65 @@ body {
   }
 }
 
+/*COVER*/
+.cover_content{
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.2);
+  position: fixed;
+  width: 60%;
+  
+  background: rgba(16,4,67,1);
+  border:  0.125em white solid;
+  padding: 3%;
+}
+
+.logo_big {
+  width: fit-content;
+  font-size: 130%;
+}
+
+.cover_content img{
+  margin-bottom: -1.3em;
+    margin-left: 2.1em;
+  width: 13em;
+  animation: dontPanic 1s ease-in-out 2 alternate-reverse;
+}
+
+.cover_content img:hover{
+  animation: dontPanic_hover 1s ease-in-out 2 alternate-reverse;
+}
+
+
+@keyframes dontPanic {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes dontPanic_hover {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+.cover_text{
+  width: 50%;
+}
+
+.cover_text button{
+  margin-top: 1em;
+}
+
+
 
 /*NAVIGATOR*/
 
