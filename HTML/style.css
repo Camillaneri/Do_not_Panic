@@ -26,6 +26,7 @@ p, a, ul, li, figcaption  {font-family: 'Roboto', sans-serif !important; color: 
 hr {border: 0.125em white solid;}
 
 .display{display: block !important;}
+.display_none{display: none;}
 
 .clear{clear: both;}
 .left{float: left;}
@@ -389,6 +390,31 @@ body {
   padding: 1em;
   display: inline;
   text-align: left;
+}
+
+.menu:hover hr{
+  display: block !important;
+}
+
+.menu .one:hover ~ hr {
+  margin-left: 45%;
+  width: 49%;
+  width: 26%;
+  margin-left: 1rem;
+}
+
+.menu .two:hover ~ hr {
+  margin-left: 45%;
+  width: 49%;
+}
+
+.menu hr{
+  height: .25rem;
+  width: 26%;
+  margin-left: 1rem;
+  background: white;
+  border: none;
+  transition: .3s ease-in-out;
 }
 
 /*-----logo------*/
