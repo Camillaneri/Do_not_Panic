@@ -42,6 +42,17 @@ function from_issue(){
       var id = "text_" + num_article + "_1";
       populator (name, id);
       }
+      else if (num_article == 2){
+        for (t=0; t<2; t++){
+          for (c=0; c<2; c++){
+            if (article[t]== articles[c]){
+            var name =  "/data/" + issue + "/" + articles[c] + ".txt";
+            var id = "text_" + num_article + "_" + (t+1);
+            populator (name, id);
+            }
+          }
+      }
+    }
     }
   }
 
@@ -94,6 +105,8 @@ function getCheckedBoxes(chkboxClass) {
         checkboxesChecked.push(checkboxes[i]);
      }
     }
+    
+    var issue_id= localStorage.issue_id;
 
     if (checkboxesChecked.length == 1){
       document.getElementById('one_article').classList.add('display');
@@ -115,4 +128,8 @@ function getCheckedBoxes(chkboxClass) {
       document.getElementById('two_article').classList.remove('display');
       document.getElementById('three_article').classList.remove('display');
     }
+    
+      
+      article_selector(issue_id, name_article, checkboxesChecked.length);
+
 }
