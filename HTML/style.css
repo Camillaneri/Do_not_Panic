@@ -26,10 +26,17 @@ p, a, ul, li, figcaption  {font-family: 'Roboto', sans-serif !important; color: 
 hr {border: 0.125em white solid;}
 
 .display{display: block !important;}
+.display_none{display: none;}
 
 .clear{clear: both;}
 .left{float: left;}
 .right {float: right;}
+
+@media only screen and (max-heigh: 1199.8px), 
+screen and (max-width: 1268.8px) {
+  body{font-size: 0em;};
+   html{font-size: 0%;};
+}
 
 /*----button----*/
 
@@ -296,13 +303,72 @@ body {
   }
 }
 
+/*COVER*/
+.cover_content{
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.2);
+  position: fixed;
+  width: fit-content;
+  
+  background: rgba(16,4,67,1);
+  border:  0.125em white solid;
+  padding: 3%;
+}
+
+.logo_big {
+  width: fit-content;
+  font-size: 130%;
+}
+
+.cover_content img{
+  margin-bottom: -1.3em;
+  margin-left: 2.1em;
+  width: 13em;
+  animation: dontPanic 1s ease-in-out 2 alternate-reverse;
+}
+
+.cover_content img:hover{
+  animation: dontPanic_hover 1s ease-in-out 2 alternate-reverse;
+}
+
+
+@keyframes dontPanic {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes dontPanic_hover {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+.cover_text{
+  width: 24em;
+  margin-left: 3em;
+}
+
+.cover_text button{
+  margin-top: 1em;
+}
+
+
 
 /*NAVIGATOR*/
 
 .nav{
-	z-index: 2;
+	z-index: 5;
 	position: fixed;
-  overflow: hidden;
   height: 15%;
   width: 90%;
 	top: 5%;
@@ -324,6 +390,31 @@ body {
   padding: 1em;
   display: inline;
   text-align: left;
+}
+
+.menu:hover hr{
+  display: block !important;
+}
+
+.menu .one:hover ~ hr {
+  margin-left: 45%;
+  width: 49%;
+  width: 26%;
+  margin-left: 1rem;
+}
+
+.menu .two:hover ~ hr {
+  margin-left: 45%;
+  width: 49%;
+}
+
+.menu hr{
+  height: .25rem;
+  width: 26%;
+  margin-left: 1rem;
+  background: white;
+  border: none;
+  transition: .3s ease-in-out;
 }
 
 /*-----logo------*/
@@ -351,6 +442,7 @@ body {
 }
 
 .lensbox {
+   
     top: 10px;
     position: relative;
     border: 0.125em white solid;
@@ -390,10 +482,44 @@ body {
 }
 
 .lensbox input:checked ~ .lens {
-    width: 300px;
+  
+    width: 25rem;
+    
+}
+
+
+#future:hover {
+  border-bottom: .25em white solid;
+  transition: .3s ease-in-out;
+}
+
+#Y2000s:hover {
+  border-bottom: .25em white solid;
+  transition: .3s ease-in-out;
+}
+
+#Y80s:hover {
+  border-bottom: .25em white solid;
+  transition: .3s ease-in-out;
+}
+
+#Y40ss:hover {
+  border-bottom: .25em white solid;
+  transition: .3s ease-in-out;
+}
+
+#Y2000s:hover {
+  border-bottom: .25em white solid;
+  transition: .3s ease-in-out;
+}
+
+#no_style{
+  border-bottom: .25em white solid;
+  transition: .3s ease-in-out;
 }
 
 .lens li {
+    display: inline;
     list-style: none;
     margin: 0 5px;
     transition: 0.5s;
@@ -487,15 +613,21 @@ body {
 
 .allert_box{
   border:  0.125em white solid;
-  width: 70%;
-    height: auto;
+  width: 60%;
+    height: 60%;
     position: absolute;
     top: 50%;
-    left: 15%;
-    right: 15%;
-    transform: translate(0, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
   transition: all 5s ease-in-out;
 }
+
+/*@media only screen and (max-width: 1429px) {
+  .allert_box {
+    width: 70%;
+    height: 70%;
+  }
+}*/
 
 .allert_box .close {
   position: absolute;
@@ -507,60 +639,115 @@ body {
   text-decoration: none;
   color: white;
 }
+
 .allert_box .close:hover {
   color: #06D85F;
 }
 
 .allert_content {
-  overflow-y: scroll;
-  overflow-x: hidden;
-  background: rgba(16,4,67,1) center / 200px 200px round;
-      width: 85%;
-    height: 85%;
-    padding-top: 2%;
-    padding-right: 4%;
-    padding-bottom: 2%;
-    padding-left: 4%;
-    margin: 3% auto;
+  background: rgba(16,4,67,1);
+  position: relative;
+    width: 100%;
+    height: 100%;
+    
 }
 
 
 .disclamer  {
-  width: 70%;
+  width: 62%;
   height: auto;
+  margin-top: 2.5%;
+  margin-right: 10%;
+}
+
+.disclamer h1{
+  margin-bottom: 0.5em;
+}
+
+.disclamer hr, p, ul {
+  margin-bottom: 1em;
 }
 
 /*team*/
 
 .team_box{
-  width: 26%;
-  border-right:  0.125em white solid;
+  overflow: hidden;
+  margin-left: 3%;
+  width: 20%;
+  height: 90%;
+  margin-top: 2.5%;
+}
+
+.team_box_scroll{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Hide scrollbar Chrome, Safari, Opera */
+.team_box_scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar IE, Edge, Firefox */
+.team_box_scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.team_box h1 {
+  margin-bottom: 0.5em;
 }
 
 .person{
-  width: 78%;
+  width: 100%;
+  height: 26.333333%;
+  border-bottom: 0.125em white solid;
+  transition: .5s ease;
+  
+}
 
+.fit{
+  height: fit-content !important;
+  transition: .5s ease;
 }
 
 #Camilla{
-  margin: 0 auto;
-  width: 100px;
-  height: 100px;
-  border:  0.125em white solid;
-  border-radius: 50%;
-  background-image: url("img/delfino.jpg");
-  margin-bottom: 20px;
+  /*background-image: url("img/delfino.jpg");*/
+  background-color: #06D85F;
+  margin-bottom: 1.3em;
+}
+
+#Giorgia{
+  /*background-image: url("img/delfino.jpg");*/
+  background-color: #d8ca06;
+  margin-bottom: 1.3em;
+}
+
+#Giulia{
+  /*background-image: url("img/delfino.jpg");*/
+  background-color: #c606d8;
+}
+
+.empty{
+  width: 100%;
+  height: 6em;
+  
 }
 
 .team_text{
+  width: 90%;
+  margin: 0 5%;
+  padding-bottom: 0.625em;
+}
+
+.explain{
+  padding-top: 0.625em;
   width: 100%;
+  display: none;
+  background-color: rgba(125, 84, 236, 0.5);
+  transition: .5s ease;
 }
-
-.team_text h3, hr{
-  margin-bottom: 1.0625em;
-}
-
-
 
 
 /*CONTENT - ARCHIVE*/
@@ -624,8 +811,8 @@ body {
   border-bottom: none !important;
 }
 
-#issue_first{
-	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/issue.jpeg");
+#issue_first_cover{
+	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/DeepThoughts_default.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -636,8 +823,136 @@ body {
   left: 5%;
 }
 
-#article {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/article.jpeg");
+#article_cover_1_1 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/pasta.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
+#article_cover_1_2 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
+#article_cover_1_3 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
+#issue_second_cover{
+	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Magratears_default.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+#article_cover_2_1 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/pasta.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
+#article_cover_2_2 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
+#article_cover_2_3 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
+#issue_therd_cover{
+	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Vogueon_default.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+#article_cover_3_1 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/pasta.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
+#article_cover_3_2 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+
+}
+
+#article_cover_3_3 {
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -691,7 +1006,7 @@ div.article_box:hover .overlay {
 
 
 .text_issue h1, hr, p {
-  margin-top: 15px;
+  margin-top: 0.9375em;
 }
 
 .text_issue button {
@@ -707,8 +1022,8 @@ div.article_box:hover .overlay {
 }
 
 
-.text_article h3, hr, p{
-  margin-top: 7px;
+.text_article h3, hr{
+  margin-top: 0.7em;
 }
 
 .text_article button {
@@ -730,11 +1045,13 @@ div.article_box:hover .overlay {
     left: -23%;
     right: 5%;
     bottom: 5%;
+    transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
 }
 
 .move {
   left: 0 !Important;
+  transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
 }
 
@@ -834,7 +1151,6 @@ div.article_box:hover .overlay {
 
 .select-selected:after {
   font-size: 0.7em;
-  float: right;
   content: "";
   position: absolute;
   top: 1.1625em;
@@ -875,6 +1191,7 @@ div.article_box:hover .overlay {
   left: 0;
   right: 0;
   z-index: 99;
+  transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
 }
 
@@ -1180,7 +1497,6 @@ ol::-webkit-scrollbar {
   white-space: normal !important;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none; 
-  scrollbar-with:  none;
 }
 
 .meta_down li{
