@@ -9,7 +9,7 @@ function from_issue(){
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
   var sources = JSON.parse(localStorage.sources);
-  var issue_select = '"'+  issue_id + '_issue"';
+  var issue_selected = '"'+  issue_id + '_issue"';
   document.getElementById("article_1_name").innerHTML=articles[0];
   document.getElementById("article_2_name").innerHTML=articles[1];
   document.getElementById("article_3_name").innerHTML=articles[2];
@@ -20,10 +20,13 @@ function from_issue(){
     document.getElementById("article_1").click();
     document.getElementById("article_2").click();
     document.getElementById("article_3").click();
-    article_selector(issue_id, name_article, 3);
   } else {
-    document.getElementById("article_1").click();
-    article_selector(issue_id, name_article, 1);
+    for (c=0; c<3; c++){
+      if (articles[c]== name_article){
+      var article_pointer =  "article_" + (c+1);
+      document.getElementById(article_pointer).click();
+      }
+    }
   }
   }
 
@@ -44,7 +47,7 @@ function from_issue(){
       }
       else if (num_article == 2){
         for (t=0; t<2; t++){
-          for (c=0; c<2; c++){
+          for (c=0; c<3; c++){
             if (article[t]== articles[c]){
             var name =  "/data/" + issue + "/" + articles[c] + ".txt";
             var id = "text_" + num_article + "_" + (t+1);
@@ -93,16 +96,16 @@ function from_issue(){
         }
         rawFile.send(null);
     }
-    
-    
-      
+        
 
 function getCheckedBoxes(chkboxClass) {
   var checkboxes = document.getElementsByName(chkboxClass);
   var checkboxesChecked = [];
+  var id_list = [];
   for (var i=0; i<checkboxes.length; i++) {
      if (checkboxes[i].checked) {
-        checkboxesChecked.push(checkboxes[i]);
+      id_list.push("article_" + (i+1));
+      checkboxesChecked.push(checkboxes[i]);
      }
     }
     
@@ -112,24 +115,33 @@ function getCheckedBoxes(chkboxClass) {
       document.getElementById('one_article').classList.add('display');
       document.getElementById('two_article').classList.remove('display');
       document.getElementById('three_article').classList.remove('display');
+      var article_name = localStorage.name_article;
+      alert (article_name);
+      article_selector(issue_id, article_name, 1);
       }
     else if (checkboxesChecked.length == 2){
       document.getElementById('one_article').classList.remove('display');
       document.getElementById('two_article').classList.add('display');
       document.getElementById('three_article').classList.remove('display');
+      var count_articles = id_list.length;
+      var article_list = [];
+      for (i=0;i<=count_articles;i++){
+        var article_name = document.getElementById(id_list[i]).innerHTML;
+        article_list.push(article_name);
+    }
+    article_selector(issue_id, article_list, 2);
     }
     else if (checkboxesChecked.length == 3){
       document.getElementById('one_article').classList.remove('display');
       document.getElementById('two_article').classList.remove('display');
       document.getElementById('three_article').classList.add('display');
+      article_selector(issue_id, "", 3);
+      alert ("passato");
     }
     else{
       document.getElementById('one_article').classList.remove('display');
       document.getElementById('two_article').classList.remove('display');
       document.getElementById('three_article').classList.remove('display');
     }
-    
-      
-      article_selector(issue_id, name_article, checkboxesChecked.length);
-
+  
 }
