@@ -9,7 +9,6 @@ function from_issue(){
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
   var sources = JSON.parse(localStorage.sources);
-  var issue_selected = '"'+  issue_id + '_issue"';
   document.getElementById("article_1_name").innerHTML=articles[0];
   document.getElementById("article_2_name").innerHTML=articles[1];
   document.getElementById("article_3_name").innerHTML=articles[2];
@@ -29,6 +28,7 @@ function from_issue(){
     }
   }
   }
+
 
   function article_selector(issue, article, num_article){
     var articles = JSON.parse(localStorage.articles);
