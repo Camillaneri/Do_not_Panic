@@ -34,8 +34,8 @@ hr {border: 0.125em white solid;}
 
 @media only screen and (max-heigh: 1199.8px), 
 screen and (max-width: 1268.8px) {
-  body{font-size: 0.5em;};
-   html{font-size: 50%;};
+  body{font-size: 0.8em;};
+   html{font-size: 80%;};
 }
 
 /*----button----*/
