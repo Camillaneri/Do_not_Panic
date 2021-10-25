@@ -110,24 +110,32 @@ function getCheckedBoxes(chkboxClass) {
     }
     
     var issue_id= localStorage.issue_id;
+    var articles = JSON.parse(localStorage.articles);
+    var sources = JSON.parse(localStorage.sources);
 
     if (checkboxesChecked.length == 1){
       document.getElementById('one_article').classList.add('display');
       document.getElementById('two_article').classList.remove('display');
       document.getElementById('three_article').classList.remove('display');
-      var article_name = localStorage.name_article;
-      alert (article_name);
-      article_selector(issue_id, article_name, 1);
+      for (c=0; c<3; c++){
+        if (checkboxes[c].checked) {
+        var article_pointer =  "article_" + (c+1) + "_name";
+        var name_article = document.getElementById(article_pointer).innerHTML;
+        }
+      }
+      article_selector(issue_id, name_article, 1);
       }
     else if (checkboxesChecked.length == 2){
       document.getElementById('one_article').classList.remove('display');
       document.getElementById('two_article').classList.add('display');
       document.getElementById('three_article').classList.remove('display');
-      var count_articles = id_list.length;
       var article_list = [];
-      for (i=0;i<=count_articles;i++){
-        var article_name = document.getElementById(id_list[i]).innerHTML;
-        article_list.push(article_name);
+      for (l=0;l<3;l++){
+        if (checkboxes[l].checked) {
+          var article_pointer =  "article_" + (l+1) + "_name";
+          var name_article = document.getElementById(article_pointer).innerHTML;
+          article_list.push(name_article);
+          }
     }
     article_selector(issue_id, article_list, 2);
     }
@@ -136,7 +144,6 @@ function getCheckedBoxes(chkboxClass) {
       document.getElementById('two_article').classList.remove('display');
       document.getElementById('three_article').classList.add('display');
       article_selector(issue_id, "", 3);
-      alert ("passato");
     }
     else{
       document.getElementById('one_article').classList.remove('display');
