@@ -169,15 +169,16 @@ body {
 }
 
 .space {
+  align-self: center;
 	height: 300%;
 	width: 200%;
   background: rgba(16,4,67,0.10) center / 200px 200px round;
   border: 1px dashed purple;
   bottom: 0;
-  left: -50%;
+  left: 0;
   position: absolute;
   right: 0;
-  top: -50%;
+  top: 0;
 }
 
 .stars1 {
@@ -213,6 +214,7 @@ body {
       white, 
       rgba(255, 255, 255, 0)
     );
+  
 }
 .stars2 {
   animation: space 220s ease-in-out infinite;
@@ -1616,7 +1618,7 @@ ol::-webkit-scrollbar {
 
 /* @media role for little laptop and tablet */
 
-@media only screen and (min-width: 769px) and (max-width: 1279px) and (orientation: landscape){
+@media only screen and (min-width: 769px) and (max-width: 1279px) and (orientation: landscape) and (max-height: 888px){
   body{
     font-size: 0.8em;
     overflow: hidden;
