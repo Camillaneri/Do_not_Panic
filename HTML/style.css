@@ -169,16 +169,15 @@ body {
 }
 
 .space {
-  align-self: center;
 	height: 300%;
 	width: 200%;
   background: rgba(16,4,67,0.10) center / 200px 200px round;
   border: 1px dashed purple;
-  bottom: 0;
-  left: 0;
+  bottom: -50%;
+  left: -50%;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -50%;
+  top: -50%;
 }
 
 .stars1 {
@@ -595,7 +594,7 @@ body {
 
 #allert{
   z-index: 7;
-  position: fixed;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
