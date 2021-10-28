@@ -306,7 +306,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1.2);
-  position: fixed;
+  position: absolute;
   width: fit-content;
   
   background: rgba(16,4,67,1);
@@ -439,7 +439,6 @@ body {
 }
 
 .lensbox {
-   
     top: 10px;
     position: relative;
     border: 0.125em white solid;
@@ -479,43 +478,44 @@ body {
 }
 
 .lensbox input:checked ~ .lens {
-  
-    width: 25rem;
-    
+    width: 23.4rem;
+    padding-right: 1rem;
+    padding-left: .5rem;
+    display: block;
+}
+
+#future:hover ~ hr {
+  margin-right: 87%;
+}
+
+#Y2000s:hover ~ hr {
+  margin-right: 72.5%;
+}
+
+#Y80s:hover ~ hr {
+  margin-right: 58%;
+}
+
+#Y40s:hover  ~ hr {
+  margin-right: 43.5%;
+}
+
+#Y1800s:hover ~ hr {
+  margin-right: 29%;
+}
+
+#Y300s:hover ~ hr {
+  margin-right: 14.5%;
+}
+
+#no_style:hover ~ hr {
+  margin-right: 0%;
 }
 
 
-#future:hover {
-  border-bottom: .25em white solid;
-  transition: .3s ease-in-out;
-}
-
-#Y2000s:hover {
-  border-bottom: .25em white solid;
-  transition: .3s ease-in-out;
-}
-
-#Y80s:hover {
-  border-bottom: .25em white solid;
-  transition: .3s ease-in-out;
-}
-
-#Y40ss:hover {
-  border-bottom: .25em white solid;
-  transition: .3s ease-in-out;
-}
-
-#Y2000s:hover {
-  border-bottom: .25em white solid;
-  transition: .3s ease-in-out;
-}
-
-#no_style{
-  border-bottom: .25em white solid;
-  transition: .3s ease-in-out;
-}
 
 .lens li {
+   align-self: flex-start;
     display: inline;
     list-style: none;
     margin: 0 5px;
@@ -565,6 +565,18 @@ body {
   display: none;
 }
 
+.lens hr{
+  transition: .3s ease-in-out;
+  margin-top: 0 !important;
+  height: .25rem;
+  width: 13.5%;
+  background: white;
+  border: none;
+  transition: .3s ease-in-out;
+  align-self: flex-end;
+  float: right;
+  margin-right: 0%;
+}
 
 
 /*-----DISCLAIMER ICON------*/
