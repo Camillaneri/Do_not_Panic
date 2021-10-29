@@ -488,7 +488,7 @@ body {
     transition: 1s;
 }
 
-.lensbox input:checked ~ .lens {
+.lensbox input:checked ~ .lens, .boh {
     width: 23.4rem;
     padding-right: 1rem;
     padding-left: .5rem;
