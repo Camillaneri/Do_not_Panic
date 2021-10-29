@@ -433,12 +433,13 @@ body {
 /*-----Lens------*/ 
 
 .lensbox, .lens {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .lensbox {
+    display: flex;
+    flex-direction: column;
     top: 10px;
     position: relative;
     border: 0.125em white solid;
@@ -448,7 +449,14 @@ body {
     overflow: hidden;
 }
 
+.boh {
+  display: flex;
+  flex-direction: row;
+  
+}
+
 .lens {
+    flex-grow: 4;
     margin: 0;
     padding: 0;
     width: 0;
@@ -457,6 +465,9 @@ body {
     transition: 0.6s;
 }
 
+.hr_lens {
+  flex-grow: 0,5;
+}
 /* Hide scrollbar Chrome, Safari, Opera */
 .lens::-webkit-scrollbar {
     display: none;
