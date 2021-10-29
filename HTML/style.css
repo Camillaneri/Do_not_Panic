@@ -439,6 +439,7 @@ body {
 
 .lensbox {
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     top: 10px;
     position: relative;
