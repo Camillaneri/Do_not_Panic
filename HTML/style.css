@@ -439,8 +439,8 @@ body {
 
 .lensbox {
     display: flex;
+    width: 6%;
     align-items: flex-start;
-    flex-direction: column;
     top: 10px;
     position: relative;
     border: 0.125em white solid;
@@ -488,7 +488,7 @@ body {
     transition: 1s;
 }
 
-.lensbox input:checked ~ .lens, .boh {
+.lensbox input:checked ~ .lens, .boh, .hr_lens {
     width: 23.4rem;
     padding-right: 1rem;
     padding-left: .5rem;
