@@ -450,13 +450,11 @@ body {
 }
 
 .boh {
-  display: flex;
-  flex-direction: row;
-  
+  display: flex; 
 }
 
 .lens {
-    flex-grow: 4;
+    flex-grow: 1;
     margin: 0;
     padding: 0;
     width: 0;
@@ -466,7 +464,7 @@ body {
 }
 
 .hr_lens {
-  flex-grow: 0,5;
+  flex-grow: 0,1;
 }
 /* Hide scrollbar Chrome, Safari, Opera */
 .lens::-webkit-scrollbar {
@@ -480,6 +478,7 @@ body {
 }
 
 .lens_menu_icon{
+    flex-grow: 1;
     position: absolute;
     margin: 0 auto;
     width: fit-content;
