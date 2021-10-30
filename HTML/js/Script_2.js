@@ -9,9 +9,11 @@ function from_issue(){
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
   var sources = JSON.parse(localStorage.sources);
-  document.getElementById("article_1_name").innerHTML=articles[0];
-  document.getElementById("article_2_name").innerHTML=articles[1];
-  document.getElementById("article_3_name").innerHTML=articles[2];
+  var name_displayed = JSON.parse(localStorage.name_displayed);
+
+  document.getElementById("article_1_name").innerHTML=name_displayed[0];
+  document.getElementById("article_2_name").innerHTML=name_displayed[1];
+  document.getElementById("article_3_name").innerHTML=name_displayed[2];
   document.getElementById("article_1_source").href=sources[0];
   document.getElementById("article_2_source").href=sources[1];
   document.getElementById("article_3_source").href=sources[2];
@@ -76,10 +78,12 @@ function from_issue(){
         if (issues[i].name == issue_id){
         articles = issues[i].articles;
         sources = issues[i].sources;
+        name_displayed = issues[i].name_displayed;
         localStorage.setItem("issue_id", issue_id);
         localStorage.setItem("name_article", name_article);
         localStorage.setItem("articles", JSON.stringify(articles));
         localStorage.setItem("sources", JSON.stringify(sources));
+        localStorage.setItem("name_displayed", JSON.stringify(name_displayed));
         }
         }
       })
@@ -111,7 +115,6 @@ function getCheckedBoxes(chkboxClass) {
     
     var issue_id= localStorage.issue_id;
     var articles = JSON.parse(localStorage.articles);
-    var sources = JSON.parse(localStorage.sources);
 
     if (checkboxesChecked.length == 1){
       document.getElementById('one_article').classList.add('display');
@@ -119,8 +122,7 @@ function getCheckedBoxes(chkboxClass) {
       document.getElementById('three_article').classList.remove('display');
       for (c=0; c<3; c++){
         if (checkboxes[c].checked) {
-        var article_pointer =  "article_" + (c+1) + "_name";
-        var name_article = document.getElementById(article_pointer).innerHTML;
+        var name_article = articles[c];
         }
       }
       article_selector(issue_id, name_article, 1);
@@ -132,8 +134,7 @@ function getCheckedBoxes(chkboxClass) {
       var article_list = [];
       for (l=0;l<3;l++){
         if (checkboxes[l].checked) {
-          var article_pointer =  "article_" + (l+1) + "_name";
-          var name_article = document.getElementById(article_pointer).innerHTML;
+          var name_article = articles[l];
           article_list.push(name_article);
           }
     }
