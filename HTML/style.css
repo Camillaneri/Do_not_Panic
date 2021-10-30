@@ -478,13 +478,11 @@ body {
 }
 
 .lensbox input:checked ~ .lens {
-    width: 23.4rem;
-    padding-right: 1rem;
-    padding-left: .5rem;
-    display: block;
-}
+    width: 22rem;
+    padding-right: 0,5rem;
+   }
 
-#future:hover ~ hr {
+/*#future:hover ~ hr {
   margin-right: 87%;
 }
 
@@ -511,7 +509,7 @@ body {
 #no_style:hover ~ hr {
   margin-right: 0%;
 }
-
+*/
 
 
 .lens li {
