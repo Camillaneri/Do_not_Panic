@@ -33,7 +33,7 @@ function populate_selection(){
             if (s.options[i].innerHTML == this.innerHTML) {
               s.selectedIndex = i;
               h.innerHTML = this.innerHTML;
-        issue_selected(h.innerHTML, "");
+        issue_selected_selector(h.innerHTML, "");
               y = this.parentNode.getElementsByClassName("same-as-selected");
               yl = y.length;
               for (k = 0; k < yl; k++) {
@@ -87,7 +87,10 @@ function closeAllSelect(elmnt) {
 then close all select boxes: */
 document.addEventListener("click", closeAllSelect);
 
-
+function issue_selected_selector (issue_id, name_article){
+  localStorage.clear();
+      readIssues(issue_id, name_article);
+  }
 
 function issue_selected(issue_id, name_article){
   localStorage.clear();
