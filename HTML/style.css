@@ -450,7 +450,6 @@ body {
 
 .lens {
   margin: 0;
-  padding: 0;
   width: 0;
   overflow: hidden;
   overflow-x: scroll;
@@ -469,53 +468,56 @@ scrollbar-width: none;  /* Firefox */
 }
 
 .lens_menu_icon{
-  position: absolute;
+  position:absolute;
   margin: 0 auto;
   width: fit-content;
   height: fit-content;
   pointer-events: none;
-  transition: 1s;
+  transition: 5s;
 }
 
 
 
 
 .lensbox input:checked ~ .lens {
-  width: 23.4rem;
-  padding-right: 1rem;
-  padding-left: .5rem;
+  width: 22rem;
   display:flex;
  /* flex-direction: column;*/
 }
 
 
 
-#future:hover ~ hr {
-margin-right: 87%;
+#future:hover {
+border-bottom: 0.125em white solid;
+padding: 0;
 }
 
-#Y2000s:hover ~ hr {
-margin-right: 72.5%;
+#Y2000s:hover {
+  border-bottom: 0.125em white solid;
+  padding: 0;
 }
 
-#Y80s:hover ~ hr {
-margin-right: 58%;
+#Y80s:hover {
+  border-bottom: 0.125em white solid;
+  padding: 0;
 }
 
-#Y40s:hover  ~ hr {
-margin-right: 43.5%;
+#Y40s:hover {
+  border-bottom: 0.125em white solid;
+  padding: 0;
 }
 
-#Y1800s:hover ~ hr {
-margin-right: 29%;
+#Y1800s:hover {
+  border-bottom: 0.125em white solid;
+  padding: 0;
 }
-
-#Y300s:hover ~ hr {
-margin-right: 14.5%;
+#Y300s:hover {
+  border-bottom: 0.125em white solid;
+  padding: 0;
 }
-
-#no_style:hover ~ hr {
-margin-right: 0%;
+#no_style:hover {
+  border-bottom: 0.125em white solid;
+  padding: 0;
 }
 
 
@@ -525,7 +527,8 @@ margin-right: 0%;
   display: inline;
   list-style: none;
   margin: 0 5px;
-  transition: 0.5s;
+  transition: 0.2s;
+  padding-bottom: 0.130em;
 }
 .lens hr{
   align-self:flex-end;
@@ -571,7 +574,9 @@ margin-right: 0%;
 }
 
 .lensbox input:checked ~ .lens_menu_icon{
-display: none;
+left:auto;
+display:none;
+align-self:flex-end;
 }
 
 .lens hr{
