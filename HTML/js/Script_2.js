@@ -28,6 +28,36 @@ function from_issue(){
     }
   }
   }
+// glgggluilglglfyllyufffffffffuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu//
+/*[].forEach.call(document.querySelectorAll('div > ul > li a'), function (document) {
+  document.addEventListener('mouseover', slideUnder);
+  document.addEventListener('mouseout', slideLeft);
+});
+
+function slideUnder() {
+  var ciccino = document.getElementById("hr_lens");
+  this.dataset.initialInlineColor = this.style.color;
+  ciccino.style.margin-right = ciccino.style.margin-right;
+  this.style.color = 'red';
+}
+
+function slideLeft() {
+  this.style.color = this.dataset.initialInlineColor;
+}*/
+function hover1(){
+  var myPara = document.getElementById("hr_lens");
+  myPara.style.margin-right = "87%";
+
+function hover(element)
+{
+    element.style.backgroundColor = "red";
+}
+function hoverOff(element)
+{
+    element.style.backgroundColor = "#000079";
+}
+//ggkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkklllllllllllllllllllllllllllll//
+
 
 
   function article_selector(issue, article, num_article){

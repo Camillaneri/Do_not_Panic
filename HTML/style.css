@@ -512,7 +512,7 @@ body {
 */
 
 
-.lens li {
+.lens li{
    align-self: flex-start;
     display: inline;
     list-style: none;
