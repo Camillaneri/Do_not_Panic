@@ -176,12 +176,12 @@ function from_issue(){
     var sources = JSON.parse(localStorage.sources);
     for (i=0; i<3; i++){
       if (num_article == 3){
-  		var name =  "/data/" + issue + "/" + articles[i] + ".txt";
+  		var name =  "data/" + issue + "/" + articles[i] + ".txt";
       var id = "text_" + num_article + "_" + (i+1);
       populator (name, id);
       }
       else if (articles [i] == article){
-      var name =  "/data/" + issue + "/" + articles[i] + ".txt";
+      var name =  "data/" + issue + "/" + articles[i] + ".txt";
       var id = "text_" + num_article + "_1";
       populator (name, id);
       }
@@ -189,7 +189,7 @@ function from_issue(){
         for (t=0; t<2; t++){
           for (c=0; c<3; c++){
             if (article[t]== articles[c]){
-            var name =  "/data/" + issue + "/" + articles[c] + ".txt";
+            var name =  "data/" + issue + "/" + articles[c] + ".txt";
             var id = "text_" + num_article + "_" + (t+1);
             populator (name, id);
             }
