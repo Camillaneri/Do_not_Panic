@@ -1133,7 +1133,6 @@ div.article_box:hover .overlay {
 
 /*-----Select menu issue------*/
 
-
 .custom-select {
   margin-bottom: 1em;
   width: 90%;
@@ -1148,7 +1147,22 @@ div.article_box:hover .overlay {
   font-size: 1.5em;
 }
 
-.custom-select select {
+
+.custom-select-selector {
+  margin-bottom: 1em;
+  width: 90%;
+  text-align: left;
+  position: relative;
+  font-family: 'Bebas Neue', cursive !important;
+  color: white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 0.125em white solid;
+  cursor:pointer;
+  font-size: 1.5em;
+}
+
+.custom-select-selector select {
   display: none;
 }
 
