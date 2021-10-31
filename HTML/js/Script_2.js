@@ -199,7 +199,7 @@ function from_issue(){
     }
   }
 
-  function populator(aticle, position){
+  function populator(article, position){
     fetch(article)
  			 .then(response => response.text())
   				.then(text => document.getElementById(position).innerHTML=(text))
