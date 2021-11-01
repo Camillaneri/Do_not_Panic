@@ -44,9 +44,14 @@ function slideUnder() {
 function slideLeft() {
   this.style.color = this.dataset.initialInlineColor;
 }*/
-function hover1(){
+/*function hover1(){
   var myPara = document.getElementById("hr_lens");
-  myPara.style.margin-right = "87%";
+  myPara.style.backgroundColor = red;
+}
+/*  function hover1(){
+    var iconName
+    var myPara = document.getElementById("hr_lens");
+    myPara.style.margin-right = "87%";
 
 function hover(element)
 {
@@ -56,6 +61,59 @@ function hoverOff(element)
 {
     element.style.backgroundColor = "#000079";
 }
+*/
+//GIUSTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+/*function hover1(){
+  var myPara = document.getElementById("hr_lens");
+  myPara.style.marginRight = "87%";
+}
+function hoverOff1(){
+  var myPara = document.getElementById("hr_lens");
+  myPara.style.marginRight = "0%";
+}*/
+//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+function hover(obj) {
+  var myPara = document.getElementById("hr_lens");
+
+  switch (obj.id) {
+    case "future":
+      myPara.style.marginRight = "86%";
+      break;
+    case "Y2000s":
+      myPara.style.marginRight = "71.5%";
+      break;
+    case "Y80s":
+      myPara.style.marginRight = "58%";
+      break;
+    case "Y40s":
+      myPara.style.marginRight = "43.5%";
+      break;
+    case "Y1800s":
+      myPara.style.marginRight = "29%";
+      break;
+    case "Y300s":
+      myPara.style.marginRight = "14.5%";
+      break;
+    case "no_style":
+      myPara.style.marginRight = "0%";
+      break;
+  }
+}
+
+function hoverOff(){
+  var myPara = document.getElementById("hr_lens");
+  myPara.style.marginRight = "0%";
+}
+/*
+function hover(element){
+  if element= 
+  var myPara = document.getElementById("hr_lens");
+  myPara.style.marginRight = "87%";
+}
+function hoverOff1(){
+  var myPara = document.getElementById("hr_lens");
+  myPara.style.marginRight = "0%";
+}*/
 //ggkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkklllllllllllllllllllllllllllll//
 
 
