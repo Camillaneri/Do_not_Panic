@@ -83,7 +83,7 @@ function hover(obj) {
       myPara.style.marginRight = "71.5%";
       break;
     case "Y80s":
-      myPara.style.marginRight = "58%";
+      myPara.style.marginRight = "57%";
       break;
     case "Y40s":
       myPara.style.marginRight = "43.5%";
@@ -95,14 +95,14 @@ function hover(obj) {
       myPara.style.marginRight = "14.5%";
       break;
     case "no_style":
-      myPara.style.marginRight = "0%";
+      myPara.style.marginRight = "0.5%";
       break;
   }
 }
 
 function hoverOff(){
   var myPara = document.getElementById("hr_lens");
-  myPara.style.marginRight = "0%";
+  myPara.style.marginRight = "0.5%";
 }
 /*
 function hover(element){

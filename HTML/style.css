@@ -484,7 +484,7 @@ body {
 
 .lensbox input:checked ~ .help {
     width: 22rem;
-    padding-right: 0,5rem;
+    padding-right: 0.5rem;
    }
 
 /*#future:hover ~ hr {
