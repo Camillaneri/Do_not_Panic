@@ -433,156 +433,156 @@ body {
 /*-----Lens------*/ 
 
 .lensbox, .lens {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .help{
-  display:flex;
-  flex-direction: column;
-  width: 0;
-  transition: 0.6s;
+display:flex;
+flex-direction: column;
+width: 0;
+transition: 0.6s;
 }
 .lensbox {
-    top: 10px;
-    position: relative;
-    border: 0.125em white solid;
-    padding: 10px;
-    transition: 0.5s;
-    border-radius: 50px;
-    overflow: hidden;
+  top: 10px;
+  position: relative;
+  border: 0.125em white solid;
+  padding: 10px;
+  transition: 0.5s;
+  border-radius: 50px;
+  overflow: hidden;
 }
 
 .lens {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    overflow-x: scroll;
-    
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-x: scroll;
+  
 }
 
 /* Hide scrollbar Chrome, Safari, Opera */
 .lens::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 /* Hide scrollbar IE, Edge, Firefox */
 .lens {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
 }
 
 .lens_menu_icon{
-    position: absolute;
-    margin: 0 auto;
-    width: fit-content;
-    height: fit-content;
-    pointer-events: none;
-    transition: 1s;
+  position: absolute;
+  margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+  pointer-events: none;
+  transition: 1s;
 }
 
 .lensbox input:checked ~ .help {
-    width: 22rem;
-    padding-right: 0,5rem;
-   }
+  width: 22rem;
+  padding-right: 0.5rem;
+ }
 
 /*#future:hover ~ hr {
-  margin-right: 87%;
+margin-right: 87%;
 }
 
 #Y2000s:hover ~ hr {
-  margin-right: 72.5%;
+margin-right: 72.5%;
 }
 
 #Y80s:hover ~ hr {
-  margin-right: 58%;
+margin-right: 58%;
 }
 
 #Y40s:hover  ~ hr {
-  margin-right: 43.5%;
+margin-right: 43.5%;
 }
 
 #Y1800s:hover ~ hr {
-  margin-right: 29%;
+margin-right: 29%;
 }
 
 #Y300s:hover ~ hr {
-  margin-right: 14.5%;
+margin-right: 14.5%;
 }
 
 #no_style:hover ~ hr {
-  margin-right: 0%;
+margin-right: 0%;
 }
 */
 .lens_and_line{
-  display:flex;
+display:flex;
 
 }
 .lens li{
-   align-self: flex-start;
-    display: inline;
-    list-style: none;
-    margin: 0 5px;
-    transition: 0.5s;
+ align-self: flex-start;
+  display: inline;
+  list-style: none;
+  margin: 0 5px;
+  transition: 0.5s;
 }
 
 .lensbox input {
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    opacity: 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  opacity: 0;
 }
 
 .lensbox span {
-    display: none;
-    position: absolute;
-    left: 15px;
-    width: 30px;
-    height: 4px;
-    border-radius: 50px;
-    background-color: white;
-    pointer-events: none;
-    transition: 0.8s;
+  display: none;
+  position: absolute;
+  left: 15px;
+  width: 30px;
+  height: 4px;
+  border-radius: 50px;
+  background-color: white;
+  pointer-events: none;
+  transition: 0.8s;
 }
 
 .lensbox input:checked ~ span {
-    display:inline;
+  display:inline;
 }
 
 
 .lensbox span:nth-child(3) {
-    transform: translateY(-8px);
+  transform: translateY(-8px);
 }
 
 .lensbox input:checked ~ span:nth-child(3) {
-    transform: translateY(0) rotate(-45deg);
+  transform: translateY(0) rotate(-45deg);
 }
 .lensbox span:nth-child(4) {
-    transform: translateY(8px);
+  transform: translateY(8px);
 }
 
 .lensbox input:checked ~ span:nth-child(4) {
-    transform: translateY(0) rotate(45deg);
+  transform: translateY(0) rotate(45deg);
 }
 
 .lensbox input:checked ~ .lens_menu_icon{
-  display: none;
+display: none;
 }
 .hr_lens{
-  width: 13.5%;
+width: 13.5%;
 }
 .help div{
-  transition: .3s ease-in-out;
-  margin-top: 0 !important;
-  height: .25rem;
-  width: 13.5%;
-  background: white;
-  border: none;
-  transition: .3s ease-in-out;
-  align-self: flex-end;
-  float: right;
-  margin-right: 0%;
+transition: .3s ease-in-out;
+margin-top: 0 !important;
+height: .25rem;
+width: 13.5%;
+background: white;
+border: none;
+transition: .3s ease-in-out;
+align-self: flex-end;
+float: right;
+margin-right: 0%;
 }
 
 
