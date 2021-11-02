@@ -1,4 +1,39 @@
 
+function hover(obj) {
+  var myPara = document.getElementById("hr_lens");
+
+  switch (obj.id) {
+    case "future":
+      myPara.style.marginRight = "86%";
+      break;
+    case "Y2000s":
+      myPara.style.marginRight = "71.5%";
+      break;
+    case "Y80s":
+      myPara.style.marginRight = "58%";
+      break;
+    case "Y40s":
+      myPara.style.marginRight = "43.5%";
+      break;
+    case "Y1800s":
+      myPara.style.marginRight = "29%";
+      break;
+    case "Y300s":
+      myPara.style.marginRight = "14.5%";
+      break;
+    case "no_style":
+      myPara.style.marginRight = "0%";
+      break;
+  }
+}
+
+function hoverOff(){
+  var myPara = document.getElementById("hr_lens");
+  myPara.style.marginRight = "0%";
+}
+
+
+
 function populate_selection(){
   var x, i, j, l, ll, selElmnt, a, b, c;
   /* Look for any elements with the class "custom-select": */
@@ -11,7 +46,15 @@ function populate_selection(){
     /* For each element, create a new DIV that will act as the selected item: */
     a = document.createElement("DIV");
     a.setAttribute("class", "select-selected");
-    a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+
+    var name_issue = localStorage.issue_id;
+
+    if (name_issue){
+      a.innerHTML = name_issue;
+    } else {
+       a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+    }
+   
     x[i].appendChild(a);
     /* For each element, create a new DIV that will contain the option list: */
     b = document.createElement("DIV");
@@ -45,6 +88,7 @@ function populate_selection(){
               h.innerHTML = this.innerHTML;
               y = this.parentNode.getElementsByClassName("same-as-selected");
               yl = y.length;
+              issue_selected(h.innerHTML, "stay");
               for (k = 0; k < yl; k++) {
                 y[k].removeAttribute("class");
               }
@@ -52,16 +96,7 @@ function populate_selection(){
               break;
             }
           }
-          alert(a.innerHTML);
-          
-          h.click();
-          readIssues(a.innerHTML, "");
-          from_select();
-          localStorage.clear();
-         
-          
-          
-          
+          h.click();     
       });
 
       b.appendChild(c);
@@ -84,8 +119,11 @@ function populate_selection(){
   }
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9b6e05b9a6b10346657db46be7015d9cdd876ff2
 function closeAllSelect(elmnt) {
   /* A function that will close all select boxes in the document,
   except the current select box: */
@@ -116,30 +154,15 @@ document.addEventListener("click", closeAllSelect);
 
 function issue_selected(issue_id, name_article){
   localStorage.clear();
+  if (name_article != "stay"){
   var newWin = window.open("articles_viewer.html", "_self");
       readIssues(issue_id, name_article);
+    } else {
+      readIssues(issue_id, "stay");
+    }
   }
 
-  function from_select(){
-    var issue_id = localStorage.issue_id;
-    var name_article = localStorage.name_article;
-    var articles = JSON.parse(localStorage.articles);
-    var sources = JSON.parse(localStorage.sources);
-    var name_displayed = JSON.parse(localStorage.name_displayed);
-  
-    document.getElementById("article_1_name").innerHTML=name_displayed[0];
-    document.getElementById("article_2_name").innerHTML=name_displayed[1];
-    document.getElementById("article_3_name").innerHTML=name_displayed[2];
-    document.getElementById("article_1_source").href=sources[0];
-    document.getElementById("article_2_source").href=sources[1];
-    document.getElementById("article_3_source").href=sources[2];
-      document.getElementById("article_1").click();
-      document.getElementById("article_2").click();
-      document.getElementById("article_3").click();
-   
-    }
-
-function from_issue(){
+function from_issue(adviser){
   var issue_id = localStorage.issue_id;
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
@@ -158,7 +181,7 @@ function from_issue(){
     document.getElementById("article_1").click();
     document.getElementById("article_2").click();
     document.getElementById("article_3").click();
-  } else {
+  } else{
     for (c=0; c<3; c++){
       if (articles[c]== name_article){
       var article_pointer =  "article_" + (c+1);
@@ -166,9 +189,11 @@ function from_issue(){
       }
     }
   }
-
-  populate_selection();
-
+  if ( adviser == "stay"){
+    document.getElementById("article_1").click();
+    document.getElementById("article_2").click();
+    document.getElementById("article_3").click();
+  }
   }
 
 
@@ -213,6 +238,11 @@ function from_issue(){
       var len = issues.length;
       var articles =[];
       var sources =[];
+      var recaller = false;
+      if (name_article == "stay"){
+        name_article = "";
+        recaller = true;
+      }
       for (i=0; i<len; i++){
         if (issues[i].name == issue_id){
         articles = issues[i].articles;
@@ -225,6 +255,9 @@ function from_issue(){
         localStorage.setItem("name_displayed", JSON.stringify(name_displayed));
         }
         }
+      if (recaller==true){
+        from_issue("stay");
+      }
       })
       }
 
