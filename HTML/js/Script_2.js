@@ -358,3 +358,36 @@ function hoverOff(){
   var myPara = document.getElementById("hr_lens");
   myPara.style.marginRight = "0%";
 }
+
+function hover(obj) {
+  var myPara = document.getElementById("hr_lens");
+
+  switch (obj.id) {
+    case "future":
+      myPara.style.marginRight = "86%";
+      break;
+    case "Y2000s":
+      myPara.style.marginRight = "71.5%";
+      break;
+    case "Y80s":
+      myPara.style.marginRight = "57%";
+      break;
+    case "Y40s":
+      myPara.style.marginRight = "43.5%";
+      break;
+    case "Y1800s":
+      myPara.style.marginRight = "29%";
+      break;
+    case "Y300s":
+      myPara.style.marginRight = "14.5%";
+      break;
+    case "no_style":
+      myPara.style.marginRight = "0.5%";
+      break;
+  }
+}
+
+function hoverOff(){
+  var myPara = document.getElementById("hr_lens");
+  myPara.style.marginRight = "0.5%";
+}
