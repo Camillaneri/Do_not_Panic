@@ -1,4 +1,39 @@
 
+function hover(obj) {
+  var myPara = document.getElementById("hr_lens");
+
+  switch (obj.id) {
+    case "future":
+      myPara.style.marginRight = "86%";
+      break;
+    case "Y2000s":
+      myPara.style.marginRight = "71.5%";
+      break;
+    case "Y80s":
+      myPara.style.marginRight = "58%";
+      break;
+    case "Y40s":
+      myPara.style.marginRight = "43.5%";
+      break;
+    case "Y1800s":
+      myPara.style.marginRight = "29%";
+      break;
+    case "Y300s":
+      myPara.style.marginRight = "14.5%";
+      break;
+    case "no_style":
+      myPara.style.marginRight = "0%";
+      break;
+  }
+}
+
+function hoverOff(){
+  var myPara = document.getElementById("hr_lens");
+  myPara.style.marginRight = "0%";
+}
+
+
+
 function populate_selection(){
   var x, i, j, l, ll, selElmnt, a, b, c;
   /* Look for any elements with the class "custom-select": */
@@ -11,7 +46,9 @@ function populate_selection(){
     /* For each element, create a new DIV that will act as the selected item: */
     a = document.createElement("DIV");
     a.setAttribute("class", "select-selected");
+
     var name_issue = localStorage.issue_id;
+
     if (name_issue){
       a.innerHTML = name_issue;
     } else {
@@ -59,16 +96,7 @@ function populate_selection(){
               break;
             }
           }
-          alert(a.innerHTML);
-          
-          h.click();
-          readIssues(a.innerHTML, "");
-          from_select();
-          localStorage.clear();
-         
-          
-          
-          
+          h.click();     
       });
 
       b.appendChild(c);
@@ -89,39 +117,6 @@ function populate_selection(){
     
     
   }
-}
-
-function hover(obj) {
-  var myPara = document.getElementById("hr_lens");
-
-  switch (obj.id) {
-    case "future":
-      myPara.style.marginRight = "86%";
-      break;
-    case "Y2000s":
-      myPara.style.marginRight = "71.5%";
-      break;
-    case "Y80s":
-      myPara.style.marginRight = "58%";
-      break;
-    case "Y40s":
-      myPara.style.marginRight = "43.5%";
-      break;
-    case "Y1800s":
-      myPara.style.marginRight = "29%";
-      break;
-    case "Y300s":
-      myPara.style.marginRight = "14.5%";
-      break;
-    case "no_style":
-      myPara.style.marginRight = "0%";
-      break;
-  }
-}
-
-function hoverOff(){
-  var myPara = document.getElementById("hr_lens");
-  myPara.style.marginRight = "0%";
 }
 
 function closeAllSelect(elmnt) {
@@ -150,10 +145,7 @@ function closeAllSelect(elmnt) {
 /* If the user clicks anywhere outside the select box,
 then close all select boxes: */
 document.addEventListener("click", closeAllSelect);
-<<<<<<< HEAD
-=======
     
->>>>>>> bc56caf5076bba4821286bd3eaf35369aaac9721
 
 function issue_selected(issue_id, name_article){
   localStorage.clear();
@@ -165,30 +157,7 @@ function issue_selected(issue_id, name_article){
     }
   }
 
-<<<<<<< HEAD
 function from_issue(adviser){
-=======
-  function from_select(){
-    var issue_id = localStorage.issue_id;
-    var name_article = localStorage.name_article;
-    var articles = JSON.parse(localStorage.articles);
-    var sources = JSON.parse(localStorage.sources);
-    var name_displayed = JSON.parse(localStorage.name_displayed);
-  
-    document.getElementById("article_1_name").innerHTML=name_displayed[0];
-    document.getElementById("article_2_name").innerHTML=name_displayed[1];
-    document.getElementById("article_3_name").innerHTML=name_displayed[2];
-    document.getElementById("article_1_source").href=sources[0];
-    document.getElementById("article_2_source").href=sources[1];
-    document.getElementById("article_3_source").href=sources[2];
-      document.getElementById("article_1").click();
-      document.getElementById("article_2").click();
-      document.getElementById("article_3").click();
-   
-    }
-
-function from_issue(){
->>>>>>> bc56caf5076bba4821286bd3eaf35369aaac9721
   var issue_id = localStorage.issue_id;
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
@@ -215,28 +184,17 @@ function from_issue(){
       }
     }
   }
-<<<<<<< HEAD
   if ( adviser == "stay"){
     document.getElementById("article_1").click();
     document.getElementById("article_2").click();
     document.getElementById("article_3").click();
   }
-=======
-
-  populate_selection();
-
->>>>>>> bc56caf5076bba4821286bd3eaf35369aaac9721
   }
 
 
   function article_selector(issue, article, num_article){
     var articles = JSON.parse(localStorage.articles);
     var sources = JSON.parse(localStorage.sources);
-<<<<<<< HEAD
-
-    console.log(issue, article, articles, sources);
-=======
->>>>>>> bc56caf5076bba4821286bd3eaf35369aaac9721
     for (i=0; i<3; i++){
       if (num_article == 3){
   		var name =  "data/" + issue + "/" + articles[i] + ".txt";
