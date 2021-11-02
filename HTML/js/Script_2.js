@@ -37,7 +37,7 @@ function hoverOff(){
 function populate_selection(){
   var x, i, j, l, ll, selElmnt, a, b, c;
   /* Look for any elements with the class "custom-select": */
-  x = document.getElementsByClassName("custom-select-selector");
+  x = document.getElementsByClassName("custom-select");
   l = x.length;
   for (i = 0; i < l; i++) {
     
@@ -59,18 +59,11 @@ function populate_selection(){
     /* For each element, create a new DIV that will contain the option list: */
     b = document.createElement("DIV");
     b.setAttribute("class", "select-items select-hide");
-    var issue_id = localStorage.issue_id;
-    
-
     for (j = 1; j < ll; j++) {
       /* For each option in the original select element,
       create a new DIV that will act as an option item: */
       c = document.createElement("DIV");
       c.innerHTML = selElmnt.options[j].innerHTML;
-      
-      if (selElmnt.options[j].innerHTML == issue_id){
-        a.innerHTML = selElmnt.options[j].innerHTML;
-      }
 
       c.addEventListener("click", function(e) {
           /* When an item is clicked, update the original select box,
@@ -119,11 +112,6 @@ function populate_selection(){
   }
 }
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 9b6e05b9a6b10346657db46be7015d9cdd876ff2
 function closeAllSelect(elmnt) {
   /* A function that will close all select boxes in the document,
   except the current select box: */
