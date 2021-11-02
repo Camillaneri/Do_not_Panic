@@ -11,7 +11,13 @@ function populate_selection(){
     /* For each element, create a new DIV that will act as the selected item: */
     a = document.createElement("DIV");
     a.setAttribute("class", "select-selected");
-    a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+    var name_issue = localStorage.issue_id;
+    if (name_issue){
+      a.innerHTML = name_issue;
+    } else {
+       a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+    }
+   
     x[i].appendChild(a);
     /* For each element, create a new DIV that will contain the option list: */
     b = document.createElement("DIV");
@@ -33,9 +39,9 @@ function populate_selection(){
             if (s.options[i].innerHTML == this.innerHTML) {
               s.selectedIndex = i;
               h.innerHTML = this.innerHTML;
-        issue_selected_selector(h.innerHTML, "");
               y = this.parentNode.getElementsByClassName("same-as-selected");
               yl = y.length;
+              issue_selected(h.innerHTML, "stay");
               for (k = 0; k < yl; k++) {
                 y[k].removeAttribute("class");
               }
@@ -87,18 +93,17 @@ function closeAllSelect(elmnt) {
 then close all select boxes: */
 document.addEventListener("click", closeAllSelect);
 
-function issue_selected_selector (issue_id, name_article){
-  localStorage.clear();
-      readIssues(issue_id, name_article);
-  }
-
 function issue_selected(issue_id, name_article){
   localStorage.clear();
+  if (name_article != "stay"){
   var newWin = window.open("articles_viewer.html", "_self");
       readIssues(issue_id, name_article);
+    } else {
+      readIssues(issue_id, "stay");
+    }
   }
 
-function from_issue(){
+function from_issue(adviser){
   var issue_id = localStorage.issue_id;
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
@@ -115,7 +120,7 @@ function from_issue(){
     document.getElementById("article_1").click();
     document.getElementById("article_2").click();
     document.getElementById("article_3").click();
-  } else {
+  } else{
     for (c=0; c<3; c++){
       if (articles[c]== name_article){
       var article_pointer =  "article_" + (c+1);
@@ -123,12 +128,18 @@ function from_issue(){
       }
     }
   }
+  if ( adviser == "stay"){
+    document.getElementById("article_1").click();
+    document.getElementById("article_2").click();
+    document.getElementById("article_3").click();
+  }
   }
 
 
   function article_selector(issue, article, num_article){
     var articles = JSON.parse(localStorage.articles);
     var sources = JSON.parse(localStorage.sources);
+
     console.log(issue, article, articles, sources);
     for (i=0; i<3; i++){
       if (num_article == 3){
@@ -168,6 +179,11 @@ function from_issue(){
       var len = issues.length;
       var articles =[];
       var sources =[];
+      var recaller = false;
+      if (name_article == "stay"){
+        name_article = "";
+        recaller = true;
+      }
       for (i=0; i<len; i++){
         if (issues[i].name == issue_id){
         articles = issues[i].articles;
@@ -180,6 +196,9 @@ function from_issue(){
         localStorage.setItem("name_displayed", JSON.stringify(name_displayed));
         }
         }
+      if (recaller==true){
+        from_issue("stay");
+      }
       })
       }
 
