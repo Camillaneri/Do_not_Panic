@@ -487,34 +487,6 @@ scrollbar-width: none;  /* Firefox */
   padding-right: 0.5rem;
  }
 
-/*#future:hover ~ hr {
-margin-right: 87%;
-}
-
-#Y2000s:hover ~ hr {
-margin-right: 72.5%;
-}
-
-#Y80s:hover ~ hr {
-margin-right: 58%;
-}
-
-#Y40s:hover  ~ hr {
-margin-right: 43.5%;
-}
-
-#Y1800s:hover ~ hr {
-margin-right: 29%;
-}
-
-#Y300s:hover ~ hr {
-margin-right: 14.5%;
-}
-
-#no_style:hover ~ hr {
-margin-right: 0%;
-}
-*/
 .lens_and_line{
 display:flex;
 
