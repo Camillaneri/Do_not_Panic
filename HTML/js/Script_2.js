@@ -119,11 +119,8 @@ function populate_selection(){
   }
 }
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 9b6e05b9a6b10346657db46be7015d9cdd876ff2
 function closeAllSelect(elmnt) {
   /* A function that will close all select boxes in the document,
   except the current select box: */
