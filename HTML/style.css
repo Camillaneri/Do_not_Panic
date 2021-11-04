@@ -474,12 +474,16 @@ scrollbar-width: none;  /* Firefox */
 }
 
 .lens_menu_icon{
-  position: absolute;
+  position:absolute;
+  right: 0.5rem;
   margin: 0 auto;
   width: fit-content;
   height: fit-content;
   pointer-events: none;
-  transition: 1s;
+  /*transition: 1s;*/
+  visibility: visible;
+  opacity: 1;
+  
 }
 
 .lensbox input:checked ~ .help {
@@ -539,7 +543,10 @@ display:flex;
 }
 
 .lensbox input:checked ~ .lens_menu_icon{
-display: none;
+/*display: none;*/
+visibility: hidden;
+opacity: 0;
+transition: visibility 0s, opacity 0.5s linear;
 }
 .hr_lens{
 width: 13.5%;
