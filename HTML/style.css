@@ -474,12 +474,16 @@ scrollbar-width: none;  /* Firefox */
 }
 
 .lens_menu_icon{
-  position: absolute;
+  position:absolute;
+  right: 0.5rem;
   margin: 0 auto;
   width: fit-content;
   height: fit-content;
   pointer-events: none;
-  transition: 1s;
+  /*transition: 1s;*/
+  visibility: visible;
+  opacity: 1;
+  
 }
 
 .lensbox input:checked ~ .help {
@@ -487,34 +491,6 @@ scrollbar-width: none;  /* Firefox */
   padding-right: 0.5rem;
  }
 
-/*#future:hover ~ hr {
-margin-right: 87%;
-}
-
-#Y2000s:hover ~ hr {
-margin-right: 72.5%;
-}
-
-#Y80s:hover ~ hr {
-margin-right: 58%;
-}
-
-#Y40s:hover  ~ hr {
-margin-right: 43.5%;
-}
-
-#Y1800s:hover ~ hr {
-margin-right: 29%;
-}
-
-#Y300s:hover ~ hr {
-margin-right: 14.5%;
-}
-
-#no_style:hover ~ hr {
-margin-right: 0%;
-}
-*/
 .lens_and_line{
 display:flex;
 
@@ -567,7 +543,10 @@ display:flex;
 }
 
 .lensbox input:checked ~ .lens_menu_icon{
-display: none;
+/*display: none;*/
+visibility: hidden;
+opacity: 0;
+transition: visibility 0s, opacity 0.5s linear;
 }
 .hr_lens{
 width: 13.5%;
