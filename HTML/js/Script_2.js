@@ -284,30 +284,48 @@ function getCheckedBoxes(chkboxClass) {
   
 }
 
-function hover(obj) {
-  var myPara = document.getElementById("hr_lens");
 
-  switch (obj.id) {
-    case "future":
-      myPara.style.marginRight = "86%";
-      break;
-    case "Y2000s":
-      myPara.style.marginRight = "71.5%";
-      break;
-    case "Y80s":
-      myPara.style.marginRight = "58%";
-      break;
-    case "Y40s":
-      myPara.style.marginRight = "43.5%";
-      break;
-    case "Y1800s":
-      myPara.style.marginRight = "29%";
-      break;
-    case "Y300s":
-      myPara.style.marginRight = "14.5%";
-      break;
-    case "no_style":
-      myPara.style.marginRight = "0%";
-      break;
+
+function hover(event) {
+  var myPara = document.getElementById("hr_lens");
+  
+  function str(el) {
+    if (!el) return "null"
+    return el.id || el.className;
+  }
+
+  var target = str(event.target);
+  
+  if (event.type == 'mouseenter') {
+    var de = myPara.style.marginRight;
+    var def = '"' + de + '"';
+    
+    alert(def);
+      switch (target) {
+        case "future":
+          myPara.style.marginRight = "86%";
+          break;
+        case "Y2000s":
+          myPara.style.marginRight = "71.5%";
+          break;
+        case "Y80s":
+          myPara.style.marginRight = "58%";
+          break;
+        case "Y40s":
+          myPara.style.marginRight = "43.5%";
+          break;
+        case "Y1800s":
+          myPara.style.marginRight = "29%";
+          break;
+        case "Y300s":
+          myPara.style.marginRight = "14.5%";
+          break;
+        case "no_style":
+          myPara.style.marginRight = "0%";
+          break;
+      }
+  }
+  if (event.type == 'mouseleave') {
+    myPara.style.marginRight = def;
   }
 }
