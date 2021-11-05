@@ -117,7 +117,6 @@ function issue_selected(issue_id, name_article){
   }
 
 function from_issue(adviser){
-  var issue_id = localStorage.issue_id;
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
   var sources = JSON.parse(localStorage.sources);
@@ -153,32 +152,33 @@ function from_issue(adviser){
 
   function article_selector(issue, article, num_article){
     var articles = JSON.parse(localStorage.articles);
+    var name_displayed = JSON.parse(localStorage.name_displayed);
     var id_list = [];
+    var name_list = [];
+    var name_stander = "";
 
     switch(num_article){
     
     case 1: 
-    for (l=0; l<3;l++){
-      if (article == articles[l]){
-      var name =  "data/" + issue + "/" + articles[l] + ".txt";
-      var id = "text_" + num_article + "_1";
-      id_list.push(id);
-      populator (name, id);
-      }
-    }
+    var name =  "data/" + issue + "/" + article + ".txt";
+    var id = "text_" + num_article + "_1";
+    var index = articles.indexOf(article);
+    name_stander = name_displayed[index];
+    id_list.push(id);
+    name_list.push(name_stander);
+    populator (name, id);
     break;
 
     case 2:
       for (t=0; t<2; t++){
-        for (c=0; c<3; c++){
-          if (article[t]== articles[c]){
-          var name =  "data/" + issue + "/" + articles[c] + ".txt";
+          var name =  "data/" + issue + "/" + article[t] + ".txt";
           var id = "text_" + num_article + "_" + (t+1);
+          var index = articles.indexOf(article[t]);
+          name_stander = name_displayed[index];
           id_list.push(id);
+          name_list.push(name_stander);
           populator (name, id);
-          }
         }
-    }
     break;
 
     case 3: 
@@ -186,10 +186,13 @@ function from_issue(adviser){
   		var name =  "data/" + issue + "/" + articles[i] + ".txt";
       var id = "text_" + num_article + "_" + (i+1);
       id_list.push(id);
+      name_list=name_displayed;
       populator (name, id);
       }
       break;
     }
+    localStorage.setItem("name_list", JSON.stringify(name_list));
+    localStorage.setItem("id_list", JSON.stringify(id_list));
   }
 
   
@@ -198,7 +201,10 @@ function from_issue(adviser){
     fetch(article)
  			 .then(response => response.text())
   				.then(text => document.getElementById(position).innerHTML=(text))
-                return;
+          .then(() => {
+            this.display_basic_metadata();
+        });
+        return;
   }
 
   function readIssues(issue_id, name_article){
@@ -332,18 +338,24 @@ function hoverOff(){
   myPara.style.marginRight = "0%";
 }
 
-function display_basic_metadata(id_pointer){
-  var titles = localStorage.name_displayed;
-  var meta_pointer = "meta_" + id_pointer.slice(5,id_pointer.length);
-  var meta_author = "";
-  var meta_date = "";
-  var meta_publisher = "";
-  meta_author = document.getElementById(id_pointer).getElementsByClassName("nameAuthor")[0].innerHTML;
-  meta_publisher = document.getElementById(id_pointer).getElementsByClassName("publishedBy")[0].innerHTML;
-  meta_date = document.getElementById(id_pointer).getElementsByClassName("datePublished")[0].innerHTML;
-  document.getElementById(meta_pointer).getElementsByClassName("meta_name_author")[0].innerHTML = meta_author;
-  document.getElementById(meta_pointer).getElementsByClassName("meta_name_publisher")[0].innerHTML=meta_publisher;
-  document.getElementById(meta_pointer).getElementsByClassName("meta_name_date")[0].innerHTML=meta_date;  
+function display_basic_metadata(){
+  var id_pointer = JSON.parse(localStorage.id_list);
+  var name_pointer = JSON.parse(localStorage.name_list);
+  var len = id_pointer.length;
+  for (i=0; i<len; i++){
+    var single_id=id_pointer[i];
+    var meta_pointer = "meta_" + single_id.slice(5,single_id.length);
+    var meta_author = "";
+    var meta_date = "";
+    var meta_publisher = "";
+    meta_author = document.getElementById(single_id).getElementsByClassName("nameAuthor")[0].innerHTML;
+    meta_publisher = document.getElementById(single_id).getElementsByClassName("publishedBy")[0].innerHTML;
+    meta_date = document.getElementById(single_id).getElementsByClassName("datePublished")[0].innerHTML;
+    document.getElementById(meta_pointer).getElementsByClassName("meta_name_author")[0].innerHTML = meta_author;
+    document.getElementById(meta_pointer).getElementsByClassName("meta_name_publisher")[0].innerHTML=meta_publisher;
+    document.getElementById(meta_pointer).getElementsByClassName("meta_name_date")[0].innerHTML=meta_date;
+    document.getElementById(meta_pointer).getElementsByClassName("meta_name_article")[0].innerHTML=name_pointer[i];    
+  }
 }
 
 function display_specific_metadata(id_pointer, category_list){
