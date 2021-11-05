@@ -379,3 +379,7 @@ function hoverOff(){
   var myPara = document.getElementById("hr_lens");
   myPara.style.marginRight = "0.5%";
 }
+
+function display_basic_metadata(){
+  
+}
