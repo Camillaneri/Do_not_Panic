@@ -1,10 +1,10 @@
 <article>
 
-<h1 class="center" data-src="https://www.scientificamerican.com/podcast/episode/flat-earthers-what-they-believe-and-why/"><span id="C1" class="mention concept" about="positions" data-label="Believer">Flat Earthers</span>: What They Believe and Why</h1>
+<h1 class="center" data-src="https://www.scientificamerican.com/podcast/episode/flat-earthers-what-they-believe-and-why/"><span class="articleTitle"><span id="C1" class="mention concept" about="positions" data-label="Believer">Flat Earthers</span>: What They Believe and Why</span></h1>
 
 <hr class="small center">
 
-<p class="byline smallChar center"> By <span id="P1" class="mention person" about="SteveMirsky" data-label="Steve Mirsky">Steve Mirsky</span> on <span class="datePublished">March 27, 2020</span></p>
+<p class="byline smallChar center"> By <span id="P1" class="mention person" about="SteveMirsky" data-label="Steve Mirsky"><span class="nameAuthor">Steve Mirsky</span></span> on <span class="datePublished">March 27, 2020</span></p>
 
 
 <figure class="center">
@@ -161,4 +161,7 @@
 <p>That&rsquo;s it for this episode, get your <span id="C272" class="mention concept" about="theories" data-label="Science Theory">science news at our website</span>, <span class="credit"><span id="O42" class="mention organization" about="ScientificAmerican" data-label="Scientific American"><a href="www.scientificamerican.com">www.scientificamerican.com</a></span></span>. Where all of our coronavirus coverage is out from behind the paywall, available free.</p>
 
 <p>And follow us on <span class="credit"><span id="O43" class="mention organization" about="Twitter" data-label="Twitter">Twitter</span></span>, where you&rsquo;ll get a tweet whenever a new item hits the website. Our twitter name is @sciam. For <em><span class="credit"><span id="O44" class="mention organization" about="ScientificAmerican" data-label="Scientific American">Scientific American</span></span>&rsquo;s</em> Science Talk, I&rsquo;m <span id="P50" class="mention person" about="SteveMirsky" data-label="Steve Mirsky">SM</span>, thanks for clicking on us.</p>
+
+<p>Published by <span class="publishedBy">Scientific American</span></p> 
+
 </article>

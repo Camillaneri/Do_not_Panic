@@ -7,7 +7,7 @@
 
 
 <p class="captionArticle red left expand"><span id="C1" class="mention concept" about="theories" data-label="Religion">Religion</span></p>
-<h1 class="close left red medium expand" data-src="https://www.theguardian.com/world/2019/sep/18/documentary-follows-pastafarians-strain-for-recognition"><span id="C2" class="mention concept" about="means" data-label="Documentary">Documentary</span> follows <span id="C3" class="mention concept" about="positions" data-label="Believer">Pastafarians</span> as they strain for recognition</span></h1>
+<h1 class="close left red medium expand" data-src="https://www.theguardian.com/world/2019/sep/18/documentary-follows-pastafarians-strain-for-recognition"><span class="articleTitle"><span id="C2" class="mention concept" about="means" data-label="Documentary">Documentary</span> follows <span id="C3" class="mention concept" about="positions" data-label="Believer">Pastafarians</span> as they strain for recognition</span></span></h1>
 
 <p class="subtitle thin expand">Film-maker has spent three years showing how the <span id="C4" class="mention concept" about="theories" data-label="Pastafarianism">colander-wearing religion</span> is more than a joke</p>
 
@@ -25,9 +25,9 @@
 
 <div class="author">
     <img class="small distant" src="Pasta_Author.png" alt="Jon Henley" />
-    <p class="byline centered"><span class="nameAuthor"><a class="caption red" href="https://www.theguardian.com/profile/jonhenley"> <span id="P1" class="mention person" about="JonHenley" data-label="Jon Henley">Jon Henley</span></a> </span><span class="caption italic red"><span id="L1" class="mention place" about="Europe" data-label="Europe" data-wikidata-id="Q46">Europe</span> correspondant</span>
+    <p class="byline centered"><a class="caption red" href="https://www.theguardian.com/profile/jonhenley"> <span id="P1" class="mention person" about="JonHenley" data-label="Jon Henley"><span class="nameAuthor">Jon Henley</span></span></a><span class="caption italic red"><span id="L1" class="mention place" about="Europe" data-label="Europe" data-wikidata-id="Q46">Europe</span> correspondant</span>
     </p>
-    <p class="datePublished smallChar">Wed 18 Sep <span id="D1" class="mention date" about="2019" data-label="2019">2019</span> 05.00 BST</p>
+    <p class="smallChar">Wed 18 Sep <span id="D1" class="mention date" about="2019" data-label="2019"><span class = "datePublished">2019</span></span> 05.00 BST</p>
     <p class="smallChar"><span class="credit"><span id="O2" class="mention organization" about="Twitter" data-label="Twitter">Twitter</span></span>: <a href="https://twitter.com/jonhenley">@jonhenley</a></p>
 </div>
 
@@ -120,5 +120,7 @@
 <p>So <span id="C121" class="mention concept" about="positions" data-label="Believer">Pastafarians</span>, says <span id="P26" class="mention person" about="MikeArthur" data-label="Mike Arthur">Arthur</span>, whose <span id="C122" class="mention concept" about="means" data-label="Social Act">film</span> premieres at the <span id="L16" class="mention place" about="Nashville" data-label="Nashville" data-wikidata-id="Q23197"> Nashville</span> <span id="C123" class="mention concept" about="means" data-label="Social">film festival</span> in the first weekend of October, “are actually saying, ‘<span id="C124" class="mention concept" about="means" data-label="Explanation">Look, if no one’s going to talk to each other like adults any more, let’s try something else</span>.’</p>
 
 <p>“<span id="C125" class="mention concept" about="means" data-label="Satire">By putting their own beliefs on display, in a fun way, they make us think more deeply about ours</span>. And in a time of <span id="C126" class="mention concept" about="theories" data-label="Flat Earth">flat-earthers</span>, <span id="C127" class="mention concept" about="theories" data-label="Pseudoscience">anti-vaxxers</span>, <span id="C128" class="mention concept" about="theories" data-label="Conspiracy Theories">fake news and alternative facts</span>, they may just be the saviour we’ve been waiting for. R’Amen.”</p>
+
+<p>Published by <span class = "publishedBy">The Guardian</span></p>
 
 </article>

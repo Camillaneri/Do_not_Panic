@@ -1,39 +1,3 @@
-
-function hover(obj) {
-  var myPara = document.getElementById("hr_lens");
-
-  switch (obj.id) {
-    case "future":
-      myPara.style.marginRight = "86%";
-      break;
-    case "Y2000s":
-      myPara.style.marginRight = "71.5%";
-      break;
-    case "Y80s":
-      myPara.style.marginRight = "58%";
-      break;
-    case "Y40s":
-      myPara.style.marginRight = "43.5%";
-      break;
-    case "Y1800s":
-      myPara.style.marginRight = "29%";
-      break;
-    case "Y300s":
-      myPara.style.marginRight = "14.5%";
-      break;
-    case "no_style":
-      myPara.style.marginRight = "0%";
-      break;
-  }
-}
-
-function hoverOff(){
-  var myPara = document.getElementById("hr_lens");
-  myPara.style.marginRight = "0%";
-}
-
-
-
 function populate_selection(){
   var x, i, j, l, ll, selElmnt, a, b, c;
   /* Look for any elements with the class "custom-select": */
@@ -189,31 +153,46 @@ function from_issue(adviser){
 
   function article_selector(issue, article, num_article){
     var articles = JSON.parse(localStorage.articles);
-    var sources = JSON.parse(localStorage.sources);
+    var id_list = [];
+
+    switch(num_article){
+    
+    case 1: 
+    for (l=0; l<3;l++){
+      if (article == articles[l]){
+      var name =  "data/" + issue + "/" + articles[l] + ".txt";
+      var id = "text_" + num_article + "_1";
+      id_list.push(id);
+      populator (name, id);
+      }
+    }
+    break;
+
+    case 2:
+      for (t=0; t<2; t++){
+        for (c=0; c<3; c++){
+          if (article[t]== articles[c]){
+          var name =  "data/" + issue + "/" + articles[c] + ".txt";
+          var id = "text_" + num_article + "_" + (t+1);
+          id_list.push(id);
+          populator (name, id);
+          }
+        }
+    }
+    break;
+
+    case 3: 
     for (i=0; i<3; i++){
-      if (num_article == 3){
   		var name =  "data/" + issue + "/" + articles[i] + ".txt";
       var id = "text_" + num_article + "_" + (i+1);
+      id_list.push(id);
       populator (name, id);
       }
-      else if (articles [i] == article){
-      var name =  "data/" + issue + "/" + articles[i] + ".txt";
-      var id = "text_" + num_article + "_1";
-      populator (name, id);
-      }
-      else if (num_article == 2){
-        for (t=0; t<2; t++){
-          for (c=0; c<3; c++){
-            if (article[t]== articles[c]){
-            var name =  "data/" + issue + "/" + articles[c] + ".txt";
-            var id = "text_" + num_article + "_" + (t+1);
-            populator (name, id);
-            }
-          }
-      }
-    }
+      break;
     }
   }
+
+  
 
   function populator(article, position){
     fetch(article)
@@ -282,7 +261,11 @@ function getCheckedBoxes(chkboxClass) {
       document.getElementById('one_article').classList.add('display');
       document.getElementById('two_article').classList.remove('display');
       document.getElementById('three_article').classList.remove('display');
-      var name_article = articles[0];
+      for (l=0;l<3;l++){
+        if (checkboxes[l].checked) {
+          var name_article = articles[l];
+        }
+      }
       article_selector(issue_id, name_article, 1);
       break;
 
@@ -382,6 +365,32 @@ function hoverOff(){
   myPara.style.marginRight = "0.5%";
 }
 
-function display_basic_metadata(){
-  
+function display_basic_metadata(id_pointer){
+  var titles = localStorage.name_displayed;
+  var meta_pointer = "meta_" + id_pointer.slice(5,id_pointer.length);
+  var meta_author = "";
+  var meta_date = "";
+  var meta_publisher = "";
+  meta_author = document.getElementById(id_pointer).getElementsByClassName("nameAuthor")[0].innerHTML;
+  meta_publisher = document.getElementById(id_pointer).getElementsByClassName("publishedBy")[0].innerHTML;
+  meta_date = document.getElementById(id_pointer).getElementsByClassName("datePublished")[0].innerHTML;
+  document.getElementById(meta_pointer).getElementsByClassName("meta_name_author")[0].innerHTML = meta_author;
+  document.getElementById(meta_pointer).getElementsByClassName("meta_name_publisher")[0].innerHTML=meta_publisher;
+  document.getElementById(meta_pointer).getElementsByClassName("meta_name_date")[0].innerHTML=meta_date;  
 }
+
+function display_specific_metadata(id_pointer, category_list){
+  var meta_places = [];
+  var meta_people = [];
+  var meta_dates = [];
+  var meta_concepts = [];
+  var meta_organizations = [];
+  for (i=0;1,category_list.length;i++){
+        var meta_pointer = "meta_"+ category_list[i] + "_" + id_pointer.slice(5,id_pointer.length);
+        meta_places = document.getElementById(id_pointer).getElementsByClassName("place");
+        meta_people = document.getElementById(id_pointer).getElementsByClassName("person");
+        meta_dates = document.getElementById(id_pointer).getElementsByClassName("date");
+        meta_concepts = document.getElementById(id_pointer).getElementsByClassName("concept");
+        meta_organizations = document.getElementById(id_pointer).getElementsByClassName("organization");
+      }
+      }

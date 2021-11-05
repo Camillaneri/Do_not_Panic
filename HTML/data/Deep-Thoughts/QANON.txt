@@ -1,6 +1,6 @@
 <article>
 
-<h1 class="left italic" data-src="https://www.nytimes.com/article/what-is-qanon.html">What Is <span id="C1" class="mention concept" about="theories" data-label="QAnon">QAnon</span>, the Viral Pro-<span id="P1" class="mention person" about="DonaldTrump" data-label="Donald Trump">Trump</span> <span id="C2" class="mention concept" about="theories" data-label="Conspiracy Theory">Conspiracy Theory</span>?</h1>
+<h1 class="left italic" data-src="https://www.nytimes.com/article/what-is-qanon.html"><span class ="articleTitle">What Is <span id="C1" class="mention concept" about="theories" data-label="QAnon">QAnon</span>, the Viral Pro-<span id="P1" class="mention person" about="DonaldTrump" data-label="Donald Trump">Trump</span> <span id="C2" class="mention concept" about="theories" data-label="Conspiracy Theory">Conspiracy Theory</span>?</span></h1>
 <p class="subtitle"><span id="C3" class="mention concept" about="means" data-label="Inquiry">Explaining</span> the “<span id="C4" class="mention concept" about="theories" data-label="QAnon">big tent conspiracy theory</span>” that falsely claims that <span id="C5" class="mention concept" about="ideas" data-label="Belief">former <span id="P2" class="mention person" about="DonaldTrump" data-label="Donald Trump">President Trump</span> is facing down a shadowy cabal of Democratic pedophiles</span>.</p>
 
 <hr class="distant grey">
@@ -18,11 +18,11 @@
 <div class="author">
 <a href="https://www.nytimes.com/by/kevin-roose">  
     <img class="small follow distant" src="QANON_Author.jpg" alt="Kevin Roose" />
-    <p class="centered byline">By <span class="nameAuthor"><span id="P5" class="mention person" about="KevinRoose" data-label="Kevin Roose">Kevin Roose</span></span></p>
+    <p class="centered byline">By <span id="P5" class="mention person" about="KevinRoose" data-label="Kevin Roose"><span class = "nameAuthor">Kevin Roose</span></span></p>
 </a>
 </div>
 
-<p class="datePublished">March 27, <span id="D1" class="mention date" about="2020" data-label="2020">2020</span>
+<p><span id="D1" class="mention date" about="2020" data-label="2020"><span class="datePublished">March 27, 2020</span></span>
 </p>
 
 <p class="distant">By now, you’ve probably heard of <span id="C8" class="mention concept" about="theories" data-label="QAnon">QAnon</span>, the internet <span id="C9" class="mention concept" about="theories" data-label="Conspiracy Theory">conspiracy theory</span> that has <span id="C10" class="mention concept" about="means" data-label="Conversion">taken hold</span> among many on the <span id="C11" class="mention concept" about="ideas" data-label="Political Idea">American right</span>.</p>
@@ -194,5 +194,6 @@
 
 <p class="smallChar">A version of this article appears in print on <span id="D19" class="mention date" about="2020" data-label="Sugust 2020">Aug. 19, 2020</span>, Section B, Page 1 of the <span id="L15" class="mention place" about="NY" data-label="New York" data-wikidata-id="Q60">New York</span> edition with the headline: What Is <span id="206" class="mention concept" about="theories" data-label="QAnon">QAnon</span>, the Conspiracy Swarm?.</p>
 
+<p>Published by <span class = "publishedBy">The New York Times</span></p>
 
 </article>
