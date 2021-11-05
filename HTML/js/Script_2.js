@@ -1,7 +1,3 @@
-
-
-
-
 function populate_selection(){
   var x, i, j, l, ll, selElmnt, a, b, c;
   /* Look for any elements with the class "custom-select": */
@@ -121,7 +117,6 @@ function issue_selected(issue_id, name_article){
   }
 
 function from_issue(adviser){
-  var issue_id = localStorage.issue_id;
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
   var sources = JSON.parse(localStorage.sources);
@@ -157,37 +152,59 @@ function from_issue(adviser){
 
   function article_selector(issue, article, num_article){
     var articles = JSON.parse(localStorage.articles);
-    var sources = JSON.parse(localStorage.sources);
+    var name_displayed = JSON.parse(localStorage.name_displayed);
+    var id_list = [];
+    var name_list = [];
+    var name_stander = "";
+
+    switch(num_article){
+    
+    case 1: 
+    var name =  "data/" + issue + "/" + article + ".txt";
+    var id = "text_" + num_article + "_1";
+    var index = articles.indexOf(article);
+    name_stander = name_displayed[index];
+    id_list.push(id);
+    name_list.push(name_stander);
+    populator (name, id);
+    break;
+
+    case 2:
+      for (t=0; t<2; t++){
+          var name =  "data/" + issue + "/" + article[t] + ".txt";
+          var id = "text_" + num_article + "_" + (t+1);
+          var index = articles.indexOf(article[t]);
+          name_stander = name_displayed[index];
+          id_list.push(id);
+          name_list.push(name_stander);
+          populator (name, id);
+        }
+    break;
+
+    case 3: 
     for (i=0; i<3; i++){
-      if (num_article == 3){
   		var name =  "data/" + issue + "/" + articles[i] + ".txt";
       var id = "text_" + num_article + "_" + (i+1);
+      id_list.push(id);
+      name_list=name_displayed;
       populator (name, id);
       }
-      else if (articles [i] == article){
-      var name =  "data/" + issue + "/" + articles[i] + ".txt";
-      var id = "text_" + num_article + "_1";
-      populator (name, id);
-      }
-      else if (num_article == 2){
-        for (t=0; t<2; t++){
-          for (c=0; c<3; c++){
-            if (article[t]== articles[c]){
-            var name =  "data/" + issue + "/" + articles[c] + ".txt";
-            var id = "text_" + num_article + "_" + (t+1);
-            populator (name, id);
-            }
-          }
-      }
+      break;
     }
-    }
+    localStorage.setItem("name_list", JSON.stringify(name_list));
+    localStorage.setItem("id_list", JSON.stringify(id_list));
   }
+
+  
 
   function populator(article, position){
     fetch(article)
  			 .then(response => response.text())
   				.then(text => document.getElementById(position).innerHTML=(text))
-                return;
+          .then(() => {
+            this.display_basic_metadata();
+        });
+        return;
   }
 
   function readIssues(issue_id, name_article){
@@ -250,7 +267,11 @@ function getCheckedBoxes(chkboxClass) {
       document.getElementById('one_article').classList.add('display');
       document.getElementById('two_article').classList.remove('display');
       document.getElementById('three_article').classList.remove('display');
-      var name_article = articles[0];
+      for (l=0;l<3;l++){
+        if (checkboxes[l].checked) {
+          var name_article = articles[l];
+        }
+      }
       article_selector(issue_id, name_article, 1);
       break;
 
@@ -327,5 +348,44 @@ function hover(event) {
   }
   if (event.type == 'mouseleave') {
     myPara.style.marginRight = def;
+    /*da completare*/
   }
 }
+
+
+
+function display_basic_metadata(){
+  var id_pointer = JSON.parse(localStorage.id_list);
+  var name_pointer = JSON.parse(localStorage.name_list);
+  var len = id_pointer.length;
+  for (i=0; i<len; i++){
+    var single_id=id_pointer[i];
+    var meta_pointer = "meta_" + single_id.slice(5,single_id.length);
+    var meta_author = "";
+    var meta_date = "";
+    var meta_publisher = "";
+    meta_author = document.getElementById(single_id).getElementsByClassName("nameAuthor")[0].innerHTML;
+    meta_publisher = document.getElementById(single_id).getElementsByClassName("publishedBy")[0].innerHTML;
+    meta_date = document.getElementById(single_id).getElementsByClassName("datePublished")[0].innerHTML;
+    document.getElementById(meta_pointer).getElementsByClassName("meta_name_author")[0].innerHTML = meta_author;
+    document.getElementById(meta_pointer).getElementsByClassName("meta_name_publisher")[0].innerHTML=meta_publisher;
+    document.getElementById(meta_pointer).getElementsByClassName("meta_name_date")[0].innerHTML=meta_date;
+    document.getElementById(meta_pointer).getElementsByClassName("meta_name_article")[0].innerHTML=name_pointer[i];  
+  }
+}
+
+function display_specific_metadata(id_pointer, category_list){
+  var meta_places = [];
+  var meta_people = [];
+  var meta_dates = [];
+  var meta_concepts = [];
+  var meta_organizations = [];
+  for (i=0;1,category_list.length;i++){
+        var meta_pointer = "meta_"+ category_list[i] + "_" + id_pointer.slice(5,id_pointer.length);
+        meta_places = document.getElementById(id_pointer).getElementsByClassName("place");
+        meta_people = document.getElementById(id_pointer).getElementsByClassName("person");
+        meta_dates = document.getElementById(id_pointer).getElementsByClassName("date");
+        meta_concepts = document.getElementById(id_pointer).getElementsByClassName("concept");
+        meta_organizations = document.getElementById(id_pointer).getElementsByClassName("organization");
+      }
+      }
