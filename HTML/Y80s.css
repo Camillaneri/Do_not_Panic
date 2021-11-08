@@ -4,9 +4,11 @@ body {
   align-self: center;
   height: 100vh;
   overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
+h1, h2, h3, h4, h5, h6, label {font-family: 'Helvetica', sans-serif !important; color: white;} 
+p, a, ul, li, figcaption  {font-family: 'Helvetica', sans-serif !important; color: white;}
 
 
 
