@@ -551,6 +551,7 @@ transition: visibility 0s, opacity 0.5s linear;
 
 .hr_lens{
 width: 13.5%;
+margin-right: 0%;
 }
 
 .help div{
