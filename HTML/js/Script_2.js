@@ -188,7 +188,6 @@ function article_selector(issue, article, num_article) {
   localStorage.setItem("id_list", JSON.stringify(id_list));
 }
 
-<<<<<<< HEAD
   
 
   function populator(article, position){
@@ -201,17 +200,6 @@ function article_selector(issue, article, num_article) {
         });
         return;
   }
-=======
-function populator(article, position) {
-  fetch(article)
-    .then((response) => response.text())
-    .then((text) => (document.getElementById(position).innerHTML = text))
-    .then(() => {
-      this.display_basic_metadata();
-    });
-  return;
-}
->>>>>>> 99fed8feaca29d170ab81d19aa0d9c11d2c2403c
 
 function readIssues(issue_id, name_article) {
   readJSon("js/issues.json", function (content) {
