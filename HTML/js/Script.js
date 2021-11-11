@@ -36,9 +36,6 @@ $(document).ready(function(){
   });
 })
 
-
-
-
 //Article select
 
 $(document).ready(function(){
@@ -91,9 +88,6 @@ $(document).ready(function() {
 });
 
 
-
-
-
 $(document).ready(function(){
   $(".refresh").click(function(){
     $('input[type="checkbox"].input:not([disabled]):checked').prop('checked', false);
@@ -105,9 +99,6 @@ $(document).ready(function(){
     $(".default").show();
   })
 })
-
-
-
 
 $(document).ready(function(){
   $("#team_explain_Camilla").click(function(){

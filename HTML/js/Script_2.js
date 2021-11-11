@@ -1,10 +1,9 @@
-function populate_selection(){
+function populate_selection() {
   var x, i, j, l, ll, selElmnt, a, b, c;
   /* Look for any elements with the class "custom-select": */
   x = document.getElementsByClassName("custom-select");
   l = x.length;
   for (i = 0; i < l; i++) {
-    
     selElmnt = x[i].getElementsByTagName("select")[0];
     ll = selElmnt.length;
     /* For each element, create a new DIV that will act as the selected item: */
@@ -13,12 +12,12 @@ function populate_selection(){
 
     var name_issue = localStorage.issue_id;
 
-    if (name_issue){
+    if (name_issue) {
       a.innerHTML = name_issue;
     } else {
-       a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+      a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
     }
-   
+
     x[i].appendChild(a);
     /* For each element, create a new DIV that will contain the option list: */
     b = document.createElement("DIV");
@@ -29,41 +28,38 @@ function populate_selection(){
       c = document.createElement("DIV");
       c.innerHTML = selElmnt.options[j].innerHTML;
 
-      c.addEventListener("click", function(e) {
-          /* When an item is clicked, update the original select box,
+      c.addEventListener("click", function (e) {
+        /* When an item is clicked, update the original select box,
           and the selected item: */
-          var y, i, k, s, h, sl, yl;
-          s = this.parentNode.parentNode.getElementsByTagName("select")[0];
-          sl = s.length;
-          h = this.parentNode.previousSibling;
-          issue_id = this.innerHTML;
-          
-         
-          for (i = 0; i < sl; i++) {
-            if (s.options[i].innerHTML == this.innerHTML) {
-              s.selectedIndex = i;
-              h.innerHTML = this.innerHTML;
-              y = this.parentNode.getElementsByClassName("same-as-selected");
-              yl = y.length;
-              issue_selected(h.innerHTML, "stay");
-              for (k = 0; k < yl; k++) {
-                y[k].removeAttribute("class");
-              }
-              this.setAttribute("class", "same-as-selected");
-              break;
+        var y, i, k, s, h, sl, yl;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        sl = s.length;
+        h = this.parentNode.previousSibling;
+        issue_id = this.innerHTML;
+
+        for (i = 0; i < sl; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            yl = y.length;
+            issue_selected(h.innerHTML, "stay");
+            for (k = 0; k < yl; k++) {
+              y[k].removeAttribute("class");
             }
+            this.setAttribute("class", "same-as-selected");
+            break;
           }
-          h.click();     
+        }
+        h.click();
       });
 
       b.appendChild(c);
-    
     }
 
-    
     x[i].appendChild(b);
 
-    a.addEventListener("click", function(e) {
+    a.addEventListener("click", function (e) {
       /* When the select box is clicked, close any other select boxes,
       and open/close the current select box: */
       e.stopPropagation();
@@ -71,25 +67,26 @@ function populate_selection(){
       this.nextSibling.classList.toggle("select-hide");
       this.classList.toggle("select-arrow-active");
     });
-    
-    
   }
 }
-
-
 
 function closeAllSelect(elmnt) {
   /* A function that will close all select boxes in the document,
   except the current select box: */
-  var x, y, i, xl, yl, arrNo = [];
+  var x,
+    y,
+    i,
+    xl,
+    yl,
+    arrNo = [];
   x = document.getElementsByClassName("select-items");
   y = document.getElementsByClassName("select-selected");
   xl = x.length;
   yl = y.length;
-  
+
   for (i = 0; i < yl; i++) {
     if (elmnt == y[i]) {
-      arrNo.push(i)
+      arrNo.push(i);
     } else {
       y[i].classList.remove("select-arrow-active");
     }
@@ -104,97 +101,94 @@ function closeAllSelect(elmnt) {
 /* If the user clicks anywhere outside the select box,
 then close all select boxes: */
 document.addEventListener("click", closeAllSelect);
-    
 
-function issue_selected(issue_id, name_article){
+function issue_selected(issue_id, name_article) {
   localStorage.clear();
-  if (name_article != "stay"){
-  var newWin = window.open("articles_viewer.html", "_self");
-      readIssues(issue_id, name_article);
-    } else {
-      readIssues(issue_id, "stay");
-    }
+  if (name_article != "stay") {
+    var newWin = window.open("articles_viewer.html", "_self");
+    readIssues(issue_id, name_article);
+  } else {
+    readIssues(issue_id, "stay");
   }
+}
 
-function from_issue(adviser){
+function from_issue(adviser) {
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
   var sources = JSON.parse(localStorage.sources);
   var name_displayed = JSON.parse(localStorage.name_displayed);
 
-  document.getElementById("article_1_name").innerHTML=name_displayed[0];
-  document.getElementById("article_2_name").innerHTML=name_displayed[1];
-  document.getElementById("article_3_name").innerHTML=name_displayed[2];
-  document.getElementById("article_1_source").href=sources[0];
-  document.getElementById("article_2_source").href=sources[1];
-  document.getElementById("article_3_source").href=sources[2];
+  document.getElementById("article_1_name").innerHTML = name_displayed[0];
+  document.getElementById("article_2_name").innerHTML = name_displayed[1];
+  document.getElementById("article_3_name").innerHTML = name_displayed[2];
+  document.getElementById("article_1_source").href = sources[0];
+  document.getElementById("article_2_source").href = sources[1];
+  document.getElementById("article_3_source").href = sources[2];
 
-
-  if (name_article == ""){
+  if (name_article == "") {
     document.getElementById("article_1").click();
     document.getElementById("article_2").click();
     document.getElementById("article_3").click();
-  } else{
-    for (c=0; c<3; c++){
-      if (articles[c]== name_article){
-      var article_pointer =  "article_" + (c+1);
-      document.getElementById(article_pointer).click();
+  } else {
+    for (c = 0; c < 3; c++) {
+      if (articles[c] == name_article) {
+        var article_pointer = "article_" + (c + 1);
+        document.getElementById(article_pointer).click();
       }
     }
   }
-  if ( adviser == "stay"){
+  if (adviser == "stay") {
     document.getElementById("article_1").click();
     document.getElementById("article_2").click();
     document.getElementById("article_3").click();
   }
-  }
+}
 
+function article_selector(issue, article, num_article) {
+  var articles = JSON.parse(localStorage.articles);
+  var name_displayed = JSON.parse(localStorage.name_displayed);
+  var id_list = [];
+  var name_list = [];
+  var name_stander = "";
 
-  function article_selector(issue, article, num_article){
-    var articles = JSON.parse(localStorage.articles);
-    var name_displayed = JSON.parse(localStorage.name_displayed);
-    var id_list = [];
-    var name_list = [];
-    var name_stander = "";
-
-    switch(num_article){
-    
-    case 1: 
-    var name =  "data/" + issue + "/" + article + ".txt";
-    var id = "text_" + num_article + "_1";
-    var index = articles.indexOf(article);
-    name_stander = name_displayed[index];
-    id_list.push(id);
-    name_list.push(name_stander);
-    populator (name, id);
-    break;
+  switch (num_article) {
+    case 1:
+      var name = "data/" + issue + "/" + article + ".txt";
+      var id = "text_" + num_article + "_1";
+      var index = articles.indexOf(article);
+      name_stander = name_displayed[index];
+      id_list.push(id);
+      name_list.push(name_stander);
+      populator(name, id);
+      break;
 
     case 2:
-      for (t=0; t<2; t++){
-          var name =  "data/" + issue + "/" + article[t] + ".txt";
-          var id = "text_" + num_article + "_" + (t+1);
-          var index = articles.indexOf(article[t]);
-          name_stander = name_displayed[index];
-          id_list.push(id);
-          name_list.push(name_stander);
-          populator (name, id);
-        }
-    break;
-
-    case 3: 
-    for (i=0; i<3; i++){
-  		var name =  "data/" + issue + "/" + articles[i] + ".txt";
-      var id = "text_" + num_article + "_" + (i+1);
-      id_list.push(id);
-      name_list=name_displayed;
-      populator (name, id);
+      for (t = 0; t < 2; t++) {
+        var name = "data/" + issue + "/" + article[t] + ".txt";
+        var id = "text_" + num_article + "_" + (t + 1);
+        var index = articles.indexOf(article[t]);
+        name_stander = name_displayed[index];
+        id_list.push(id);
+        name_list.push(name_stander);
+        populator(name, id);
       }
       break;
-    }
-    localStorage.setItem("name_list", JSON.stringify(name_list));
-    localStorage.setItem("id_list", JSON.stringify(id_list));
-  }
 
+    case 3:
+      for (i = 0; i < 3; i++) {
+        var name = "data/" + issue + "/" + articles[i] + ".txt";
+        var id = "text_" + num_article + "_" + (i + 1);
+        id_list.push(id);
+        name_list = name_displayed;
+        populator(name, id);
+      }
+      break;
+  }
+  localStorage.setItem("name_list", JSON.stringify(name_list));
+  localStorage.setItem("id_list", JSON.stringify(id_list));
+}
+
+<<<<<<< HEAD
   
 
   function populator(article, position){
@@ -207,20 +201,31 @@ function from_issue(adviser){
         });
         return;
   }
+=======
+function populator(article, position) {
+  fetch(article)
+    .then((response) => response.text())
+    .then((text) => (document.getElementById(position).innerHTML = text))
+    .then(() => {
+      this.display_basic_metadata();
+    });
+  return;
+}
+>>>>>>> 99fed8feaca29d170ab81d19aa0d9c11d2c2403c
 
-  function readIssues(issue_id, name_article){
-    readJSon("js/issues.json", function(content){
-      var issues = JSON.parse(content);
-      var len = issues.length;
-      var articles =[];
-      var sources =[];
-      var recaller = false;
-      if (name_article == "stay"){
-        name_article = "";
-        recaller = true;
-      }
-      for (i=0; i<len; i++){
-        if (issues[i].name == issue_id){
+function readIssues(issue_id, name_article) {
+  readJSon("js/issues.json", function (content) {
+    var issues = JSON.parse(content);
+    var len = issues.length;
+    var articles = [];
+    var sources = [];
+    var recaller = false;
+    if (name_article == "stay") {
+      name_article = "";
+      recaller = true;
+    }
+    for (i = 0; i < len; i++) {
+      if (issues[i].name == issue_id) {
         articles = issues[i].articles;
         sources = issues[i].sources;
         name_displayed = issues[i].name_displayed;
@@ -229,46 +234,45 @@ function from_issue(adviser){
         localStorage.setItem("articles", JSON.stringify(articles));
         localStorage.setItem("sources", JSON.stringify(sources));
         localStorage.setItem("name_displayed", JSON.stringify(name_displayed));
-        }
-        }
-      if (recaller==true){
-        from_issue("stay");
       }
-      })
-      }
-
-      function readJSon(file, callback) {
-        var rawFile = new XMLHttpRequest();
-        rawFile.overrideMimeType("application/json");
-        rawFile.open("GET", file, true);
-        rawFile.onreadystatechange = function() {
-            if (rawFile.readyState === 4 && rawFile.status == "200") {
-                callback(rawFile.responseText);
-            }
-        }
-        rawFile.send(null);
     }
-        
+    if (recaller == true) {
+      from_issue("stay");
+    }
+  });
+}
+
+function readJSon(file, callback) {
+  var rawFile = new XMLHttpRequest();
+  rawFile.overrideMimeType("application/json");
+  rawFile.open("GET", file, true);
+  rawFile.onreadystatechange = function () {
+    if (rawFile.readyState === 4 && rawFile.status == "200") {
+      callback(rawFile.responseText);
+    }
+  };
+  rawFile.send(null);
+}
 
 function getCheckedBoxes(chkboxClass) {
   var checkboxes = document.getElementsByName(chkboxClass);
   var checkboxesChecked = [];
 
-  for (var i=0; i<checkboxes.length; i++) {
-     if (checkboxes[i].checked) {
+  for (var i = 0; i < checkboxes.length; i++) {
+    if (checkboxes[i].checked) {
       checkboxesChecked.push(checkboxes[i]);
-     }
     }
-    
-  var issue_id= localStorage.issue_id;
+  }
+
+  var issue_id = localStorage.issue_id;
   var articles = JSON.parse(localStorage.articles);
 
-  switch(checkboxesChecked.length){
-    case 1: 
-      document.getElementById('one_article').classList.add('display');
-      document.getElementById('two_article').classList.remove('display');
-      document.getElementById('three_article').classList.remove('display');
-      for (l=0;l<3;l++){
+  switch (checkboxesChecked.length) {
+    case 1:
+      document.getElementById("one_article").classList.add("display");
+      document.getElementById("two_article").classList.remove("display");
+      document.getElementById("three_article").classList.remove("display");
+      for (l = 0; l < 3; l++) {
         if (checkboxes[l].checked) {
           var name_article = articles[l];
         }
@@ -277,75 +281,108 @@ function getCheckedBoxes(chkboxClass) {
       break;
 
     case 2:
-      document.getElementById('one_article').classList.remove('display');
-      document.getElementById('two_article').classList.add('display');
-      document.getElementById('three_article').classList.remove('display');
+      document.getElementById("one_article").classList.remove("display");
+      document.getElementById("two_article").classList.add("display");
+      document.getElementById("three_article").classList.remove("display");
       var article_list = [];
-      for (l=0;l<3;l++){
+      for (l = 0; l < 3; l++) {
         if (checkboxes[l].checked) {
           var name_article = articles[l];
           article_list.push(name_article);
-          }
+        }
       }
       article_selector(issue_id, article_list, 2);
       break;
 
     case 3:
-      document.getElementById('one_article').classList.remove('display');
-      document.getElementById('two_article').classList.remove('display');
-      document.getElementById('three_article').classList.add('display');
+      document.getElementById("one_article").classList.remove("display");
+      document.getElementById("two_article").classList.remove("display");
+      document.getElementById("three_article").classList.add("display");
       article_selector(issue_id, "", 3);
       break;
 
     default:
-      document.getElementById('one_article').classList.remove('display');
-      document.getElementById('two_article').classList.remove('display');
-      document.getElementById('three_article').classList.remove('display');
-      break;
-  }
-  
-}
-
-function hover(obj) {
-  var myPara = document.getElementById("hr_lens");
-
-  switch (obj.id) {
-    case "future":
-      myPara.style.marginRight = "86%";
-      break;
-    case "Y2000s":
-      myPara.style.marginRight = "71.5%";
-      break;
-    case "Y80s":
-      myPara.style.marginRight = "58%";
-      break;
-    case "Y40s":
-      myPara.style.marginRight = "43.5%";
-      break;
-    case "Y1800s":
-      myPara.style.marginRight = "29%";
-      break;
-    case "Y300s":
-      myPara.style.marginRight = "14.5%";
-      break;
-    case "no_style":
-      myPara.style.marginRight = "0%";
+      document.getElementById("one_article").classList.remove("display");
+      document.getElementById("two_article").classList.remove("display");
+      document.getElementById("three_article").classList.remove("display");
       break;
   }
 }
 
-function hoverOff(){
+function hover(event, id) {
   var myPara = document.getElementById("hr_lens");
-  myPara.style.marginRight = "0%";
+
+  function str(el) {
+    if (!el) return "null";
+    return el.id || el.className;
+  }
+
+  var target = str(event.target);
+
+  console.log(id);
+
+  if (event.type == "mouseenter") {
+    switch (target) {
+      case "future":
+        myPara.style.marginRight = "86%";
+        break;
+      case "Y2000s":
+        myPara.style.marginRight = "71.5%";
+        break;
+      case "Y80s":
+        myPara.style.marginRight = "58%";
+        break;
+      case "Y40s":
+        myPara.style.marginRight = "43.5%";
+        break;
+      case "Y1800s":
+        myPara.style.marginRight = "29%";
+        break;
+      case "Y300s":
+        myPara.style.marginRight = "14.5%";
+        break;
+      case "no_style":
+        myPara.style.marginRight = "0%";
+        break;
+    }
+  } else if (event.type == "mouseleave") {
+    switch (target) {
+      case "no_style":
+        myPara.style.marginRight = "0%";
+        break;
+      default:
+        myPara.style.marginRight = currStyle;
+        break;
+    }
+  } else {
+    myPara.style.marginRight = "0%";
+  }
 }
 
-function display_basic_metadata(){
+var currStyle;
+
+function styleSwitch(id) {
+  // Select your element using indexing.
+  var theme = document.getElementsByTagName("link")[1];
+  console.log(theme);
+  var new_style = id + ".css";
+  theme.setAttribute("href", new_style);
+  var myPara = document.getElementById("hr_lens");
+  var set = myPara.style.marginRight;
+  console.log(set);
+  if (id == "no_style") {
+    theme.setAttribute("href", "#");
+  }
+  currStyle = set;
+}
+
+function display_basic_metadata() {
   var id_pointer = JSON.parse(localStorage.id_list);
   var name_pointer = JSON.parse(localStorage.name_list);
   var len = id_pointer.length;
-  for (i=0; i<len; i++){
-    var single_id=id_pointer[i];
-    var meta_pointer = "meta_" + single_id.slice(5,single_id.length);
+  for (i = 0; i < len; i++) {
+    var single_id = id_pointer[i];
+    var meta_pointer = "meta_" + single_id.slice(5, single_id.length);
     var meta_author = "";
     var meta_date = "";
     var meta_publisher = "";

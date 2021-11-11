@@ -1,0 +1,68 @@
+body {
+	background: radial-gradient(circle at bottom, rgb(241, 200, 156) 0, rgb(71, 140, 103) 40%, rgb(11, 59, 65) 60%, rgb(18, 51,53) 70%, rgb(2, 12, 4) 100%);
+  background-repeat: no-repeat;
+  align-self: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: 'omnibold';
+  src: url('font/Y80S/arista-pro-alternate-light-trial-webfont.woff2') format('woff2'),
+       url('font/Y80S/arista-pro-alternate-light-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'verdanaregular';
+  src: url('font/Y80s/verdana-webfont.woff2') format('woff2'),
+       url('font/Y80s/verdana-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+h1, h2, h3, h4, h5, h6, button, label {font-family: 'omnibold', cursive !important; color: white; text-transform: uppercase;} 
+p, a, ul, li, figcaption  {font-family: 'verdanaregular', sans-serif !important; color: white;}
+
+.logo_big {
+  font-size: 110%;
+}
+
+.up_logo {
+  font-size: 3.5em;
+}
+
+.bottom_logo {
+  margin-top: -14px;
+  font-size: 2.5em;
+}
+
+.cover_content {
+  background-color: rgb(16 44 65);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
