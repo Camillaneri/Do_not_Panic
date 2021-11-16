@@ -126,21 +126,20 @@ function from_issue(adviser) {
   document.getElementById("article_3_source").href = sources[2];
 
   if (name_article == "") {
-    document.getElementById("article_1").click();
-    document.getElementById("article_2").click();
+    if (adviser == "stay") {
+      getCheckedBoxes("Article");
+    }else {
+    document.getElementById("article_1").checked = true;
+    document.getElementById("article_2").checked = true;
     document.getElementById("article_3").click();
-  } else {
+  }
+}else {
     for (c = 0; c < 3; c++) {
       if (articles[c] == name_article) {
         var article_pointer = "article_" + (c + 1);
         document.getElementById(article_pointer).click();
       }
     }
-  }
-  if (adviser == "stay") {
-    document.getElementById("article_1").click();
-    document.getElementById("article_2").click();
-    document.getElementById("article_3").click();
   }
 }
 
@@ -188,15 +187,17 @@ function article_selector(issue, article, num_article) {
   localStorage.setItem("id_list", JSON.stringify(id_list));
 }
 
-function populator(article, position) {
-  fetch(article)
-    .then((response) => response.text())
-    .then((text) => (document.getElementById(position).innerHTML = text))
-    .then(() => {
-      this.display_basic_metadata();
-    });
-  return;
-}
+  
+
+  function populator(article, position){
+    fetch(article)
+ 			 .then(response => response.text())
+  				.then(text => document.getElementById(position).innerHTML=(text))
+          .then(() => {
+            this.display_basic_metadata();
+            });
+        return;
+  }
 
 function readIssues(issue_id, name_article) {
   readJSon("js/issues.json", function (content) {
@@ -368,67 +369,54 @@ function fromStyle() {
   }
 
 }
-/*
+
 
 function display_basic_metadata() {
   var id_pointer = JSON.parse(localStorage.id_list);
   var name_pointer = JSON.parse(localStorage.name_list);
-  var len = id_pointer.length;
-  for (i = 0; i < len; i++) {
+  var category_list = ["place", "person", "date", "concept", "organization"];
+  for (i = 0; i < id_pointer.length; i++) {
+
     var single_id = id_pointer[i];
     var meta_pointer = "meta_" + single_id.slice(5, single_id.length);
     var meta_author = "";
     var meta_date = "";
     var meta_publisher = "";
-    meta_author = document
-      .getElementById(single_id)
-      .getElementsByClassName("nameAuthor")[0].innerHTML;
-    meta_publisher = document
-      .getElementById(single_id)
-      .getElementsByClassName("publishedBy")[0].innerHTML;
-    meta_date = document
-      .getElementById(single_id)
-      .getElementsByClassName("datePublished")[0].innerHTML;
-    document
-      .getElementById(meta_pointer)
-      .getElementsByClassName("meta_name_author")[0].innerHTML = meta_author;
-    document
-      .getElementById(meta_pointer)
-      .getElementsByClassName("meta_name_publisher")[0].innerHTML =
-      meta_publisher;
-    document
-      .getElementById(meta_pointer)
-      .getElementsByClassName("meta_name_date")[0].innerHTML = meta_date;
-    document
-      .getElementById(meta_pointer)
-      .getElementsByClassName("meta_name_article")[0].innerHTML =
-      name_pointer[i];
+    meta_author = document.getElementById(single_id).getElementsByClassName("nameAuthor")[0].innerHTML;
+    meta_publisher = document.getElementById(single_id).getElementsByClassName("publishedBy")[0].innerHTML;
+    meta_date = document.getElementById(single_id).getElementsByClassName("datePublished")[0].innerHTML;
+    document.getElementById(meta_pointer).getElementsByClassName("meta_name_author")[0].innerHTML = meta_author;
+    document.getElementById(meta_pointer).getElementsByClassName("meta_name_publisher")[0].innerHTML=meta_publisher;
+    document.getElementById(meta_pointer).getElementsByClassName("meta_name_date")[0].innerHTML=meta_date;
+    document.getElementById(meta_pointer).getElementsByClassName("meta_name_article")[0].innerHTML=name_pointer[i]; 
+
+
+    for (l=0;l<category_list.length;l++){
+      var meta_list = [];
+      var meta_specific = "meta_"+ category_list[l] + "_" + single_id.slice(5,single_id.length);
+      var input_list = document.getElementById(single_id).getElementsByClassName(category_list[l]);
+
+        for (c=0;c<input_list.length;c++){
+          meta_list.push(input_list[c].getAttribute("data-label"));
+        }
+        
+        var unique_meta_list = [...new Set(meta_list)];
+        var div_content = document.getElementById(meta_specific).children;
+        
+        for (var t=0;t<div_content.length;t++){
+           if (div_content[t].tagName == 'OL') {
+             div_content[t].innerHTML="";
+            for (m=0;m<unique_meta_list.length;m++){
+             var ol = div_content[t];
+             var li = document.createElement("li");
+             li.innerHTML = unique_meta_list[m];
+             ol.appendChild(li);
+            }
+
+            }
+          }
+      }
   }
 }
 
-function display_specific_metadata(id_pointer, category_list) {
-  var meta_places = [];
-  var meta_people = [];
-  var meta_dates = [];
-  var meta_concepts = [];
-  var meta_organizations = [];
-  for (i = 0; 1, category_list.length; i++) {
-    var meta_pointer =
-      "meta_" + category_list[i] + "_" + id_pointer.slice(5, id_pointer.length);
-    meta_places = document
-      .getElementById(id_pointer)
-      .getElementsByClassName("place");
-    meta_people = document
-      .getElementById(id_pointer)
-      .getElementsByClassName("person");
-    meta_dates = document
-      .getElementById(id_pointer)
-      .getElementsByClassName("date");
-    meta_concepts = document
-      .getElementById(id_pointer)
-      .getElementsByClassName("concept");
-    meta_organizations = document
-      .getElementById(id_pointer)
-      .getElementsByClassName("organization");
-  }
-}*/
+
