@@ -304,8 +304,6 @@ function hover(event, id) {
 
   var target = str(event.target);
 
-  console.log(id);
-
   if (event.type == "mouseenter") {
     switch (target) {
       case "future":
@@ -347,19 +345,30 @@ function hover(event, id) {
 var currStyle;
 
 function styleSwitch(id) {
-  // Select your element using indexing.
   var theme = document.getElementsByTagName("link")[1];
-  console.log(theme);
   var new_style = id + ".css";
   theme.setAttribute("href", new_style);
   var myPara = document.getElementById("hr_lens");
   var set = myPara.style.marginRight;
-  console.log(set);
+
   if (id == "no_style") {
     theme.setAttribute("href", "#");
   }
   currStyle = set;
+  localStorage.setItem('style', theme.outerHTML);
 }
+
+function fromStyle() {
+  var ciao = localStorage.getItem('style');
+  console.log(ciao);
+  if (ciao !== '<link rel="stylesheet" type="text/css" href="#">'){
+    document.getElementsByTagName("link")[1].outerHTML = localStorage.style;
+  } else {
+    localStorage.removeItem('style');
+  }
+
+}
+/*
 
 function display_basic_metadata() {
   var id_pointer = JSON.parse(localStorage.id_list);
@@ -422,4 +431,4 @@ function display_specific_metadata(id_pointer, category_list) {
       .getElementById(id_pointer)
       .getElementsByClassName("organization");
   }
-}
+}*/
