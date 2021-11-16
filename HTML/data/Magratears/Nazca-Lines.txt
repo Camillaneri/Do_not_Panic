@@ -3,7 +3,7 @@
                                 <hr class="author expand">
                                 <div class="expand">
                                     <p class="captionArticle smallChar distant">6 mins reading</p>
-                                    <p class="byline red distant"><span id="P1" class="mention person" about="SarahGilbert" data-label="Sarah Gilbert">Sarah Gilbert</span> | <span id="D1" class="mention date" about="2014" data-label="January 2014"> 30 January 2014</span></p>
+                                    <p class="byline red distant"><span id="P1" class="mention person" about="SarahGilbert" data-label="Sarah Gilbert"><span class="nameAuthor">Sarah Gilbert</span></span> | <span id="D1" class="mention date" about="2014" data-label="January 2014"> 30 January 2014</span></p>
                                     <h1 class="left grey" data-src="https://www.wanderlust.co.uk/content/exploring-the-nazca-lines-peru/"><span id="L1" class="mention place" about="NazcaLines" data-label="Nazca Lines" data-wikidata-id="Q2620036">Nazca lines</span>: The <span id="C1" class="mention concept" about="agents" data-label="Alien">aliens</span> have landed</h1>
                                 </div>
 
@@ -79,4 +79,7 @@
 
                                 <p class="italic">The author travelled with <span class="credit"><span id="O3" class="mention organization" about="RainbowTours" data-label="Rainbow Tours">Rainbow Tours</span>, which offers tailormade itineraries and small-group tours to <span id="L31" class="mention place" about="Peru" data-label="Peru" data-wikidata-id="Q419">Peru</span>. A 12-night Lakes, Nazca Lines, Wilderness & Incas trip, incorporating a stay in Paracas, a flight over the <span id="L32" class="mention place" about="NazcaLines" data-label="Nazca Lines" data-wikidata-id="Q2620036">Nazca lines</span> and a visit to the <span id="L33" class="mention place" about="BallestasIslands" data-label="Ballestas Islands" data-wikidata-id="Q2749240">Ballestas Islands</span>, as well as <span id="L34" class="mention place" about="Lima" data-label="Lima" data-wikidata-id="Q2868">Lima</span>, <span id="L35" class="mention place" about="MachuPicchu" data-label="Machu Picchu" data-wikidata-id="Q676203">Machu Picchu</span>, <span id="L36" class="mention place" about="Cusco" data-label="Cusco" data-wikidata-id="Q205057">Cusco</span>,  <span id="L37" class="mention place" about="Titicaca" data-label="Tititaca" data-wikidata-id="Q35342">the Sacred Valley and Lake Titicaca</span>, costs from £3,955pp, including international and domestic flights, transfers, excursions and B&B accommodation.</p>
 
+                                <br>
+
+                                <p>Published by <span class="publishedBy">Wanderlust</span></p> 
 </article>

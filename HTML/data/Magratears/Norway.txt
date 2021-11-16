@@ -5,6 +5,7 @@
                                 <br>
                                 <hr>
                                 <div class="datePublished smallChar"><span id="D1" class="mention date" about="2021" data-label="August 2021">30 August 2021 • 5:00am</span></div>
+                                <div> <span class="nameAuthor">Anonymous author</span></div>
                                 <hr>
                                 <hr>
 
@@ -78,4 +79,8 @@
                                 <p class="byline"><span id="P21" class="mention person" about="SarahMarshall" data-label="Sarah Marshall">Sarah Marshall</span> travelled as a guest of <span class="credit"><span id="O3" class="mention organization" about="OriginalTravel" data-label="Original Travel">Original Travel</span></span> (020 3582 4990; originaltravel.co.uk), which has a five-day Reconnect in <span id="L36" class="mention place" about="Norway" data-label="Norway" data-wikidata-id="Q20">Norway</span> itinerary from £1,925pp, based on two sharing. The price includes four nights’ B&B, return flights, transfers and all activities. For more information, see <span class="credit"><span id="O4" class="mention organization" about="trondelag.com" data-label="trondelag.com">trondelag.com</span></span> </p>
 
                                 <p class="italic">Overseas travel is currently subject to restrictions.</p>
+
+                                <hr>
+
+                                <p>Published by <span class="publishedBy">The Telegraph</span></p> 
  </article>
