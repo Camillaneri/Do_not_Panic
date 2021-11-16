@@ -126,21 +126,20 @@ function from_issue(adviser) {
   document.getElementById("article_3_source").href = sources[2];
 
   if (name_article == "") {
-    document.getElementById("article_1").click();
-    document.getElementById("article_2").click();
+    if (adviser == "stay") {
+      getCheckedBoxes("Article");
+    }else {
+    document.getElementById("article_1").checked = true;
+    document.getElementById("article_2").checked = true;
     document.getElementById("article_3").click();
-  } else {
+  }
+}else {
     for (c = 0; c < 3; c++) {
       if (articles[c] == name_article) {
         var article_pointer = "article_" + (c + 1);
         document.getElementById(article_pointer).click();
       }
     }
-  }
-  if (adviser == "stay") {
-    document.getElementById("article_1").click();
-    document.getElementById("article_2").click();
-    document.getElementById("article_3").click();
   }
 }
 
