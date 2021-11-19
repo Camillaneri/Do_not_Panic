@@ -330,17 +330,13 @@ function hover(event, id) {
         break;
     }
   } else if (event.type == "mouseleave") {
+    myPara.style.marginRight = "0%";
     switch (target) {
-      case "no_style":
-        myPara.style.marginRight = "0%";
-        break;
       default:
         myPara.style.marginRight = currStyle;
         break;
     }
-  } else {
-    myPara.style.marginRight = "0%";
-  }
+  } 
 }
 
 var currStyle;
@@ -367,7 +363,6 @@ function fromStyle() {
   } else {
     localStorage.removeItem('style');
   }
-
 }
 
 
