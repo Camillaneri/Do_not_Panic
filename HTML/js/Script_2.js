@@ -360,22 +360,22 @@ function styleSwitch(id) {
 
   switch (id) {
     case "future":
-      
+      world.setAttribute("src", "img/80ssmall.gif");
       break;
     case "Y2000s":
-      
+      world.setAttribute("src", "img/matrixsmall.gif");
       break;
     case "Y80s":
       world.setAttribute("src", "img/80ssmall.gif");
       break;
     case "Y40s":
-  
+      world.setAttribute("src", "img/futuristsmall.gif");
       break;
     case "Y1800s":
-   
+      world.setAttribute("src", "img/victoriansmall.gif");
       break;
     case "Y300s":
-
+      world.setAttribute("src", "img/medioevosmall.gif");
       break;
     case "no_style":
       world.setAttribute("src", "img/200w.gif");
