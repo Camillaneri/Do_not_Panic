@@ -104,12 +104,12 @@ document.addEventListener("click", closeAllSelect);
 
 function issue_selected(issue_id, name_article) {
   var style = localStorage.style;
+  alert (style);
   localStorage.clear();
   if (name_article != "stay") {
     var newWin = window.open("articles_viewer.html", "_self");
     readIssues(issue_id, name_article);
     localStorage.setItem("style", style);
-    console.log(localStorage.style.outerHTML);
   } else {
     readIssues(issue_id, "stay");
   }
@@ -387,15 +387,13 @@ function styleSwitch(id) {
 }
 
 function fromStyle() {
-  var ciao = localStorage.getItem('style');
-  var link = document.getElementsByTagName("link")[1].outerHTML;
-  if (ciao){
-    if (ciao !== '<link rel="stylesheet" type="text/css" href="#">'){
-      link = localStorage.style;
+  var cur_style = localStorage.getItem('style');
+  var link = document.getElementsByTagName("link")[1];
+  if (cur_style){
+    if (cur_style !== '<link rel="stylesheet" type="text/css" href="#">'){
+      link.outerHTML = cur_style;
     } else {
-      localStorage.removeItem('style');
       link = '<link rel="stylesheet" type="text/css" href="#">';
-      localStorage.setItem("style", link);
     }
   }
   
