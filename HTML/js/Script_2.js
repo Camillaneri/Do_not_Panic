@@ -109,6 +109,7 @@ function issue_selected(issue_id, name_article) {
     var newWin = window.open("articles_viewer.html", "_self");
     readIssues(issue_id, name_article);
     localStorage.setItem("style", style);
+    console.log(localStorage.style.outerHTML);
   } else {
     readIssues(issue_id, "stay");
   }
@@ -387,14 +388,14 @@ function styleSwitch(id) {
 
 function fromStyle() {
   var ciao = localStorage.getItem('style');
-  var link = document.getElementsByTagName("link")[1];
-  console.log(link);
+  var link = document.getElementsByTagName("link")[1].outerHTML;
   if (ciao){
     if (ciao !== '<link rel="stylesheet" type="text/css" href="#">'){
-      link.outerHTML = localStorage.style;
+      link = localStorage.style;
     } else {
       localStorage.removeItem('style');
-      link.outerHTML = '<link rel="stylesheet" type="text/css" href="#">';
+      link = '<link rel="stylesheet" type="text/css" href="#">';
+      localStorage.setItem("style", link);
     }
   }
   
