@@ -19,7 +19,7 @@
     <script type="text/javascript" src="js/Script_2.js"></script>
     <script type="text/javascript" src="js/issues.json"></script>
   </head>
-  <body>
+  <body onload="fromStyle()" >
     <div id="allert">
       <div class="allert_box">
         <div class="allert_content">
@@ -56,7 +56,7 @@
 
           <div class="team_box left">
             <h1>Our team:</h1>
-            <div id="Camilla" class="person">
+            <div id="Camilla" class="person_team">
               <div class="empty"></div>
 
               <div class="team_text">
@@ -74,7 +74,7 @@
                 </p>
               </div>
             </div>
-            <div id="Giorgia" class="person">
+            <div id="Giorgia" class="person_team">
               <div class="empty"></div>
 
               <div class="team_text">
@@ -92,7 +92,7 @@
                 </p>
               </div>
             </div>
-            <div id="Giulia" class="person">
+            <div id="Giulia" class="person_team">
               <div class="empty"></div>
 
               <div class="team_text">
@@ -489,7 +489,7 @@
     </div>
     <div class="info_box">
       <a class="world right" href="#allert">
-        <img src="img/200w.gif" width="100%" height="auto" />
+        <img id="gif" src="img/200w.gif" width="100%" height="auto" />
       </a>
     </div>
 
