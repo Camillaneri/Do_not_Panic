@@ -103,16 +103,19 @@ then close all select boxes: */
 document.addEventListener("click", closeAllSelect);
 
 function issue_selected(issue_id, name_article) {
+  var style = localStorage.style;
   localStorage.clear();
   if (name_article != "stay") {
     var newWin = window.open("articles_viewer.html", "_self");
     readIssues(issue_id, name_article);
+    localStorage.setItem("style", style);
   } else {
     readIssues(issue_id, "stay");
   }
 }
 
 function from_issue(adviser) {
+  fromStyle();
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
   var sources = JSON.parse(localStorage.sources);
@@ -305,8 +308,6 @@ function hover(event, id) {
 
   var target = str(event.target);
 
-  console.log(id);
-
   if (event.type == "mouseenter") {
     switch (target) {
       case "future":
@@ -332,35 +333,73 @@ function hover(event, id) {
         break;
     }
   } else if (event.type == "mouseleave") {
+    myPara.style.marginRight = "0%";
     switch (target) {
-      case "no_style":
-        myPara.style.marginRight = "0%";
-        break;
       default:
         myPara.style.marginRight = currStyle;
         break;
     }
-  } else {
-    myPara.style.marginRight = "0%";
-  }
+  } 
 }
 
 var currStyle;
 
 function styleSwitch(id) {
-  // Select your element using indexing.
   var theme = document.getElementsByTagName("link")[1];
   console.log(theme);
   var new_style = id + ".css";
   theme.setAttribute("href", new_style);
   var myPara = document.getElementById("hr_lens");
   var set = myPara.style.marginRight;
-  console.log(set);
+  var world = document.getElementById("gif");
+
   if (id == "no_style") {
     theme.setAttribute("href", "#");
   }
   currStyle = set;
+
+  switch (id) {
+    case "future":
+      world.setAttribute("src", "img/80ssmall.gif");
+      break;
+    case "Y2000s":
+      world.setAttribute("src", "img/matrixsmall.gif");
+      break;
+    case "Y80s":
+      world.setAttribute("src", "img/80ssmall.gif");
+      break;
+    case "Y40s":
+      world.setAttribute("src", "img/futuristsmall.gif");
+      break;
+    case "Y1800s":
+      world.setAttribute("src", "img/victoriansmall.gif");
+      break;
+    case "Y300s":
+      world.setAttribute("src", "img/medioevosmall.gif");
+      break;
+    case "no_style":
+      world.setAttribute("src", "img/200w.gif");
+      break;
+  }
+
+  localStorage.setItem('style', theme.outerHTML);
 }
+
+function fromStyle() {
+  var ciao = localStorage.getItem('style');
+  var link = document.getElementsByTagName("link")[1];
+  console.log(link);
+  if (ciao){
+    if (ciao !== '<link rel="stylesheet" type="text/css" href="#">'){
+      link.outerHTML = localStorage.style;
+    } else {
+      localStorage.removeItem('style');
+      link.outerHTML = '<link rel="stylesheet" type="text/css" href="#">';
+    }
+  }
+  
+}
+
 
 function display_basic_metadata() {
   var id_pointer = JSON.parse(localStorage.id_list);

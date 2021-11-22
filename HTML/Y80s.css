@@ -27,7 +27,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, button, label {font-family: 'omnibold', cursive !important; color: white; text-transform: uppercase;} 
-p, a, ul, li, figcaption  {font-family: 'verdanaregular', sans-serif !important; color: white;}
+p, a, ul, li, figcaption  {font-family: 'verdanaregular', sans-serif !important; color: white; font-size: 0.9em;}
+
 
 .logo_big {
   font-size: 110%;
@@ -46,6 +47,9 @@ p, a, ul, li, figcaption  {font-family: 'verdanaregular', sans-serif !important;
   background-color: rgb(16 44 65);
 }
 
+.hr_lens{
+  margin-right: 58%;
+  }
 
 
 

@@ -17,10 +17,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/Script.js"></script>
 <script type="text/javascript" src="js/Script_2.js"></script>
-<script type="text/javascript" src="data.json"></script>
+<script type="text/javascript" src="js/issues.json"></script>
 
-</head>
-<body onload="styleSwitch(this.id)">
+</head></html>
+<body onload="fromStyle()">
 	
 	<div id="allert">
 		<div class="allert_box">
@@ -58,7 +58,7 @@
 			
 			<div class="team_box left">
 				<h1>Our team:</h1>
-				<div id="Camilla" class="person">
+				<div id="Camilla" class="person_team">
 					<div class="empty"></div>
 					
 					<div class="team_text">
@@ -70,7 +70,7 @@
 						<p class=" team_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 					</div>
 				</div>
-				<div id="Giorgia" class="person">
+				<div id="Giorgia" class="person_team">
 					<div class="empty"></div>
 					
 					<div class="team_text">
@@ -82,7 +82,7 @@
 						<p class=" team_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 					</div>
 				</div>
-				<div id="Giulia" class="person">
+				<div id="Giulia" class="person_team">
 					<div class="empty"></div>
 					
 					<div class="team_text">
@@ -166,7 +166,7 @@
 				  onmouseenter="hover(event)"
 				  onmouseleave="hover(event)"
 				>
-				  <a href="#">
+				  
 					<svg
 					  xmlns="http://www.w3.org/2000/svg"
 					  x="0px"
@@ -200,7 +200,7 @@
 						</g>
 					  </g>
 					</svg>
-				  </a>
+				  
 				</li>
 				<li
 				  id="Y2000s"
@@ -208,7 +208,7 @@
 				  onmouseenter="hover(event)"
 				  onmouseleave="hover(event)"
 				>
-				  <a href="#">
+				  
 					<svg
 					  xmlns="http://www.w3.org/2000/svg"
 					  x="0px"
@@ -242,7 +242,7 @@
 						</g>
 					  </g>
 					</svg>
-				  </a>
+				  
 				</li>
 				<li
 				  id="Y80s"
@@ -250,7 +250,7 @@
 				  onmouseenter="hover(event)"
 				  onmouseleave="hover(event)"
 				>
-				  <a href="#">
+				  
 					<svg
 					  xmlns="http://www.w3.org/2000/svg"
 					  x="0px"
@@ -284,7 +284,7 @@
 						</g>
 					  </g>
 					</svg>
-				  </a>
+				  
 				</li>
 				<li
 				  id="Y40s"
@@ -292,7 +292,7 @@
 				  onmouseenter="hover(event)"
 				  onmouseleave="hover(event)"
 				>
-				  <a href="#">
+				  
 					<svg
 					  xmlns="http://www.w3.org/2000/svg"
 					  x="0px"
@@ -326,7 +326,7 @@
 						</g>
 					  </g>
 					</svg>
-				  </a>
+			   
 				</li>
 				<li
 				  id="Y1800s"
@@ -334,7 +334,7 @@
 				  onmouseenter="hover(event)"
 				  onmouseleave="hover(event)"
 				>
-				  <a href="#">
+				  
 					<svg
 					  xmlns="http://www.w3.org/2000/svg"
 					  x="0px"
@@ -368,7 +368,7 @@
 						</g>
 					  </g>
 					</svg>
-				  </a>
+		  
 				</li>
 				<li
 				  id="Y300s"
@@ -376,7 +376,7 @@
 				  onmouseenter="hover(event)"
 				  onmouseleave="hover(event)"
 				>
-				  <a href="#">
+				  
 					<svg
 					  xmlns="http://www.w3.org/2000/svg"
 					  x="0px"
@@ -410,7 +410,7 @@
 						</g>
 					  </g>
 					</svg>
-				  </a>
+				
 				</li>
 				<li
 				  id="no_style"
@@ -418,7 +418,7 @@
 				  onmouseenter="hover(event)"
 				  onmouseleave="hover(event)"
 				>
-				  <a href="#">
+				  
 					<svg
 					  xmlns="http://www.w3.org/2000/svg"
 					  x="0px"
@@ -452,12 +452,12 @@
 						</g>
 					  </g>
 					</svg>
-				  </a>
+				  
 				</li>
 			  </ul>
 			  <div id="hr_lens"></div>
 			</div>
-		</div>
+		  </div>
 	</div>
 
 	<div class="info_box">
