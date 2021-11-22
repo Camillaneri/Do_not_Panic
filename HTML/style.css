@@ -1653,7 +1653,7 @@ ol::-webkit-scrollbar {
   
 }
 
-@media only screen and (min-width: 1536px), (min-height: 864px){
+@media only screen and (max-width: 1536px) and (max-height: 864px){
   .scrolling_content{
   left: 18%;
   }
