@@ -104,7 +104,6 @@ document.addEventListener("click", closeAllSelect);
 
 function issue_selected(issue_id, name_article) {
   var style = localStorage.style;
-  alert (style);
   localStorage.clear();
   if (name_article != "stay") {
     var newWin = window.open("articles_viewer.html", "_self");
