@@ -1653,6 +1653,13 @@ ol::-webkit-scrollbar {
   
 }
 
+@media only screen and (min-width: 1536px), (min-height: 864px){
+  .scrolling_content{
+  left: 18%;
+  }
+}
+
+
 
 
 
