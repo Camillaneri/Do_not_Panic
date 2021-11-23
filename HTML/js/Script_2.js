@@ -475,7 +475,7 @@ function display_basic_metadata() {
                   dd.innerHTML=couple_list[z];
                   dt.appendChild(dd);
                   dd.addEventListener("click", function() {
-                    content_list = document.getElementById(single_id).querySelectorAll('[data-label="'+ dd.innerHTML +'"]');
+                    recall_metadata(dd.innerHTML);
                  });
                   z++;
                 }
@@ -489,7 +489,7 @@ function display_basic_metadata() {
              li.innerHTML = unique_meta_list[m];
              ol.appendChild(li);
              li.addEventListener("click", function() {
-               content_list = document.getElementById(single_id).querySelectorAll('[data-label="'+ li.innerHTML +'"]');
+               recall_metadata(li.innerHTML);
            });
             }
             }
@@ -499,4 +499,6 @@ function display_basic_metadata() {
   }
 }
 
-
+function recall_metadata(id){
+  
+}
