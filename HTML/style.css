@@ -1326,6 +1326,7 @@ article {
   display: block !important;
   margin-bottom: 3%;
   height: 100%;
+  width: 30em;
 }
 
 .namePhoto{
@@ -1380,8 +1381,12 @@ article {
   width: 25% !important;
 }
 
+.close{
+  margin-bottom: -0.5em !important; 
+}
+
 .captionPhoto{
-  max-width: 22em;
+  max-width: 50em;
 }
 
 .midSmall{

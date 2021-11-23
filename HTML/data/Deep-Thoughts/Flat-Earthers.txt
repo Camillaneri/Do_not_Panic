@@ -9,7 +9,7 @@
 
 <figure class="center">
 	<img class="expand left" src="img/Deep_Thoughts/Flat_Earth/SA_Cover.jpg" alt="Flat Earthers: What They Believe and Why" />
-	<figcaption class="captionPhoto smallChar">Two-dimensional maps show the <span id="L1" class="mention place" about="Earth" data-label="Earth" data-wikidata-id="Q2">Earth</span> as flat because it is impossible to show the entire surface with a photograph of a single <span id="L2" class="mention place" about="Earth" data-label="Earth" data-wikidata-id="Q2">globe</span>. Credit: <span class="credit"><span id="O1" class="mention organization" about="Getty Images" data-label="Getty Images"><a href="https://www.gettyimages.com/detail/photo/four-antique-globes-high-res-stock-photography/200444568-001?adppopup=true" target="_blank">Getty Images</a></span></span></figcaption>
+	<figcaption class="captionPhoto smallChar left">Two-dimensional maps show the <span id="L1" class="mention place" about="Earth" data-label="Earth" data-wikidata-id="Q2">Earth</span> as flat because it is impossible to show the entire surface with a photograph of a single <span id="L2" class="mention place" about="Earth" data-label="Earth" data-wikidata-id="Q2">globe</span>. Credit: <span class="credit"><span id="O1" class="mention organization" about="Getty Images" data-label="Getty Images"><a href="https://www.gettyimages.com/detail/photo/four-antique-globes-high-res-stock-photography/200444568-001?adppopup=true" target="_blank">Getty Images</a></span></span></figcaption>
 </figure>
 <div class="clear"></div>
 
