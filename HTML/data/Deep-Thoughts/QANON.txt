@@ -1,12 +1,12 @@
 <article>
 
-<h1 class="left italic" data-src="https://www.nytimes.com/article/what-is-qanon.html"><span class ="articleTitle">What Is <span id="C1" class="mention concept" about="theories" data-label="QAnon">QAnon</span>, the Viral Pro-<span id="P1" class="mention person" about="DonaldTrump" data-label="Donald Trump">Trump</span> <span id="C2" class="mention concept" about="theories" data-label="Conspiracy Theory">Conspiracy Theory</span>?</span></h1>
+<h1 class="italic" data-src="https://www.nytimes.com/article/what-is-qanon.html"><span class ="articleTitle">What Is <span id="C1" class="mention concept" about="theories" data-label="QAnon">QAnon</span>, the Viral Pro-<span id="P1" class="mention person" about="DonaldTrump" data-label="Donald Trump">Trump</span> <span id="C2" class="mention concept" about="theories" data-label="Conspiracy Theory">Conspiracy Theory</span>?</span></h1>
 <p class="subtitle"><span id="C3" class="mention concept" about="means" data-label="Inquiry">Explaining</span> the “<span id="C4" class="mention concept" about="theories" data-label="QAnon">big tent conspiracy theory</span>” that falsely claims that <span id="C5" class="mention concept" about="ideas" data-label="Belief">former <span id="P2" class="mention person" about="DonaldTrump" data-label="Donald Trump">President Trump</span> is facing down a shadowy cabal of Democratic pedophiles</span>.</p>
 
 <hr class="distant grey">
 
 <figure class="center">
-    <img src="QANON_Cover.jpg" alt="Signs referring to the QAnon conspiracy theory — with a Q —  appeared at rallies for President Donald J. Trump" />
+    <img class="expand left" src="img/Deep_Thoughts/QANON/QANON_Cover.jpg" alt="Signs referring to the QAnon conspiracy theory — with a Q —  appeared at rallies for President Donald J. Trump" />
     <figcaption class="caption thin left follow">
     Signs referring to the <span id="C6" class="mention concept" about="theories" data-label="QAnon">QAnon conspiracy theory</span> — with a Q —  appeared at <span id="C7" class="mention concept" about="means" data-label="Social">rallies</span> for <span id="P3" class="mention person" about="DonaldTrump" data-label="Donald Trump">President Donald J. Trump</span>.
     <span class="namePhoto smallChar follow">
@@ -14,10 +14,11 @@
     </span>
     </figcaption>
 </figure>
+<div class="clear"></div>
 
 <div class="author">
 <a href="https://www.nytimes.com/by/kevin-roose">  
-    <img class="small follow distant" src="QANON_Author.jpg" alt="Kevin Roose" />
+    <img class="small follow distant" src="img/Deep_Thoughts/QANON/QANON_Author.jpg" alt="Kevin Roose" />
     <p class="centered byline">By <span id="P5" class="mention person" about="KevinRoose" data-label="Kevin Roose"><span class = "nameAuthor">Kevin Roose</span></span></p>
 </a>
 </div>
@@ -62,11 +63,12 @@
 <h2 class="distant">Why is it called ‘<span id="C74" class="mention concept" about="facts" data-label="Event">“The Storm”</span>’?</h2>
 
 <figure class="center close">
-    <img src="QANON_1.jpg" alt="Mr. Trump made a remark with senior military leaders in 2017 that QAnon believers have pointed to as proof of his plan to break up a cabal" />
+    <img class="expand left" src="img/Deep_Thoughts/QANON/QANON_1.jpg" alt="Mr. Trump made a remark with senior military leaders in 2017 that QAnon believers have pointed to as proof of his plan to break up a cabal" />
     <figcaption class="caption thin left follow"> <span> <span id="P24" class="mention person" about="DonaldTrump" data-label="Donald Trump">Mr. Trump</span> made a <span id="C75" class="mention concept" about="means" data-label="Political Act">remark with senior military leaders</span> in <span id="D9" class="mention date" about="2017" data-label="2017">2017</span> that <span id="C76" class="mention concept" about="positions" data-label="Believer">QAnon believers</span> have pointed to as <span id="C77" class="mention concept" about="ideas" data-label="Belief">proof of his plan to break up a cabal</span></span>
     <span class="namePhoto follow">Pool photo by <span id="P25" class="mention person" about="AndrewHarrer" data-label="Andrew Harrer">Andrew Harrer</span></span>
   </figcaption>
 </figure>
+<div class="clear"></div>
 
 
 <p class="left">It’s a reference to a cryptic remark <span id="P26" class="mention person" about="DonaldTrump" data-label="Donald Trump">Mr. Trump</span> made during an <span id="D10" class="mention date" about="2017" data-label="October 2017">October 2017</span> photo op. Posing alongside military generals, <span id="P27" class="mention person" about="DonaldTrump" data-label="Donald Trump">Mr. Trump</span> said, “<span id="C78" class="mention concept" about="means" data-label="Political Act">You guys know what this represents? Maybe it’s the calm before the storm</span>.”</p>
