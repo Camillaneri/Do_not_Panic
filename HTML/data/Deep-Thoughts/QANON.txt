@@ -22,7 +22,7 @@
 </a>
 </div>
 
-<p><span id="D1" class="mention date" about="2021" data-label="2021"><span class="datePublished">Spet. 3, 2021</span></span>
+<p><span id="D1" class="mention date" about="2021" data-label="2021"><span class="datePublished">Sept. 3, 2021</span></span>
 </p>
 
 <p class="distant">By now, you’ve probably heard of <span id="C8" class="mention concept" about="theories" data-label="QAnon">QAnon</span>, the internet <span id="C9" class="mention concept" about="theories" data-label="Conspiracy Theory">conspiracy theory</span> that has <span id="C10" class="mention concept" about="means" data-label="Conversion">taken hold</span> among many on the <span id="C11" class="mention concept" about="ideas" data-label="Political Idea">American right</span>.</p>

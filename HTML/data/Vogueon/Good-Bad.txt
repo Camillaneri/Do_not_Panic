@@ -82,7 +82,9 @@
 
 		<p>For all its potential to insult, “<span id="C135" class="mention concept" about="ArtworkAppreciation" data-label="Ironic">good bad</span>” is the most noncommittal, the most passive-aggressive of aesthetic categories: a means for critical equivocation. And perhaps equivocation is an appropriate response to a literary form whose complexities and ever-evolving styles can render it difficult to judge—a form that itself often suggests contradictory ideas in elliptical language. <span id="C136" class="mention concept" about="ArtworkAppreciation" data-label="Discourse">Sometimes, even, it argues for its own quality</span>—<span id="C137" class="mention concept" about="ArtworkAppreciation" data-label="Discourse">good or bad</span>—while <span id="C138" class="mention concept" about="ArtworkAppreciation" data-label="Uncertain">it nauseates one reader, and sets another dreaming of cheese plates</span>.</p>
 
-		<p>Originally Published: December 8th, 2009</p>
+		<p>Originally Published: <span class = "datePublished">December 8th, 2009</span></p>
+
+		<p>Published by <span class="publishedBy">NON LO SO</span></p> 
 		
 	</body>
 </html>

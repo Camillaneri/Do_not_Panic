@@ -115,7 +115,6 @@ function issue_selected(issue_id, name_article) {
 }
 
 function from_issue(adviser) {
-  fromStyle();
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
   var sources = JSON.parse(localStorage.sources);
@@ -346,7 +345,6 @@ var currStyle;
 
 function styleSwitch(id) {
   var theme = document.getElementsByTagName("link")[1];
-  console.log(theme);
   var new_style = id + ".css";
   theme.setAttribute("href", new_style);
   var myPara = document.getElementById("hr_lens");
@@ -498,5 +496,3 @@ function display_basic_metadata() {
       }
   }
 }
-
-
