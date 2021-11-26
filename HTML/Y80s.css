@@ -1,11 +1,12 @@
 body {
-	background: radial-gradient(circle at bottom, rgb(241, 200, 156) 0, rgb(71, 140, 103) 40%, rgb(11, 59, 65) 60%, rgb(18, 51,53) 70%, rgb(2, 12, 4) 100%);
+  background:  linear-gradient(180deg, rgba(1,1,0,1) 0%, rgba(31,48,21,1) 25%, rgba(208,109,25,1) 45%, rgba(208,109,25,1) 85%, rgba(230,207,184,1) 100%);
   background-repeat: no-repeat;
   align-self: center;
   height: 100vh;
   overflow: hidden;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 
 @font-face {
   font-family: 'omnibold';
@@ -26,12 +27,15 @@ body {
 
 }
 
+hr{border: none; border-top: 0.3em white solid;}
+
 h1, h2, h3, h4, h5, h6, button, label {font-family: 'omnibold', cursive !important; color: white; text-transform: uppercase;} 
 p, a, ul, li, figcaption  {font-family: 'verdanaregular', sans-serif !important; color: white; font-size: 0.9em;}
 
+p {text-align: justify;}
 
 .logo_big {
-  font-size: 110%;
+  font-size: 100%;
 }
 
 .up_logo {
@@ -43,21 +47,85 @@ p, a, ul, li, figcaption  {font-family: 'verdanaregular', sans-serif !important;
   font-size: 2.5em;
 }
 
-.cover_content {
-  background-color: rgb(16 44 65);
+.cover_content, .allert_content {
+  border: none !important;
+  background-color: black;
 }
 
-.hr_lens{
+.cover_content img{
+  width: 14%;
+  margin-bottom: 0;
+  margin-right: 1em;
+}
+
+#hr_lens{
   margin-right: 58%;
   }
 
+.cover_logo{
+  float: none;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+}
 
+.cover_text{
+  float: none;
+  border-top: solid white 0.3em;
+  width: 80%;
+  margin: 0 auto;
+  column-count: 2;
+  padding-top: 1em;
+}
 
+.cover_text p {
+  margin-top: 0 !important;
+}
 
+.large_button{
+  width: 100%;
+}
 
+#allert {
+  background-color: rgb(255 206 115 / 22%);
+}
 
+.allert_box {
+  background-origin: padding-box;
+  padding: 2em;
+  border: solid white 0.3em;
+}
 
+.person_team{
+  border-bottom: solid white 0.3em;;
+}
 
+.world{
+  border: solid white 0.2em;;
+}
+
+.lensbox{
+  border: solid white 0.2em;;
+}
+
+.overlay {
+  background-color: rgb(0 0 0 / 70%);
+}
+
+.text_issue button{
+  width: 90%;
+}
+
+.card {
+  border: 0.2em white solid;
+}
+
+.article_box {
+  border-bottom: 0.2em white solid;
+  border-left: 0.2em white solid;
+}
 
 
 

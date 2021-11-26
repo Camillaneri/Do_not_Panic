@@ -23,7 +23,7 @@ header, footer, section, article, figure, aside, video, audio, hgroup, nav{displ
 h1, h2, h3, h4, h5, h6, label {font-family: 'Bebas Neue', cursive !important; color: white;} 
 p, a, ul, li, figcaption  {font-family: 'Roboto', sans-serif !important; color: white;}
 
-hr {border: 0.125em white solid;}
+hr {border: -1em white solid;}
 
 .display{display: block !important;}
 .display_none{display: none;}
@@ -307,7 +307,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(1.2);
   position: absolute;
-  width: fit-content;
+ 
   min-width: 48em;
   height: 22em;
   background: rgba(16,4,67,1);
@@ -350,10 +350,15 @@ body {
   }
 }
 
+.cover_logo{
+  float: left;
+}
+
 
 .cover_text{
   width: 24em;
   margin-left: 3em;
+  float: right;
 }
 
 .cover_text button{
@@ -1381,7 +1386,7 @@ article {
 }
 
 .captionPhoto{
-  max-width: 22em;
+  max-width: 50em;
 }
 
 .midSmall{

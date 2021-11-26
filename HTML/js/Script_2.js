@@ -333,7 +333,6 @@ function hover(event, id) {
         break;
     }
   } else if (event.type == "mouseleave") {
-    myPara.style.marginRight = "0%";
     switch (target) {
       default:
         myPara.style.marginRight = currStyle;
