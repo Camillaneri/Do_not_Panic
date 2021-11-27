@@ -6,8 +6,10 @@
 		<h2 class="subtitle grey medium" >… Maybe. An excerpt from <span id="P2" class="mention person" about="MarkOConnell" data-label="Mark O’Connell">Mark O’Connell</span>’s <span id="C2" class="mention concept" about="LiteraryWork" data-label="Epic Fail">Epic Fail</span>.</h2>
 		<p class="nameAuthor"><span id="P3" class="mention person" about="MrkOConnell" data-label="Mark O’Connell">BY MARK O’CONNELL</span>	<span class="datePublished" id="D1" class="mention date" about="2013" data-label="January 2013">JAN 23, 2013 7:18 AM</span></p>
 		
-		<img src="NOVELIST.jpg" style="max-width: 568px;">
-
+	
+		<figure>
+		<img class="expand left" src="img/Vogueon/Worst-Novelist-Ever/NOVELIST.jpg" style="max-width: 460px;"> <figcaption class="captionPhoto smallChar left"> camille è bella:)</figcaption></figure><div class="clear"> </div>
+		</figure>
 		<p class="smallChar grey">Illustration by Mark Alan Stamaty.</p>
 		<h3 class="midSmall captionArticle">This is an excerpt from <span id="P4" class="mention person" about="MarkOConnell" data-label="Mark O’Connell">Mark O’Connell</span>’s <span id="C3" class="mention concept" about="LiteraryWork" data-label="Epic Fail">Epic Fail</span>, an original e-book published by <span id="O1" class="mention organization" about="TheMillions" data-label="The Millions">The Millions</span>.</h3>
 

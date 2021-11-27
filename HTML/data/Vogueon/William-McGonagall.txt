@@ -7,7 +7,7 @@
 		<p class="nameAuthor midSmall isolate">Journalist</p>
 		
 		<figure>
-		<img src="POET.jpg" style="max-width: 396px;">
+		<img class="expand left" src="img/Vogueon/William-McGonagall/POET.jpg" style="max-width: 460px;"> <figcaption class="captionPhoto smallChar left"> camille è bella:)</figcaption></figure><div class="clear"> </div>
 		</figure>
 		
 		<p class="caption">William <span id="P3" class="mention person" about="WilliamMcGonagall" data-label="William McGonagall">McGonagall</span>: a <span id="C2" class="mention concept" about="Autor" data-label="Recognized">good poet</span>, a <span id="C3" class="mention concept" about="AutorsOfBadLiterature" data-label="Unaware">bad poet</span>, or <span id="C4" class="mention concept" about="AutorApreciation" data-label="Discourse">not a poet at all</span>?</p>
