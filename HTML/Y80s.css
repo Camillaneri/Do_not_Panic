@@ -128,13 +128,57 @@ p {text-align: justify;}
 }
 
 
+.article {
+  border-right: 0.2em black solid;
+}
+
+.metadata {
+  border-bottom: 0.5em black solid;;
+  border-right: 0.2em black solid;
+}
+
+.metadata_menu{
+  background-color: black;
+  border: 0.2em black solid;
+}
+
+
+.custom-select {
+  font-family: 'omnibold', cursive !important;
+  text-transform: uppercase;
+  
+}
 
 
 
+.select-items div, .select-selected {
+  font-family: 'omnibold', cursive !important;
+  text-transform: uppercase;
+  color: white;
+
+  
+}
+/* two class to close!!! NON CANCELLARE*/
 
 
+.text_meta .arrow{
+  border: solid black;
+  border-width: 0 0.3em 0.3em 0;
+}
+
+/* Basic Article Display CSS */
+
+.content_article {
+  background-color: white;
+  border: 0.2em black solid;
+}
 
 
-
-
-
+.one_colum p {
+  color: black !important;
+  font-weight: lighter;
+  margin: 1em 0 !important;
+  column-count: 3;
+  text-align: justify;
+  margin: 0;
+}

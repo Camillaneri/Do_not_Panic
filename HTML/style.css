@@ -400,10 +400,7 @@ body {
 }
 
 .menu .one:hover ~ hr {
-  margin-left: 45%;
-  width: 49%;
   width: 26%;
-  margin-left: 1rem;
 }
 
 .menu .two:hover ~ hr {
@@ -412,9 +409,9 @@ body {
 }
 
 .menu hr{
+  margin-left: 0.8rem;
   height: .25rem;
   width: 26%;
-  margin-left: 1rem;
   background: white;
   border: none;
   transition: .3s ease-in-out;
@@ -582,7 +579,7 @@ margin-right: 0%;
     position: absolute;
     z-index: 5;
     right: 5%;
-    bottom: 5%;
+    bottom: 5.1%;
 }
 
 .world {

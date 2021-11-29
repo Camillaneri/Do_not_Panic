@@ -31,13 +31,13 @@
                                 </div>
                                 <br>
 
-                                <hr class=" small left">
+                                <hr class=" small">
                                 <br>
-                                <p class="datePublished left ">PUBLISHED <span id="D1" class="mention date" about="2017" data-label="October 2017">OCTOBER 26, 2017</span>• 13 MIN READ</p>
+                                <p class="datePublished ">PUBLISHED <span id="D1" class="mention date" about="2017" data-label="October 2017">OCTOBER 26, 2017</span>• 13 MIN READ</p>
 
                                 <br>
 
-                                <p class="left"><span id="L2" class="mention place" about="Earth" data-label="Earth" data-wikidata-id="Q2">Planet Earth</span> is home to some <span id="C7" class="mention concept" about="characteristics" data-label="Amazement">spectacular relics from bygone eras</span>, constructions that seem to <span id="C8" class="mention concept" about="characteristics" data-label="Amazement">defy the technological capabilities of their time either because they’re too big, too heavy, or too complex</span>.</p>
+                                <p><span id="L2" class="mention place" about="Earth" data-label="Earth" data-wikidata-id="Q2">Planet Earth</span> is home to some <span id="C7" class="mention concept" about="characteristics" data-label="Amazement">spectacular relics from bygone eras</span>, constructions that seem to <span id="C8" class="mention concept" about="characteristics" data-label="Amazement">defy the technological capabilities of their time either because they’re too big, too heavy, or too complex</span>.</p>
 
                                 <p>As such, some suggest the <span id="C9" class="mention concept" about="stories" data-label="Alien Help"><span id="C10" class="mention concept" about="agents" data-label="Constructor">ancient builders</span> of the <span id="L3" class="mention place" about="Pyramids" data-label="Pyramids" data-wikidata-id="Q175582">Egyptian pyramids</span>, the <span id="L4" class="mention place" about="NazcaLines" data-label="Nazca Lines" data-wikidata-id="Q2620036">Nasca lines</span>, and others were following an extraterrestrial instruction manual</span>. Perhaps the <span id="C11" class="mention concept" about="agents" data-label="Alien">hands that <span id="C12" class="mention concept" about="tools" data-label="Craft">crafted these sites</span> weren’t really of this world</span>.</p>
 

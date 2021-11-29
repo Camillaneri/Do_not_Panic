@@ -317,7 +317,7 @@ function hover(event, id) {
         myPara.style.marginRight = "71.5%";
         break;
       case "Y80s":
-        myPara.style.marginRight = "58%";
+        myPara.style.marginRight = "57.8%";
         break;
       case "Y40s":
         myPara.style.marginRight = "43.5%";
