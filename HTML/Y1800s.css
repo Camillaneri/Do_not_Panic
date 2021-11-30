@@ -11,14 +11,13 @@ body {
 }
 
 @font-face {
-  font-family: 'beckett';
-  src: url('font/Y80S/Y1800/beckett_-webfont.woff2') format('woff2'),
-       url('font/Y80S/Y1800/beckett_-webfont.woff') format('woff');
+  font-family: 'manuskriptgotisch';
+  src: url('font/Y80S/Y1800/manuskriptgotisch-webfont.woff2') format('woff2'),
+       url('font/Y80S/Y1800/manuskriptgotisch-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
 }
-
 
 @font-face {
   font-family: 'verdanaregular';
@@ -29,16 +28,43 @@ body {
 
 }
 
-h1, h2, h3, h4, h5, h6, button, label {font-family: 'beckett', normal !important; color: white; text-transform: lowercase;} 
+h1, h2, h3, h4, h5, h6, button, label {font-family: 'manuskriptgotisch', normal !important; color: white;} 
 p, a, ul, li, figcaption  {font-family: 'Times New Roman', serif !important; color: white; font-size: 0.9em;}
 
-.h1, h2, h3, h4, h5, h6 ::first-letter{
-  text-transform: uppercase;
+h1{
+  text-transform: lowercase;  
+  font-weight:normal !important;
 }
 
-.logo_big {
-  font-size: 110%;
+h1:first-letter {
+  text-transform: capitalize;
 }
+
+.content_article{
+
+  overflow: hidden;
+    height: 99.4%;
+    width: 76%;
+    background-color: #c5c5c5ba;
+    border: 0.125em white solid;
+}
+.up_logo {
+  margin-block-start: 0.1em;
+}
+ 
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(49, 49, 49, 0.5) ;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+/*
 
 .up_logo {
   font-size: 3.5em;
