@@ -1357,12 +1357,6 @@ article {
   display: inline !important;
 }
 
-.namePhoto{
-  font-size: 1em;
-  font-weight: 500;
-  display: inline;
-}
-
 .nameAuthor{
   color: black;
   font-weight: 700 !important;
@@ -1399,8 +1393,12 @@ article {
  }
 
  .expand{
-  max-width: 39em;
+  max-width: fit-content;
   margin-right: 3em;
+ }
+
+ .one_colum .expand{
+   max-width: 47%;
  }
 
  .distant{

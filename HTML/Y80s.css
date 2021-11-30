@@ -212,6 +212,12 @@ p {text-align: justify;}
   color: black !important;
   font-weight: lighter;
   margin: 1em 0 !important;
+  border-top: 0.2em black solid;
+  padding-top: 1em;
+}
+
+.content_article p:first-child{
+  border-top: none;
 }
 
 .one_colum p {
@@ -222,12 +228,19 @@ p {text-align: justify;}
   
 }
 
+.two_colum p {
+  color: black !important;
+  font-weight: lighter;
+  column-count: 2;
+  text-align: justify;
+  
+}
+
 .content_article hr {
   border: 0.01em black solid !important;
 }
 
 .content_article img{
-  width: 100%;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
