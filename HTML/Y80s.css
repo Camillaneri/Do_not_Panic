@@ -142,6 +142,16 @@ p {text-align: justify;}
   border: 0.2em black solid;
 }
 
+.show_meta_one .meta, .show_meta_two .meta, .show_meta_three .meta{
+  border-bottom: 0.2em black solid;
+}
+
+.show_meta_down .meta{
+
+  border: 0.2em black solid;
+  margin-right: 0.5em;
+  padding-left: 1em;
+}
 
 .custom-select {
   font-family: 'omnibold', cursive !important;
@@ -173,12 +183,63 @@ p {text-align: justify;}
   border: 0.2em black solid;
 }
 
+.content_article h1 {
+  color: black !important;
+  font-weight: lighter;
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.content_article h2 {
+  color: black !important;
+  font-weight: lighter;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.content_article h3 {
+  color: black !important;
+  font-weight: lighter;
+  margin-bottom: 0.5em;
+}
+
+.content_article a {
+  color: black !important;
+  font-weight: lighter;
+}
+
+.content_article p {
+  color: black !important;
+  font-weight: lighter;
+  margin: 1em 0 !important;
+}
 
 .one_colum p {
   color: black !important;
   font-weight: lighter;
-  margin: 1em 0 !important;
   column-count: 3;
   text-align: justify;
-  margin: 0;
+  
+}
+
+.content_article hr {
+  border: 0.01em black solid !important;
+}
+
+.content_article img{
+  width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.content_article figcaption {
+  color: black !important;
+  text-align: left;
+  font-size: 1.125em;
+  margin-bottom: 0.5em;
+  
+}
+
+figcaption p{
+  column-count: unset !important;
 }
