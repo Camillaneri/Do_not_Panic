@@ -6,6 +6,90 @@ body {
   overflow: hidden;
 }
 
+/*title*/
+@font-face {
+  font-family: 'futurismoregular';
+  src: url('font/Y40S/futurismo_regular-webfont.woff2') format('woff2'),
+       url('font/Y40S/futurismo_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*subtitle*/
+ @font-face {
+    font-family: 'preussischeiv44ausgabe3Rg';
+    src: url('font/Y40S/pr_iv_44_ausg3-webfont.woff2') format('woff2'),
+         url('font/Y40S/pr_iv_44_ausg3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*text*/
+@font-face {
+  font-family: 'kirstybold_italic';
+  src: url('font/Y40S/kirsty_bd_it-webfont.woff2') format('woff2'),
+       url('font/Y40S/kirsty_bd_it-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'kirstybold';
+  src: url('font/Y40S/kirsty_bd-webfont.woff2') format('woff2'),
+       url('font/Y40S/kirsty_bd-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'kirstyitalic';
+  src: url('font/Y40S/kirsty_rg_it-webfont.woff2') format('woff2'),
+       url('font/Y40S/kirsty_rg_it-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'kirstyregular';
+  src: url('font/Y40S/kirsty_rg-webfont.woff2') format('woff2'),
+       url('font/Y40S/kirsty_rg-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {font-family: 'futurismoregular' !important; color: rgb(255, 0, 0) !important; text-transform: uppercase;} 
+h2, h3, h4, h5, h6, button, label {font-family: 'preussischeiv44ausgabe3Rg', cursive !important; color:  white; text-transform: uppercase;} 
+p  {font-family: 'kirstyregular', serif !important; color: white; font-size: 0.9em;}
+a, ul, li {font-family: 'kirstybold', sans-serif !important; color: white; font-size: 0.9em;}
+figcaption  {font-family: 'kirstyitalic', serif !important; color: white; font-size: 0.9em;}
+
+
+.logo_big {
+  font-size: 110%;
+}
+
+.up_logo {
+  font-size: 3.5em;
+}
+
+.bottom_logo {
+  margin-top: -14px;
+  font-size: 2.5em;
+}
+
+.cover_content {
+  background-color: rgb(16 44 65);
+}
+
+.hr_lens{
+  margin-right: 58%;
+  }
+
+
+
+
+
+
+
+
 
 
 

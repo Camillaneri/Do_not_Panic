@@ -1328,6 +1328,7 @@ article {
   display: block !important;
   margin-bottom: 3%;
   height: 100%;
+  width: 30em;
 }
 
 .namePhoto{
@@ -1374,6 +1375,10 @@ article {
 
 .small{
   width: 25% !important;
+}
+
+.close{
+  margin-bottom: -0.5em !important; 
 }
 
 .captionPhoto{

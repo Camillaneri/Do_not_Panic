@@ -422,7 +422,6 @@ function display_basic_metadata() {
       var meta_list = [];
       var meta_sub_list = [];
       var couple_list = [];
-      var content_list = [];
       var meta_specific = "meta_"+ category_list[l] + "_" + single_id.slice(5,single_id.length);
       var input_list = document.getElementById(single_id).getElementsByClassName(category_list[l]);
 
@@ -467,15 +466,14 @@ function display_basic_metadata() {
                 var dl = div_content[t];
                 var dt = document.createElement("dt");
                 dt.innerHTML = couple_list[m];
-                dl.appendChild(dt); 
+                dl.appendChild(dt);
+                generate_metadata_calls(dt.innerHTML, meta_specific, "DL", single_id); 
                 var z = m + 1;
                 while ((!(unique_meta_sublist.includes(couple_list[z]))) && z<couple_list.length){
                   var dd = document.createElement("dd");
                   dd.innerHTML=couple_list[z];
                   dt.appendChild(dd);
-                  dd.addEventListener("click", function() {
-                    content_list = document.getElementById(single_id).querySelectorAll('[data-label="'+ dd.innerHTML +'"]');
-                 });
+                  generate_metadata_calls(dd.innerHTML, meta_specific, "DT", single_id);
                   z++;
                 }
               }
@@ -487,9 +485,7 @@ function display_basic_metadata() {
              var li = document.createElement("li");
              li.innerHTML = unique_meta_list[m];
              ol.appendChild(li);
-             li.addEventListener("click", function() {
-               content_list = document.getElementById(single_id).querySelectorAll('[data-label="'+ li.innerHTML +'"]');
-           });
+             generate_metadata_calls(li.innerHTML, meta_specific, "OL", single_id);
             }
             }
             }
@@ -498,4 +494,26 @@ function display_basic_metadata() {
   }
 }
 
+function generate_metadata_calls(text, position, kind, text_id){
+  var section = document.getElementById(position).children;
+  for (var t=0;t<section.length;t++){
+    if (section[t].tagName==kind){
+      var class_list = section[t].children;
+      for (var j=0;j<class_list.length;j++){
+        if (class_list[j].innerHTML==text){
+          class_list[j].addEventListener("click", function(){
+            highlight_metadata(text_id, text);
+          });
+        }
+      }
+    }
+  }
+}
 
+function highlight_metadata(text_id, text){
+  alert (text);
+  var meta_focus_list = document.getElementById(text_id).querySelectorAll('[data-label="'+text+'"]');
+            for (g=0;g<meta_focus_list.length;g++){
+              meta_focus_list[g].classList.add("MetaFocus");
+            }
+}

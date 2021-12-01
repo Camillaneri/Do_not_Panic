@@ -6,29 +6,85 @@ body {
   overflow: hidden;
 }
 
+/*logo*/
+@font-face {
+  font-family: 'matrixmedium';
+  src: url('font/Y2000S/matrix-webfont.woff2') format('woff2'),
+       url('font/Y2000S/matrix-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/*title*/
+@font-face {
+  font-family: 'magazinebold';
+  src: url('font/Y2000S/magazine-bold-webfont.woff2') format('woff2'),
+       url('font/Y2000S/magazine-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*subtitle*/
+@font-face {
+  font-family: 'republica_minoritalic';
+  src: url('font/Y2000S/republica_minor_regular-webfont.woff2') format('woff2'),
+       url('font/Y2000S/republica_minor_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*labels*/
+@font-face {
+  font-family: 'dover_heavyheavy';
+  src: url('font/Y2000S/dover-heavy-webfont.woff2') format('woff2'),
+       url('font/Y2000S/dover-heavy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*text*/
+@font-face {
+  font-family: 'faustinaregular';
+  src: url('font/Y2000S/faustina-regular-webfont.woff2') format('woff2'),
+       url('font/Y2000S/faustina-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'faustinasemibold_italic';
+  src: url('font/Y2000S/faustina-semibolditalic-webfont.woff2') format('woff2'),
+       url('font/Y2000S/faustina-semibolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 
+h1 {font-family: 'magazinebold' !important; color:white !important; text-transform: uppercase;} 
+h2, h3, h4, h5, h6{font-family: 'republica_minoritalic', cursive !important; color:  white; text-transform: uppercase;} 
+p  {font-family: 'faustinaregular', serif !important; color: white; font-size: 0.9em;}
+a, ul, li, button, label  {font-family: 'dover_heavyheavy', sans-serif !important; color: white; font-size: 0.9em;}
+figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: white; font-size: 0.9em;}
 
+.logo_big {
+  font-size: 110%;
+}
 
+.up_logo {
+  font-size: 3.5em;
+}
 
+.bottom_logo {
+  margin-top: -14px;
+  font-size: 2.5em;
+}
 
+.cover_content {
+  background-color: rgb(16 44 65);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hr_lens{
+  margin-right: 58%;
+  }
