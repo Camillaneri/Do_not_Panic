@@ -62,13 +62,21 @@ h1, button:first-letter {
   overflow: hidden;
     height: 99.4%;
     width: 76%;
-    background-color: #c5c5c5ba;
-    border: 0.125em white solid;
+    background-color: #ffffff;
+    border: 0.125em rgb(0, 0, 0) solid;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(90, 90, 90, 0.5);
 }
 .up_logo {
   margin-block-start: 0.1em;
 }
- 
+
+.content_article img{
+  filter:grayscale(100%);
+
+}
+
 .overlay {
   position: absolute;
   bottom: 0;
