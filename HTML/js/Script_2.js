@@ -357,31 +357,43 @@ function styleSwitch(id) {
   }
   currStyle = set;
 
+  var selected = document.getElementsByTagName("svg")[0].outerHTML;
+  console.log(selected)
+
   switch (id) {
     case "future":
       world.setAttribute("src", "img/80ssmall.gif");
+      logo = document.getElementsByTagName("svg")[7].outerHTML;
+      selected = logo;
+      console.log(selected);
       break;
     case "Y2000s":
       world.setAttribute("src", "img/matrixsmall.gif");
+      selected = document.getElementsByTagName("svg")[6];
       break;
     case "Y80s":
       world.setAttribute("src", "img/80ssmall.gif");
+      selected = document.getElementsByTagName("svg")[5];
       break;
     case "Y40s":
       world.setAttribute("src", "img/futuristsmall.gif");
+      selected = document.getElementsByTagName("svg")[4];
       break;
     case "Y1800s":
       world.setAttribute("src", "img/victoriansmall.gif");
+      selected = document.getElementsByTagName("svg")[3];
       break;
     case "Y300s":
       world.setAttribute("src", "img/medioevosmall.gif");
+      selected = document.getElementsByTagName("svg")[2];
       break;
     case "no_style":
       world.setAttribute("src", "img/200w.gif");
+      selected = document.getElementsByTagName("svg")[1];
       break;
   }
 
-  localStorage.setItem('style', theme.outerHTML);
+  localStorage.setItem('style', theme.innerHTML);
 }
 
 function fromStyle() {
