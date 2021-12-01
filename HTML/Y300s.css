@@ -1,5 +1,5 @@
 body {
-	background: radial-gradient(circle at bottom, rgb(197, 25, 189) 0, black 100%);
+	background: radial-gradient(circle at bottom, rgb(180, 165, 142) 0, rgb(155, 132, 111) 100%);
   background-repeat: no-repeat;
   align-self: center;
   height: 100vh;
@@ -7,6 +7,87 @@ body {
 }
 
 
+
+@font-face {
+  font-family: 'manuskriptgotisch';
+  src: url('font/Y80S/Y1800/manuskriptgotisch-webfont.woff2') format('woff2'),
+       url('font/Y80S/Y1800/manuskriptgotisch-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'opulence';
+  src: url('font/Y80S/Y1800/opulence-webfont.woff2') format('woff2'),
+       url('font/Y80S/Y1800/opulence-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'verdanaregular';
+  src: url('font/Y80s/verdana-webfont.woff2') format('woff2'),
+       url('font/Y80s/verdana-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+h1, h2, h3, button {font-family: 'manuskriptgotisch', normal !important; color: white;} 
+h4, h5, h6 {font-family: 'opulence', normal !important; color: white;}
+p, a, ul, li, figcaption, label {font-family: 'Times New Roman', serif !important; color: white; font-size: 0.9em;}
+
+h1, button{
+  text-transform: lowercase;  
+  font-weight:normal !important;
+}
+
+h1, button:first-letter {
+  text-transform: capitalize;
+}
+.article{
+  height: 30%;
+  column-count: 3;
+  column-fill: balance;
+}
+.subtitle{
+  font-family: 'opulence', normal !important;
+}
+
+.content_article{
+
+  overflow: hidden;
+    height: 99.4%;
+    width: 76%;
+    background-color: #c5c5c5ba;
+    border: 0.125em white solid;
+}
+.up_logo {
+  margin-block-start: 0.1em;
+}
+ 
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(49, 49, 49, 0.5) ;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.select-items {
+  position: absolute;
+  background-color: rgba(163, 163, 163, 0.5);
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
 
 
 
