@@ -178,6 +178,14 @@ p {text-align: justify;}
 
 /* Basic Article Display CSS */
 
+.one_colum > .article > .text > article {
+  padding-bottom: 13%;
+}
+
+.three_colum > .article > .text > article {
+  padding-bottom: 33%;
+}
+
 .content_article {
   background-color: white;
   border: 0.2em black solid;
@@ -241,6 +249,7 @@ p {text-align: justify;}
 }
 
 .content_article img{
+  filter: hue-rotate(83deg) blur(0.08em);
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
@@ -250,7 +259,6 @@ p {text-align: justify;}
   text-align: left;
   font-size: 1.125em;
   margin-bottom: 0.5em;
-  
 }
 
 figcaption p{
