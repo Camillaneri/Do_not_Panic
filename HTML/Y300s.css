@@ -1,5 +1,5 @@
 body {
-	background: radial-gradient(circle at bottom, rgb(180, 165, 142) 0, rgb(155, 132, 111) 100%);
+	background: radial-gradient(circle at bottom, rgb(199, 167, 119) 0, rgb(168, 136, 88) 100%);
   background-repeat: no-repeat;
   align-self: center;
   height: 100vh;
@@ -9,50 +9,27 @@ body {
 
 
 @font-face {
-  font-family: 'manuskriptgotisch';
-  src: url('font/Y80S/Y1800/manuskriptgotisch-webfont.woff2') format('woff2'),
-       url('font/Y80S/Y1800/manuskriptgotisch-webfont.woff') format('woff');
+  font-family: 'candlebright';
+  src: url('font/Y80S/Y300s/candlebright_sample-webfont.woff2') format('woff2'),
+       url('font/Y80S/Y300s/candlebright_sample-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'opulence';
-  src: url('font/Y80S/Y1800/opulence-webfont.woff2') format('woff2'),
-       url('font/Y80S/Y1800/opulence-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'verdanaregular';
-  src: url('font/Y80s/verdana-webfont.woff2') format('woff2'),
-       url('font/Y80s/verdana-webfont.woff') format('woff');
+  font-family:'camelot';
+  src: url('font/Y80S/Y300s/camelot-webfont.woff2') format('woff2'),
+       url('font/Y80S/Y3300s/camelot-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
 }
 
-h1, h2, h3, button {font-family: 'manuskriptgotisch', normal !important; color: white;} 
-h4, h5, h6 {font-family: 'opulence', normal !important; color: white;}
-p, a, ul, li, figcaption, label {font-family: 'Times New Roman', serif !important; color: white; font-size: 0.9em;}
+h1, h2, h3, button, h4, h5, h6, p, a, ul, li, figcaption, label {font-family:'candlebright', normal !important; color: white;text-transform: lowercase;} 
+.up_logo:first-letter{text-transform: uppercase; font-family:'camelot', normal !important; color: white; font-weight: normal !important;}
 
-h1, button{
-  text-transform: lowercase;  
-  font-weight:normal !important;
-}
 
-h1, button:first-letter {
-  text-transform: capitalize;
-}
-.article{
-  height: 30%;
-  column-count: 3;
-  column-fill: balance;
-}
-.subtitle{
-  font-family: 'opulence', normal !important;
-}
+
 
 .content_article{
 
@@ -89,6 +66,19 @@ h1, button:first-letter {
   -webkit-transition: all 0.5s ease-in-out;
 }
 
+.cover_content{
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.2);
+  position: absolute;
+  width: fit-content;
+  min-width: 48em;
+  height: 22em;
+  background: rgb(59, 17, 17);
+  border:  0.125em white solid;
+  padding: 3%;
+}
 
 
 

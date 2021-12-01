@@ -49,8 +49,7 @@ h1, button{
 h1, button:first-letter {
   text-transform: capitalize;
 }
-.article{
-  height: 30%;
+.one_colum p{
   column-count: 3;
   column-fill: balance;
 }
@@ -93,6 +92,19 @@ h1, button:first-letter {
   -webkit-transition: all 0.5s ease-in-out;
 }
 
+.cover_content{
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.2);
+  position: absolute;
+  width: fit-content;
+  min-width: 48em;
+  height: 22em;
+  background: rgb(56, 56, 56);
+  border:  0.125em white solid;
+  padding: 3%;
+}
 /*
 
 .up_logo {
