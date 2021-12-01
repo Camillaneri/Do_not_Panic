@@ -1,11 +1,12 @@
 body {
-	background: radial-gradient(circle at bottom, rgb(241, 200, 156) 0, rgb(71, 140, 103) 40%, rgb(11, 59, 65) 60%, rgb(18, 51,53) 70%, rgb(2, 12, 4) 100%);
+  background:  linear-gradient(180deg, rgba(1,1,0,1) 0%, rgba(31,48,21,1) 25%, rgba(208,109,25,1) 45%, rgba(208,109,25,1) 85%, rgba(230,207,184,1) 100%);
   background-repeat: no-repeat;
   align-self: center;
   height: 100vh;
   overflow: hidden;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 
 @font-face {
   font-family: 'omnibold';
@@ -26,12 +27,15 @@ body {
 
 }
 
+hr{border: none; border-top: 0.3em white solid;}
+
 h1, h2, h3, h4, h5, h6, button, label {font-family: 'omnibold', cursive !important; color: white; text-transform: uppercase;} 
 p, a, ul, li, figcaption  {font-family: 'verdanaregular', sans-serif !important; color: white; font-size: 0.9em;}
 
+p {text-align: justify;}
 
 .logo_big {
-  font-size: 110%;
+  font-size: 100%;
 }
 
 .up_logo {
@@ -43,30 +47,220 @@ p, a, ul, li, figcaption  {font-family: 'verdanaregular', sans-serif !important;
   font-size: 2.5em;
 }
 
-.cover_content {
-  background-color: rgb(16 44 65);
+.cover_content, .allert_content {
+  border: none !important;
+  background-color: black;
 }
 
-.hr_lens{
+.cover_content img{
+  width: 14%;
+  margin-bottom: 0;
+  margin-right: 1em;
+}
+
+#hr_lens{
   margin-right: 58%;
   }
 
+.cover_logo{
+  float: none;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.cover_text{
+  float: none;
+  border-top: solid white 0.3em;
+  width: 80%;
+  margin: 0 auto;
+  column-count: 2;
+  padding-top: 1em;
+}
+
+.cover_text p {
+  margin-top: 0 !important;
+}
+
+.large_button{
+  width: 100%;
+}
+
+#allert {
+  background-color: rgb(255 206 115 / 22%);
+}
+
+.allert_box {
+  background-origin: padding-box;
+  padding: 2em;
+  border: solid white 0.3em;
+}
+
+.person_team{
+  border-bottom: solid white 0.3em;;
+}
+
+.world{
+  border: solid white 0.2em;;
+}
+
+.lensbox{
+  border: solid white 0.2em;;
+}
+
+.overlay {
+  background-color: rgb(0 0 0);
+}
+
+.text_issue button{
+  width: 90%;
+}
+
+.card {
+  border: 0.2em white solid;
+}
+
+.article_box {
+  border-bottom: 0.2em white solid;
+  border-left: 0.2em white solid;
+}
+
+
+.article {
+  border-right: 0.2em black solid;
+}
+
+.metadata {
+  border-bottom: 0.5em black solid;;
+  border-right: 0.2em black solid;
+}
+
+.metadata_menu{
+  background-color: black;
+  border: 0.2em black solid;
+}
+
+.show_meta_one .meta, .show_meta_two .meta, .show_meta_three .meta{
+  border-bottom: 0.2em black solid;
+}
+
+.show_meta_down .meta{
+
+  border: 0.2em black solid;
+  margin-right: 0.5em;
+  padding-left: 1em;
+}
+
+.custom-select {
+  font-family: 'omnibold', cursive !important;
+  text-transform: uppercase;
+  
+}
 
 
 
+.select-items div, .select-selected {
+  font-family: 'omnibold', cursive !important;
+  text-transform: uppercase;
+  color: white;
+
+  
+}
+/* two class to close!!! NON CANCELLARE*/
 
 
+.text_meta .arrow{
+  border: solid black;
+  border-width: 0 0.3em 0.3em 0;
+}
 
+/* Basic Article Display CSS */
 
+.one_colum > .article > .text > article {
+  padding-bottom: 13%;
+}
 
+.three_colum > .article > .text > article {
+  padding-bottom: 33%;
+}
 
+.content_article {
+  background-color: white;
+  border: 0.2em black solid;
+}
 
+.content_article h1 {
+  color: black !important;
+  font-weight: lighter;
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
 
+.content_article h2 {
+  color: black !important;
+  font-weight: lighter;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
 
+.content_article h3 {
+  color: black !important;
+  font-weight: lighter;
+  margin-bottom: 0.5em;
+}
 
+.content_article a {
+  color: black !important;
+  font-weight: lighter;
+}
 
+.content_article p {
+  color: black !important;
+  font-weight: lighter;
+  margin: 1em 0 !important;
+  border-top: 0.2em black solid;
+  padding-top: 1em;
+}
 
+.content_article p:first-child{
+  border-top: none;
+}
 
+.one_colum p {
+  color: black !important;
+  font-weight: lighter;
+  column-count: 3;
+  text-align: justify;
+  
+}
 
+.two_colum p {
+  color: black !important;
+  font-weight: lighter;
+  column-count: 2;
+  text-align: justify;
+  
+}
 
+.content_article hr {
+  border: 0.01em black solid !important;
+}
 
+.content_article img{
+  filter: hue-rotate(83deg) blur(0.08em);
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.content_article figcaption {
+  color: black !important;
+  text-align: left;
+  font-size: 1.125em;
+  margin-bottom: 0.5em;
+}
+
+figcaption p{
+  column-count: unset !important;
+}
