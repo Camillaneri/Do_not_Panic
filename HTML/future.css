@@ -1,23 +1,81 @@
-body {
-	background: radial-gradient(circle at bottom, rgb(151, 197, 25) 0, black 100%);
-  background-repeat: no-repeat;
-  align-self: center;
-  height: 100vh;
-  overflow: hidden;
-}
-
 .hr_lens{
   width: 13.5%;
   margin-right: 86%;
 }
 
+body {
+  background: linear-gradient(
+    38deg, rgb(105 82 131) 0%, rgb(62 157 128) 25%, rgb(31 16 102) 45%, rgb(5 9 32) 85%, rgb(28 43 118) 100%);
+  background-repeat: no-repeat;
+  align-self: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 
+@font-face {
+  font-family: 'neon';
+  src: url('font/future/iamonlinewithu-o96q-webfont.woff2') format('woff2'),
+       url('font/future/iamonlinewithu-o96q-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 
+@font-face {
+  font-family: 'verdanaregular';
+  src: url('font/Y80s/verdana-webfont.woff2') format('woff2'),
+       url('font/Y80s/verdana-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+h1, h2, h3, h4, h5, h6, button, label {font-family: 'neon', cursive !important; color: white; } 
+p, a, ul, li, figcaption  {font-family: 'verdanaregular', sans-serif !important; color: white; font-size: 0.9em;}
+
+h1, h2, h3, h4, h5, h6, button {
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+
+button {
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+}
+
+.logo_big {
+  border: 0.3em white solid;
+    border-radius: 2em;
+    width: fit-content;
+    font-size: 86%;
+    padding: 1em 2em 1em 2em;
+}
 
 
+.bottom_logo {
+  margin-top: -14px;
+  font-size: 2em;
+  margin-left: 4.3em;
+}
 
+.cover_content img {
+  display: none;
+}
+
+.team_box {
+  overflow: inherit;
+}
 
 
 
