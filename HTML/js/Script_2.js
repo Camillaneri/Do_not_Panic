@@ -514,6 +514,6 @@ function highlight_metadata(text_id, text){
   alert (text);
   var meta_focus_list = document.getElementById(text_id).querySelectorAll('[data-label="'+text+'"]');
             for (g=0;g<meta_focus_list.length;g++){
-              meta_focus_list[g].classList.add("MetaFocus");
+              meta_focus_list[g].classList.add("MetaFocusc");
             }
 }
