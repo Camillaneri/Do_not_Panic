@@ -27,7 +27,7 @@ body {
 
 .articleTitle{font-family:'candlebright', normal !important; color: rgb(146, 20, 20);text-transform: lowercase; font-weight: normal !important;} 
 h1, h2, h3, button, h4, h5, h6, p, a, ul, li, figcaption, label {font-family:'candlebright', normal !important; color: rgb(0, 0, 0);text-transform: lowercase; font-weight: normal !important;} 
-.up_logo:first-letter{text-transform: uppercase; float: left; font-family:'camelot', normal !important; color: rgb(0, 0, 0); font-weight: normal !important; font-size: 2em;}
+.up_logo:first-letter{text-transform: uppercase; float: left; font-family:'camelot', normal !important; color: rgb(0, 0, 0); font-weight: normal !important; font-size: 1.5em;}
 
 
 .content_article{
@@ -81,8 +81,6 @@ h1, h2, h3, button, h4, h5, h6, p, a, ul, li, figcaption, label {font-family:'ca
   left: 50%;
   transform: translate(-50%, -50%) scale(1.2);
   position: absolute;
-  min-width: 10em;
-  height: 30em;
   background: rgb(172, 140, 118);
   border:  0.125em rgb(0, 0, 0) solid;
   padding: 3%;
@@ -98,16 +96,15 @@ h1, h2, h3, button, h4, h5, h6, p, a, ul, li, figcaption, label {font-family:'ca
 .logo_big {
   width: fit-content;
   font-size: 130%;
-  float: left;
+  order: 1;
 }
 
 .cover_content img{
   margin-bottom: -1.3em;
   margin-left: 2.1em;
-  width: 13em;
+  width: 8em;
   animation: dontPanic 1s ease-in-out 2 alternate-reverse;
-  color: black;
-  float: right;
+  order: 2;
 }
 /**/
 
@@ -137,27 +134,28 @@ h1, h2, h3, button, h4, h5, h6, p, a, ul, li, figcaption, label {font-family:'ca
 
 .cover_logo {
     float: none;
+    height: fit-content;
     width: fit-content;
-    margin: 0 auto;
-    margin-bottom: 1em;
-    display: block;
+    display: flex;
     align-items: center;
   }
 
 
-.cover_text{
-  width: 24em;
-  margin-left: 3em;
-  float: none;
-  display: block;
-  
-}
 .cover_text {
   float: none;
-  width: 80%;
-  margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 4%;
+  margin-right: 4%;
   column-count: 2;
   padding-top: 1em;
+  margin-bottom: 5%;
+  display:block;
+  
+}
+
+.cover_text p {
+  margin-top: 0 !important;
 }
 
 .cover_text button{
