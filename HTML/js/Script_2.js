@@ -494,6 +494,7 @@ function display_basic_metadata() {
  }
 }
 
+
 function generate_metadata_calls(text, position, kind, text_id, selector){
  var section = document.getElementById(position).children;
  for (var t=0;t<section.length;t++){
@@ -502,7 +503,7 @@ function generate_metadata_calls(text, position, kind, text_id, selector){
      for (var j=0;j<class_list.length;j++){
        if (class_list[j].innerHTML==text){
          class_list[j].addEventListener("click", function(){
-           highlight_metadata(text_id, text,selector);
+           highlight_metadata(text_id, text, selector);
          });
        }
      }
@@ -510,18 +511,29 @@ function generate_metadata_calls(text, position, kind, text_id, selector){
  }
 }
 
+var counter=0;
+
 function highlight_metadata(text_id, text, selector){
- alert (text);
- alert (selector);
- var meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+text+'"]');
- while ((!(unique_meta_sublist.includes(couple_list[z]))) && z<couple_list.length){
-   var dd = document.createElement("dd");
-   dd.innerHTML=couple_list[z];
-   dl.appendChild(dd);
-   generate_metadata_calls(dd.innerHTML, meta_specific, "DL", single_id, "data-label");
-   z++;
- }
-           for (g=0;g<meta_focus_list.length;g++){
-             meta_focus_list[g].classList.add("MetaFocus");
-           }
+  var meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+text+'"]');
+  if (localStorage.getItem(text_id)){
+  if (counter<meta_focus_list.length-1){
+  if (localStorage.getItem(text)){
+    meta_focus_list[counter].classList.remove("MetaFocus");
+    counter += 1;
+    localStorage.setItem(text, counter);
+    meta_focus_list[counter].classList.add("MetaFocus");
+    console.log(text, localStorage.getItem(text));
+  }else{
+    meta_focus_list[counter].classList.add("MetaFocus");
+    localStorage.setItem(text, counter);
+    console.log(text, localStorage.getItem(text));
+  }
+    }else{
+  counter=0;
+  console.log(text, localStorage.getItem(text));
+}
+}else{
+  localStorage.setItem(text_id, "yes");
+  counter = 0;
+}
 }
