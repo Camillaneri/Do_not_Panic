@@ -460,43 +460,70 @@ function display_basic_metadata() {
         var div_content = document.getElementById(meta_specific).children;
        
         for (var t=0;t<div_content.length;t++){
-           if (div_content[t].tagName == 'DL'|| div_content[t].tagName == 'OL') {
-             div_content[t].innerHTML="";
-             if (category_list[l]=="concept"){
-              for (m=0;m<couple_list.length;m++){
-                if (unique_meta_sublist.includes(couple_list[m])){
-                var dl = div_content[t];
-                var dt = document.createElement("dt");
-                dt.innerHTML = couple_list[m];
-                dl.appendChild(dt); 
-                var z = m + 1;
-                while ((!(unique_meta_sublist.includes(couple_list[z]))) && z<couple_list.length){
-                  var dd = document.createElement("dd");
-                  dd.innerHTML=couple_list[z];
-                  dt.appendChild(dd);
-                  dd.addEventListener("click", function() {
-                    content_list = document.getElementById(single_id).querySelectorAll('[data-label="'+ dd.innerHTML +'"]');
-                 });
-                  z++;
-                }
-              }
-              }
-             } else {
-             div_content[t].innerHTML="";
-             for (m=0;m<unique_meta_list.length;m++){
-             var ol = div_content[t];
-             var li = document.createElement("li");
-             li.innerHTML = unique_meta_list[m];
-             ol.appendChild(li);
-             li.addEventListener("click", function() {
-               content_list = document.getElementById(single_id).querySelectorAll('[data-label="'+ li.innerHTML +'"]');
-           });
-            }
-            }
-            }
-          }
-      }
-  }
+          if (div_content[t].tagName == 'DL'|| div_content[t].tagName == 'OL') {
+            div_content[t].innerHTML="";
+            if (category_list[l]=="concept"){
+             for (m=0;m<couple_list.length;m++){
+               if (unique_meta_sublist.includes(couple_list[m])){
+               var dl = div_content[t];
+               var dt = document.createElement("dt");
+               dt.innerHTML = couple_list[m];
+               dl.appendChild(dt);
+               generate_metadata_calls(dt.innerHTML, meta_specific, "DL", single_id, "about"); 
+               var z = m + 1;
+               while ((!(unique_meta_sublist.includes(couple_list[z]))) && z<couple_list.length){
+                 var dd = document.createElement("dd");
+                 dd.innerHTML=couple_list[z];
+                 dl.appendChild(dd);
+                 generate_metadata_calls(dd.innerHTML, meta_specific, "DL", single_id, "data-label");
+                 z++;
+               }
+             }
+             }
+            } else {
+            div_content[t].innerHTML="";
+            for (m=0;m<unique_meta_list.length;m++){
+            var ol = div_content[t];
+            var li = document.createElement("li");
+            li.innerHTML = unique_meta_list[m];
+            ol.appendChild(li);
+            generate_metadata_calls(li.innerHTML, meta_specific, "OL", single_id, "data-label");
+           }
+           }
+           }
+         }
+     }
+ }
 }
 
+function generate_metadata_calls(text, position, kind, text_id, selector){
+ var section = document.getElementById(position).children;
+ for (var t=0;t<section.length;t++){
+   if (section[t].tagName==kind){
+     var class_list = section[t].children;
+     for (var j=0;j<class_list.length;j++){
+       if (class_list[j].innerHTML==text){
+         class_list[j].addEventListener("click", function(){
+           highlight_metadata(text_id, text,selector);
+         });
+       }
+     }
+   }
+ }
+}
 
+function highlight_metadata(text_id, text, selector){
+ alert (text);
+ alert (selector);
+ var meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+text+'"]');
+ while ((!(unique_meta_sublist.includes(couple_list[z]))) && z<couple_list.length){
+   var dd = document.createElement("dd");
+   dd.innerHTML=couple_list[z];
+   dl.appendChild(dd);
+   generate_metadata_calls(dd.innerHTML, meta_specific, "DL", single_id, "data-label");
+   z++;
+ }
+           for (g=0;g<meta_focus_list.length;g++){
+             meta_focus_list[g].classList.add("MetaFocus");
+           }
+}
