@@ -6,35 +6,39 @@
 <hr class="expand">
 
 
-<p class="captionArticle red left expand"><span id="C1" class="mention concept" about="theories" data-label="Religion">Religion</span></p>
-<h1 class="close left red medium expand" data-src="https://www.theguardian.com/world/2019/sep/18/documentary-follows-pastafarians-strain-for-recognition"><span class="articleTitle"><span id="C2" class="mention concept" about="means" data-label="Documentary">Documentary</span> follows <span id="C3" class="mention concept" about="positions" data-label="Believer">Pastafarians</span> as they strain for recognition</span></span></h1>
+<p class="captionArticle "><span id="C1" class="mention concept" about="theories" data-label="Religion">Religion</span></p>
+<h1 data-src="https://www.theguardian.com/world/2019/sep/18/documentary-follows-pastafarians-strain-for-recognition"><span class="articleTitle"><span id="C2" class="mention concept" about="means" data-label="Documentary">Documentary</span> follows <span id="C3" class="mention concept" about="positions" data-label="Believer">Pastafarians</span> as they strain for recognition</span></span></h1>
 
 <p class="subtitle thin expand">Film-maker has spent three years showing how the <span id="C4" class="mention concept" about="theories" data-label="Pastafarianism">colander-wearing religion</span> is more than a joke</p>
 
 <br>
 
-<figure class="center expand">
-    <img src="Pasta_Cover.jpg" alt="The Church of the Flying Spaghetti Monster’s believers wear colanders on their heads in homage to their deity." />
-    <figcaption class="captionPhoto smallChar">The <span id="C5" class="mention concept" about="theories" data-label="Pastafarianism">Church of the Flying Spaghetti Monster’s</span> <span id="C6" class="mention concept" about="positions" data-label="Believer">believers</span> wear colanders on their heads in homage to their deity.
+<figure class="center">
+    <img class="expand left" src="img/Deep_Thoughts/Pastafarians/Pasta_Cover.jpg" alt="The Church of the Flying Spaghetti Monster’s believers wear colanders on their heads in homage to their deity." />
+    <figcaption class="captionPhoto smallChar left">The <span id="C5" class="mention concept" about="theories" data-label="Pastafarianism">Church of the Flying Spaghetti Monster’s</span> <span id="C6" class="mention concept" about="positions" data-label="Believer">believers</span> wear colanders on their heads in homage to their deity.
     <p class="namePhoto">Photograph: <span class="credit"><span id="O1" class="mention organization" about="Pastafarian" data-label="Pastafarian"><a href="www.ipastafaridoc.com">www.ipastafaridoc.com</a></span></span>
     </p>
     </figcaption>
 </figure>
+<div class="clear"></div>
 
 
 
 <div class="author">
-    <img class="small distant" src="Pasta_Author.png" alt="Jon Henley" />
-    <p class="byline centered"><a class="caption red" href="https://www.theguardian.com/profile/jonhenley"> <span id="P1" class="mention person" about="JonHenley" data-label="Jon Henley"><span class="nameAuthor">Jon Henley</span></span></a><span class="caption italic red"><span id="L1" class="mention place" about="Europe" data-label="Europe" data-wikidata-id="Q46">Europe</span> correspondant</span>
+    <img class="small close" src="img/Deep_Thoughts/Pastafarians/Pasta_Author.png" alt="Jon Henley" />
+    <p class="byline centered"><a class="caption " href="https://www.theguardian.com/profile/jonhenley"> <span id="P1" class="mention person" about="JonHenley" data-label="Jon Henley"><span class="nameAuthor">Jon Henley</span></span></a>
+    <br>
+    <span class="caption italic "><span id="L1" class="mention place" about="Europe" data-label="Europe" data-wikidata-id="Q46">Europe</span> correspondant</span>
     </p>
     <p class="smallChar">Wed 18 Sep <span id="D1" class="mention date" about="2019" data-label="2019"><span class = "datePublished">2019</span></span> 05.00 BST</p>
     <p class="smallChar"><span class="credit"><span id="O2" class="mention organization" about="Twitter" data-label="Twitter">Twitter</span></span>: <a href="https://twitter.com/jonhenley">@jonhenley</a></p>
 </div>
+<div class="clear"></div>
 
 <hr>
 
 <p>
-<span class="dropCap red">S</span>ome time next year, the <span class="credit"><span id="O3" class="mention organization" about="ECHR" data-label="ECHR">European court of human rights</span></span> will decide on the case of a <span id="C7" class="mention concept" about="positions" data-label="Believer">Dutch woman who feels unfairly treated</span> because her country’s <span id="C8" class="mention concept" about="means" data-label="Legal Statement">highest court has told her <span id="C9" class="mention concept" about="facts" data-label="Statement">she cannot wear a plastic colander on her head for her ID photo</span></span>.</p>
+<span class="dropCap ">S</span>ome time next year, the <span class="credit"><span id="O3" class="mention organization" about="ECHR" data-label="ECHR">European court of human rights</span></span> will decide on the case of a <span id="C7" class="mention concept" about="positions" data-label="Believer">Dutch woman who feels unfairly treated</span> because her country’s <span id="C8" class="mention concept" about="means" data-label="Legal Statement">highest court has told her <span id="C9" class="mention concept" about="facts" data-label="Statement">she cannot wear a plastic colander on her head for her ID photo</span></span>.</p>
 
 <p>It may combine <span id="P2" class="mention person" about="MinkeDeWilde" data-label="Minke De Wilde">Mienke de Wilde</span>’s <span id="C10" class="mention concept" about="means" data-label="Legal Statement">plea</span> with that of an <span id="C11" class="mention concept" about="positions" data-label="Believer">Austrian former MP</span>, <span id="P3" class="mention person" about="NikoAlm" data-label="Niko Alm">Niko Alm</span>, who <span id="C12" class="mention concept" about="means" data-label="Social Act">proudly wears the offending kitchen utensil on his official documents</span> but now <span id="C13" class="mention concept" about="means" data-label="Legal Act">insists his country recognise <span id="C14" class="mention concept" about="theories" data-label="Pastafarianism">Pastafarianism</span> – the faith both follow – as a <span id="C15" class="mention concept" about="theories" data-label="Pastafarianism">religion</span></span>.</p>
 
@@ -45,14 +49,15 @@
 <p>It sounds, of course, like a joke. On one level, it is. But for <span id="P5" class="mention person" about="MikeArthur" data-label="Mike Arthur">Arthur</span>, who has spent three years working on his <span id="C22" class="mention concept" about="means" data-label="Social Act">film</span>, and for many <span id="C23" class="mention concept" about="positions" data-label="Believer">Pastafarians</span> who believe their <span id="C24" class="mention concept" about="ideas" data-label="Belief">faith embodies some profound – and profoundly important – principles</span>, it is a lot more.</p>
 
 
-<figure class="left isolate">
-    <img src="Pasta_1.jpg" alt="Mienke de Wilde’s ID card photos." />
-    <figcaption class="captionPhoto smallChar">
+<figure class="center">
+    <img class="expand left" src="img/Deep_Thoughts/Pastafarians/Pasta_1.jpg" alt="Mienke de Wilde’s ID card photos." />
+    <figcaption class="captionPhoto smallChar left">
         <span><span id="P6" class="mention person" about="MinkeDeWilde" data-label="Minke De Wilde">Mienke de Wilde</span>’s ID card photos.</span>
-        <span class="namePhoto close">Photograph: <span class="credit"><span id="O4" class="mention organization" about="Pastafarian" data-label="Pastafarian"><a href="www.ipastafaridoc.com">www.ipastafaridoc.com</a></span></span>
+        <span class="namePhoto">Photograph: <span class="credit"><span id="O4" class="mention organization" about="Pastafarian" data-label="Pastafarian"><a href="www.ipastafaridoc.com">www.ipastafaridoc.com</a></span></span>
         </span>
     </figcaption>
 </figure>
+<div class="clear"></div>
 
 <p>“We live,” says <span id="P7" class="mention person" about="MikeArthur" data-label="Mike Arthur">Arthur</span>, sitting in an <span id="L3" class="mention place" about="Amsterdam" data-label="Amsterdam" data-wikidata-id="Q727">Amsterdam</span> cafe, “in the age of unreason. We no longer value the best idea, but the loudest idea. From <span id="C25" class="mention concept" about="facts" data-label="Event"><span id="D2" class="mention date" about="2016" data-label="Brexit">Brexit</span></span> to <span id="P8" class="mention person" about="DonaldTrump" data-label="Donald Trump">Trump</span>, we applaud <span id="C26" class="mention concept" about="theories" data-label="Faith">blind faith</span> and are sceptical about <span id="C27" class="mention concept" about="facts" data-label="Evidence">overwhelming observable evidence</span>.</p>
 
@@ -66,14 +71,15 @@
 
 <p><span id="P11" class="mention person" about="BobbyHenderson" data-label="Bobby Henderson">Henderson</span>’s basic point, expertly if satirically made, was that <span id="C48" class="mention concept" about="means" data-label="Explanation">since <span id="C49" class="mention concept" about="theories" data-label="Foundamental Christianism">intelligent design</span> was every bit as much of an <span id="C50" class="mention concept" about="theories" data-label="Science Theory">evidence-based theory</span> as the <span id="C51" class="mention concept" about="theories" data-label="Pastafarianism">unshakable belief that the world was created by an omniscient flying monster made of spaghetti</span>, nothing should be <span id="C52" class="mention concept" about="means" data-label="Teaching">taught in science classes</span> but <span id="C53" class="mention concept" about="theories" data-label="Science Theory">science</span></span>.</p>
 
-<figure class="left isolate">
-    <img src="Pasta_2.jpg" alt="Mathé Coolen, an archbishop of Pastafarianism, wearing his colander in court in a still from the documentary" />
-    <figcaption class="captionPhoto smallChar">
+<figure class="center">
+    <img class="expand left" src="img/Deep_Thoughts/Pastafarians/Pasta_2.jpg" alt="Mathé Coolen, an archbishop of Pastafarianism, wearing his colander in court in a still from the documentary" />
+    <figcaption class="captionPhoto smallChar left">
         <span> <span id="P12" class="mention person" about="MathéCoolen" data-label="Mathé Coolen">Mathé Coolen</span>, an archbishop of <span id="C54" class="mention concept" about="theories" data-label="Pastafarianism">Pastafarianism</span>, <span id="C55" class="mention concept" about="means" data-label="Legal Act">wearing his colander in court</span> in a still from the <span id="C56" class="mention concept" about="means" data-label="Social Act">documentary</span>.</span>
-        <span class="namePhoto close">Photograph:<span class="credit"><span id="O5" class="mention organization" about="Pastafarian" data-label="Pastafarian"><a href="www.ipastafaridoc.com">www.ipastafaridoc.com</a></span></span>
+        <span class="namePhoto">Photograph:<span class="credit"><span id="O5" class="mention organization" about="Pastafarian" data-label="Pastafarian"><a href="www.ipastafaridoc.com">www.ipastafaridoc.com</a></span></span>
         </span>
     </figcaption>
 </figure>
+<div class="clear"></div>
 
 <p>But as it has grown – there are now <span id="C57" class="mention concept" about="positions" data-label="Believer">Pastafarians</span> from <span id="L5" class="mention place" about="Poland" data-label="Poland" data-wikidata-id="Q36">Poland</span> to <span id="L6" class="mention place" about="NewZealand" data-label="New Zealand" data-wikidata-id="Q664">New Zealand</span> and <span id="L7" class="mention place" about="Italy" data-label="Italy" data-wikidata-id="Q38">Italy</span> to <span id="L8" class="mention place" about="Taiwan" data-label="Taiwan" data-wikidata-id="Q865">Taiwan</span>, and <span id="C58" class="mention concept" about="theories" data-label="Pastafarianism">the church</span> is <span id="C59" class="mention concept" about="means" data-label="Legal Act">officially recognised</span> in at least four countries – it has begun posing bigger questions: <span id="C60" class="mention concept" about="means" data-label="Inquiry">what actually is a religion? Who gets to decide that? And why should faith – or lack of it – have anything to do with rights?</span></p>
 
@@ -85,14 +91,15 @@
 
 <p>“I can imagine it all looks very odd if you’re <span id="C74" class="mention concept" about="positions" data-label="Skeptic">not a believer</span>. But that’s the case with <span id="C75" class="mention concept" about="theories" data-label="Pseudoscience">many faiths – people who walk on water or split themselves in three</span>, for example. Personally, I find other religions unbelievable.”</p>
 
-<figure class="left isolate">
-    <img src="Pasta_3.jpg" alt="De Wilde reads the Gospel of the Flying Spaghetti Monster. " />
-    <figcaption class="captionPhoto smallChar">
+<figure class="center">
+    <img class="expand left" src="img/Deep_Thoughts/Pastafarians/Pasta_3.jpg" alt="De Wilde reads the Gospel of the Flying Spaghetti Monster. " />
+    <figcaption class="captionPhoto smallChar left">
     <span>  <span id="P17" class="mention person" about="MinkeDeWilde" data-label="Minke De Wilde">De Wilde</span> reads the <span id="C76" class="mention concept" about="means" data-label="Social">Gospel of the Flying Spaghetti Monster</span>.</span>
-    <span class="namePhoto close">Photograph: <span class="credit"><span id="O8" class="mention organization" about="Pastafarian" data-label="Pastafarian"><a href="www.ipastafaridoc.com">www.ipastafaridoc.com</a></span></span>
+    <span class="namePhoto">Photograph: <span class="credit"><span id="O8" class="mention organization" about="Pastafarian" data-label="Pastafarian"><a href="www.ipastafaridoc.com">www.ipastafaridoc.com</a></span></span>
     </span>
     </figcaption>
 </figure>
+<div class="clear"></div>
 
 <p>Moreover, argues <span id="P18" class="mention person" about="DerkVenema" data-label="Derk Venema">Venema</span>, even <span id="C77" class="mention concept" about="means" data-label="Inquiry">theologians have “never really been able to agree on what constitutes a religion. So should the state really get to decide</span>? For me, if it looks like a religion, with certain <span id="C78" class="mention concept" about="means" data-label="Principle">customs and traditions</span>; if <span id="C79" class="mention concept" about="positions" data-label="Believer">its followers</span> <span id="C80" class="mention concept" about="means" data-label="Social Act">call it a religion</span>; and if <span id="C81" class="mention concept" about="means" data-label="Social Act">they call themselves believers</span>, that should be it.”</p>
 
@@ -104,14 +111,15 @@
 
 <p>He readily concedes, however, that <span id="C100" class="mention concept" about="theories" data-label="Pastafarianism">Flying Spaghetti Monsterism</span> is a diverse church. “For some, it’s not a political thing at all. In some countries, <span id="C101" class="mention concept" about="positions" data-label="Believer">Pastafarians</span> mainly just want <span id="C102" class="mention concept" about="means" data-label="Principle">to have fun and eat pasta</span>.”</p>
 
-<figure class="left isolate">
-    <img src="Pasta_4.jpg" alt="Bruder Spaghettus, a leading German Pastafarian, by a ‘noodle mass’ sign in Templin outside Berlin" />
-    <figcaption  class="captionPhoto smallChar">
+<figure class="center">
+    <img class="expand left" src="img/Deep_Thoughts/Pastafarians/Pasta_4.jpg" alt="Bruder Spaghettus, a leading German Pastafarian, by a ‘noodle mass’ sign in Templin outside Berlin" />
+    <figcaption  class="captionPhoto smallChar left">
     <span> <span id="P21" class="mention person" about="BruderSpaghettus" data-label="Bruder Spaghettus">Bruder Spaghettus</span>, a leading German <span id="C103" class="mention concept" about="theories" data-label="Pastafarianism">Pastafarian</span>, by a <span id="C104" class="mention concept" about="means" data-label="Conversion">‘noodle mass’ sign</span> in <span id="L13" class="mention place" about="Templin" data-label="Templin" data-wikidata-id="Q519157">Templin</span> outside <span id="L14" class="mention place" about="Berlin" data-label="Berlin" data-wikidata-id="Q64">Berlin</span>.</span>
-    <span class="namePhoto close">Photograph: <span class="credit"><span id="O9" class="mention organization" about="Pastafarian" data-label="Pastafarian"><a href="www.ipastafaridoc.com">www.ipastafaridoc.com</a></span></span>
+    <span class="namePhoto ">Photograph: <span class="credit"><span id="O9" class="mention organization" about="Pastafarian" data-label="Pastafarian"><a href="www.ipastafaridoc.com">www.ipastafaridoc.com</a></span></span>
     <span>
     </figcaption>
 </figure>
+<div class="clear"></div>
 
 <p><span id="P22" class="mention person" about="MikeArthur" data-label="Mike Arthur">Arthur</span>, whose <span id="C105" class="mention concept" about="means" data-label="Social Act">film</span> follows <span id="P23" class="mention person" about="DerkVenema" data-label="Derk Venema">Venema</span> and <span id="P24" class="mention person" about="NikoAlm" data-label="Niko Alm">Alm</span> through their <span id="C106" class="mention concept" about="means" data-label="Legal Act">court battles</span> and also features <span id="P25" class="mention person" about="BruderSpaghettus" data-label="Bruder Spaghettus">Bruder Spaghettus</span>, the luxuriantly bearded leader of the <span id="C107" class="mention concept" about="theories" data-label="Pastafarianism">Kirche des Fliegenden Spaghettimonster</span> in <span id="L15" class="mention place" about="Germany" data-label="Germany" data-wikidata-id="Q183">Germany</span>, says <span id="C108" class="mention concept" about="theories" data-label="Pastafarianism">Pastafarianism</span> is like <span id="C109" class="mention concept" about="theories" data-label="Religion">other religions</span>, with a <span id="C110" class="mention concept" about="ideas" data-label="Belief">supernatural deity</span>, a <span id="C111" class="mention concept" about="ideas" data-label="Belief">prophet</span>, and <span id="C112" class="mention concept" about="means" data-label="Principle">lessons of morality in holy scriptures</span>.</p>
 

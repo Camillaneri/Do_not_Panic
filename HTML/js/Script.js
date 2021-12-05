@@ -52,6 +52,7 @@ $(document).ready(function(){
   $(".meta_down_one").click(function(){
     $(".meta_down_one").toggleClass("a_up");
     $(".meta_one").toggleClass("meta_down");
+    $(".show_meta_one").toggleClass("show_meta_down");
   });
 })
 
@@ -59,6 +60,7 @@ $(document).ready(function(){
   $(".meta_down_two").click(function(){
     $(".meta_down_two").toggleClass("a_up");
     $(".meta_two").toggleClass("meta_down");
+    $(".show_meta_two").toggleClass("show_meta_down");
   });
 })
 
@@ -66,6 +68,7 @@ $(document).ready(function(){
   $(".meta_down_three").click(function(){
     $(".meta_down_three").toggleClass("a_up");
     $(".meta_three").toggleClass("meta_down");
+    $(".show_meta_three").toggleClass("show_meta_down");
   });
 })
 

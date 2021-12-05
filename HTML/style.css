@@ -23,7 +23,7 @@ header, footer, section, article, figure, aside, video, audio, hgroup, nav{displ
 h1, h2, h3, h4, h5, h6, label {font-family: 'Bebas Neue', cursive !important; color: white;} 
 p, a, ul, li, figcaption  {font-family: 'Roboto', sans-serif !important; color: white;}
 
-hr {border: 0.125em white solid;}
+hr {border: -1em white solid;}
 
 .display{display: block !important;}
 .display_none{display: none;}
@@ -307,7 +307,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(1.2);
   position: absolute;
-  width: fit-content;
+ 
   min-width: 48em;
   height: 22em;
   background: rgba(16,4,67,1);
@@ -350,10 +350,15 @@ body {
   }
 }
 
+.cover_logo{
+  float: left;
+}
+
 
 .cover_text{
   width: 24em;
   margin-left: 3em;
+  float: right;
 }
 
 .cover_text button{
@@ -395,10 +400,7 @@ body {
 }
 
 .menu .one:hover ~ hr {
-  margin-left: 45%;
-  width: 49%;
   width: 26%;
-  margin-left: 1rem;
 }
 
 .menu .two:hover ~ hr {
@@ -407,9 +409,9 @@ body {
 }
 
 .menu hr{
+  margin-left: 0.8rem;
   height: .25rem;
   width: 26%;
-  margin-left: 1rem;
   background: white;
   border: none;
   transition: .3s ease-in-out;
@@ -577,7 +579,7 @@ margin-right: 0%;
     position: absolute;
     z-index: 5;
     right: 5%;
-    bottom: 5%;
+    bottom: 5.1%;
 }
 
 .world {
@@ -1326,6 +1328,7 @@ article {
   display: block !important;
   margin-bottom: 3%;
   height: 100%;
+  width: 30em;
 }
 
 .namePhoto{
@@ -1355,12 +1358,6 @@ article {
   display: inline !important;
 }
 
-.namePhoto{
-  font-size: 1em;
-  font-weight: 500;
-  display: inline;
-}
-
 .nameAuthor{
   color: black;
   font-weight: 700 !important;
@@ -1380,8 +1377,12 @@ article {
   width: 25% !important;
 }
 
+.close{
+  margin-bottom: -0.5em !important; 
+}
+
 .captionPhoto{
-  max-width: 22em;
+  max-width: 28em;
 }
 
 .midSmall{
@@ -1397,8 +1398,12 @@ article {
  }
 
  .expand{
-  max-width: 43em;
+  max-width: fit-content;
   margin-right: 3em;
+ }
+
+ .one_colum .expand{
+   max-width: 47%;
  }
 
  .distant{
@@ -1478,7 +1483,8 @@ article {
     font-size: 1.2em;
     color:black;
     line-height: 2em;
-    margin: 1em;
+    line-height: 1.3em !important;
+    margin: 0.5em;
     margin-left: 0 !important;
     display: inline;
     text-align: left;
@@ -1501,12 +1507,55 @@ ol::-webkit-scrollbar {
     display: none;
 }
 
-.meta_down{
-  width: fit-content;
-  display: inline-block;
+.meta dl {
+  width: 100%;
+  height: 100%;
+  overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
-.meta_down ol{
+/* Hide scrollbar Chrome, Safari, Opera */
+dl::-webkit-scrollbar {
+  display: none;
+}
+
+.meta dt { 
+  font-size: 1.1em;
+  color: black;
+  line-height: 2em;
+  font-style: oblique;
+  font-weight: 700;
+  margin-left: 0 !important;
+  display: inline;
+  text-align: left;
+}
+
+.meta dd:first-child {
+  margin-left: 0.5em !important;
+}
+
+.meta dd{
+  font-size: 1.2em;
+  color: black;
+  line-height: 2em;
+  font-style: normal;
+  font-weight: normal;
+  margin: 1em;
+  margin-left: 0;
+  display: inline;
+  text-align: left;
+}
+
+.meta_down{
+  flex-grow: 1;
+  width: fit-content;
+}
+
+.meta_down dl {
   height: fit-content;
   max-height: 9.5em;
   margin-bottom: 0.5em;
@@ -1515,7 +1564,37 @@ ol::-webkit-scrollbar {
   overflow-y: scroll !important;
   white-space: normal !important;
   -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: none; 
+  -ms-overflow-style: none;
+}
+
+.meta_down dt{
+  display: block !important;
+  line-height: 0.8em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.meta_down dt:last-child{
+  margin-bottom: 0 !important;
+}
+
+.meta_down dd {
+  display: block !important;
+  margin: 0.8em;
+  margin-left: 0.5rem !important;
+  line-height: 0.8em;
+}
+
+.meta_down ol {
+  height: fit-content;
+  max-height: 9.5em;
+  margin-bottom: 0.5em;
+  display: block !important;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  white-space: normal !important;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
 }
 
 .meta_down li{
@@ -1523,10 +1602,12 @@ ol::-webkit-scrollbar {
   line-height: 0.8em;
 }
 
-.show_meta{
+.show_meta_one{
+  display: flex;
+  flex-direction: column;
     width: 100%;
     height: fit-content;
-    max-height: 23em;
+    max-height: 27em;
     overflow-x: hidden;
     overflow-y: scroll;
     margin-top: 0.5em;
@@ -1535,8 +1616,51 @@ ol::-webkit-scrollbar {
   scrollbar-width: none;
 }
 
-.show_meta::-webkit-scrollbar {
+.show_meta_one::-webkit-scrollbar {
     display: none;
+}
+
+.show_meta_two{
+  display: flex;
+  flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    max-height: 27em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-top: 0.5em;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+.show_meta_two::-webkit-scrollbar {
+    display: none;
+}
+
+.show_meta_three{
+  display: flex;
+  flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    max-height: 27em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-top: 0.5em;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+.show_meta_three::-webkit-scrollbar {
+    display: none;
+}
+
+.show_meta_down {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: stretch;
+  justify-content: sp;
 }
 
 .Place, .Person, .Date, .Concept, .Organization {
@@ -1659,6 +1783,9 @@ ol::-webkit-scrollbar {
   }
 }
 
+#Y300s{
+  margin-top: 0.3em;
+}
 
 
 

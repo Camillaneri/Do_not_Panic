@@ -317,7 +317,7 @@ function hover(event, id) {
         myPara.style.marginRight = "71.5%";
         break;
       case "Y80s":
-        myPara.style.marginRight = "58%";
+        myPara.style.marginRight = "57.8%";
         break;
       case "Y40s":
         myPara.style.marginRight = "43.5%";
@@ -333,7 +333,6 @@ function hover(event, id) {
         break;
     }
   } else if (event.type == "mouseleave") {
-    myPara.style.marginRight = "0%";
     switch (target) {
       default:
         myPara.style.marginRight = currStyle;
@@ -423,7 +422,6 @@ function display_basic_metadata() {
       var meta_list = [];
       var meta_sub_list = [];
       var couple_list = [];
-      var content_list = [];
       var meta_specific = "meta_"+ category_list[l] + "_" + single_id.slice(5,single_id.length);
       var input_list = document.getElementById(single_id).getElementsByClassName(category_list[l]);
 
