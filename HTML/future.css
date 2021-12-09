@@ -32,19 +32,41 @@ body {
 
 }
 
-h1, h2, button{    font-family: 'neon', cursive !important;
+h1, h2, h3, button{    font-family: 'neon', cursive !important;
   color: #fff; } 
 p, a, ul, li, figcaption  {font-family: 'VT323', monospace, sans-serif !important; color: white; font-size: 0.9em;}
 
 button {
   border: none;
-  border-bottom: 0.2rem solid #fff !important;
- 
+  border: 0.2rem solid #fff !important;
+  filter: drop-shadow(.5rem .5rem 1rem rgb(126, 255, 6));
+  overflow:visible;
+  padding: 0.5em;
+  box-shadow: 0 0 2em rgb(0 221 29);
 }
 
+button:hover {
+  animation: glow 1s ease-in-out alternate;
+}
 .large_button {
-  padding: none !important;
-  margin: none !important;
+  float: right;
+  padding: 0.2em !important;
+  margin: 0 !important;
+  box-shadow: 0 0 2em rgb(0 221 29);
+}
+
+button:hover {
+  background: transparent !important;
+}
+
+.logo {
+  border: 0.3em white solid;
+    border-radius: 2em;
+    width: fit-content;
+    font-size: 86%;
+    padding: 1em 2em 1em 2em;
+    box-shadow: 0 0 2em rgb(0 221 29);
+    animation: glow 1s ease-in-out alternate infinite;
 }
 
 .logo_big {
@@ -88,7 +110,7 @@ button {
 
 .cover_content {
   background: linear-gradient( 
-    184deg, rgb(2 31 56) 0%, rgb(0 188 245 / 29%) 100%);
+    168deg, rgb(2 31 56) 57%, rgb(0 188 245 / 29%) 100%);
   border: 0.3em white solid;
   border-radius: 2em;
   padding: 3%;
@@ -99,9 +121,19 @@ button {
   display: none;
 }
 
+.cover_logo{
+  float: none !important;
+}
+
+.cover_text{
+  float: none !important;
+  width: 45em;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
 .cover_text p {
   font-size: 1.3em;
-  text-align: justify;
   color: #1bcd4a;
   margin-top: 0;
 }
@@ -110,11 +142,53 @@ button {
   overflow: inherit;
 }
 
+.world{
+  border: 0.3em white solid;
+  box-shadow: 0 0 2em rgb(0 221 29);
+}
 
+#gif{
+  transform: scale(84%);
+}
 
+#allert {
+  background-color: rgb(0 0 0 / 68%);
+}
 
+.allert_box{
+  background: linear-gradient( 
+    168deg, rgb(2 31 56) 70%, rgb(0 188 245 / 80%) 140%);
+  border: 0.3em white solid;
+  border-radius: 2em;
+  padding: 3%;
+  box-shadow: 0 0 2em rgb(0 221 29);
+}
 
+.allert_content{
+  background: none !important;
+}
 
+.person_team {
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+.disclamer p {
+  font-size: 100%;
+}
+
+.disclamer ul {
+  font-size: 1.3em;
+}
+
+.close {
+  font-family: 'Roboto', sans-serif !important; 
+}
+
+.card {
+  border: 0.3em white solid;
+  border-radius: 0.5em;
+  box-shadow: 0 0 2em rgb(0 221 29);
+}
 
 
 
