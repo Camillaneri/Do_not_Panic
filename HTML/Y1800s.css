@@ -184,7 +184,9 @@ h1, button:first-letter {
   order: 1;
   font-size: 100%;
   margin-left: 5%;
-  margin-bottom: 3%;
+  padding-bottom: 0.9em;
+  border-bottom: solid rgb(0, 0, 0) 0.2em;
+  
 }
 
 .cover_content img{
@@ -192,8 +194,6 @@ h1, button:first-letter {
   order: 2;
   width: 21em;
   animation: dontPanic 1s ease-in-out 2 alternate-reverse;
-  border-bottom: solid rgb(0, 0, 0) 0.15em;
-  border-top: solid rgb(0, 0, 0) 0.15em;
 }
 
 .cover_content img:hover{
