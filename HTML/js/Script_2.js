@@ -351,7 +351,9 @@ function styleSwitch(id) {
   var myPara = document.getElementById("hr_lens");
   var set = myPara.style.marginRight;
   var world = document.getElementById("gif");
-
+////////////////////////////////////////
+  var imgallaround = document.getElementsByTagName("img")[0];
+/////////////////////////////////////////
   if (id == "no_style") {
     theme.setAttribute("href", "#");
   }
@@ -371,9 +373,15 @@ function styleSwitch(id) {
       world.setAttribute("src", "img/futuristsmall.gif");
       break;
     case "Y1800s":
+       ///////////////////////////////
+       imgallaround.setAttribute("src", "img/svg/1800inv.svg");
+       ///////////////////////////////////
       world.setAttribute("src", "img/victoriansmall.gif");
       break;
     case "Y300s":
+      ///////////////////////////////
+      imgallaround.setAttribute("src", "img/svg/1300inv2.svg");
+      ///////////////////////////////////
       world.setAttribute("src", "img/medioevosmall.gif");
       break;
     case "no_style":
