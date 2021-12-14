@@ -101,10 +101,14 @@ custom-select {
   font-family: 'magazinebold'!important;
 }
 
+.cover_content{
+  border: 0.3em white solid !important;
+  background-color: rgba(169, 50, 182, 0.8);
+}
 
-.cover_content, .allert_content {
+ .allert_content {
   border: none !important;
-  background-color: rgb(189, 138, 247);
+  background-color: rgb(169, 50, 182);
 }
 
 .cover_content img{

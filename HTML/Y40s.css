@@ -86,7 +86,12 @@ custom-select {
 }
 
 
-.cover_content, .allert_content {
+.cover_content{
+    border: 0.3em white solid !important;
+    background-color: rgb(0, 0, 0);
+}
+
+.allert_content {
   border: none !important;
   background-color: rgb(0, 0, 0);
 }
