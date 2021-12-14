@@ -1,5 +1,5 @@
 body {
-	background: radial-gradient(circle at bottom, rgb(219, 237, 248) 0, rgb(138, 149, 253) 100%);
+	background: radial-gradient(circle at bottom, rgb(226, 144, 226) 0, rgb(132, 179, 233) 100%);
   background-repeat: no-repeat;
   align-self: center;
   height: 100vh;
@@ -65,7 +65,7 @@ body {
 h1 {font-family: 'republica_minoritalic' !important; color:white !important; text-transform: uppercase;font-weight: 50;} 
 h2, h3, h4, h5, h6, label {font-family: 'magazinebold', cursive !important; color:  white; text-transform: uppercase; font-weight: 70;} 
 p  {font-family: 'faustinaregular', serif !important; color: white; font-size: 0.9em;}
-a, button, ul, li  {font-family: 'dover_heavyheavy', sans-serif !important; color: rgb(0, 0, 0); font-size: 1em;}
+a, button, ul, li  {font-family: 'dover_heavyheavy', sans-serif !important; color: white; font-size: 1em;}
 figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: white; font-size: 0.9em;}
 
 custom-select {
@@ -91,15 +91,14 @@ custom-select {
 
 .up_logo {
   font-size: 4em;
+  font-weight: 900;
   font-family: 'magazinebold'!important;
-  color: rgb(0, 0, 0) !important;
 }
 
 .bottom_logo {
   margin-top: -5px;
   font-size: 2.5em;
   font-family: 'magazinebold'!important;
-  color: rgb(0, 0, 0) !important;
 }
 
 
@@ -167,7 +166,7 @@ custom-select {
 }
 
 .overlay {
-  background-color: rgb(189, 138, 247);
+  background-color: rgba(132, 179, 233, 0.8);
 }
 
 .text_issue button{
@@ -194,7 +193,7 @@ custom-select {
 }
 
 .metadata_menu{
-  background-color: rgb(189, 138, 247);
+  background-color: rgba(226, 144, 226, 0.5);
   border: 0.2em white solid;
 }
 

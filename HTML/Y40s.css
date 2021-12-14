@@ -58,7 +58,7 @@ body {
 h1 {font-family: 'futurismoregular' !important; color: white !important; text-transform: uppercase;} 
 h2, h3, h4, h5, h6, button, label {font-family: 'preussischeiv44ausgabe3Rg', cursive !important; color:  white; text-transform: uppercase;} 
 p  {font-family: 'kirstyregular', serif !important; color: white; font-size: 0.9em;}
-a, ul, li {font-family: 'kirstybold', sans-serif !important; color: white; font-size: 0.9em;}
+a, ul, li {font-family: 'kirstybold', sans-serif !important; color: red; font-size: 0.9em;}
 figcaption  {font-family: 'kirstyitalic', serif !important; color: white; font-size: 0.9em;}
 
 custom-select {
@@ -275,6 +275,7 @@ figcaption p{
 }
 
 .large_button{
-  color: rgb(0, 0, 0);
-  font-family: "magazinebold" !important;
+  color: white;
+  font-family: "preussischeiv44ausgabe3Rg" !important;
+  font-weight: 900;
 }
