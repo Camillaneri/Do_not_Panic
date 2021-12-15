@@ -457,7 +457,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   
 .metadata {
     border-right: 0.1em rgb(0, 0, 0) solid;
-    border-bottom: 0.1em rgb(0, 0, 0) solid;
+    border-bottom: 0.16em rgb(179, 114, 18) solid;
     width: 100%;
     height: fit-content;
 }

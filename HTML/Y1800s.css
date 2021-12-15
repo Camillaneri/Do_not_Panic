@@ -244,6 +244,7 @@ h1, button:first-letter {
   float: left;
   font-size: 110%;
   margin-left: 1.8em;
+  text-align: justify;
   /*column-count: 2;*/
   padding-top: 1em;
   /*column-rule-width: 1px;
