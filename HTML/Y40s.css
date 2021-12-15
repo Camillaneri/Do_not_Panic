@@ -97,9 +97,12 @@ custom-select {
 }
 
 .cover_content img{
-  width: 14%;
-  margin-bottom: 0;
-  margin-right: 1em;
+  padding-bottom: 1em;
+  margin-right: 10em;
+  float: right;
+  width: 10em;
+  animation: dontPanic 1s ease-in-out 2 alternate-reverse;
+  filter: invert();
 }
 
 
@@ -109,21 +112,21 @@ custom-select {
 
 
 .cover_logo{
-    float: none;
-    width: fit-content;
+    float: right;
+    display: block;
+    width: 60em;
     margin: 0 auto;
     margin-bottom: 1em;
-    display: flex;
     align-items: center;
   }
   
  .cover_text{
-    float: none;
     border-top: solid rgb(255, 0, 0) 0.3em;
-    width: 80%;
+    width: 60em;
     margin: 0 auto;
     column-count: 2;
     padding-top: 1em;
+    float: right;
   }
   
 .cover_text p {
