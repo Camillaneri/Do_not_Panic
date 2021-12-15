@@ -1,5 +1,5 @@
 body {
-	background: radial-gradient(circle at bottom, rgb(197, 31, 25) 0, black 100%);
+	background: radial-gradient(circle at bottom, rgb(226, 144, 226) 0, rgb(132, 179, 233) 100%);
   background-repeat: no-repeat;
   align-self: center;
   height: 100vh;
@@ -62,29 +62,257 @@ body {
 }
 
 
-h1 {font-family: 'magazinebold' !important; color:white !important; text-transform: uppercase;} 
-h2, h3, h4, h5, h6{font-family: 'republica_minoritalic', cursive !important; color:  white; text-transform: uppercase;} 
+h1 {font-family: 'republica_minoritalic' !important; color:white !important; text-transform: uppercase;font-weight: 50;} 
+h2, h3, h4, h5, h6, label {font-family: 'magazinebold', cursive !important; color:  white; text-transform: uppercase; font-weight: 70;} 
 p  {font-family: 'faustinaregular', serif !important; color: white; font-size: 0.9em;}
-a, ul, li, button, label  {font-family: 'dover_heavyheavy', sans-serif !important; color: white; font-size: 0.9em;}
+a, button, ul, li  {font-family: 'dover_heavyheavy', sans-serif !important; color: white; font-size: 1em;}
 figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: white; font-size: 0.9em;}
+
+custom-select {
+  font-family: 'magazinebold', cursive !important;
+  text-transform: uppercase;
+  
+}
+
+
+
+.select-items div, .select-selected {
+  font-family: 'magazinebold', cursive !important;
+  text-transform: uppercase;
+  color: white;
+
+  
+}
+
 
 .logo_big {
   font-size: 110%;
 }
 
 .up_logo {
-  font-size: 3.5em;
+  font-size: 4em;
+  font-weight: 900;
+  font-family: 'magazinebold'!important;
 }
 
 .bottom_logo {
-  margin-top: -14px;
+  margin-top: -5px;
   font-size: 2.5em;
+  font-family: 'magazinebold'!important;
 }
 
-.cover_content {
-  background-color: rgb(16 44 65);
+.cover_content{
+  border: 0.3em white solid !important;
+  background-color: rgba(169, 50, 182, 0.8);
+  transform: translate(-50%, -50%) scale(1.2);
+  position: absolute;
 }
 
-.hr_lens{
+ .allert_content {
+  border: none !important;
+  background-color: rgb(169, 50, 182);
+}
+
+.cover_content img{
+  margin-bottom: 0;
+  margin-left: 5em;
+  float:none;
+  width: 16em;
+  animation: dontPanic 1s ease-in-out 2 alternate-reverse;
+  filter: invert();
+}
+
+#hr_lens{
   margin-right: 58%;
   }
+
+.cover_logo{
+  float: left;
+  width: 25em;
+  margin: 0 auto;
+  align-items: left;
+}
+
+.cover_text{
+  float: right;
+  width: 18em;
+  margin: 0 auto;
+  column-count: 1;
+  padding-top: 1em;
+  margin-right: 3em;
+}
+
+.cover_text p {
+  margin-top: 0 !important;
+}
+
+.large_button{
+  width: 100%;
+}
+
+#allert {
+  background-color: rgb(42, 122, 168 / 22%);
+}
+
+.allert_box {
+  background-origin: padding-box;
+  padding: 2em;
+  border: solid rgb(116, 187, 253) 0.3em;
+}
+
+.person_team{
+  border-bottom: solid white 0.3em;;
+}
+
+.world{
+  border: solid white 0.2em;;
+}
+
+.lensbox{
+  border: solid white 0.2em;;
+}
+
+.overlay {
+  background-color: rgba(132, 179, 233, 0.8);
+}
+
+.text_issue button{
+  width: 90%;
+}
+
+.card {
+  border: 0.2em white solid;
+}
+
+.article_box {
+  border-bottom: 0.2em white solid;
+  border-left: 0.2em white solid;
+}
+
+
+.article {
+  border-right: 0.2em white solid;
+}
+
+.metadata {
+  border-bottom: 0.2em white solid;
+  border-right: 0.2em white solid;
+}
+
+.metadata_menu{
+  background-color: rgba(226, 144, 226, 0.5);
+  border: 0.2em white solid;
+}
+
+.show_meta_one .meta, .show_meta_two .meta, .show_meta_three .meta{
+  border-bottom: 0.2em rgb(138, 167, 247);
+}
+
+.show_meta_down .meta{
+
+  border: 0.2em rgb(138, 167, 247);
+  margin-right: 0.5em;
+  padding-left: 1em;
+}
+
+/* two class to close!!! NON CANCELLARE*/
+
+
+.text_meta .arrow{
+  border: solid black;
+  border-width: 0 0.3em 0.3em 0;
+}
+
+/* Basic Article Display CSS */
+
+.one_colum > .article > .text > article {
+  padding-bottom: 13%;
+}
+
+.three_colum > .article > .text > article {
+  padding-bottom: 33%;
+}
+
+.content_article {
+  background-color: rgb(237, 224, 240);
+  border: 0.2em rgb(138, 167, 247);
+}
+
+.content_article h1 {
+  color: rgb(217, 97, 233) !important;
+  font-weight: lighter;
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.content_article h2 {
+  color: rgb(217, 97, 233) !important;
+  font-weight: lighter;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.content_article h3 {
+  color: black !important;
+  font-weight: lighter;
+  margin-bottom: 0.5em;
+}
+
+.content_article a {
+  color: black !important;
+  font-weight: lighter;
+}
+
+.content_article p {
+  color: black !important;
+  font-weight: lighter;
+  margin: 1em 0 !important;
+  border-top: 0.2em white solid;
+  padding-top: 1em;
+}
+
+.content_article p:first-child{
+  border-top: none;
+}
+
+.one_colum p {
+  color: black !important;
+  font-weight: lighter;
+  column-count: 3;
+  text-align: justify;
+  
+}
+
+.two_colum p {
+  color: black !important;
+  font-weight: lighter;
+  column-count: 2;
+  text-align: justify;
+  
+}
+
+.content_article hr {
+  border: 0.01em white solid !important;
+}
+
+.content_article img{
+  filter:brightness(135%) contrast(90%) saturate(120%);
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.content_article figcaption {
+  color: black !important;
+  text-align: left;
+  font-size: 1.125em;
+  margin-bottom: 0.5em;
+}
+
+figcaption p{
+  column-count: unset !important;
+}
+
+.large_button{
+  color: white;
+  font-family: "magazinebold" !important;
+}
