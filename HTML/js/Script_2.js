@@ -361,7 +361,7 @@ function styleSwitch(id) {
 
   switch (id) {
     case "future":
-      world.setAttribute("src", "img/80ssmall.gif");
+      world.setAttribute("src", "img/futuro-gif.gif");
       break;
     case "Y2000s":
       world.setAttribute("src", "img/matrixsmall.gif");
