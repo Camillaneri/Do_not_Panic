@@ -83,6 +83,8 @@ h1, button:first-letter {
   column-rule-width: 0.15em;
   column-rule-style: solid;
   column-rule-color: black;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 #two_article article{
@@ -90,8 +92,13 @@ h1, button:first-letter {
   column-rule-width: 0.15em;
   column-rule-style: solid;
   column-rule-color: black;
+  text-align: justify;
+  text-justify: inter-word;
 }
-
+#three_article article{
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 .one_colum .expand {
   max-width: 100%;
@@ -170,7 +177,7 @@ h1, button:first-letter {
   display: block;
   transform: translate(-50%, -50%) scale(1.2);
   position: absolute;
-  width: 45em;
+  width: 43em;
   min-width: 40em;
   height: 31em;
   background: rgb(255, 255, 255);
@@ -183,7 +190,7 @@ h1, button:first-letter {
   width: fit-content;
   order: 1;
   font-size: 100%;
-  margin-left: 5%;
+  margin-left: 6%;
   padding-bottom: 0.9em;
   border-bottom: solid rgb(0, 0, 0) 0.2em;
   
@@ -223,7 +230,7 @@ h1, button:first-letter {
   display: flex;
   float:left;
   flex-direction: column;
-  width: 60%;
+  width: 56%;
   border-right: solid rgb(0, 0, 0) 0.3em;
   border-left: solid rgb(0, 0, 0) 0.3em;
   padding-bottom: 2%;
@@ -231,12 +238,12 @@ h1, button:first-letter {
 
 
 .cover_text{
-  width: 30%;
+  width: 34%;
   height: fit-content;
   margin-top: 0em;
   float: left;
   font-size: 110%;
-  margin-left: 2em;
+  margin-left: 1.8em;
   /*column-count: 2;*/
   padding-top: 1em;
   /*column-rule-width: 1px;
@@ -248,6 +255,7 @@ h1, button:first-letter {
   border-bottom: solid rgb(0, 0, 0) 0.15em;
   border-top: solid rgb(0, 0, 0) 0.15em;
   margin-top: 0em;
+  padding: 0.7em;
 }
 
 .cover_text p {
