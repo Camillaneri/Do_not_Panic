@@ -10,16 +10,16 @@ body {
 
 @font-face {
   font-family: 'candlebright';
-  src: url('font/Y80S/Y300s/candlebright_sample-webfont.woff2') format('woff2'),
-       url('font/Y80S/Y300s/candlebright_sample-webfont.woff') format('woff');
+  src: url('font/Y300s/candlebright_sample-webfont.woff2') format('woff2'),
+       url('font/Y300s/candlebright_sample-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family:'camelot';
-  src: url('font/Y80S/Y300s/camelot-webfont.woff2') format('woff2'),
-       url('font/Y80S/Y3300s/camelot-webfont.woff') format('woff');
+  src: url('font/Y300s/camelot-webfont.woff2') format('woff2'),
+       url('font/Y300s/camelot-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 

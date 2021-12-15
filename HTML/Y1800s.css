@@ -12,8 +12,8 @@ body {
 
 @font-face {
   font-family: 'manuskriptgotisch';
-  src: url('font/Y80S/Y1800/manuskriptgotisch-webfont.woff2') format('woff2'),
-       url('font/Y80S/Y1800/manuskriptgotisch-webfont.woff') format('woff');
+  src: url('font/Y1800/manuskriptgotisch-webfont.woff2') format('woff2'),
+       url('font/Y1800/manuskriptgotisch-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -21,8 +21,8 @@ body {
 
 @font-face {
   font-family: 'opulence';
-  src: url('font/Y80S/Y1800/opulence-webfont.woff2') format('woff2'),
-       url('font/Y80S/Y1800/opulence-webfont.woff') format('woff');
+  src: url('font/Y1800/opulence-webfont.woff2') format('woff2'),
+       url('font/Y1800/opulence-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
