@@ -351,9 +351,8 @@ function styleSwitch(id) {
   var myPara = document.getElementById("hr_lens");
   var set = myPara.style.marginRight;
   var world = document.getElementById("gif");
-////////////////////////////////////////
   var imgallaround = document.getElementById("logo_img");
-/////////////////////////////////////////
+
   if (id == "no_style") {
     theme.setAttribute("href", "#");
   }
