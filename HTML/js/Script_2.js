@@ -555,7 +555,7 @@ function highlight_metadata(text_id, text, selector){
   counter = 0;
   highlight_metadata(text_id,text, selector);
 }
-}else if (localStorage.getItem("counter")!==0){
+}else if (localStorage.getItem("counter")>-1){
   var temp_name = localStorage.getItem("meta");
   var temp_counter = localStorage.getItem("counter");
   meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+temp_name+'"]');
@@ -569,6 +569,7 @@ function highlight_metadata(text_id, text, selector){
 }
  }else{
   localStorage.setItem("text", text_id);
+  localStorage.setItem("counter", 0);
   counter=0;
   highlight_metadata(text_id, text, selector);
 }
