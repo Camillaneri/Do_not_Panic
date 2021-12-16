@@ -307,9 +307,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(1.2);
   position: absolute;
- 
   min-width: 48em;
-  height: 22em;
   background: rgba(16,4,67,1);
   border:  0.125em white solid;
   padding: 3%;

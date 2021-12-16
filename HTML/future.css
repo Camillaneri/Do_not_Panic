@@ -34,7 +34,7 @@ body {
 
 h1, h2, h3, button{    font-family: 'neon', cursive !important;
   color: #fff; } 
-p, a, ul, li, figcaption  {font-family: 'VT323', monospace, sans-serif !important; color: white; font-size: 0.9em;}
+p, a, ul, li, figcaption  {font-family: 'VT323', monospace, sans-serif !important; color: white; font-size: 1em;}
 
 button {
   border: none;
@@ -77,6 +77,11 @@ button:hover {
     padding: 1em 2em 1em 2em;
     box-shadow: 0 0 2em rgb(0 221 29);
     animation: glow 1s ease-in-out alternate infinite;
+}
+
+.lensbox {
+  border: 0.3em white solid;
+  box-shadow: 0 0 2em rgb(0 221 29);
 }
 
 @keyframes glow {
@@ -190,6 +195,11 @@ button:hover {
   box-shadow: 0 0 2em rgb(0 221 29);
 }
 
+.scrolling_content {
+  padding: 2em;
+  top: 16.4%;
+  left: 2.7%;
+}
 
 
 
