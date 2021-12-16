@@ -1116,6 +1116,13 @@ div.article_box:hover .overlay {
     position: relative;
 }
 
+.interact_form_box {
+  width: 100%;
+  margin-top: 1em;
+  margin-left: 0.3em;
+  position: relative;
+}
+
 .form_margin{
   margin-top: 1em;
 }
