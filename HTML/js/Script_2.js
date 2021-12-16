@@ -352,7 +352,7 @@ function styleSwitch(id) {
   var set = myPara.style.marginRight;
   var world = document.getElementById("gif");
 ////////////////////////////////////////
-  var imgallaround = document.getElementsByTagName("img")[0];
+  var imgallaround = document.getElementById("logo_img");
 /////////////////////////////////////////
   if (id == "no_style") {
     theme.setAttribute("href", "#");
