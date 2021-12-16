@@ -206,7 +206,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   border-color: rgb(179, 114, 18);
 }
 .select-items {
-  position: absolute;
+  position: relative;
   background-color: rgba(163, 163, 163, 0.5);
   top: 100%;
   left: 0;
@@ -214,6 +214,9 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   z-index: 99;
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
+  border: 0.16em solid rgb(179, 114, 18);
+  border-color: rgb(179, 114, 1);
+  background-color: transparent;
 }
 
 .scrolling_content hr{
@@ -257,14 +260,6 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   border-width: 0 0.25em 0.25em 0;
 }
 
-.select-items {
-  
- 
-  border: 0.16em solid rgb(179, 114, 18);
-  border-color: rgb(179, 114, 1);
-  background-color: rgb(33, 41, 112);
-
-}
 .select-items div{
   font-family:'candlebright', normal !important;
   color: rgb(179, 114, 18);
