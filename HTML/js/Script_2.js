@@ -360,6 +360,7 @@ function styleSwitch(id) {
   switch (id) {
     case "future":
       world.setAttribute("src", "img/futuro-gif.gif");
+
       break;
     case "Y2000s":
       world.setAttribute("src", "img/matrixsmall.gif");
@@ -369,15 +370,26 @@ function styleSwitch(id) {
       break;
     case "Y40s":
       world.setAttribute("src", "img/futuristsmall.gif");
+
       break;
     case "Y1800s":
       world.setAttribute("src", "img/victoriansmall.gif");
+       
+       imgallaround.setAttribute("src", "img/svg/1800inv.svg");
+
       break;
     case "Y300s":
       world.setAttribute("src", "img/medioevosmall.gif");
+
+      imgallaround.setAttribute("src", "img/svg/1300inv2.svg");
+
       break;
     case "no_style":
       world.setAttribute("src", "img/200w.gif");
+
+      imgallaround.setAttribute("src", "img/dontPanic_logo.svg");
+   
+
       break;
   }
 

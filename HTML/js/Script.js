@@ -129,3 +129,17 @@ $(document).ready(function(){
     $("div#Giulia > div.explain").toggle();
   });
 })
+
+$(document).ready(function(){
+  $(document).mouseup(function (e)
+{
+    var container = $(".lens_menu_icon");
+
+    if (!container.is(e.target) // if clicked outside
+        && container.has(e.target).length === 0)nor a descendant of the container
+    {
+        container.hide();
+        $( "#lens_menu" ).prop( "checked", false ); //to uncheck
+    }
+});
+})

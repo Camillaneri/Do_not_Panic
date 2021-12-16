@@ -133,8 +133,6 @@ button:hover {
 }
 
 .cover_text p {
-  font-size: 1.3em;
-  color: #1bcd4a;
   margin-top: 0;
 }
 
@@ -170,14 +168,6 @@ button:hover {
 
 .person_team {
   border-radius: 0.5em 0.5em 0 0;
-}
-
-.disclamer p {
-  font-size: 100%;
-}
-
-.disclamer ul {
-  font-size: 1.3em;
 }
 
 .close {
