@@ -520,13 +520,17 @@ function generate_metadata_calls(text, position, kind, text_id, selector){
  }
 }
 
-var counter=0;
+var counter=-1;
 
 function highlight_metadata(text_id, text, selector){
   var meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+text+'"]');
   if (localStorage.getItem("text") == text_id){
   if (localStorage.getItem("meta") == text){
-  if (localStorage.getItem("counter") == meta_focus_list.length-1){
+  if (meta_focus_list.length==1){
+    meta_focus_list[0].classList.add("MetaFocus");
+    localStorage.setItem("counter", 0);
+    scroll_metadata_up(text_id);
+  } else if (localStorage.getItem("counter") == meta_focus_list.length-1){
     meta_focus_list[meta_focus_list.length-1].classList.remove("MetaFocus");
   }
   if (counter<meta_focus_list.length-1){
@@ -539,6 +543,7 @@ function highlight_metadata(text_id, text, selector){
       meta_focus_list[counter-1].classList.remove("MetaFocus");
       localStorage.setItem("counter", counter);
       meta_focus_list[counter].classList.add("MetaFocus");
+      counter += 1;
     }else{
     meta_focus_list[counter-1].classList.remove("MetaFocus");
     counter += 1;
@@ -569,9 +574,15 @@ function highlight_metadata(text_id, text, selector){
 }
  }else{
   localStorage.setItem("text", text_id);
-  localStorage.setItem("counter", 0);
-  counter=0;
+  localStorage.setItem("counter", -1);
   highlight_metadata(text_id, text, selector);
 }
+scroll_metadata_up(text_id);
 }
 
+function scroll_metadata_up(text_id){
+  var element_id = document.getElementById(text_id).getElementsByClassName("MetaFocus")[0].id;
+  var offsets = document.getElementById(element_id).getBoundingClientRect();
+  var topPos = offsets.top;
+  document.getElementById(text_id).scrollTop = topPos;
+}
