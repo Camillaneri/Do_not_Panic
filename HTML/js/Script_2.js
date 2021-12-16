@@ -351,7 +351,7 @@ function styleSwitch(id) {
   var myPara = document.getElementById("hr_lens");
   var set = myPara.style.marginRight;
   var world = document.getElementById("gif");
-  var imgallaround = document.getElementById("logo_img");
+  var coverLogo = document.getElementById("logo_img");
 
   if (id == "no_style") {
     theme.setAttribute("href", "#");
@@ -361,45 +361,31 @@ function styleSwitch(id) {
   switch (id) {
     case "future":
       world.setAttribute("src", "img/futuro-gif.gif");
-      ///////////////////////////////
-      imgallaround.setAttribute("src", "img/svg/3000inv.svg");
-      ///////////////////////////////////
+      coverLogo.setAttribute("src", "img/svg/3000inv.svg");
       break;
     case "Y2000s":
       world.setAttribute("src", "img/matrixsmall.gif");
-      ///////////////////////////////
-      imgallaround.setAttribute("src", "img/svg/2001.svg");
-      ///////////////////////////////////
+      coverLogo.setAttribute("src", "img/svg/2001.svg");
       break;
     case "Y80s":
       world.setAttribute("src", "img/80ssmall.gif");
-      ///////////////////////////////
-      imgallaround.setAttribute("src", "img/svg/1990inv.svg");
-      ///////////////////////////////////
+      coverLogo.setAttribute("src", "img/svg/1990inv.svg");
       break;
     case "Y40s":
       world.setAttribute("src", "img/futuristsmall.gif");
-      ///////////////////////////////
-      imgallaround.setAttribute("src", "img/svg/1926inv1.svg");
-      ///////////////////////////////////
+      coverLogo.setAttribute("src", "img/svg/1926inv1.svg");
       break;
     case "Y1800s":
-       ///////////////////////////////
-       imgallaround.setAttribute("src", "img/svg/1800inv.svg");
-       ///////////////////////////////////
       world.setAttribute("src", "img/victoriansmall.gif");
+      coverLogo.setAttribute("src", "img/svg/1800inv.svg");
       break;
     case "Y300s":
-      ///////////////////////////////
-      imgallaround.setAttribute("src", "img/svg/1300inv2.svg");
-      ///////////////////////////////////
       world.setAttribute("src", "img/medioevosmall.gif");
+      coverLogo.setAttribute("src", "img/svg/1300inv2.svg");
       break;
     case "no_style":
       world.setAttribute("src", "img/200w.gif");
-      ///////////////////////////////
-      imgallaround.setAttribute("src", "img/dontPanic_logo.svg");
-      ///////////////////////////////////
+      coverLogo.setAttribute("src", "img/dontPanic_logo.svg");
       break;
   }
 
