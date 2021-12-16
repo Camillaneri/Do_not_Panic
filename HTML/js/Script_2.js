@@ -351,11 +351,8 @@ function styleSwitch(id) {
   var myPara = document.getElementById("hr_lens");
   var set = myPara.style.marginRight;
   var world = document.getElementById("gif");
-////////////////////////////////////////
-  var imgallaround = document.getElementById("logo_img");
-  var lensIcon = document.getElementsByClassName("lens_menu_icon").innerHTML;
-  var newContent = document.getElementById(id).innerHTML;
-/////////////////////////////////////////
+  var coverLogo = document.getElementById("logo_img");
+
   if (id == "no_style") {
     theme.setAttribute("href", "#");
   }
@@ -364,52 +361,31 @@ function styleSwitch(id) {
   switch (id) {
     case "future":
       world.setAttribute("src", "img/futuro-gif.gif");
-      ///////////////////////////////
-      imgallaround.setAttribute("src", "img/svg/3000inv.svg");
-      lensIcon.replace(lensIcon, newContent);
-      ///////////////////////////////////
+      coverLogo.setAttribute("src", "img/svg/3000inv.svg");
       break;
     case "Y2000s":
       world.setAttribute("src", "img/matrixsmall.gif");
-      ///////////////////////////////
-      imgallaround.setAttribute("src", "img/svg/2001.svg");
-      lensIcon.replace(lensIcon, newContent);
-      ///////////////////////////////////
+      coverLogo.setAttribute("src", "img/svg/2001.svg");
       break;
     case "Y80s":
       world.setAttribute("src", "img/80ssmall.gif");
-      ///////////////////////////////
-      imgallaround.setAttribute("src", "img/svg/1990inv.svg");
-      lensIcon.replace(lensIcon, newContent);
-      ///////////////////////////////////
+      coverLogo.setAttribute("src", "img/svg/1990inv.svg");
       break;
     case "Y40s":
       world.setAttribute("src", "img/futuristsmall.gif");
-      ///////////////////////////////
-      imgallaround.setAttribute("src", "img/svg/1926inv1.svg");
-      lensIcon.replace(lensIcon, newContent);
-      ///////////////////////////////////
+      coverLogo.setAttribute("src", "img/svg/1926inv1.svg");
       break;
     case "Y1800s":
-       ///////////////////////////////
-       imgallaround.setAttribute("src", "img/svg/1800inv.svg");
-       lensIcon.replace(lensIcon, newContent);
-       ///////////////////////////////////
       world.setAttribute("src", "img/victoriansmall.gif");
+      coverLogo.setAttribute("src", "img/svg/1800inv.svg");
       break;
     case "Y300s":
-      ///////////////////////////////
-      imgallaround.setAttribute("src", "img/svg/1300inv2.svg");
-      lensIcon.replace(lensIcon, newContent);
-      ///////////////////////////////////
       world.setAttribute("src", "img/medioevosmall.gif");
+      coverLogo.setAttribute("src", "img/svg/1300inv2.svg");
       break;
     case "no_style":
       world.setAttribute("src", "img/200w.gif");
-      ///////////////////////////////
-      imgallaround.setAttribute("src", "img/dontPanic_logo.svg");
-      lensIcon.replace(lensIcon, newContent);
-      ///////////////////////////////////
+      coverLogo.setAttribute("src", "img/dontPanic_logo.svg");
       break;
   }
 
@@ -548,25 +524,75 @@ var counter=0;
 
 function highlight_metadata(text_id, text, selector){
   var meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+text+'"]');
-  if (localStorage.getItem(text_id)){
-  if (counter<meta_focus_list.length-1){
-  if (localStorage.getItem(text)){
-    meta_focus_list[counter].classList.remove("MetaFocus");
-    counter += 1;
-    localStorage.setItem(text, counter);
-    meta_focus_list[counter].classList.add("MetaFocus");
-    console.log(text, localStorage.getItem(text));
-  }else{
-    meta_focus_list[counter].classList.add("MetaFocus");
-    localStorage.setItem(text, counter);
-    console.log(text, localStorage.getItem(text));
+  if (localStorage.getItem("text") == text_id){
+  if (localStorage.getItem("meta") == text){
+  if (localStorage.getItem("counter") == meta_focus_list.length-1){
+    meta_focus_list[meta_focus_list.length-1].classList.remove("MetaFocus");
   }
+  if (counter<meta_focus_list.length-1){
+  if (counter == 0){
+    meta_focus_list[0].classList.add("MetaFocus");
+    localStorage.setItem("counter", counter);
+    counter += 1;
+  }else{
+    if (counter == 1){
+      meta_focus_list[counter-1].classList.remove("MetaFocus");
+      localStorage.setItem("counter", counter);
+      meta_focus_list[counter].classList.add("MetaFocus");
     }else{
-  counter=0;
-  console.log(text, localStorage.getItem(text));
-}
-}else{
-  localStorage.setItem(text_id, "yes");
+    meta_focus_list[counter-1].classList.remove("MetaFocus");
+    counter += 1;
+    localStorage.setItem("counter", counter);
+    meta_focus_list[counter].classList.add("MetaFocus");
+  }
+  }
+}else if(counter == meta_focus_list.length-1){
+  meta_focus_list[counter-1].classList.remove("MetaFocus");
+  meta_focus_list[counter].classList.add("MetaFocus");
+  localStorage.setItem("counter", counter);
   counter = 0;
+}else{
+  counter = 0;
+  highlight_metadata(text_id,text, selector);
 }
+}else if (localStorage.getItem("counter")>-1){
+  var temp_name = localStorage.getItem("meta");
+  var temp_counter = localStorage.getItem("counter");
+  meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+temp_name+'"]');
+  meta_focus_list[temp_counter].classList.remove("MetaFocus");
+  counter=0;
+  localStorage.setItem("meta", text);
+  highlight_metadata(text_id, text, selector);
+}else{
+  localStorage.setItem("meta", text);
+  highlight_metadata(text_id, text, selector);
+}
+ }else{
+  localStorage.setItem("text", text_id);
+  localStorage.setItem("counter", 0);
+  counter=0;
+  highlight_metadata(text_id, text, selector);
+}
+}
+
+
+
+function not_your_prob(){
+  var mentionSomething = document.querySelector(stuff);
+  document.getElementsByClassName(mentionSomething).innerHTML = NotMyProb;
+  switch (stuff) {
+    case ".mention concept":
+      NotMyProb = "not your prob";
+      break;
+    case ".mention date":
+      NotMyProb = "never cared";
+      break;
+    case ".mention person":
+      NotMyProb = "What's their face";
+      break;
+    case ".mention place":
+      NotMyProb = "nowere interesting";
+      break;
+}
+
 }
