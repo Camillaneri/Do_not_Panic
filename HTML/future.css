@@ -79,6 +79,11 @@ button:hover {
     animation: glow 1s ease-in-out alternate infinite;
 }
 
+.lensbox {
+  border: 0.3em white solid;
+  box-shadow: 0 0 2em rgb(0 221 29);
+}
+
 @keyframes glow {
     
   0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
@@ -190,6 +195,11 @@ button:hover {
   box-shadow: 0 0 2em rgb(0 221 29);
 }
 
+.scrolling_content {
+  padding: 2em;
+  top: 16.4%;
+  left: 2.7%;
+}
 
 
 
