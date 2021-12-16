@@ -173,7 +173,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   height: 90%;
   display: inline-block;
   margin-right: 50px;
-  border: 0.125em solid;
+  border: 0.21em solid;
   border-color: rgb(179, 114, 18);
 }
 
@@ -214,8 +214,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   z-index: 99;
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
-  border: 0.16em solid rgb(179, 114, 18);
-  border-color: rgb(179, 114, 1);
+  border: none !important;
   background-color: transparent;
 }
 
@@ -231,7 +230,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   color: rgb(179, 114, 18);
   background-color: Transparent;
   background-repeat: no-repeat;
-  border: 0.125em rgb(179, 114, 18) solid;
+  border: 0.17em rgb(179, 114, 18) solid;
   cursor: pointer;
   font-size: 1.5em;
 }
@@ -244,8 +243,8 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   color: rgb(179, 114, 18);
   text-transform: lowercase; 
   font-weight: normal !important;
-  border: 1.5px solid rgb(179, 114, 18);
-  border-color: rgb(179, 114, 1);
+  border: none !important;
+  
   
 }
 
@@ -272,7 +271,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 
   color: rgb(179, 114, 1);
  
-  border-top: 0.16em rgb(179, 114, 1) solid;
+  border-top: 0.17em rgb(179, 114, 1) solid;
 }
 
 .b-contain input[type="checkbox"] ~ .b-input {
@@ -403,8 +402,8 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   position: relative;
   width: 100%;
   height: 33.2%;
-  border-bottom: 0.125em rgb(179, 114, 18) solid;
-  border-left: 0.125em rgb(179, 114, 18) solid;
+  border-bottom: 0.17em rgb(179, 114, 18) solid;
+  border-left: 0.17em rgb(179, 114, 18) solid;
 }
 
 .menu hr {
@@ -419,7 +418,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 .lensbox {
   top: 10px;
   position: relative;
-  border: 0.125em rgb(179, 114, 18) solid;
+  border: 0.17em rgb(179, 114, 18) solid;
   padding-left: 11.5px;
   padding-right: 11.5px;
   padding-bottom: 8px;
@@ -432,9 +431,9 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 
 /*text containers*/
 .metadata_menu {
-  border-top: 0.125em solid rgb(179, 114, 18);
-  border-right: 0.125em solid rgb(179, 114, 18);
-  border-bottom: 0.125em solid rgb(179, 114, 18);
+  border-top: 0.28em solid rgb(179, 114, 18);
+  border-right: 0.28em solid rgb(179, 114, 18);
+  border-bottom: 0.28em solid rgb(179, 114, 18);
   border-image: initial;
   border-left: none;
   position: absolute;
@@ -452,7 +451,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   
 .metadata {
     border-right: 0.1em rgb(0, 0, 0) solid;
-    border-bottom: 0.16em rgb(179, 114, 18) solid;
+    border-bottom: 0.17em rgb(179, 114, 18) solid;
     width: 100%;
     height: fit-content;
 }
