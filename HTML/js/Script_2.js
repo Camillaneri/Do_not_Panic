@@ -353,6 +353,8 @@ function styleSwitch(id) {
   var world = document.getElementById("gif");
 ////////////////////////////////////////
   var imgallaround = document.getElementById("logo_img");
+  var lensIcon = document.getElementsByClassName("lens_menu_icon").innerHTML;
+  var newContent = document.getElementById(id).innerHTML;
 /////////////////////////////////////////
   if (id == "no_style") {
     theme.setAttribute("href", "#");
@@ -364,35 +366,41 @@ function styleSwitch(id) {
       world.setAttribute("src", "img/futuro-gif.gif");
       ///////////////////////////////
       imgallaround.setAttribute("src", "img/svg/3000inv.svg");
+      lensIcon.replace(lensIcon, newContent);
       ///////////////////////////////////
       break;
     case "Y2000s":
       world.setAttribute("src", "img/matrixsmall.gif");
       ///////////////////////////////
       imgallaround.setAttribute("src", "img/svg/2001.svg");
+      lensIcon.replace(lensIcon, newContent);
       ///////////////////////////////////
       break;
     case "Y80s":
       world.setAttribute("src", "img/80ssmall.gif");
       ///////////////////////////////
       imgallaround.setAttribute("src", "img/svg/1990inv.svg");
+      lensIcon.replace(lensIcon, newContent);
       ///////////////////////////////////
       break;
     case "Y40s":
       world.setAttribute("src", "img/futuristsmall.gif");
       ///////////////////////////////
       imgallaround.setAttribute("src", "img/svg/1926inv1.svg");
+      lensIcon.replace(lensIcon, newContent);
       ///////////////////////////////////
       break;
     case "Y1800s":
        ///////////////////////////////
        imgallaround.setAttribute("src", "img/svg/1800inv.svg");
+       lensIcon.replace(lensIcon, newContent);
        ///////////////////////////////////
       world.setAttribute("src", "img/victoriansmall.gif");
       break;
     case "Y300s":
       ///////////////////////////////
       imgallaround.setAttribute("src", "img/svg/1300inv2.svg");
+      lensIcon.replace(lensIcon, newContent);
       ///////////////////////////////////
       world.setAttribute("src", "img/medioevosmall.gif");
       break;
@@ -400,6 +408,7 @@ function styleSwitch(id) {
       world.setAttribute("src", "img/200w.gif");
       ///////////////////////////////
       imgallaround.setAttribute("src", "img/dontPanic_logo.svg");
+      lensIcon.replace(lensIcon, newContent);
       ///////////////////////////////////
       break;
   }
