@@ -66,6 +66,10 @@ button:hover {
   box-shadow: 0 -0.4em 1em rgb(0 221 29);
 }
 
+.menu_item {
+  padding: 0.5em;
+}
+
 .logo {
   border: 0.3em white solid;
     border-radius: 2em;
@@ -207,6 +211,23 @@ button:hover {
   top: 16.4%;
   left: 2.7%;
 }
+
+div.issue:hover .overlay {
+  height: 110%;
+}
+
+.overlay {
+  position: absolute;
+  border-radius: 1em;
+  top: -5%;
+  bottom: -5%;
+  left: -5%;
+  right: -5%;
+  background-color: rgba(86,20,182,1);
+  overflow: hidden;
+  width: 110%;
+  height: 0;
+  transition: .5s ease;
 
 
 
