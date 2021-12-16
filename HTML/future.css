@@ -34,7 +34,7 @@ body {
 
 h1, h2, h3, button{    font-family: 'neon', cursive !important;
   color: #fff; } 
-p, a, ul, li, figcaption  {font-family: 'VT323', monospace, sans-serif !important; color: white; font-size: 1em;}
+p, a, ul, li, figcaption  {font-family: 'VT323', monospace, sans-serif !important; color: white; font-size: 1.3em;}
 
 button {
   border: none;
@@ -43,6 +43,7 @@ button {
   overflow:visible;
   padding: 0.5em;
   box-shadow: 0 0 2em rgb(0 221 29);
+  border-radius: 0.5em;
 }
 
 button:hover {
@@ -53,10 +54,20 @@ button:hover {
   padding: 0.2em !important;
   margin: 0 !important;
   box-shadow: 0 0 2em rgb(0 221 29);
+  border-radius: 0.5em;
 }
 
 button:hover {
   background: transparent !important;
+}
+
+.menu hr {
+  border: 1e-12em white solid;
+  box-shadow: 0 -0.4em 1em rgb(0 221 29);
+}
+
+.menu_item {
+  padding: 0.5em;
 }
 
 .logo {
@@ -191,7 +202,7 @@ button:hover {
 
 .card {
   border: 0.3em white solid;
-  border-radius: 0.5em;
+  border-radius: 1.5em;
   box-shadow: 0 0 2em rgb(0 221 29);
 }
 
@@ -201,6 +212,23 @@ button:hover {
   left: 2.7%;
 }
 
+div.issue:hover .overlay {
+  height: 110%;
+}
+
+.overlay {
+  position: absolute;
+  border-radius: 1em;
+  top: -5%;
+  bottom: -5%;
+  left: -5%;
+  right: -5%;
+  background-color: rgba(86,20,182,1);
+  overflow: hidden;
+  width: 110%;
+  height: 0;
+  transition: .5s ease;
+}
 
 
 
