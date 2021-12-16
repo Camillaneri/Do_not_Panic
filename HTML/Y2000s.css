@@ -6,17 +6,8 @@ body {
   overflow: hidden;
 }
 
-/*logo*/
-@font-face {
-  font-family: 'matrixmedium';
-  src: url('font/Y2000S/matrix-webfont.woff2') format('woff2'),
-       url('font/Y2000S/matrix-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
 
-}
-
-/*title*/
+/*title and logo*/
 @font-face {
   font-family: 'magazinebold';
   src: url('font/Y2000S/magazine-bold-webfont.woff2') format('woff2'),
@@ -30,15 +21,6 @@ body {
   font-family: 'republica_minoritalic';
   src: url('font/Y2000S/republica_minor_regular-webfont.woff2') format('woff2'),
        url('font/Y2000S/republica_minor_regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/*labels*/
-@font-face {
-  font-family: 'dover_heavyheavy';
-  src: url('font/Y2000S/dover-heavy-webfont.woff2') format('woff2'),
-       url('font/Y2000S/dover-heavy-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -65,7 +47,7 @@ body {
 h1 {font-family: 'republica_minoritalic' !important; color:white !important; text-transform: uppercase;font-weight: 50;} 
 h2, h3, h4, h5, h6, label {font-family: 'magazinebold', cursive !important; color:  white; text-transform: uppercase; font-weight: 70;} 
 p  {font-family: 'faustinaregular', serif !important; color: white; font-size: 0.9em;}
-a, button, ul, li  {font-family: 'dover_heavyheavy', sans-serif !important; color: white; font-size: 1em;}
+a, button, ul, li  {font-family: 'faustinaregular', sans-serif !important; color: white; font-size: 1em;}
 figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: white; font-size: 0.9em;}
 
 custom-select {
@@ -315,4 +297,8 @@ figcaption p{
 .large_button{
   color: white;
   font-family: "magazinebold" !important;
+}
+
+.subtitle {
+  font-family: "faustinaregular" !important;
 }

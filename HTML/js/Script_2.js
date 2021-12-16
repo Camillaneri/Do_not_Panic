@@ -539,25 +539,53 @@ var counter=0;
 
 function highlight_metadata(text_id, text, selector){
   var meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+text+'"]');
-  if (localStorage.getItem(text_id)!=null){
-  if (counter<meta_focus_list.length-1){
-  if (localStorage.getItem(text)!=null){
-    meta_focus_list[counter].classList.remove("MetaFocus");
-    counter += 1;
-    localStorage.setItem(text, counter);
-    meta_focus_list[counter].classList.add("MetaFocus");
-    console.log(text, localStorage.getItem(text));
-  }else{
-    meta_focus_list[counter].classList.add("MetaFocus");
-    localStorage.setItem(text, counter);
-    console.log(text, localStorage.getItem(text));
+  if (localStorage.getItem("text") == text_id){
+  if (localStorage.getItem("meta") == text){
+  if (localStorage.getItem("counter") == meta_focus_list.length-1){
+    meta_focus_list[meta_focus_list.length-1].classList.remove("MetaFocus");
   }
+  if (counter<meta_focus_list.length-1){
+  if (counter == 0){
+    meta_focus_list[0].classList.add("MetaFocus");
+    localStorage.setItem("counter", counter);
+    counter += 1;
+  }else{
+    if (counter == 1){
+      meta_focus_list[counter-1].classList.remove("MetaFocus");
+      localStorage.setItem("counter", counter);
+      meta_focus_list[counter].classList.add("MetaFocus");
     }else{
-  counter=0;
-  console.log(text, localStorage.getItem(text));
-}
-}else{
-  localStorage.setItem(text_id, "yes");
+    meta_focus_list[counter-1].classList.remove("MetaFocus");
+    counter += 1;
+    localStorage.setItem("counter", counter);
+    meta_focus_list[counter].classList.add("MetaFocus");
+  }
+  }
+}else if(counter == meta_focus_list.length-1){
+  meta_focus_list[counter-1].classList.remove("MetaFocus");
+  meta_focus_list[counter].classList.add("MetaFocus");
+  localStorage.setItem("counter", counter);
   counter = 0;
+}else{
+  counter = 0;
+  highlight_metadata(text_id,text, selector);
+}
+}else if (localStorage.getItem("counter")!==0){
+  var temp_name = localStorage.getItem("meta");
+  var temp_counter = localStorage.getItem("counter");
+  meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+temp_name+'"]');
+  meta_focus_list[temp_counter].classList.remove("MetaFocus");
+  counter=0;
+  localStorage.setItem("meta", text);
+  highlight_metadata(text_id, text, selector);
+}else{
+  localStorage.setItem("meta", text);
+  highlight_metadata(text_id, text, selector);
+}
+ }else{
+  localStorage.setItem("text", text_id);
+  counter=0;
+  highlight_metadata(text_id, text, selector);
 }
 }
+
