@@ -524,9 +524,9 @@ var counter=0;
 
 function highlight_metadata(text_id, text, selector){
   var meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+text+'"]');
-  if (localStorage.getItem(text_id)){
+  if (localStorage.getItem(text_id)!=null){
   if (counter<meta_focus_list.length-1){
-  if (localStorage.getItem(text)){
+  if (localStorage.getItem(text)!=null){
     meta_focus_list[counter].classList.remove("MetaFocus");
     counter += 1;
     localStorage.setItem(text, counter);
