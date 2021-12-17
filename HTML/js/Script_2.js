@@ -115,7 +115,7 @@ function issue_selected(issue_id, name_article) {
 }
 
 function from_issue(adviser) {
-  /*fromStyle();*/
+  fromStyle();
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
   var sources = JSON.parse(localStorage.sources);
@@ -392,7 +392,7 @@ function styleSwitch(id) {
   localStorage.setItem('style', theme.outerHTML);
 }
 
-/*
+
 function fromStyle() {
   var cur_style = localStorage.getItem('style');
   var link = document.getElementsByTagName("link")[1];
@@ -405,7 +405,7 @@ function fromStyle() {
   }
   
 }
-*/
+
 
 function display_basic_metadata() {
   var id_pointer = JSON.parse(localStorage.id_list);
