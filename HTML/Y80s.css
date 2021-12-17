@@ -112,6 +112,10 @@ p {text-align: justify;}
   border: solid white 0.2em;;
 }
 
+#lens_selected {
+  filter: invert();
+}
+
 .overlay {
   background-color: rgb(0 0 0);
 }
