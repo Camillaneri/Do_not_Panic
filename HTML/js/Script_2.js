@@ -600,3 +600,28 @@ function scroll_metadata_up(text_id){
     document.getElementById(text_id).scrollBy(0, -380);
 }
 
+function not_your_prob (){
+  var checkProblem = document.getElementsByName("problemCheckbox")[0];
+  var issue_id = localStorage.issue_id;
+  if (checkProblem.checked) {
+  var text_id = JSON.parse(localStorage.id_list);
+  for (j=0;j<text_id.length;j++) {
+  var metadata_list = document.getElementById(text_id[j]).getElementsByClassName("mention");
+  for (i=0;i<metadata_list.length;i++){
+    if (metadata_list[i].className == "mention concept"){
+      metadata_list[i].outerHTML = "<img id='logo_img' class = 'prob_icon' src='img/dontPanic_logo.svg'/>";
+    } else if (metadata_list[i].className == "mention person"){
+      metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+    } else if (metadata_list[i].className == "mention place"){
+      metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+    } else if (metadata_list[i].className == "mention organization"){
+      metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+    } else {
+      metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+    }
+  }
+}
+}else{
+readIssues(issue_id, "stay");
+}
+}
