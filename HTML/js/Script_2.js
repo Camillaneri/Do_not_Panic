@@ -1,12 +1,10 @@
 function populate_selection() {
   var x, i, j, l, ll, selElmnt, a, b, c;
-  /* Look for any elements with the class "custom-select": */
   x = document.getElementsByClassName("custom-select");
   l = x.length;
   for (i = 0; i < l; i++) {
     selElmnt = x[i].getElementsByTagName("select")[0];
     ll = selElmnt.length;
-    /* For each element, create a new DIV that will act as the selected item: */
     a = document.createElement("DIV");
     a.setAttribute("class", "select-selected");
 
@@ -19,18 +17,13 @@ function populate_selection() {
     }
 
     x[i].appendChild(a);
-    /* For each element, create a new DIV that will contain the option list: */
     b = document.createElement("DIV");
     b.setAttribute("class", "select-items select-hide");
     for (j = 1; j < ll; j++) {
-      /* For each option in the original select element,
-      create a new DIV that will act as an option item: */
       c = document.createElement("DIV");
       c.innerHTML = selElmnt.options[j].innerHTML;
 
       c.addEventListener("click", function (e) {
-        /* When an item is clicked, update the original select box,
-          and the selected item: */
         var y, i, k, s, h, sl, yl;
         s = this.parentNode.parentNode.getElementsByTagName("select")[0];
         sl = s.length;
@@ -60,8 +53,6 @@ function populate_selection() {
     x[i].appendChild(b);
 
     a.addEventListener("click", function (e) {
-      /* When the select box is clicked, close any other select boxes,
-      and open/close the current select box: */
       e.stopPropagation();
       closeAllSelect(this);
       this.nextSibling.classList.toggle("select-hide");
@@ -71,14 +62,8 @@ function populate_selection() {
 }
 
 function closeAllSelect(elmnt) {
-  /* A function that will close all select boxes in the document,
-  except the current select box: */
-  var x,
-    y,
-    i,
-    xl,
-    yl,
-    arrNo = [];
+  var x, y, i, xl, yl,
+  arrNo = [];
   x = document.getElementsByClassName("select-items");
   y = document.getElementsByClassName("select-selected");
   xl = x.length;
@@ -98,12 +83,11 @@ function closeAllSelect(elmnt) {
   }
 }
 
-/* If the user clicks anywhere outside the select box,
-then close all select boxes: */
 document.addEventListener("click", closeAllSelect);
 
 function issue_selected(issue_id, name_article) {
   var style = localStorage.style;
+  
   localStorage.clear();
   if (name_article != "stay") {
     var newWin = window.open("articles_viewer.html", "_self");
@@ -115,7 +99,7 @@ function issue_selected(issue_id, name_article) {
 }
 
 function from_issue(adviser) {
-  /*fromStyle();*/
+  fromStyle()
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
   var sources = JSON.parse(localStorage.sources);
@@ -298,7 +282,7 @@ function getCheckedBoxes(chkboxClass) {
   }
 }
 
-function hover(event, id) {
+function hover(event) {
   var myPara = document.getElementById("hr_lens");
 
   function str(el) {
@@ -345,57 +329,70 @@ var currStyle;
 
 function styleSwitch(id) {
   var theme = document.getElementsByTagName("link")[1];
-  console.log(theme);
   var new_style = id + ".css";
-  theme.setAttribute("href", new_style);
   var myPara = document.getElementById("hr_lens");
   var set = myPara.style.marginRight;
-  var world = document.getElementById("gif");
-  var coverLogo = document.getElementById("logo_img");
-
-  if (id == "no_style") {
-    theme.setAttribute("href", "#");
-  }
   currStyle = set;
 
-  switch (id) {
-    case "future":
+  if (id != "no_style") {
+    theme.setAttribute("href", new_style);
+  } else {
+    theme.setAttribute("href", "#");
+  }
+
+  localStorage.setItem('style', theme.outerHTML);
+  changeItemForStyle();
+}
+
+function changeItemForStyle() {
+  
+  var world = document.getElementById("gif");
+  var coverLogo = document.getElementById("logo_img");
+  var theme = localStorage.getItem('style');
+  console.log(theme);
+
+
+  switch (theme) {
+    case '<link rel="stylesheet" type="text/css" href="future.css">':
       world.setAttribute("src", "img/futuro-gif.gif");
       coverLogo.setAttribute("src", "img/svg/3000inv.svg");
       break;
-    case "Y2000s":
+    case '<link rel="stylesheet" type="text/css" href="Y2000s.css">':
       world.setAttribute("src", "img/matrixsmall.gif");
       coverLogo.setAttribute("src", "img/svg/2001.svg");
       break;
-    case "Y80s":
+    case '<link rel="stylesheet" type="text/css" href="Y80s.css">':
       world.setAttribute("src", "img/80ssmall.gif");
       coverLogo.setAttribute("src", "img/svg/1990inv.svg");
       break;
-    case "Y40s":
+    case '<link rel="stylesheet" type="text/css" href="Y40s.css">':
       world.setAttribute("src", "img/futuristsmall.gif");
       coverLogo.setAttribute("src", "img/svg/1926inv1.svg");
       break;
-    case "Y1800s":
+    case '<link rel="stylesheet" type="text/css" href="Y1800s.css">':
       world.setAttribute("src", "img/victoriansmall.gif");
       coverLogo.setAttribute("src", "img/svg/1800inv.svg");
       break;
-    case "Y300s":
+    case '<link rel="stylesheet" type="text/css" href="Y300s.css">':
       world.setAttribute("src", "img/medioevosmall.gif");
       coverLogo.setAttribute("src", "img/svg/1300inv2.svg");
       break;
-    case "no_style":
+    case '<link rel="stylesheet" type="text/css" href="#">':
       world.setAttribute("src", "img/200w.gif");
       coverLogo.setAttribute("src", "img/dontPanic_logo.svg");
       break;
   }
-
-  localStorage.setItem('style', theme.outerHTML);
 }
 
-/*
+
 function fromStyle() {
   var cur_style = localStorage.getItem('style');
   var link = document.getElementsByTagName("link")[1];
+
+  console.log('link:', link);
+  console.log(cur_style);
+  changeItemForStyle();
+
   if (cur_style){
     if (cur_style !== '<link rel="stylesheet" type="text/css" href="#">'){
       link.outerHTML = cur_style;
@@ -405,7 +402,8 @@ function fromStyle() {
   }
   
 }
-*/
+
+
 
 function display_basic_metadata() {
   var id_pointer = JSON.parse(localStorage.id_list);
@@ -600,3 +598,4 @@ function scroll_metadata_up(text_id){
     document.getElementById(text_id).scrollBy(0, topOffSet);
     document.getElementById(text_id).scrollBy(0, -380);
 }
+
