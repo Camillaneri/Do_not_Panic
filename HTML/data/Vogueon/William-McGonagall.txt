@@ -171,6 +171,6 @@
 		<p>In his 70s, <span id="P47" class="mention person" about="WilliamMcGonagall" data-label="William McGonagall">McGonagall</span>’s health declined and his <span id="C53" class="mention concept" about="OpinionOnArtwork" data-label="Bad">poetry got even worse</span>. He died penniless in <span id="D4" class="mention date" about="1902" data-label="1902">1902</span> and was buried in an unmarked grave in Greyfriars Kirkyard in <span id="L25" class="mention place" about="Edinburgh" data-label="Edinburgh" data-wikidata-id="Q23436">Edinburgh</span>.</p>
 
 		<p><span id="P48" class="mention person" about="William Power" data-label="William Power">William Power</span> later wrote: “He added to the gaiety of at least one nation, and, as the Ossian of the ineffably absurd, he has entered upon <span id="C54" class="mention concept" about="literarySuccess" data-label="Ironic paradoxical">immortality</span>.”</p>
-
+		<p>Published by <span class="publishedBy">The National</span></p> 
 	
 </article>
