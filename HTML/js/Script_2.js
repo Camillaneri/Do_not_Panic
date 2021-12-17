@@ -596,8 +596,7 @@ function highlight_metadata(text_id, text, selector){
 }
 
 function scroll_metadata_up(text_id){
-  var element_id = document.getElementById(text_id).getElementsByClassName("MetaFocus")[0].id;
-  var offsets = document.getElementById(element_id).getBoundingClientRect();
-  var topPos = offsets.top;
-  document.getElementById(text_id).scrollTop = topPos;
+  var topOffSet = document.getElementById(text_id).getElementsByClassName("MetaFocus")[0].getBoundingClientRect().top;
+    document.getElementById(text_id).scrollBy(0, topOffSet);
+    document.getElementById(text_id).scrollBy(0, -380);
 }
