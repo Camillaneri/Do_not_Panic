@@ -354,32 +354,33 @@ function changeItemForStyle() {
 
   switch (theme) {
     case '<link rel="stylesheet" type="text/css" href="future.css">':
+      
       world.setAttribute("src", "img/futuro-gif.gif");
-      coverLogo.setAttribute("src", "img/svg/3000inv.svg");
+      if (coverLogo){coverLogo.setAttribute("src", "img/svg/3000inv.svg");}
       break;
     case '<link rel="stylesheet" type="text/css" href="Y2000s.css">':
       world.setAttribute("src", "img/matrixsmall.gif");
-      coverLogo.setAttribute("src", "img/svg/2001.svg");
+      if (coverLogo){coverLogo.setAttribute("src", "img/svg/2001.svg");}
       break;
     case '<link rel="stylesheet" type="text/css" href="Y80s.css">':
       world.setAttribute("src", "img/80ssmall.gif");
-      coverLogo.setAttribute("src", "img/svg/1990inv.svg");
+      if (coverLogo){coverLogo.setAttribute("src", "img/svg/1990inv.svg");}
       break;
     case '<link rel="stylesheet" type="text/css" href="Y40s.css">':
       world.setAttribute("src", "img/futuristsmall.gif");
-      coverLogo.setAttribute("src", "img/svg/1926inv1.svg");
+      if (coverLogo){coverLogo.setAttribute("src", "img/svg/1926inv1.svg");}
       break;
     case '<link rel="stylesheet" type="text/css" href="Y1800s.css">':
       world.setAttribute("src", "img/victoriansmall.gif");
-      coverLogo.setAttribute("src", "img/svg/1800inv.svg");
+      if (coverLogo){coverLogo.setAttribute("src", "img/svg/1800inv.svg");}
       break;
     case '<link rel="stylesheet" type="text/css" href="Y300s.css">':
       world.setAttribute("src", "img/medioevosmall.gif");
-      coverLogo.setAttribute("src", "img/svg/1300inv2.svg");
+      if (coverLogo){coverLogo.setAttribute("src", "img/svg/1300inv2.svg");}
       break;
     case '<link rel="stylesheet" type="text/css" href="#">':
       world.setAttribute("src", "img/200w.gif");
-      coverLogo.setAttribute("src", "img/dontPanic_logo.svg");
+      if (coverLogo){coverLogo.setAttribute("src", "img/dontPanic_logo.svg");}
       break;
   }
 }
@@ -391,7 +392,7 @@ function fromStyle() {
 
   console.log('link:', link);
   console.log(cur_style);
-  changeItemForStyle();
+  
 
   if (cur_style){
     if (cur_style !== '<link rel="stylesheet" type="text/css" href="#">'){
@@ -400,6 +401,7 @@ function fromStyle() {
       link = '<link rel="stylesheet" type="text/css" href="#">';
     }
   }
+  changeItemForStyle();
   
 }
 
