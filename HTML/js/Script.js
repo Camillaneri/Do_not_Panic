@@ -33,13 +33,17 @@ $(document).ready(function(){
   $("#menu").click(function(){
     $('div#menu > i').toggleClass('a_left');
     $(".content_viewer").toggleClass("move");
+
+      $('div#dropdown_article > i').removeClass('a_up');
+      $(".drop_content").hide();
+    
   });
 })
 
 //Article select
 
-$(document).ready(function(){
-  $("#dropdown_article").click(function(){
+$(document).ready(function (){
+  $("#dropdown_article").click(function (){
     $('div#dropdown_article > i').toggleClass('a_up');
     $(".drop_content").toggle();
   });
