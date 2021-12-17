@@ -115,7 +115,7 @@ function issue_selected(issue_id, name_article) {
 }
 
 function from_issue(adviser) {
-  fromStyle();
+  
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
   var sources = JSON.parse(localStorage.sources);
@@ -144,6 +144,7 @@ function from_issue(adviser) {
       }
     }
   }
+  fromStyle();
 }
 
 function article_selector(issue, article, num_article) {
