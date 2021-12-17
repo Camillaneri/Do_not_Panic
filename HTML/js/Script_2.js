@@ -637,3 +637,9 @@ function not_your_prob (){
 readIssues(issue_id, "stay");
 }
 }
+
+function callWiki(text_id, text, selector){
+  var meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+text+'"]');
+  for (f=0;f<meta_focus_list.length;f++){
+    meta_focus_list[f].outerHTML = '<a href="https://en.wikipedia.com/w/index.php?search='+text+'" target="_blank">'+text+'</a>';
+  }
