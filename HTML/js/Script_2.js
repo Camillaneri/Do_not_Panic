@@ -524,7 +524,6 @@ function generate_metadata_calls(text, position, kind, text_id, selector){
        if (class_list[j].innerHTML==text){
          class_list[j].addEventListener("click", function(){
            highlight_metadata(text_id, text, selector);
-           callWiki(text_id, text, selector);
          });
        }
      }
@@ -545,7 +544,6 @@ function highlight_metadata(text_id, text, selector){
     meta_focus_list[0].classList.add("MetaFocus");
     scroll_metadata_up(text_id);
     localStorage.setItem("counter", 0);
-    scroll_metadata_up(text_id);
   } else if (localStorage.getItem("counter") == meta_focus_list.length-1){
     meta_focus_list[meta_focus_list.length-1].classList.remove("MetaFocus");
   }
@@ -582,6 +580,7 @@ function highlight_metadata(text_id, text, selector){
   localStorage.setItem("counter", counter);
   counter = 0;
 }else{
+  localStorage.setItem("counter", counter);
   counter = 0;
   highlight_metadata(text_id,text, selector);
 }
@@ -637,11 +636,4 @@ function not_your_prob (){
 }else{
 readIssues(issue_id, "stay");
 }
-}
-
-function callWiki(text_id, text, selector){
-  var meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+text+'"]');
-  for (f=0;f<meta_focus_list.length;f++){
-    meta_focus_list[f].outerHTML = '<a href="https://en.wikipedia.com/w/index.php?search='+text+'" target="_blank">'+text+'</a>';
-  }
 }
