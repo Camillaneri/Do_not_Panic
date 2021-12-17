@@ -575,24 +575,17 @@ function highlight_metadata(text_id, text, selector){
 }
 }
 
-
-
-function not_your_prob(){
-  var mentionSomething = document.querySelector(stuff);
-  document.getElementsByClassName(mentionSomething).innerHTML = NotMyProb;
-  switch (stuff) {
-    case ".mention concept":
-      NotMyProb = "not your prob";
-      break;
-    case ".mention date":
-      NotMyProb = "never cared";
-      break;
-    case ".mention person":
-      NotMyProb = "What's their face";
-      break;
-    case ".mention place":
-      NotMyProb = "nowere interesting";
-      break;
-}
-
+function not_your_prob (text_id, text){
+  var metadata_list = document.getElementById(text_id).querySelectorAll('["class"="'+text+'"]');
+  for (var i=0;i<metadata_list.length;i++)
+    if (text == "mention concept")
+      metadata_list[i].classList.add("noprob1");
+    if (text == "mention date")
+      metadata_list[i].classList.add("noprob2");
+    if (text == "mention person")
+      metadata_list[i].classList.add("noprob3");
+    if (text == "mention place")
+      metadata_list[i].classList.add("noprob4");
+    else (text == "mention organization")
+      metadata_list[i].classList.add("noprob5")
 }
