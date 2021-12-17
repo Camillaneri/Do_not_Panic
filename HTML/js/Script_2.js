@@ -99,7 +99,7 @@ function issue_selected(issue_id, name_article) {
 }
 
 function from_issue(adviser) {
-  
+  /*fromStyle();*/
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
   var sources = JSON.parse(localStorage.sources);
@@ -128,7 +128,6 @@ function from_issue(adviser) {
       }
     }
   }
-  fromStyle();
 }
 
 function article_selector(issue, article, num_article) {
@@ -384,6 +383,7 @@ function changeItemForStyle() {
   }
 }
 
+
 function fromStyle() {
   var cur_style = localStorage.getItem('style');
   var link = document.getElementsByTagName("link")[1];
@@ -520,10 +520,14 @@ var counter=-1;
 
 function highlight_metadata(text_id, text, selector){
   var meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+text+'"]');
+  for (f=0;f<meta_focus_list.length;f++){
+    meta_focus_list[f].classList.add("MetaFocusAll");
+  }
   if (localStorage.getItem("text") == text_id){
   if (localStorage.getItem("meta") == text){
   if (meta_focus_list.length==1){
     meta_focus_list[0].classList.add("MetaFocus");
+    scroll_metadata_up(text_id);
     localStorage.setItem("counter", 0);
     scroll_metadata_up(text_id);
   } else if (localStorage.getItem("counter") == meta_focus_list.length-1){
@@ -532,6 +536,7 @@ function highlight_metadata(text_id, text, selector){
   if (counter<meta_focus_list.length-1){
   if (counter == 0){
     meta_focus_list[0].classList.add("MetaFocus");
+    scroll_metadata_up(text_id);
     localStorage.setItem("counter", counter);
     counter += 1;
   }else{
@@ -539,17 +544,25 @@ function highlight_metadata(text_id, text, selector){
       meta_focus_list[counter-1].classList.remove("MetaFocus");
       localStorage.setItem("counter", counter);
       meta_focus_list[counter].classList.add("MetaFocus");
+      scroll_metadata_up(text_id);
       counter += 1;
+    }else if (counter == -1){
+    meta_focus_list[0].classList.add("MetaFocus");
+    scroll_metadata_up(text_id);
+    counter = 1;
+    localStorage.setItem("counter", counter);
     }else{
     meta_focus_list[counter-1].classList.remove("MetaFocus");
+    meta_focus_list[counter].classList.add("MetaFocus");
     counter += 1;
     localStorage.setItem("counter", counter);
-    meta_focus_list[counter].classList.add("MetaFocus");
+    scroll_metadata_up(text_id);
   }
   }
 }else if(counter == meta_focus_list.length-1){
   meta_focus_list[counter-1].classList.remove("MetaFocus");
   meta_focus_list[counter].classList.add("MetaFocus");
+  scroll_metadata_up(text_id);
   localStorage.setItem("counter", counter);
   counter = 0;
 }else{
@@ -560,6 +573,9 @@ function highlight_metadata(text_id, text, selector){
   var temp_name = localStorage.getItem("meta");
   var temp_counter = localStorage.getItem("counter");
   meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+temp_name+'"]');
+  for (q=0;q<meta_focus_list.length;q++){
+    meta_focus_list[q].classList.remove("MetaFocusAll");
+  }
   meta_focus_list[temp_counter].classList.remove("MetaFocus");
   counter=0;
   localStorage.setItem("meta", text);
@@ -573,7 +589,6 @@ function highlight_metadata(text_id, text, selector){
   localStorage.setItem("counter", -1);
   highlight_metadata(text_id, text, selector);
 }
-scroll_metadata_up(text_id);
 }
 
 function scroll_metadata_up(text_id){
@@ -581,4 +596,8 @@ function scroll_metadata_up(text_id){
   var offsets = document.getElementById(element_id).getBoundingClientRect();
   var topPos = offsets.top;
   document.getElementById(text_id).scrollTop = topPos;
+<<<<<<< HEAD
 }*/
+=======
+}
+>>>>>>> e896cc232b2d54343504277c84f9c4f53a367719
