@@ -339,7 +339,11 @@ function styleSwitch(id) {
     theme.setAttribute("href", "#");
   }
 
+  var href = theme.getAttribute('href');
+  console.log(href)
+
   localStorage.setItem('style', theme.outerHTML);
+  localStorage.setItem('theme_href', href)
   changeItemForStyle();
 }
 
@@ -347,43 +351,43 @@ function changeItemForStyle() {
   
   var world = document.getElementById("gif");
   var coverLogo = document.getElementById("logo_img");
-  var theme = localStorage.getItem('style');
+  var theme = localStorage.getItem('theme_href');
+  console.log(theme)
   var icon_selected = document.getElementById('lens_selected');
 
 
   switch (theme) {
-    case '<link rel="stylesheet" type="text/css" href="future.css">':
-      
+    case 'future.css':
       world.setAttribute("src", "img/futuro-gif.gif");
       icon_selected.setAttribute("src", "img/svg/3000inv.svg");
       if (coverLogo){coverLogo.setAttribute("src", "img/svg/3000inv.svg");}
       break;
-    case '<link rel="stylesheet" type="text/css" href="Y2000s.css">':
+    case 'Y2000s.css':
       icon_selected.setAttribute("src", "img/svg/2001.svg");
       world.setAttribute("src", "img/matrixsmall.gif");
       if (coverLogo){coverLogo.setAttribute("src", "img/svg/2001.svg");}
       break;
-    case '<link rel="stylesheet" type="text/css" href="Y80s.css">':
+    case 'Y80s.css':
       icon_selected.setAttribute("src", "img/svg/1990inv.svg");
       world.setAttribute("src", "img/80ssmall.gif");
       if (coverLogo){coverLogo.setAttribute("src", "img/svg/1990inv.svg");}
       break;
-    case '<link rel="stylesheet" type="text/css" href="Y40s.css">':
+    case 'Y40s.css':
       icon_selected.setAttribute("src", "img/svg/1926inv1.svg");
       world.setAttribute("src", "img/futuristsmall.gif");
       if (coverLogo){coverLogo.setAttribute("src", "img/svg/1926inv1.svg");}
       break;
-    case '<link rel="stylesheet" type="text/css" href="Y1800s.css">':
+    case 'Y1800s.css':
       icon_selected.setAttribute("src", "img/svg/1800inv.svg");
       world.setAttribute("src", "img/victoriansmall.gif");
       if (coverLogo){coverLogo.setAttribute("src", "img/svg/1800inv.svg");}
       break;
-    case '<link rel="stylesheet" type="text/css" href="Y300s.css">':
+    case 'Y300s.css':
       icon_selected.setAttribute("src", "img/svg/1300inv2.svg");
       world.setAttribute("src", "img/medioevosmall.gif");
       if (coverLogo){coverLogo.setAttribute("src", "img/svg/1300inv2.svg");}
       break;
-    case '<link rel="stylesheet" type="text/css" href="#">':
+    case '#':
       icon_selected.setAttribute("src", "img/dontPanic_logo.svg");
       world.setAttribute("src", "img/200w.gif");
       if (coverLogo){coverLogo.setAttribute("src", "img/dontPanic_logo.svg");}
