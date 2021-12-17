@@ -404,6 +404,7 @@ function fromStyle() {
 }
 
 
+
 function display_basic_metadata() {
   var id_pointer = JSON.parse(localStorage.id_list);
   var name_pointer = JSON.parse(localStorage.name_list);
