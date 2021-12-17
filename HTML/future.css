@@ -188,14 +188,6 @@ button:hover {
   border-radius: 0.5em 0.5em 0 0;
 }
 
-.disclamer p {
-  font-size: 100%;
-}
-
-.disclamer ul {
-  font-size: 1.3em;
-}
-
 .close {
   font-family: 'Roboto', sans-serif !important; 
 }
