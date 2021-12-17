@@ -579,6 +579,7 @@ function highlight_metadata(text_id, text, selector){
   localStorage.setItem("counter", counter);
   counter = 0;
 }else{
+  localStorage.setItem("counter", counter);
   counter = 0;
   highlight_metadata(text_id,text, selector);
 }
