@@ -99,7 +99,7 @@ function issue_selected(issue_id, name_article) {
 }
 
 function from_issue(adviser) {
-  /*fromStyle();*/
+  fromStyle()
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
   var sources = JSON.parse(localStorage.sources);
@@ -282,7 +282,7 @@ function getCheckedBoxes(chkboxClass) {
   }
 }
 
-function hover(event, id) {
+function hover(event) {
   var myPara = document.getElementById("hr_lens");
 
   function str(el) {
@@ -330,6 +330,9 @@ var currStyle;
 function styleSwitch(id) {
   var theme = document.getElementsByTagName("link")[1];
   var new_style = id + ".css";
+  var myPara = document.getElementById("hr_lens");
+  var set = myPara.style.marginRight;
+  currStyle = set;
 
   if (id != "no_style") {
     theme.setAttribute("href", new_style);
@@ -342,9 +345,7 @@ function styleSwitch(id) {
 }
 
 function changeItemForStyle() {
-  var myPara = document.getElementById("hr_lens");
-  var set = myPara.style.marginRight;
-  currStyle = set;
+  
   var world = document.getElementById("gif");
   var coverLogo = document.getElementById("logo_img");
   var theme = localStorage.getItem('style');
@@ -403,7 +404,7 @@ function fromStyle() {
 }
 
 
-/*function display_basic_metadata() {
+function display_basic_metadata() {
   var id_pointer = JSON.parse(localStorage.id_list);
   var name_pointer = JSON.parse(localStorage.name_list);
   var category_list = ["place", "person", "date", "concept", "organization"];
@@ -596,8 +597,5 @@ function scroll_metadata_up(text_id){
   var offsets = document.getElementById(element_id).getBoundingClientRect();
   var topPos = offsets.top;
   document.getElementById(text_id).scrollTop = topPos;
-<<<<<<< HEAD
-}*/
-=======
+
 }
->>>>>>> e896cc232b2d54343504277c84f9c4f53a367719
