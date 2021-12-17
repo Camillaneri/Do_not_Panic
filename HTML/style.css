@@ -1760,8 +1760,11 @@ dl::-webkit-scrollbar {
 }
 
 .MetaFocus{
-  background-color: #c606d8;
-  top: 0%;
+  background-color: #c606d8 !important;
+}
+
+.MetaFocusAll{
+  background-color: #b8d806;
 }
 
 
