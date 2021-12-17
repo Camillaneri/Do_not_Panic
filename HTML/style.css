@@ -1818,6 +1818,11 @@ dl::-webkit-scrollbar {
 }
 
 
+.content_article .prob_icon {
+  width: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
 
 
 

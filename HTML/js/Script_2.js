@@ -576,18 +576,27 @@ function highlight_metadata(text_id, text, selector){
 }
 
 function not_your_prob (){
+  var checkProblem = document.getElementsByName("problemCheckbox")[0];
+  var issue_id = localStorage.issue_id;
+  if (checkProblem.checked) {
   var text_id = JSON.parse(localStorage.id_list);
-  
-  var metadata_list = document.getElementById(text_id).querySelectorAll('["class"="'+text+'"]');
-  for (var i=0;i<metadata_list.length;i++)
-    if (text == "mention concept")
-      metadata_list[i].classList.add("noprob1");
-    if (text == "mention date")
-      metadata_list[i].classList.add("noprob2");
-    if (text == "mention person")
-      metadata_list[i].classList.add("noprob3");
-    if (text == "mention place")
-      metadata_list[i].classList.add("noprob4");
-    else (text == "mention organization")
-      metadata_list[i].classList.add("noprob5")
+  for (j=0;j<text_id.length;j++) {
+  var metadata_list = document.getElementById(text_id[j]).getElementsByClassName("mention");
+  for (i=0;i<metadata_list.length;i++){
+    if (metadata_list[i].className == "mention concept"){
+      metadata_list[i].outerHTML = "<img id='logo_img' class = 'prob_icon' src='img/dontPanic_logo.svg'/>";
+    } else if (metadata_list[i].className == "mention person"){
+      metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+    } else if (metadata_list[i].className == "mention place"){
+      metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+    } else if (metadata_list[i].className == "mention organization"){
+      metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+    } else {
+      metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+    }
+  }
+}
+}else{
+readIssues(issue_id, "stay");
+}
 }
