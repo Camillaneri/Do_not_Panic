@@ -643,3 +643,4 @@ function callWiki(text_id, text, selector){
   for (f=0;f<meta_focus_list.length;f++){
     meta_focus_list[f].outerHTML = '<a href="https://en.wikipedia.com/w/index.php?search='+text+'" target="_blank">'+text+'</a>';
   }
+}
