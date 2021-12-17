@@ -56,7 +56,9 @@ custom-select {
   
 }
 
-
+#lens_selected {
+  filter: invert();
+}
 
 .select-items div, .select-selected {
   font-family: 'magazinebold', cursive !important;

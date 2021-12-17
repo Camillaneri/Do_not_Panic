@@ -439,6 +439,22 @@ body {
   align-items: center;
 }
 
+#lens_selected {
+  filter: none;
+}
+
+.lensbox img {
+  filter: invert();
+}
+
+#Y40s img {
+  filter: none;
+}
+
+#no_style img {
+  filter: none;
+}
+
 .help{
 display:flex;
 flex-direction: column;
@@ -1795,7 +1811,11 @@ dl::-webkit-scrollbar {
   margin-top: 0.3em;
 }
 
-
+.content_article .prob_icon {
+  width: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
 
 
 
