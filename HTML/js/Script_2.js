@@ -575,7 +575,9 @@ function highlight_metadata(text_id, text, selector){
 }
 }
 
-function not_your_prob (text_id, text){
+function not_your_prob (){
+  var text_id = JSON.parse(localStorage.id_list);
+  
   var metadata_list = document.getElementById(text_id).querySelectorAll('["class"="'+text+'"]');
   for (var i=0;i<metadata_list.length;i++)
     if (text == "mention concept")
