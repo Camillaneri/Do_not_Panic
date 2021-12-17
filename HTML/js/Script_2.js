@@ -87,7 +87,6 @@ document.addEventListener("click", closeAllSelect);
 
 function issue_selected(issue_id, name_article) {
   var style = localStorage.style;
-  
   localStorage.clear();
   if (name_article != "stay") {
     var newWin = window.open("articles_viewer.html", "_self");
@@ -99,7 +98,7 @@ function issue_selected(issue_id, name_article) {
 }
 
 function from_issue(adviser) {
-  fromStyle()
+  fromStyle();
   var name_article = localStorage.name_article;
   var articles = JSON.parse(localStorage.articles);
   var sources = JSON.parse(localStorage.sources);

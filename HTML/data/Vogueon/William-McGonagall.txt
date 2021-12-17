@@ -3,12 +3,13 @@
 		<p>NEWS</p>
 		<p class="datePublished">7th July 2020</p>
 		<h1><span id="P1" class="mention person" about="WilliamMcGonagall" data-label="William McGonagall">William McGonagall</span>: The story of <span id="C1" class="mention concept" about="AutorsOfBadLiterature" data-label="Unaware">our best worst poet</span></h1>
-		<p class="nameAuthor midSmall">By <span id="P2" class="mention person" about="HamishMacPherson" data-label="Hamish MacPherson">Hamish MacPherson</span></h2>
+		<p class="nameAuthor midSmall">By <span id="P2" class="mention person" about="HamishMacPherson" data-label="Hamish MacPherson">Hamish MacPherson</span>
 		<p class="nameAuthor midSmall isolate">Journalist</p>
 		
 		<figure>
-		<img class="expand left" src="img/Vogueon/William-McGonagall/POET.jpg" style="max-width: 460px;"> <figcaption class="captionPhoto smallChar left"> camille è bella:)</figcaption></figure><div class="clear"> </div>
-		</figure>
+		<img class="expand left" src="img/Vogueon/William-McGonagall/POET.jpg" style="max-width: 460px;"> <figcaption class="captionPhoto smallChar left"> camille è bella:)</figcaption>
+		</figure><div class="clear"> </div>
+
 		
 		<p class="caption">William <span id="P3" class="mention person" about="WilliamMcGonagall" data-label="William McGonagall">McGonagall</span>: a <span id="C2" class="mention concept" about="Autor" data-label="Recognized">good poet</span>, a <span id="C3" class="mention concept" about="AutorsOfBadLiterature" data-label="Unaware">bad poet</span>, or <span id="C4" class="mention concept" about="AutorApreciation" data-label="Discourse">not a poet at all</span>?</p>
 		<hr>
@@ -76,7 +77,7 @@
 
 		<p>That is to say, if the people are all willing.”</p>
 
-		<p>His most <span id="C37" class="mention concept" about="fame" data-label="fame">famous</span>, or <span id="C38" class="mention concept" about="fame" data-label="infamy">infamous</span> poem concerned a disaster when the <span id="L15" class="mention place" about="Tay" data-label="Tay"data-wikidata-id="Q19719">Tay</span> Railway Bridge collapsed in a storm.</p>
+		<p>His most <span id="C37" class="mention concept" about="fame" data-label="fame">famous</span>, or <span id="C38" class="mention concept" about="fame" data-label="infamy">infamous</span> poem concerned a disaster when the <span id="L15" class="mention place" about="Tay" data-label="Tay" data-wikidata-id="Q19719">Tay</span> Railway Bridge collapsed in a storm.</p>
 
 		<p>Here’s an excerpt, but seek out the full length version to <span id="C39" class="mention concept" about="ArtworkAppreciation" data-label="Ironic">appreciate its awfulness</span>.</p>
 
@@ -167,7 +168,7 @@
 		<p>Or else he wouldn’t have tried to shoot our most beloved Queen.”</p>
 		</div>
 
-		<p>In his 70s, <span id="P47" class="mention person" about="WilliamMcGonagall" data-label="William McGonagall">McGonagall</span>’s health declined and his <span id="C53" class="mention concept" about="OpinionOnArtwork" data-label="Bad">poetry got even worse</span>. He died penniless in <span id="D4" class="mention date" about="1902" data-label="1902">1902</span> and was buried in an unmarked grave in Greyfriars Kirkyard in <span id="L25" class="mention place" about="Edinburgh" data-label="Edinburgh" data-wikidata-id="Q23436">Edinburgh</span></span>.</p>
+		<p>In his 70s, <span id="P47" class="mention person" about="WilliamMcGonagall" data-label="William McGonagall">McGonagall</span>’s health declined and his <span id="C53" class="mention concept" about="OpinionOnArtwork" data-label="Bad">poetry got even worse</span>. He died penniless in <span id="D4" class="mention date" about="1902" data-label="1902">1902</span> and was buried in an unmarked grave in Greyfriars Kirkyard in <span id="L25" class="mention place" about="Edinburgh" data-label="Edinburgh" data-wikidata-id="Q23436">Edinburgh</span>.</p>
 
 		<p><span id="P48" class="mention person" about="William Power" data-label="William Power">William Power</span> later wrote: “He added to the gaiety of at least one nation, and, as the Ossian of the ineffably absurd, he has entered upon <span id="C54" class="mention concept" about="literarySuccess" data-label="Ironic paradoxical">immortality</span>.”</p>
 
