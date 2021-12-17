@@ -86,12 +86,14 @@ function closeAllSelect(elmnt) {
 document.addEventListener("click", closeAllSelect);
 
 function issue_selected(issue_id, name_article) {
+  var href = localStorage.theme_href;
   var style = localStorage.style;
   localStorage.clear();
   if (name_article != "stay") {
     var newWin = window.open("articles_viewer.html", "_self");
     readIssues(issue_id, name_article);
     localStorage.setItem("style", style);
+    localStorage.setItem('theme_href', href)
   } else {
     readIssues(issue_id, "stay");
   }
@@ -400,8 +402,6 @@ function fromStyle() {
   var cur_style = localStorage.getItem('style');
   var link = document.getElementsByTagName("link")[1];
 
-  console.log('link:', link);
-  console.log(cur_style);
   
 
   if (cur_style){
@@ -411,6 +411,7 @@ function fromStyle() {
       link = '<link rel="stylesheet" type="text/css" href="#">';
     }
   }
+  
   changeItemForStyle();
   
 }
