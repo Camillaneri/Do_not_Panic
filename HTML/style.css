@@ -1795,7 +1795,11 @@ dl::-webkit-scrollbar {
   margin-top: 0.3em;
 }
 
-
+.content_article .prob_icon {
+  width: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
 
 
 
