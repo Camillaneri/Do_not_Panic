@@ -635,13 +635,3 @@ function not_your_prob (){
 readIssues(issue_id, "stay");
 }
 }
-<<<<<<< HEAD
-=======
-
-function callWiki(text_id, text, selector){
-  var meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+text+'"]');
-  for (f=0;f<meta_focus_list.length;f++){
-    meta_focus_list[f].outerHTML = '<a href="https://en.wikipedia.com/w/index.php?search='+text+'" target="_blank">'+text+'</a>';
-  }
-}
->>>>>>> 0b6779bcf9870d1e1e5e9ba37d887ffbb917be8b
