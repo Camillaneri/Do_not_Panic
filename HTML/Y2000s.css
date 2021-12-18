@@ -16,13 +16,14 @@ body {
   font-style: normal;
 }
 
-/*subtitle*/
+
 @font-face {
-  font-family: 'republica_minoritalic';
-  src: url('font/Y2000S/republica_minor_regular-webfont.woff2') format('woff2'),
-       url('font/Y2000S/republica_minor_regular-webfont.woff') format('woff');
+  font-family: 'egyptienne_mncondensed_bold';
+  src: url('font/Y2000S/egyptienne_mn_condensed_bold-webfont.woff2') format('woff2'),
+       url('font/Y2000S/egyptienne_mn_condensed_bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+
 }
 
 /*text*/
@@ -44,7 +45,32 @@ body {
 }
 
 
-h1 {font-family: 'republica_minoritalic' !important; color:white !important; text-transform: uppercase;font-weight: 50;} 
+h1 {font-family: 'egyptienne_mncondensed_bold' !important; color:white !important; text-transform: uppercase;  
+  text-shadow: 
+  1px 1px 0 #000,
+  -1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000,
+  0px 1px 0 #000,
+  0px -1px 0 #000,
+  -1px 0px 0 #000,
+  1px 0px 0 #000,
+  1px 1px 0 #000,
+  -1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000,
+  0px 1px 0 #000,
+  0px -1px 0 #000,
+  -1px 0px 0 #000,
+  1px 0px 0 #000,
+  1px 1px 0 #000,
+  -1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000,
+  1px 1px 0 #000,
+  -1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000;} 
 h2, h3, h4, h5, h6, label {font-family: 'magazinebold', cursive !important; color:  white; text-transform: uppercase; font-weight: 70;} 
 p  {font-family: 'faustinaregular', serif !important; color: white; font-size: 0.9em;}
 a, button, ul, li  {font-family: 'faustinaregular', sans-serif !important; color: white; font-size: 1em;}
@@ -75,14 +101,14 @@ custom-select {
 
 .up_logo {
   font-size: 4em;
-  font-weight: 900;
-  font-family: 'magazinebold'!important;
+  font-weight: 700;
+  font-family: 'egyptienne_mncondensed_bold'!important;
 }
 
 .bottom_logo {
   margin-top: -5px;
   font-size: 2.5em;
-  font-family: 'magazinebold'!important;
+  font-family: 'egyptienne_mncondensed_bold'!important;
 }
 
 .cover_content{
@@ -188,6 +214,10 @@ custom-select {
   border: 0.2em white solid;
 }
 
+.metadata_menu h1{
+  font-size: 3em !important;
+}
+
 .show_meta_one .meta, .show_meta_two .meta, .show_meta_three .meta{
   border-bottom: 0.2em rgb(138, 167, 247);
 }
@@ -251,7 +281,7 @@ custom-select {
   color: black !important;
   font-weight: lighter;
   margin: 1em 0 !important;
-  border-top: 0.2em white solid;
+  border-top: 0.2em rgb(237, 224, 240) solid;
   padding-top: 1em;
 }
 
@@ -276,7 +306,7 @@ custom-select {
 }
 
 .content_article hr {
-  border: 0.01em white solid !important;
+  border: 0.01em rgb(0, 0, 0) solid !important;
 }
 
 .content_article img{

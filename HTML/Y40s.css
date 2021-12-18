@@ -8,12 +8,26 @@ body {
 
 /*title*/
 @font-face {
-  font-family: 'futurismoregular';
-  src: url('font/Y40S/futurismo_regular-webfont.woff2') format('woff2'),
-       url('font/Y40S/futurismo_regular-webfont.woff') format('woff');
+  font-family: 'planet_n_compact_condensedCn';
+  src: url('font/Y40S/planetncompactcond-webfont.woff2') format('woff2'),
+       url('font/Y40S/planetncompactcond-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+
 }
+
+
+
+
+@font-face {
+  font-family: 'planet_n_compact_expaexpanded';
+  src: url('font/Y40S/planetncompactexpand-webfont.woff2') format('woff2'),
+       url('font/Y40S/planetncompactexpand-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 
 /*subtitle*/
  @font-face {
@@ -55,10 +69,11 @@ body {
   font-style: normal;
 }
 
-h1 {font-family: 'futurismoregular' !important; color: white !important; text-transform: uppercase;} 
+h1 {font-family: 'planet_n_compact_condensedCn' !important; color: white !important; text-transform: uppercase !important;} 
 h2, h3, h4, h5, h6, button, label {font-family: 'preussischeiv44ausgabe3Rg', cursive !important; color:  white; text-transform: uppercase;} 
 p  {font-family: 'kirstyregular', serif !important; color: white; font-size: 0.9em;}
-a, ul, li {font-family: 'kirstybold', sans-serif !important; color: red; font-size: 0.9em;}
+ul, li {font-family: 'kirstybold', sans-serif !important; color: red !important; font-size: 0.9em;}
+a {font-family: 'kirstybold', sans-serif !important; color: rgb(255, 0, 0) !important; font-size: 0.9em;}
 figcaption  {font-family: 'kirstyitalic', serif !important; color: white; font-size: 0.9em;}
 
 custom-select {
@@ -73,8 +88,8 @@ custom-select {
 }
 
 .up_logo {
-  font-size: 4em;
-  font-family: 'futurismoregular'!important;
+  font-size: 5em !important;
+  font-family: 'planet_n_compact_condensedCn'!important;
   color: rgb(255, 0, 0) !important;  
 }
 
@@ -89,6 +104,10 @@ custom-select {
 .cover_content{
     border: 0.3em white solid !important;
     background-color: rgb(0, 0, 0);
+}
+
+.cover_content h1{
+  font-size: 3em !important;
 }
 
 .allert_content {
@@ -187,8 +206,12 @@ custom-select {
 }
 
 .metadata_menu{
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   border: 0.2em rgb(255, 0, 0) solid;
+}
+
+.metadata_menu a{
+  color: white !important;
 }
 
 .show_meta_one .meta, .show_meta_two .meta, .show_meta_three .meta{
@@ -225,9 +248,9 @@ custom-select {
 }
 
 .content_article h1 {
-  color: rgb(255, 0, 0)  !important;
-  font-weight: lighter;
-  font-size: 2.5em;
+  color: rgb(0, 0, 0)  !important;
+  font-size: 3em !important; 
+  font-weight:bolder !important;
   margin-bottom: 0.5em;
 }
 
@@ -250,10 +273,9 @@ custom-select {
 }
 
 .content_article p {
-  color: black !important;
   font-weight: lighter;
   margin: 1em 0 !important;
-  border-top: 0.2em rgb(0, 0, 0) solid;
+  border-top: 0.2em rgb(233, 222, 186) solid;
   padding-top: 1em;
 }
 
@@ -262,17 +284,18 @@ custom-select {
 }
 
 .content_article hr {
-  border: 0.01em rgb(0, 0, 0) solid !important;
+  border: 0.01em rgb(233, 222, 186) solid !important;
+  margin-bottom: -2em;
 }
 
 .content_article img{
-  filter: grayscale(100%) contrast(90%) saturate(120%);
+  filter: grayscale(100%) contrast(110%) sepia(50%);
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 
 .content_article figcaption {
-  color: black !important;
+  color: rgb(255, 0, 0) !important;
   text-align: left;
   font-size: 1.125em;
   margin-bottom: 0.5em;
@@ -289,11 +312,18 @@ figcaption p{
 }
 
 .subtitle {
+  color: rgb(255, 0, 0) !important;
   font-family: "preussischeiv44ausgabe3Rg" !important;
+  font-size: 1.2em !important;
 }
 
+#article_1_name, #article_2_name, #article_3_name {
+  color: rgb(255, 0, 0) !important;
+}
+
+
 .stars1 {
-  animation: space 40s ease-in-out infinite;
+  animation: space 20s ease-in-out infinite;
   background-image:
     radial-gradient(
       40px 1px at 25px 5px, 
@@ -328,7 +358,7 @@ figcaption p{
   
 }
 .stars2 {
-  animation: space 50s ease-in-out infinite;
+  animation: space 15s ease-in-out infinite;
   background-image:
   radial-gradient(
     4px 50px at 25px 5px, 
@@ -364,7 +394,7 @@ figcaption p{
 }
 	
 .stars3 {
-  animation: space 60s ease-in-out infinite;
+  animation: space 10s ease-in-out infinite;
   background-image:
     radial-gradient(
       2px 60px at 25px 5px, 

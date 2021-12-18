@@ -620,7 +620,6 @@ function scroll_metadata_up(text_id){
     document.getElementById(text_id).scrollBy(0, topOffSet);
     document.getElementById(text_id).scrollBy(0, -380);
   var newOffSet = document.getElementById(text_id).getElementsByClassName("MetaFocus")[0].getBoundingClientRect().top;
-  alert(newOffSet);
   if (newOffSet>400){
     document.getElementById(text_id).scrollBy(0, 600);
   }

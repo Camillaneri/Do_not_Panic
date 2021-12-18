@@ -1,9 +1,9 @@
 <article>
 
 <br>
-<hr class="expand">
-<hr class="expand">
-<hr class="expand">
+<hr >
+<hr >
+<hr >
 
 
 <p class="captionArticle "><span id="C1" class="mention concept" about="theories" data-label="Religion">Religion</span></p>
