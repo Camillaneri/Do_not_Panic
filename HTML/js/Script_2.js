@@ -630,28 +630,116 @@ function callWiki (text){
   window.open("https://en.wikipedia.com/w/index.php?search="+text);
 }
 
-function not_your_prob (){
+/*function not_your_prob (){
   var checkProblem = document.getElementsByName("problemCheckbox")[0];
   var issue_id = localStorage.issue_id;
+  var whatstyle = localStorage.getItem('theme_href');
+  console.log(whatstyle)
   if (checkProblem.checked) {
   var text_id = JSON.parse(localStorage.id_list);
   for (j=0;j<text_id.length;j++) {
   var metadata_list = document.getElementById(text_id[j]).getElementsByClassName("mention");
-  for (i=0;i<metadata_list.length;i++){
-    if (metadata_list[i].className == "mention concept"){
-      metadata_list[i].outerHTML = "<img id='logo_img' class = 'prob_icon' src='img/dontPanic_logo.svg'/>";
-    } else if (metadata_list[i].className == "mention person"){
-      metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
-    } else if (metadata_list[i].className == "mention place"){
-      metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
-    } else if (metadata_list[i].className == "mention organization"){
-      metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
-    } else {
-      metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+  switch (whatstyle) {
+    case 'future.css':
+      for (i=0;i<metadata_list.length;i++){
+      if (metadata_list[i].className == "mention concept"){
+      metadata_list[i].outerHTML = "<img id='logo_img' class = 'prob_icon' src='img/dontPanic_logo.svg'/>";}
+      break;
+      }
+    case 'Y2000S.css':
+      for (i=0;i<metadata_list.length;i++){
+      if (metadata_list[i].className == "mention concept"){
+      metadata_list[i].outerHTML = "<img id='logo_img' class = 'prob_icon' src='img/svg/2001.svg'/>";}
+      break;
+      }
     }
   }
-}
+
 }else{
 readIssues(issue_id, "stay");
 }
 }
+
+/*
+case 'Y1800s.css':
+      for (i=0;i<metadata_list.length;i++){
+      if (metadata_list[i].className == "mention concept"){
+       metadata_list[i].outerHTML = "<img id='logo_img' class = 'prob_icon' src='img/dontPanic_logo.svg'/>";}
+      break;}
+    case 'Y300s.css':
+      for (i=0;i<metadata_list.length;i++){
+      if (metadata_list[i].className == "mention concept"){
+      metadata_list[i].outerHTML = "<img id='logo_img' class = 'prob_icon' src='img/dontPanic_logo.svg'/>";}
+      break;}
+    case 'Y80s.css':
+      for (i=0;i<metadata_list.length;i++){
+      if (metadata_list[i].className == "mention concept"){
+      metadata_list[i].outerHTML = "<img id='logo_img' class = 'prob_icon' src='img/dontPanic_logo.svg'/>";}
+      break;}
+    case 'Y40s.css':
+      for (i=0;i<metadata_list.length;i++){
+      if (metadata_list[i].className == "mention concept"){
+      metadata_list[i].outerHTML = "<img id='logo_img' class = 'prob_icon' src='img/dontPanic_logo.svg'/>";}
+      break;*/
+
+/*var whatstyle = localStorage.getItem('theme_href');
+  console.log(whatstyle)
+  
+
+  switch (whatstyle) {
+    case 'future.css':
+
+      else if (metadata_list[i].className == "mention person"){
+        metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+      } else if (metadata_list[i].className == "mention place"){
+        metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+      } else if (metadata_list[i].className == "mention organization"){
+        metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+      } else {
+        metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+      }
+
+      switch (whatstyle) {
+    case 'future.css':
+      futtureicon = "<img id='logo_img' class = 'prob_icon' src='img/svg/2001.svg'/>"
+    case
+      
+      
+      
+      */
+
+    function not_your_prob (){
+      var checkProblem = document.getElementsByName("problemCheckbox")[0];
+      var issue_id = localStorage.issue_id;
+      var whatstyle = localStorage.getItem('theme_href');
+      console.log(whatstyle)
+      switch (whatstyle) {
+        case 'future.css': 
+        var ci = "future"
+        var icon1 ="<img id='logo_img' class = 'prob_icon' src='img/dontPanic_logo.svg'/>"
+        break;
+        case 'Y2000S.css':
+        var ci = "2000"
+        var icon2 ="<img id='logo_img' class = 'prob_icon' src='img/svg/2001.svg'/>"
+        break;
+      }
+      if (checkProblem.checked) {
+      var text_id = JSON.parse(localStorage.id_list);
+      for (j=0;j<text_id.length;j++) {
+      var metadata_list = document.getElementById(text_id[j]).getElementsByClassName("mention");
+          for (i=0;i<metadata_list.length;i++){
+          if (metadata_list[i].className == "mention concept"){
+            if (ci == "future"){
+            metadata_list[i].outerHTML = icon1;
+            }
+            if(ci == "200"){
+            metadata_list[i].outerHTML = icon2;
+            }
+          }
+        }
+      }
+    
+    }else{
+    readIssues(issue_id, "stay");
+    }
+    }
