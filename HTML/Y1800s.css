@@ -63,7 +63,7 @@ h1, button{
   font-weight:normal !important;
 }
 
-h1, button:first-letter {
+h1:first-letter, button:first-letter {
   text-transform: capitalize;
 }
 
@@ -145,6 +145,9 @@ h1, button:first-letter {
   border-bottom: 0.125em rgb(0, 0, 0) solid;
 }
 
+.article h1{
+  text-align: center;
+  }
 
 .overlay {
   position: absolute;
@@ -275,7 +278,7 @@ h1, button:first-letter {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgb(22 9 70 / 68%);
+  background-color: rgba(0, 0, 0, 0.68);
   display: none;
 }
 
@@ -291,7 +294,7 @@ h1, button:first-letter {
 }
 
 .allert_box .close {
-  color: rgb(179, 114, 18);
+  color: rgb(0, 0, 0);
 }
 
 .disclamer hr {
@@ -310,7 +313,7 @@ h1, button:first-letter {
   padding-top: 0.625em;
   width: 100%;
   display: none;
-  background-color: rgb(179, 114, 18);;
+  background-color: rgb(167, 167, 167);;
   transition: all 0.5s ease 0s;
 }
 
@@ -318,8 +321,35 @@ h1, button:first-letter {
   color: rgb(0, 0, 0);
 }
 
+.disclamer {
+  width: 62%;
+  height: auto;
+  margin-top: 7%;
+  margin-right: 10%;
+}
 
+.team_box h1 {
+  margin-bottom: 0em;
+}
 
+.allert_content .large_button{
+ border-left: 0em;
+ border-right: 0em;
+
+}
+
+.team_box .arrow {
+  border: solid rgb(0, 0, 0);
+  border-width: 0 0.3em 0.3em 0;
+}
+
+.card .little_button{
+  color: #ffffff;
+}
+
+.margin_cards h3{
+  font-size: 1em;
+}
 /*
 
 .up_logo {

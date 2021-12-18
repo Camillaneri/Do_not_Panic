@@ -75,6 +75,18 @@ article h3, article h4, article h5, article h6, article p, article a, article ul
 #lens_selected {
   filter: invert();
 }
+.lens_menu_icon{
+  
+  filter: invert(42%) sepia(93%) saturate(500%) hue-rotate(335deg) brightness(90%) contrast(90%);
+}
+
+.help{
+  filter: invert(42%) sepia(93%) saturate(500%) hue-rotate(335deg) brightness(90%) contrast(90%);
+}
+
+.refresh {
+  filter: invert(42%) sepia(93%) saturate(500%) hue-rotate(335deg) brightness(90%) contrast(90%);
+}
 
 /*medieval dropcap*/ 
 
@@ -644,6 +656,19 @@ body {
   color: rgb(0, 0, 0);
 }
 
+.lensbox span {
+
+  background-color: rgb(179, 114, 18);
+
+}
+
+.world {
+  border: 0.17em rgb(179, 114, 18) solid;
+}
+
+.text_article h3 {
+  color: black;
+}
 
 
 
