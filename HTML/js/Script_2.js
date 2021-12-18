@@ -537,6 +537,7 @@ function highlight_metadata(text_id, text, selector){
   var meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+text+'"]');
   if (localStorage.getItem("text") == text_id){
   if (localStorage.getItem("meta") == text){
+    localStorage.setItem("prev_selector", selector);
     for (f=0;f<meta_focus_list.length;f++){
       meta_focus_list[f].classList.add("MetaFocusAll");
       meta_focus_list[f].addEventListener("click", function(){
@@ -592,8 +593,8 @@ function highlight_metadata(text_id, text, selector){
 }
 }else if (localStorage.getItem("counter")!=-1){
   var temp_name = localStorage.getItem("meta");
-  var temp_counter = localStorage.getItem("counter");
-  meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+temp_name+'"]');
+  var temp_selector = localStorage.getItem("prev_selector");
+  meta_focus_list = document.getElementById(text_id).querySelectorAll('['+temp_selector+'="'+temp_name+'"]');
   for (q=0;q<meta_focus_list.length;q++){
     meta_focus_list[q].classList.remove("MetaFocusAll");
     if (meta_focus_list[q].classList.contains("MetaFocus")){
@@ -618,6 +619,11 @@ function scroll_metadata_up(text_id){
   var topOffSet = document.getElementById(text_id).getElementsByClassName("MetaFocus")[0].getBoundingClientRect().top;
     document.getElementById(text_id).scrollBy(0, topOffSet);
     document.getElementById(text_id).scrollBy(0, -380);
+  var newOffSet = document.getElementById(text_id).getElementsByClassName("MetaFocus")[0].getBoundingClientRect().top;
+  alert(newOffSet);
+  if (newOffSet>400){
+    document.getElementById(text_id).scrollBy(0, 600);
+  }
 }
 
 function callWiki (text){
