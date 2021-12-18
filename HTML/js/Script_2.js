@@ -534,15 +534,19 @@ var counter=-1;
 
 function highlight_metadata(text_id, text, selector){
   var meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+text+'"]');
-  for (f=0;f<meta_focus_list.length;f++){
-    meta_focus_list[f].classList.add("MetaFocusAll");
-  }
   if (localStorage.getItem("text") == text_id){
   if (localStorage.getItem("meta") == text){
+    for (f=0;f<meta_focus_list.length;f++){
+      meta_focus_list[f].classList.add("MetaFocusAll");
+      meta_focus_list[f].addEventListener("click", function(){
+        callWiki(text);
+      });
+    }
   if (meta_focus_list.length==1){
     meta_focus_list[0].classList.add("MetaFocus");
     scroll_metadata_up(text_id);
     localStorage.setItem("counter", 0);
+    counter= meta_focus_list.length;
   } else if (localStorage.getItem("counter") == meta_focus_list.length-1){
     meta_focus_list[meta_focus_list.length-1].classList.remove("MetaFocus");
   }
@@ -578,19 +582,23 @@ function highlight_metadata(text_id, text, selector){
   scroll_metadata_up(text_id);
   localStorage.setItem("counter", counter);
   counter = 0;
+}else if (counter==meta_focus_list.length){
+  counter = 0;
 }else{
   localStorage.setItem("counter", counter);
   counter = 0;
   highlight_metadata(text_id,text, selector);
 }
-}else if (localStorage.getItem("counter")>-1){
+}else if (localStorage.getItem("counter")!=-1){
   var temp_name = localStorage.getItem("meta");
   var temp_counter = localStorage.getItem("counter");
   meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+temp_name+'"]');
   for (q=0;q<meta_focus_list.length;q++){
     meta_focus_list[q].classList.remove("MetaFocusAll");
+    if (meta_focus_list[q].classList.contains("MetaFocus")){
+      meta_focus_list[q].classList.remove("MetaFocus");
+    }
   }
-  meta_focus_list[temp_counter].classList.remove("MetaFocus");
   counter=0;
   localStorage.setItem("meta", text);
   highlight_metadata(text_id, text, selector);
@@ -609,6 +617,10 @@ function scroll_metadata_up(text_id){
   var topOffSet = document.getElementById(text_id).getElementsByClassName("MetaFocus")[0].getBoundingClientRect().top;
     document.getElementById(text_id).scrollBy(0, topOffSet);
     document.getElementById(text_id).scrollBy(0, -380);
+}
+
+function callWiki (text){
+  window.open("https://en.wikipedia.com/w/index.php?search="+text);
 }
 
 function not_your_prob (){
