@@ -183,7 +183,13 @@ custom-select {
 }
 
 .overlay {
-  background-color: rgba(132, 179, 233, 0.8);
+  background-color: rgba(132, 179, 233, 0.9);
+}
+
+.overlay p {
+  color: black !important;
+  font-weight: 800 !important;
+  font-size: 1.07em !important;
 }
 
 .text_issue button{
