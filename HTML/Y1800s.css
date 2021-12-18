@@ -326,6 +326,7 @@ h1:first-letter, button:first-letter {
   height: auto;
   margin-top: 7%;
   margin-right: 10%;
+  font-size: 1.2em;
 }
 
 .team_box h1 {
