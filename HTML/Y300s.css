@@ -122,7 +122,6 @@ article h3, article h4, article h5, article h6, article p, article a, article ul
 /*NO dropcap*/
 article .datePublished:first-letter, article .subtitle:first-letter, article .namePhoto:first-letter, article .byline:first-letter, .article figcaption p:first-letter, article div p:first-letter, .italic p::first-letter, article .smallChar::first-letter, article .nameAuthor::first-letter, article .midSmall::first-letter, article .captionArticle::first-letter, article .italic::first-letter{
   float: none;
-  font-size: 100% !important;
   line-height: 2px;
   margin: 0;
   padding: 0;
@@ -134,6 +133,19 @@ article .datePublished:first-letter, article .subtitle:first-letter, article .na
 .content_article p {
   margin: 0em !important;
 }
+
+#C2{
+  display: none;
+}
+
+#text_3_1 h1::first-letter{
+  float: none;
+  font-size: 3em;
+  text-transform: uppercase; 
+  font-family:'candlebright' !important; 
+}
+
+
 
 
 
@@ -670,7 +682,9 @@ body {
   color: black;
 }
 
-
+.one_colum .expand {
+  max-width: fit-content;
+}
 
 
 
