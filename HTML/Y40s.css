@@ -428,3 +428,12 @@ figcaption p{
     );
 
 }
+
+#one_article article{
+  column-count: 3;
+}
+
+
+#three_article article{
+  column-count: 1;
+}

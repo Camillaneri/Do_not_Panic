@@ -9,6 +9,14 @@ body {
 
 /*title and logo*/
 @font-face {
+  font-family: 'egyptienne';
+  src: url('font/Y2000S/egyptienne_mn_condensed_bold-webfont.woff2') format('woff2'),
+       url('font/Y2000S/egyptienne_mn_condensed_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'magazinebold';
   src: url('font/Y2000S/magazine-bold-webfont.woff2') format('woff2'),
        url('font/Y2000S/magazine-bold-webfont.woff') format('woff');
@@ -44,24 +52,53 @@ body {
 }
 
 
-h1 {font-family: 'republica_minoritalic' !important; color:white !important; text-transform: uppercase;font-weight: 50;} 
+h1 {font-family: 'egyptienne' !important; color:white !important; text-transform: uppercase;font-weight: 50;
+  text-shadow: 1px 1px 0 #000,
+  -1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000,
+  0px 1px 0 #000,
+  0px -1px 0 #000,
+  -1px 0px 0 #000,
+  1px 0px 0 #000,
+  1px 1px 0 #000,
+  -1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000,
+  0px 1px 0 #000,
+  0px -1px 0 #000,
+  -1px 0px 0 #000,
+  1px 0px 0 #000,
+  1px 1px 0 #000,
+  -1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000,
+  1px 1px 0 #000,
+  -1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000;} 
 h2, h3, h4, h5, h6, label {font-family: 'magazinebold', cursive !important; color:  white; text-transform: uppercase; font-weight: 70;} 
 p  {font-family: 'faustinaregular', serif !important; color: white; font-size: 0.9em;}
 a, button, ul, li  {font-family: 'faustinaregular', sans-serif !important; color: white; font-size: 1em;}
 figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: white; font-size: 0.9em;}
 
-custom-select {
-  font-family: 'magazinebold', cursive !important;
+.choose_article_box h4 {
+  font-family: 'magazinebold' !important;
   text-transform: uppercase;
-  
 }
+
+.select-selected{
+  font-family: 'magazinebold' !important;
+  text-transform: uppercase;
+}
+
 
 #lens_selected {
   filter: invert();
 }
 
-.select-items div, .select-selected {
-  font-family: 'magazinebold', cursive !important;
+.select-items div{
+  font-family: 'egyptienne', cursive !important;
   text-transform: uppercase;
   color: white;
 
@@ -76,13 +113,14 @@ custom-select {
 .up_logo {
   font-size: 4em;
   font-weight: 900;
-  font-family: 'magazinebold'!important;
+  font-family: 'egyptienne'!important;
 }
 
 .bottom_logo {
   margin-top: -5px;
   font-size: 2.5em;
-  font-family: 'magazinebold'!important;
+  font-family: 'egyptienne'!important;
+  color: rgb(237, 224, 240) !important;
 }
 
 .cover_content{
@@ -157,7 +195,7 @@ custom-select {
 }
 
 .overlay {
-  background-color: rgba(132, 179, 233, 0.8);
+  background-color: rgba(132, 179, 233, 0.9);
 }
 
 .text_issue button{
@@ -262,7 +300,6 @@ custom-select {
 .one_colum p {
   color: black !important;
   font-weight: lighter;
-  column-count: 3;
   text-align: justify;
   
 }
@@ -270,7 +307,6 @@ custom-select {
 .two_colum p {
   color: black !important;
   font-weight: lighter;
-  column-count: 2;
   text-align: justify;
   
 }
@@ -298,9 +334,18 @@ figcaption p{
 
 .large_button{
   color: white;
-  font-family: "magazinebold" !important;
+  font-family: "egyptienne" !important;
 }
 
 .subtitle {
   font-family: "faustinaregular" !important;
+}
+
+#one_article article{
+  column-count: 3;
+}
+
+
+#two_article article{
+  column-count: 2;
 }
