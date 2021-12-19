@@ -33,7 +33,7 @@ body {
 }
 
 h1, h2, h3, h4, button{    font-family: 'neon', cursive !important;
-  color: #fff; } 
+  color: #fff; text-transform: uppercase; } 
 p, a, ul, li, dl, figcaption, label  {font-family: 'VT323', monospace, sans-serif !important; color: #1bcd4a !important;  word-break: keep-all; font-size: 1.3em;}
 
 

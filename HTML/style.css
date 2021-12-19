@@ -1820,30 +1820,27 @@ dl::-webkit-scrollbar {
   height: 100%;
   position: relative;
   z-index: 600;
-  background-color: rgba(28, 10, 80, 0.9);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('img/transition.jpg');
-  animation: noise-anim-trans .3s infinite linear alternate-reverse;
+  background-color: rgba(7, 7, 7, 1);
+  background-repeat: space;
+  background-size: 14.8em;
+  opacity: 0.8;
+  background-image: url('img/dontPanic_logo.svg');
 }
 
-
-/* .transition::after {
+  #transition::before {
   content: '';
-  filter: invert();
   box-shadow: 4em;
-  fill: #c606d8;
   width: 100%;
   height: 100%;
   position: absolute;
   opacity: 0.5;
-  background-color: rgba(0, 0, 0, 0.9);
-  background-repeat: repeat ;
-  background-size: cover;
+  background-color: rgba(30, 19, 95, 0.9);
+  
+  background-size: 14.8em;
   mix-blend-mode: hard-light;
-  background-image: url('img/transition.jpg'), url('img/dontPanic_logo.svg');
-  animation: noise-anim-trans .3s infinite linear alternate-reverse;
-} */
+  background-image: url('img/dontPanic_logo.svg');
+  animation: noise-anim-trans .3s infinite linear alternate-reverse; 
+}
 
 @keyframes noise-anim-trans {
   0% {
