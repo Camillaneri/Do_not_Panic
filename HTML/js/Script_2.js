@@ -716,7 +716,7 @@ case 'Y1800s.css':
       switch (whatstyle) {
         case 'future.css': 
         var ci = "future"
-        var icon1 ="<img id='logo_img' class = 'prob_icon' src='img/dontPanic_logo.svg'/>"
+        var icon1 ="<img id='logo_img' class = 'prob_icon' src='img/svg/2001.svg'/>"
         break;
         case 'Y2000S.css':
         var ci = "2000"
