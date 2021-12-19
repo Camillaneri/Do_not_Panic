@@ -61,33 +61,13 @@ p {text-align: justify;}
 }
 
 .lensbox {
-  background-color: white;
-  border: solid black 0.2em;;
-  
-}
-#lens_selected {
-  filter: invert();
-}
-
-.lensbox span {
-  background-color: black;
-}
-
-.lensbox img {
-  filter: none;
-}
-
-#Y40s img {
-  filter: invert();
-}
-
-#no_style img {
-  filter: invert();
+  background-color: rgb(0, 0, 0);
+  border: solid black 0.2em;; 
 }
 
 #hr_lens{
   margin-right: 58%;
-  color: black;
+  color: white;
   }
 
 .cover_logo{

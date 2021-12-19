@@ -329,11 +329,14 @@ function hover(event) {
 var currStyle;
 
 function styleSwitch(id) {
+  var transition = document.getElementsByClassName("transition");
   var theme = document.getElementsByTagName("link")[1];
   var new_style = id + ".css";
   var myPara = document.getElementById("hr_lens");
   var set = myPara.style.marginRight;
   currStyle = set;
+
+
 
   if (id != "no_style") {
     theme.setAttribute("href", new_style);
@@ -347,6 +350,14 @@ function styleSwitch(id) {
   localStorage.setItem('style', theme.outerHTML);
   localStorage.setItem('theme_href', href)
   changeItemForStyle();
+
+  document.getElementById("transition").style.display="block";
+
+  window.setTimeout("closeHelpDiv();", 1000);
+}
+
+function closeHelpDiv(){
+  document.getElementById("transition").style.display=" none";
 }
 
 function changeItemForStyle() {
