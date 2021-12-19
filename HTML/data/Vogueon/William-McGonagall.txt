@@ -7,7 +7,7 @@
 		<p class="nameAuthor midSmall isolate">Journalist</p>
 		
 		<figure>
-		<img class="expand left" src="img/Vogueon/William-McGonagall/POET.jpg" style="max-width: 460px;"> <figcaption class="captionPhoto smallChar left"> camille è bella:)</figcaption>
+		<img class="expand left" src="img/Vogueon/William-McGonagall/POET.jpg" style="max-width: 460px;"> <figcaption class="captionPhoto smallChar left"> </figcaption>
 		</figure><div class="clear"> </div>
 
 		
