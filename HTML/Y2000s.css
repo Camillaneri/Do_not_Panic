@@ -1,5 +1,5 @@
 body {
-	background: radial-gradient(circle at bottom, rgb(226, 144, 226) 0, rgb(132, 179, 233) 100%);
+	background: linear-gradient(180deg, rgb(40, 91, 201) 0%, rgb(65, 117, 165) 25%, rgb(255, 255, 255) 45%, rgb(128, 37, 90) 85%, rgb(226, 140, 53) 100%);
   background-repeat: no-repeat;
   align-self: center;
   height: 100vh;
@@ -8,19 +8,32 @@ body {
 
 
 /*title and logo*/
+
 @font-face {
-  font-family: 'magazinebold';
-  src: url('font/Y2000S/magazine-bold-webfont.woff2') format('woff2'),
-       url('font/Y2000S/magazine-bold-webfont.woff') format('woff');
+  font-family: 'itc_zapf_internationalmedium';
+  src: url('font/Y2000S/itc-zapf-international-medium-webfont.woff2') format('woff2'),
+       url('font/Y2000S/itc-zapf-international-medium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+
 }
+
+/*subtitles*/
 
 
 @font-face {
-  font-family: 'egyptienne_mncondensed_bold';
-  src: url('font/Y2000S/egyptienne_mn_condensed_bold-webfont.woff2') format('woff2'),
-       url('font/Y2000S/egyptienne_mn_condensed_bold-webfont.woff') format('woff');
+  font-family: 'futurabold';
+  src: url('font/Y2000S/futura_bold_font-webfont.woff2') format('woff2'),
+       url('font/Y2000S/futura_bold_font-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'futuramedium';
+  src: url('font/Y2000S/futura_medium_bt-webfont.woff2') format('woff2'),
+       url('font/Y2000S/futura_medium_bt-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -45,9 +58,8 @@ body {
 }
 
 
-h1 {font-family: 'egyptienne_mncondensed_bold' !important; color:white !important; text-transform: uppercase;  
-  text-shadow: 
-  1px 1px 0 #000,
+h1 {font-family: 'itc_zapf_internationalmedium' !important; color:white !important;  
+  text-shadow: 1px 1px 0 #000,
   -1px 1px 0 #000,
   1px -1px 0 #000,
   -1px -1px 0 #000,
@@ -55,29 +67,29 @@ h1 {font-family: 'egyptienne_mncondensed_bold' !important; color:white !importan
   0px -1px 0 #000,
   -1px 0px 0 #000,
   1px 0px 0 #000,
-  1px 1px 0 #000,
-  -1px 1px 0 #000,
-  1px -1px 0 #000,
-  -1px -1px 0 #000,
-  0px 1px 0 #000,
-  0px -1px 0 #000,
-  -1px 0px 0 #000,
-  1px 0px 0 #000,
-  1px 1px 0 #000,
-  -1px 1px 0 #000,
-  1px -1px 0 #000,
-  -1px -1px 0 #000,
-  1px 1px 0 #000,
-  -1px 1px 0 #000,
-  1px -1px 0 #000,
-  -1px -1px 0 #000;} 
-h2, h3, h4, h5, h6, label {font-family: 'magazinebold', cursive !important; color:  white; text-transform: uppercase; font-weight: 70;} 
+  2px 2px 0 #000,
+  -2px 2px 0 #000,
+  2px -2px 0 #000,
+  -2px -2px 0 #000,
+  0px 2px 0 #000,
+  0px -2px 0 #000,
+  -2px 0px 0 #000,
+  2px 0px 0 #000,
+  1px 2px 0 #000,
+  -1px 2px 0 #000,
+  1px -2px 0 #000,
+  -1px -2px 0 #000,
+  2px 1px 0 #000,
+  -2px 1px 0 #000,
+  2px -1px 0 #000,
+  -2px -1px 0 #000;} 
+h2, h3, h4, h5, h6, label {font-family: 'futurabold', cursive !important; text-transform: uppercase !important;color:  white; font-weight: 70;} 
 p  {font-family: 'faustinaregular', serif !important; color: white; font-size: 0.9em;}
 a, button, ul, li  {font-family: 'faustinaregular', sans-serif !important; color: white; font-size: 1em;}
 figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: white; font-size: 0.9em;}
 
-custom-select {
-  font-family: 'magazinebold', cursive !important;
+.custom-select {
+  font-family: 'futuramedium', cursive !important;
   text-transform: uppercase;
   
 }
@@ -87,7 +99,7 @@ custom-select {
 }
 
 .select-items div, .select-selected {
-  font-family: 'magazinebold', cursive !important;
+  font-family: 'futuramedium', cursive !important;
   text-transform: uppercase;
   color: white;
 
@@ -100,31 +112,38 @@ custom-select {
 }
 
 .up_logo {
+  margin-top: -0.4em;
   font-size: 4em;
   font-weight: 700;
-  font-family: 'egyptienne_mncondensed_bold'!important;
+  font-family: 'itc_zapf_internationalmedium'!important;
+  text-transform: lowercase !important;
+}
+
+.up_logo:first-letter {
+  text-transform: uppercase;        /* Make the first letters uppercase      */
 }
 
 .bottom_logo {
   margin-top: -5px;
   font-size: 2.5em;
-  font-family: 'egyptienne_mncondensed_bold'!important;
+  font-family: 'futurabold'!important;
+  text-shadow: none !important;
 }
 
 .cover_content{
   border: 0.3em white solid !important;
-  background-color: rgba(169, 50, 182, 0.8);
+  background-color: rgba(185, 72, 72, 0.8);
   transform: translate(-50%, -50%) scale(1.2);
   position: absolute;
 }
 
  .allert_content {
   border: none !important;
-  background-color: rgb(169, 50, 182);
+  background-color: rgb(185, 72, 72);
 }
 
 .cover_content img{
-  margin-bottom: 0;
+  margin-bottom: 1em;
   margin-left: 5em;
   float:none;
   width: 16em;
@@ -167,7 +186,7 @@ custom-select {
 .allert_box {
   background-origin: padding-box;
   padding: 2em;
-  border: solid rgb(116, 187, 253) 0.3em;
+  border: solid rgb(182, 180, 50) 1em;
 }
 
 .person_team{
@@ -183,7 +202,7 @@ custom-select {
 }
 
 .overlay {
-  background-color: rgba(132, 179, 233, 0.9);
+  background-color: rgba(182, 180, 50, 0.9);
 }
 
 .overlay p {
@@ -215,22 +234,37 @@ custom-select {
   border-right: 0.2em white solid;
 }
 
+.choose_article_box h4{
+font-family: 'futuramedium', cursive !important;
+}
+
+.mv_form_box h1{
+  font-family: 'futuramedium', cursive !important;
+  text-shadow: none !important;
+  margin-bottom: 0.3em !important;
+}
+
 .metadata_menu{
-  background-color: rgba(226, 144, 226, 0.5);
+  background-color: rgba(185, 72, 72, 0.5);
   border: 0.2em white solid;
 }
 
 .metadata_menu h1{
-  font-size: 3em !important;
+  font-size: 2em !important;
+  text-transform: lowercase !important;
+}
+
+.metadata_menu h1:first-letter{
+  text-transform: uppercase !important;
 }
 
 .show_meta_one .meta, .show_meta_two .meta, .show_meta_three .meta{
-  border-bottom: 0.2em rgb(138, 167, 247);
+  border-bottom: 0.2em rgb(48, 136, 236);
 }
 
 .show_meta_down .meta{
 
-  border: 0.2em rgb(138, 167, 247);
+  border: 0.2em rgb(48, 136, 236);
   margin-right: 0.5em;
   padding-left: 1em;
 }
@@ -254,19 +288,19 @@ custom-select {
 }
 
 .content_article {
-  background-color: rgb(237, 224, 240);
-  border: 0.2em rgb(138, 167, 247);
+  background-color: rgb(255, 255, 255);
+  border: 0.2em rgb(0, 0, 0);
 }
 
 .content_article h1 {
-  color: rgb(217, 97, 233) !important;
+  color: rgb(218, 206, 153) !important;
   font-weight: lighter;
   font-size: 2.5em;
   margin-bottom: 0.5em;
 }
 
 .content_article h2 {
-  color: rgb(217, 97, 233) !important;
+  color: rgb(16, 63, 218) !important;
   font-weight: lighter;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -287,7 +321,7 @@ custom-select {
   color: black !important;
   font-weight: lighter;
   margin: 1em 0 !important;
-  border-top: 0.2em rgb(237, 224, 240) solid;
+  border-top: 0.2em rgb(255, 254, 255) solid;
   padding-top: 1em;
 }
 
@@ -316,7 +350,7 @@ custom-select {
 }
 
 .content_article img{
-  filter:brightness(135%) contrast(90%) saturate(120%);
+  filter: contrast(110%) saturate(30%);
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
@@ -334,7 +368,7 @@ figcaption p{
 
 .large_button{
   color: white;
-  font-family: "magazinebold" !important;
+  font-family: "futuramedium" !important;
 }
 
 .subtitle {
