@@ -329,12 +329,9 @@ function hover(event) {
 var currStyle;
 
 function styleSwitch(id) {
-  var transition = document.getElementsByClassName("transition");
+  
   var theme = document.getElementsByTagName("link")[1];
   var new_style = id + ".css";
-  var myPara = document.getElementById("hr_lens");
-  var set = myPara.style.marginRight;
-  currStyle = set;
 
 
 
@@ -367,6 +364,10 @@ function changeItemForStyle() {
   var theme = localStorage.getItem('theme_href');
   console.log(theme)
   var icon_selected = document.getElementById('lens_selected');
+
+  var myPara = document.getElementById("hr_lens");
+  var set = myPara.style.marginRight;
+  currStyle = set;
 
 
   switch (theme) {

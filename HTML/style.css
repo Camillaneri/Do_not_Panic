@@ -1203,6 +1203,7 @@ div.article_box:hover .overlay {
   background-repeat:no-repeat;
   cursor:pointer;
   
+  
 }
 }/* two class to close!!! NON CANCELLARE*/
 
@@ -1273,7 +1274,7 @@ div.article_box:hover .overlay {
   overflow: hidden;
     height: 99.4%;
     width: 76%;
-    background-color: #58bb73ba;
+    background-color: #6febffba;
     border: 0.125em white solid;
 }
 
@@ -1823,7 +1824,7 @@ dl::-webkit-scrollbar {
   background-color: rgba(7, 7, 7, 1);
   background-repeat: space;
   background-size: 14.8em;
-  opacity: 0.8;
+  opacity: 0.5;
   background-image: url('img/dontPanic_logo.svg');
 }
 
