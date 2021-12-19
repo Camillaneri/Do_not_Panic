@@ -60,8 +60,34 @@ p {text-align: justify;}
   filter: invert();
 }
 
+.lensbox {
+  background-color: white;
+  border: solid black 0.2em;;
+  
+}
+#lens_selected {
+  filter: invert();
+}
+
+.lensbox span {
+  background-color: black;
+}
+
+.lensbox img {
+  filter: none;
+}
+
+#Y40s img {
+  filter: invert();
+}
+
+#no_style img {
+  filter: invert();
+}
+
 #hr_lens{
   margin-right: 58%;
+  color: black;
   }
 
 .cover_logo{
@@ -108,9 +134,6 @@ p {text-align: justify;}
   border: solid white 0.2em;;
 }
 
-.lensbox{
-  border: solid white 0.2em;;
-}
 
 #lens_selected {
   filter: invert();

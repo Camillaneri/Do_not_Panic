@@ -34,7 +34,7 @@ body {
 
 h1, h2, h3, h4, button{    font-family: 'neon', cursive !important;
   color: #fff; } 
-p, a, ul, li, figcaption, label  {font-family: 'VT323', monospace, sans-serif !important; color: #1bcd4a;  word-break: keep-all; font-size: 1.3em;}
+p, a, ul, li, dl, figcaption, label  {font-family: 'VT323', monospace, sans-serif !important; color: #1bcd4a !important;  word-break: keep-all; font-size: 1.3em;}
 
 
 button {
@@ -127,6 +127,7 @@ button:hover {
   margin-top: -14px;
   font-size: 2em;
   margin-left: 4.3em;
+  float: right;
 }
 
 .cover_content {
@@ -691,23 +692,27 @@ button:hover {
 }
 
 .content_article h1 {
-  color: black !important;
+  color: white !important;
   font-weight: lighter;
   font-size: 2.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5em !important;
 }
 
 .content_article h2 {
-  color: black !important;
+  color: white !important;
   font-weight: lighter;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 
 .content_article h3 {
-  color: black !important;
+  color: white !important;
   font-weight: lighter;
   margin-bottom: 0.5em;
+}
+
+.content_article hr {
+  border: 0.01em rgb(255, 255, 255) solid !important;
 }
 
 .content_article a {
@@ -719,8 +724,6 @@ button:hover {
   color: #1bcd4a !important;
   font-weight: lighter;
   margin: 1em 0 !important;
-  border-top: 0.2em black solid;
-  padding-top: 1em;
 }
 
 .content_article p:first-child{
@@ -728,33 +731,30 @@ button:hover {
 }
 
 .one_colum p {
-  color: black !important;
   font-weight: lighter;
-  column-count: 3;
-  text-align: justify;
   
 }
 
 .two_colum p {
-  color: black !important;
   font-weight: lighter;
-  column-count: 2;
-  text-align: justify;
   
 }
 
-.content_article hr {
-  border: 0.01em black solid !important;
-}
-
 .content_article img{
-  filter: hue-rotate(83deg) blur(0.08em);
+  content: '';
+  border-radius: 1em;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  animation: noise-anim .3s infinite linear alternate-reverse;
+  opacity: 0.9;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 
 .content_article figcaption {
-  color: black !important;
+  color: #1bcd4a !important;
   text-align: left;
   font-size: 1.125em;
   margin-bottom: 0.5em;
@@ -764,3 +764,15 @@ figcaption p{
   column-count: unset !important;
 }
 
+.subtitle {
+  color: white !important;
+}
+
+.nameAuthor{
+  color: #1bcd4a;
+  font-weight: 700 !important;
+}
+
+table {
+  color: white;
+}

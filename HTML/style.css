@@ -1542,11 +1542,11 @@ dl::-webkit-scrollbar {
 
 .meta dt { 
   font-size: 1.1em;
-  color: black;
   line-height: 2em;
   font-style: oblique;
   font-weight: 700;
   margin-left: 0 !important;
+  margin-right: 1em;
   display: inline;
   text-align: left;
 }
@@ -1557,7 +1557,6 @@ dl::-webkit-scrollbar {
 
 .meta dd{
   font-size: 1.2em;
-  color: black;
   line-height: 2em;
   font-style: normal;
   font-weight: normal;
