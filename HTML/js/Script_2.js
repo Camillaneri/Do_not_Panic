@@ -707,7 +707,7 @@ case 'Y1800s.css':
       
       
       */
-
+/*
     function not_your_prob (){
       var checkProblem = document.getElementsByName("problemCheckbox")[0];
       var issue_id = localStorage.issue_id;
@@ -744,3 +744,60 @@ case 'Y1800s.css':
     readIssues(issue_id, "stay");
     }
     }
+    */
+/*
+    function not_your_prob (){
+      var checkProblem = document.getElementsByName("problemCheckbox")[0];
+      var issue_id = localStorage.issue_id;
+      var svg_element = "<img id='logo_img' class = 'prob_icon' src='img/dontPanic_logo.svg'/>"
+      if (checkProblem.checked) {
+      var text_id = JSON.parse(localStorage.id_list);
+      for (j=0;j<text_id.length;j++) {
+      var metadata_list = document.getElementById(text_id[j]).getElementsByClassName("mention");
+      for (i=0;i<metadata_list.length;i++){
+        if (metadata_list[i].className == "mention concept"){
+          metadata_list[i].outerHTML = svg_element;
+        } else if (metadata_list[i].className == "mention person"){
+          metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+        } else if (metadata_list[i].className == "mention place"){
+          metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+        } else if (metadata_list[i].className == "mention organization"){
+          metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+        } else {
+          metadata_list[i].innerHTML = "NOT YOUR GODDAMN PROBLEM";
+        }
+      }
+    }
+    }else{
+    readIssues(issue_id, "stay");
+    }
+    }
+    */
+    function not_your_prob (){
+      var checkProblem = document.getElementsByName("problemCheckbox")[0];
+      var issue_id = localStorage.issue_id;
+      var imgs = document.createElement('img'); 
+      imgs.src = 'img/dontPanic_logo.svg'
+      num_word_list = Array().fill(imgs)
+      /*var svg_element = "<img id='logo_img' class = 'prob_icon' src='img/dontPanic_logo.svg'/>"*/
+      if (checkProblem.checked) {
+      var text_id = JSON.parse(localStorage.id_list);
+      for (j=0;j<text_id.length;j++) {
+      var metadata_list = document.getElementById(text_id[j]).getElementsByClassName("mention");
+      for (i=0;i<metadata_list.length;i++){
+        var stringg = metadata_list[i].innerHTML;
+        var words = stringg.split(' ');
+        var count_words = words.length - 1;
+        if (metadata_list[i].className == "mention concept"){
+          metadata_list[i].outerHTML = "";
+          for (x=0;x<count_words;i++){
+          metadata_list[i].appendChild(imgs);
+          }
+        } 
+      }
+    }
+    }else{
+    readIssues(issue_id, "stay");
+    }
+    }
+    
