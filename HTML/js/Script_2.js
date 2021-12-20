@@ -711,6 +711,7 @@ case 'Y1800s.css':
     function not_your_prob (){
       var checkProblem = document.getElementsByName("problemCheckbox")[0];
       var issue_id = localStorage.issue_id;
+      var count_words = (metadata_list[i].length - 1);
       var whatstyle = localStorage.getItem('theme_href');
       console.log(whatstyle)
       switch (whatstyle) {
@@ -730,7 +731,7 @@ case 'Y1800s.css':
           for (i=0;i<metadata_list.length;i++){
           if (metadata_list[i].className == "mention concept"){
             if (ci == "future"){
-            metadata_list[i].outerHTML = icon1;
+            metadata_list[i].outerHTML = icon1 + icon2;
             }
             if(ci == "200"){
             metadata_list[i].outerHTML = icon2;
