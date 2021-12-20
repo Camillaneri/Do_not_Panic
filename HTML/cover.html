@@ -120,98 +120,114 @@
 
     <div class="nav">
       <div class="right lensbox">
+		
         <input type="checkbox" />
-    
-        <div class="lens_menu_icon">
-          <img id="lens_selected" src="img/dontPanic_logo.svg" width="40"
+      
+        <div class="lens_menu_icon tooltip">
+          
+            <img id="lens_selected" src="img/dontPanic_logo.svg" width="40"
           height="40"/>
+            <div class="tooltiptext">choose a style</div>
+          
+          
         </div>
+        
         <span></span>
         <span></span>
-
-
-
+    
+        
+    
         <div class="help">
           <ul class="lens">
+        
           <li
-            id="future"
-            
-            onclick="styleSwitch(this.id)"
-            onmouseenter="hover(event)"
-            onmouseleave="hover(event)"
+          id="future"
+          class="tooltip"
+          onclick="styleSwitch(this.id)"
+          onmouseenter="hover(event)"
+          onmouseleave="hover(event)"
           >
-
-            <img src="img/svg/3000inv.svg" width="40"
-            height="40"/>
-            
+  
+          <div class="tooltiptext">future</div>
+          <img src="img/svg/3000inv.svg" width="40"
+          height="40"/>
+  
+          
           </li>
           <li
-            id="Y2000s"
-            onclick="styleSwitch(this.id)"
-            onmouseenter="hover(event)"
-            onmouseleave="hover(event)">
-            
-            <img src="img/svg/2001.svg" width="40"
-            height="40"/>
-            
+          id="Y2000s"
+          class="tooltip"
+          onclick="styleSwitch(this.id)"
+          onmouseenter="hover(event)"
+          onmouseleave="hover(event)">
+          <div class="tooltiptext">2000</div>
+          <img src="img/svg/2001.svg" width="40"
+          height="40"/>
+          
           </li>
           <li
-            id="Y80s"
-            onclick="styleSwitch(this.id)"
-            onmouseenter="hover(event)"
-            onmouseleave="hover(event)"
+          id="Y80s"
+          class="tooltip"
+          onclick="styleSwitch(this.id)"
+          onmouseenter="hover(event)"
+          onmouseleave="hover(event)"
           >
-            
+          <div class="tooltiptext">80's</div>
           <img src="img/svg/1990inv.svg" width="40"
           height="40"/>
-            
+          
           </li>
           <li
-            id="Y40s"
-            onclick="styleSwitch(this.id)"
-            onmouseenter="hover(event)"
-            onmouseleave="hover(event)"
+          id="Y40s"
+          class="tooltip"
+          onclick="styleSwitch(this.id)"
+          onmouseenter="hover(event)"
+          onmouseleave="hover(event)"
           >
-            
+          <div class="tooltiptext">40's</div>
           <img src="img/svg/1926inv1.svg" width="40"
           height="40"/>
            
           </li>
           <li
-            id="Y1800s"
-            onclick="styleSwitch(this.id)"
-            onmouseenter="hover(event)"
-            onmouseleave="hover(event)"
+          id="Y1800s"
+          class="tooltip"
+          onclick="styleSwitch(this.id)"
+          onmouseenter="hover(event)"
+          onmouseleave="hover(event)"
           >
-            
+          <div class="tooltiptext">1800</div>
           <img src="img/svg/1800inv.svg" width="40"
           height="40"/>
         
           </li>
           <li
-            id="Y300s"
-            onclick="styleSwitch(this.id)"
-            onmouseenter="hover(event)"
-            onmouseleave="hover(event)"
+          id="Y300s"
+          class="tooltip"
+          onclick="styleSwitch(this.id)"
+          onmouseenter="hover(event)"
+          onmouseleave="hover(event)"
           >
-
-            
+    
+          <div class="tooltiptext">1300</div>
           <img src="img/svg/1300inv2.svg" width="40"
           height="40"/>
-
+    
           
           </li>
           <li
-            id="no_style"
-            onclick="styleSwitch(this.id)"
-            onmouseenter="hover(event)"
-            onmouseleave="hover(event)"
+          id="no_style"
+          class="tooltip"
+          onclick="styleSwitch(this.id)"
+          onmouseenter="hover(event)"
+          onmouseleave="hover(event)"
           >
-
+  
+          <div class="tooltiptext">default</div>
           <img src="img/dontPanic_logo.svg" width="40"
           height="40"/>
-            
-            
+          
+          
           </li>
           </ul>
           <div id="hr_lens"></div>
@@ -244,11 +260,14 @@
         >
       </div>
     </div>
-    <div class="info_box">
-      <a class="world right" href="#allert">
-        <img id="gif" src="img/200w.gif" width="100%" height="auto" />
-      </a>
-    </div>
+    <div class="info_box tooltip">
+		
+			<div class="tooltiptext">Info box</div>
+		
+		<a class="world right" href="#allert">
+		  <img id="gif" src="img/200w.gif" width="100%" height="auto" />
+		</a>
+	</div>
 
     <div id="transition"></div>
     <div class="space stars1"></div>
