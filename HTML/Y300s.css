@@ -713,7 +713,7 @@ body {
 
 /*article images*/ 
 #issue_first_cover{
-	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Y300img/middleage_1.jpeg");
+	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Y300img/middleage_1.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -725,7 +725,7 @@ body {
 }
 
 #article_cover_1_1 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Y300img/middleage_1.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Y300img/");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -764,7 +764,7 @@ body {
 }
 
 #issue_second_cover{
-	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Y300img/middleage_2.jpeg");
+	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Y300img/middleage_2.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -815,7 +815,7 @@ body {
 }
 
 #issue_therd_cover{
-	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Y300img/middleage_3.jpeg");
+	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Y300img/middleage_3.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
