@@ -472,13 +472,12 @@ transition: 0.6s;
   padding-top: 8px;
   transition: 0.5s;
   border-radius: 50px;
-  overflow: hidden;
 }
 
 .lens {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: hidden; 
   overflow-x: scroll;
   
 }
@@ -499,8 +498,7 @@ scrollbar-width: none;  /* Firefox */
   margin: 0 auto;
   width: fit-content;
   height: fit-content;
-  pointer-events: none;
- 
+  /* pointer-events: none; */
   visibility: visible;
   opacity: 1;
   
@@ -510,6 +508,8 @@ scrollbar-width: none;  /* Firefox */
   width: 22rem;
   padding-right: 0.5rem;
  }
+
+
 
 .lens_and_line{
 display:flex;
@@ -567,7 +567,7 @@ display:flex;
 visibility: hidden;
 opacity: 0;
 transition: visibility 0s, opacity 0.5s linear;
-}
+} 
 
 .hr_lens{
 width: 13.5%;
@@ -1881,7 +1881,28 @@ dl::-webkit-scrollbar {
   }
 }
 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -60px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  height: auto !important;
+  display: inline-block;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 200;
+  pointer-events: all;
+}
 
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 
 
 

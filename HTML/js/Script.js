@@ -133,3 +133,10 @@ $(document).ready(function(){
     $("div#Giulia > div.explain").toggle();
   });
 })
+
+$(document).ready(function(){
+  $(".lens_menu_icon").click(function(){
+    $('div.lensbox input').prop('checked', true);
+    $(self).hide();
+  })
+})
