@@ -104,8 +104,10 @@ figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: wh
 }
 
 .up_logo {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 900;
+  padding-left: 0.9em;
+  z-index: +2 !important;
   font-family: 'egyptienne'!important;
   text-transform: lowercase !important;
 }
@@ -122,8 +124,10 @@ figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: wh
 }
 
 .bottom_logo {
-  margin-top: -5px;
-  font-size: 2.5em;
+  margin-top: -0.3em;
+  font-size: 5em;
+  z-index: -1;
+    position:relative;
   font-family: 'egyptienne'!important;
   color: rgb(237, 224, 240) !important;
   text-transform: lowercase !important;
