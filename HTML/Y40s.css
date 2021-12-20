@@ -41,42 +41,29 @@ body {
 
 /*text*/
 @font-face {
-  font-family: 'kirstybold_italic';
-  src: url('font/Y40S/kirsty_bd_it-webfont.woff2') format('woff2'),
-       url('font/Y40S/kirsty_bd_it-webfont.woff') format('woff');
+  font-family: 'futura_bold';
+  src: url('font/Y40S/futura_bold_font-webfont.woff2') format('woff2'),
+       url('font/Y40S/futura_bold_font-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
-  font-family: 'kirstybold';
-  src: url('font/Y40S/kirsty_bd-webfont.woff2') format('woff2'),
-       url('font/Y40S/kirsty_bd-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'kirstyitalic';
-  src: url('font/Y40S/kirsty_rg_it-webfont.woff2') format('woff2'),
-       url('font/Y40S/kirsty_rg_it-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'kirstyregular';
-  src: url('font/Y40S/kirsty_rg-webfont.woff2') format('woff2'),
-       url('font/Y40S/kirsty_rg-webfont.woff') format('woff');
+  font-family: 'futura_regular';
+  src: url('font/Y40S/futura_medium_bt-webfont.woff2') format('woff2'),
+       url('font/Y40S/futura_medium_bt-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 h1 {font-family: 'planet_n_compact_condensedCn' !important; color: white !important; text-transform: uppercase !important;} 
 h2, h3, h4, h5, h6, button, label {font-family: 'preussischeiv44ausgabe3Rg', cursive !important; color:  white; text-transform: uppercase;} 
-p  {font-family: 'kirstyregular', serif !important; color: white; font-size: 0.9em;}
-ul, li {font-family: 'kirstybold', sans-serif !important; color: red !important; font-size: 0.9em;}
-a {font-family: 'kirstybold', sans-serif !important; color: rgb(255, 0, 0) !important; font-size: 0.9em;}
-figcaption  {font-family: 'kirstyitalic', serif !important; color: white; font-size: 0.9em;}
+p  {font-family: 'futura_regular', serif !important; color: white; font-size: 0.9em;}
+ul, li {font-family: 'futura_bold', sans-serif !important; color: red !important; font-size: 0.9em;}
+a {font-family: 'futura_bold', sans-serif !important; color: rgb(255, 0, 0) !important; font-size: 0.9em;}
+figcaption  {font-family: 'futura_bold', serif !important; color: white; font-size: 0.9em;}
 
-custom-select {
+.custom-select {
   font-family: 'preussischeiv44ausgabe3Rg' !important;
   text-transform: uppercase;  
 }
@@ -85,6 +72,10 @@ custom-select {
   font-family: 'preussischeiv44ausgabe3Rg' !important;
   text-transform: uppercase;
   color: white;  
+}
+
+.dropdown_article h4{
+  font-family: 'preussischeiv44ausgabe3Rg' !important;
 }
 
 .up_logo {
@@ -98,6 +89,11 @@ custom-select {
   font-size: 2.5em;
   font-family: 'preussischeiv44ausgabe3Rg'!important;
   color: rgb(255, 0, 0) !important;  
+}
+
+.menu{
+  font-size: 2em;
+  margin-left: 2em ;
 }
 
 
@@ -121,10 +117,15 @@ custom-select {
   float: right;
   width: 10em;
   animation: dontPanic 1s ease-in-out 2 alternate-reverse;
-  filter: invert();
 }
 
+.smallChar{
+  padding: 0.6em !important;
+}
 
+.isolate{
+  padding-bottom: 0.6em !important;
+}
 .hr_lens{
   margin-right: 58%;
   }
@@ -179,7 +180,11 @@ custom-select {
 }
 
 .overlay {
-  background-color:rgba(255, 0, 0, 0.5);
+  background-color:rgba(255, 0, 0, 0.8);
+}
+
+.overlay p {
+  font-weight: bolder;
 }
 
 .text_issue button{
@@ -274,10 +279,16 @@ custom-select {
 
 .content_article p {
   font-weight: lighter;
-  margin: 1em 0 !important;
-  border-top: 0.2em rgb(233, 222, 186) solid;
+  margin-top: -0.3em !important;
   padding-top: 1em;
 }
+
+.content_article p.subtitle {
+color: rgb(255, 0, 0) !important;
+padding-bottom: 1em !important;
+margin-top: -0.5em !important;
+}
+
 
 .content_article p:first-child{
   border-top: none;
@@ -433,7 +444,18 @@ figcaption p{
   column-count: 3;
 }
 
-
 #three_article article{
   column-count: 1;
+}
+
+.help{
+  filter: invert();
+  }
+  
+  .lensbox span {
+    background-color: rgb(255, 0, 0) !important; ;
+  }
+
+  .lens_menu_icon {
+    filter: invert();
 }

@@ -611,9 +611,17 @@ function highlight_metadata(text_id, text, selector){
  }else{
   localStorage.setItem("text", text_id);
   localStorage.setItem("counter", -1);
+  meta_focus_list = document.getElementById(text_id).getElementsByClassName("mention");
+  for (q=0;q<meta_focus_list.length;q++){
+    if (meta_focus_list[q].classList.contains("MetaFocusAll")){
+    meta_focus_list[q].classList.remove("MetaFocusAll");
+    }
+    if (meta_focus_list[q].classList.contains("MetaFocus")){
+      meta_focus_list[q].classList.remove("MetaFocus");
+    }
   highlight_metadata(text_id, text, selector);
-}
-}
+  }}}
+
 
 function scroll_metadata_up(text_id){
   var topOffSet = document.getElementById(text_id).getElementsByClassName("MetaFocus")[0].getBoundingClientRect().top;

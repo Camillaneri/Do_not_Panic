@@ -16,19 +16,12 @@ body {
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'magazinebold';
-  src: url('font/Y2000S/magazine-bold-webfont.woff2') format('woff2'),
-       url('font/Y2000S/magazine-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 /*subtitle*/
+
 @font-face {
-  font-family: 'republica_minoritalic';
-  src: url('font/Y2000S/republica_minor_regular-webfont.woff2') format('woff2'),
-       url('font/Y2000S/republica_minor_regular-webfont.woff') format('woff');
+  font-family: 'ginger';
+  src: url('font/Y2000S/f37_ginger_regular-webfont.woff2') format('woff2'),
+       url('font/Y2000S/f37_ginger_regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -52,7 +45,7 @@ body {
 }
 
 
-h1 {font-family: 'egyptienne' !important; color:white !important; text-transform: uppercase;font-weight: 50;
+h1 {font-family: 'egyptienne' !important; color:white !important;font-weight: 50;
   text-shadow: 1px 1px 0 #000,
   -1px 1px 0 #000,
   1px -1px 0 #000,
@@ -77,18 +70,18 @@ h1 {font-family: 'egyptienne' !important; color:white !important; text-transform
   -1px 1px 0 #000,
   1px -1px 0 #000,
   -1px -1px 0 #000;} 
-h2, h3, h4, h5, h6, label {font-family: 'magazinebold', cursive !important; color:  white; text-transform: uppercase; font-weight: 70;} 
-p  {font-family: 'faustinaregular', serif !important; color: white; font-size: 0.9em;}
+h2, h3, h4, h5, h6, label {font-family: 'ginger', cursive !important; color:  white; text-transform: uppercase; font-weight: 70;} 
+p  {font-family: 'faustinaregular', serif !important; color: white; font-size: 1.1em;}
 a, button, ul, li  {font-family: 'faustinaregular', sans-serif !important; color: white; font-size: 1em;}
 figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: white; font-size: 0.9em;}
 
 .choose_article_box h4 {
-  font-family: 'magazinebold' !important;
+  font-family: 'ginger' !important;
   text-transform: uppercase;
 }
 
 .select-selected{
-  font-family: 'magazinebold' !important;
+  font-family: 'ginger' !important;
   text-transform: uppercase;
 }
 
@@ -111,9 +104,21 @@ figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: wh
 }
 
 .up_logo {
-  font-size: 4em;
+  font-size: 5em;
   font-weight: 900;
   font-family: 'egyptienne'!important;
+  text-transform: lowercase !important;
+}
+
+.up_logo::first-letter {
+  text-transform: uppercase !important;
+}
+
+.menu{
+  padding-top: 0.6em !important;
+  padding-left: 0.6em !important;
+  font-size: 1.5em;
+  font-weight: bold !important;
 }
 
 .bottom_logo {
@@ -121,25 +126,35 @@ figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: wh
   font-size: 2.5em;
   font-family: 'egyptienne'!important;
   color: rgb(237, 224, 240) !important;
+  text-transform: lowercase !important;
+}
+
+.bottom_logo::first-letter {
+  text-transform: uppercase !important;
 }
 
 .cover_content{
-  border: 0.3em white solid !important;
-  background-color: rgba(169, 50, 182, 0.8);
+  border: 0.3em rgb(249, 246, 240) solid !important;
+  background-color: rgba(159, 60, 182, 0.8);
   transform: translate(-50%, -50%) scale(1.2);
   position: absolute;
+  padding: 2% !important;
+}
+
+.cover_content p{
+  font-size: 1em !important;
 }
 
  .allert_content {
   border: none !important;
-  background-color: rgb(169, 50, 182);
+  background-color: rgb(226, 144, 226);
 }
 
 .cover_content img{
   margin-bottom: 0;
   margin-left: 5em;
   float:none;
-  width: 16em;
+  width: 15em;
   animation: dontPanic 1s ease-in-out 2 alternate-reverse;
   filter: invert();
 }
@@ -191,12 +206,20 @@ figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: wh
 }
 
 .lensbox{
-  border: solid white 0.2em;;
+  border: solid  rgb(217, 97, 233) 0.2em;;
 }
 
 .overlay {
-  background-color: rgba(132, 179, 233, 0.9);
+  background-color: rgba(132, 179, 233, 0.95);
 }
+
+.overlay p {
+ color: black !important;
+ font-size: 1.05em !important;
+ font-weight: bold;
+
+}
+
 
 .text_issue button{
   width: 90%;
@@ -207,18 +230,18 @@ figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: wh
 }
 
 .article_box {
-  border-bottom: 0.2em white solid;
-  border-left: 0.2em white solid;
+  border-bottom: 0.2em rgb(132, 179, 233) solid;
+  border-left: 0.2em rgb(132, 179, 233) solid;
 }
 
 
 .article {
-  border-right: 0.2em white solid;
+  border-right: 0.2em rgb(132, 179, 233) solid;
 }
 
 .metadata {
-  border-bottom: 0.2em white solid;
-  border-right: 0.2em white solid;
+  border-bottom: 0.2em rgb(132, 179, 233) solid;
+  border-right: 0.2em rgb(132, 179, 233) solid;
 }
 
 .metadata_menu{
@@ -256,16 +279,16 @@ figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: wh
 }
 
 .content_article {
-  background-color: rgb(237, 224, 240);
+  background-color: rgb(249, 246, 240);
   border: 0.2em rgb(138, 167, 247);
 }
 
 .content_article h1 {
   color: rgb(217, 97, 233) !important;
-  font-weight: lighter;
-  font-size: 2.5em;
+  font-size: 3em;
   margin-bottom: 0.5em;
 }
+
 
 .content_article h2 {
   color: rgb(217, 97, 233) !important;
@@ -288,8 +311,6 @@ figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: wh
 .content_article p {
   color: black !important;
   font-weight: lighter;
-  margin: 1em 0 !important;
-  border-top: 0.2em white solid;
   padding-top: 1em;
 }
 
@@ -312,7 +333,7 @@ figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: wh
 }
 
 .content_article hr {
-  border: 0.01em white solid !important;
+  border: 0.01em black solid !important;
 }
 
 .content_article img{
@@ -334,8 +355,9 @@ figcaption p{
 
 .large_button{
   color: white;
-  font-family: "egyptienne" !important;
+  font-family: "ginger" !important;
 }
+
 
 .subtitle {
   font-family: "faustinaregular" !important;
@@ -348,4 +370,18 @@ figcaption p{
 
 #two_article article{
   column-count: 2;
+}
+
+.help{
+filter: invert(42%) sepia(93%) saturate(250%) hue-rotate(
+260deg) brightness(100%) contrast(110%);
+}
+
+.lensbox span {
+  background-color: rgb(217, 97, 233) !important; ;
+}
+
+.lens_menu_icon {
+filter: invert(42%) sepia(93%) saturate(250%) hue-rotate(
+    260deg) brightness(100%) contrast(110%);
 }
