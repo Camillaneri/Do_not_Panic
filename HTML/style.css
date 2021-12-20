@@ -608,8 +608,6 @@ margin-right: 0%;
 }
 
 
-
-
 /*DISCLAIMER POPUP BOX*/
 
 
@@ -1205,6 +1203,7 @@ div.article_box:hover .overlay {
   background-repeat:no-repeat;
   cursor:pointer;
   
+  
 }
 }/* two class to close!!! NON CANCELLARE*/
 
@@ -1275,7 +1274,7 @@ div.article_box:hover .overlay {
   overflow: hidden;
     height: 99.4%;
     width: 76%;
-    background-color: #58bb73ba;
+    background-color: #6febffba;
     border: 0.125em white solid;
 }
 
@@ -1814,6 +1813,72 @@ dl::-webkit-scrollbar {
   width: 1em;
   margin-top: 0em;
   margin-bottom: 0em;
+}
+
+#transition {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 600;
+  background-color: rgba(7, 7, 7, 1);
+  background-repeat: space;
+  background-size: 14.8em;
+  opacity: 0.5;
+  background-image: url('img/dontPanic_logo.svg');
+}
+
+  #transition::before {
+  content: '';
+  box-shadow: 4em;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.5;
+  background-color: rgba(30, 19, 95, 0.9);
+  
+  background-size: 14.8em;
+  mix-blend-mode: hard-light;
+  background-image: url('img/dontPanic_logo.svg');
+  animation: noise-anim-trans .3s infinite linear alternate-reverse; 
+}
+
+@keyframes noise-anim-trans {
+  0% {
+    filter: hue-rotate(0);
+    background-position: 0 0;
+  }
+  10% {
+    background-position: 5px 0;
+  }
+  20% {
+    background-position: -5px 0;
+  }
+  30% {
+    background-position: 15px 0;
+  }
+  40% {
+    background-position: -5px 0;
+  }
+  50% {
+    background-position: 25px 0;
+  }
+  60% {
+    background-position: -50px 0;
+  }
+  70% {
+    background-position: 0 -20px;
+  }
+  80% {
+    background-position: -60px -20px;
+  }
+  81% {
+    background-position: 0 0;
+  }
+  100% {
+    filter: hue-rotate(360deg);
+    background-position: 0 0;
+  }
 }
 
 
