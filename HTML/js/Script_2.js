@@ -630,6 +630,9 @@ function callWiki (text){
   window.open("https://en.wikipedia.com/w/index.php?search="+text);
 }
 
+
+
+
 /*function not_your_prob (){
   var checkProblem = document.getElementsByName("problemCheckbox")[0];
   var issue_id = localStorage.issue_id;
@@ -776,25 +779,32 @@ case 'Y1800s.css':
     function not_your_prob (){
       var checkProblem = document.getElementsByName("problemCheckbox")[0];
       var issue_id = localStorage.issue_id;
-      var imgs = document.createElement('img'); 
-      imgs.src = 'img/dontPanic_logo.svg'
-      num_word_list = Array().fill(imgs)
-      /*var svg_element = "<img id='logo_img' class = 'prob_icon' src='img/dontPanic_logo.svg'/>"*/
+      /*var imgs = document.createElement('img'); 
+      imgs.src = 'img/dontPanic_logo.svg';
+      num_word_list = Array().fill(imgs);*/
+
+      var stringa = "";
+      var check_icon = document.getElementById("lens_selected").getAttribute("src");
+      var category_list = ["place", "person", "date", "concept", "organization"];
       if (checkProblem.checked) {
       var text_id = JSON.parse(localStorage.id_list);
       for (j=0;j<text_id.length;j++) {
       var metadata_list = document.getElementById(text_id[j]).getElementsByClassName("mention");
       for (i=0;i<metadata_list.length;i++){
+        stringa = "";
         var stringg = metadata_list[i].innerHTML;
         var words = stringg.split(' ');
-        var count_words = words.length - 1;
-        if (metadata_list[i].className == "mention concept"){
-          metadata_list[i].outerHTML = "";
-          for (x=0;x<count_words;i++){
-          metadata_list[i].appendChild(imgs);
+        var count_words = words.length;
+      for (z=0; z<category_list.length;z++){
+        if (metadata_list[i].classList.contains(category_list[z])){
+          var svg_element = "<img id='logo_img' class = 'prob_icon prob_" +category_list[z]+ "' src=" +check_icon+ "/>";
+          for (x=0;x<count_words;x++){
+            stringa = stringa + svg_element;
           }
+          metadata_list[i].outerHTML = stringa;
         } 
       }
+    }
     }
     }else{
     readIssues(issue_id, "stay");
