@@ -797,7 +797,7 @@ case 'Y1800s.css':
         var count_words = words.length;
       for (z=0; z<category_list.length;z++){
         if (metadata_list[i].classList.contains(category_list[z])){
-          var svg_element = "<img id='logo_img' class = 'prob_icon prob_" +category_list[z]+ "' src=" +check_icon+ "/>";
+          var svg_element = "<img id='logo_img' class = 'prob_icon prob_" +category_list[z]+ "' src='" +check_icon+ "'/>";
           for (x=0;x<count_words;x++){
             stringa = stringa + svg_element;
           }
