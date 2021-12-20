@@ -124,7 +124,17 @@ article h1.italic::first-letter{
 }
 
 /*NO dropcap*/
-article .datePublished:first-letter, article .subtitle:first-letter, article .namePhoto:first-letter, article .byline:first-letter, .article figcaption p:first-letter, article div p:first-letter, article .smallChar::first-letter, article .nameAuthor::first-letter, article .midSmall::first-letter, article .captionArticle::first-letter, article .italic::first-letter{
+article .datePublished:first-letter, article .subtitle:first-letter, article .namePhoto:first-letter, article .byline:first-letter, .article figcaption p:first-letter, article div p:first-letter, article .smallChar::first-letter, article .nameAuthor::first-letter, article .midSmall::first-letter, article .captionArticle::first-letter, article .italic::first-letter, .italic p::first-letter{
+  float: none;
+  line-height: 2px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase; 
+  font-family:'candlebright' !important; 
+  font-size: 1em;
+}
+
+article p:first-of-type::first-letter{
   float: none;
   line-height: 2px;
   margin: 0;
