@@ -21,7 +21,7 @@ a img{border:none !important;}
 header, footer, section, article, figure, aside, video, audio, hgroup, nav{display: block;}
 
 h1, h2, h3, h4, h5, h6, label {font-family: 'Bebas Neue', cursive !important; color: white;} 
-p, a, ul, li, figcaption  {font-family: 'Roboto', sans-serif !important; color: white;}
+p, a, ul, li, figcaption  {font-family: 'Roboto', sans-serif !important; color: white; word-break: keep-all;}
 
 hr {border: -1em white solid;}
 
@@ -847,7 +847,7 @@ margin-right: 0%;
 }
 
 #article_cover_1_1 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/pasta.jpg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Deep_Thoughts/Deep_Thoughts_a.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -860,7 +860,7 @@ margin-right: 0%;
 }
 
 #article_cover_1_2 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Deep_Thoughts/Deep_Thoughts_b.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -873,7 +873,7 @@ margin-right: 0%;
 }
 
 #article_cover_1_3 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Deep_Thoughts/Deep_Thoughts_d.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -898,7 +898,7 @@ margin-right: 0%;
 }
 
 #article_cover_2_1 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/pasta.jpg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Magratears/Magratears_b.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -911,7 +911,7 @@ margin-right: 0%;
 }
 
 #article_cover_2_2 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Magratears/Magratears_a.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -924,7 +924,7 @@ margin-right: 0%;
 }
 
 #article_cover_2_3 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Magratears/Magratears_c.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -949,7 +949,7 @@ margin-right: 0%;
 }
 
 #article_cover_3_1 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/pasta.jpg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Vogueon/Vogueon_a.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -962,7 +962,7 @@ margin-right: 0%;
 }
 
 #article_cover_3_2 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Vogueon/Vogueon_b.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -975,7 +975,7 @@ margin-right: 0%;
 }
 
 #article_cover_3_3 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/flat_earth.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Vogueon/Vogueon_c.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

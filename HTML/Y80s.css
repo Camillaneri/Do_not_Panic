@@ -56,7 +56,6 @@ p {text-align: justify;}
   width: 14%;
   margin-bottom: 0;
   margin-right: 1em;
-  margin-left: 4.5em;
   filter: invert();
 }
 
@@ -72,7 +71,7 @@ p {text-align: justify;}
 
 .cover_logo{
   float: none;
-  width: fit-content;
+  width: 89%;
   margin: 0 auto;
   margin-bottom: 1em;
   display: flex;
@@ -111,7 +110,7 @@ p {text-align: justify;}
 }
 
 .world{
-  border: solid white 0.2em;;
+  border: solid black 0.2em;;
 }
 
 
