@@ -839,3 +839,7 @@ figcaption p {
 table {
   color: white;
 }
+
+.content_article #logo_img{
+  display:inline !important;
+}
