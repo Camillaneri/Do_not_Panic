@@ -388,7 +388,7 @@ function changeItemForStyle() {
       break;
     case 'Y40s.css':
       icon_selected.setAttribute("src", "img/svg/1926inv1.svg");
-      world.setAttribute("src", "img/futuristsmall.gif");
+      world.setAttribute("src", "img/futuristasmall.gif");
       if (coverLogo){coverLogo.setAttribute("src", "img/svg/1926inv1.svg");}
       break;
     case 'Y1800s.css':
