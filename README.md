@@ -1,5 +1,5 @@
 # Do_not_panic
-DOCUMENTATION 
+<h1>DOCUMENTATION </h1>
 THE CONCEPT 
 ‘’Don’t panic, Earth issue’’ is a magazine inspired by the ‘’Hitchhikers Guide for the galaxy’’ world. The Guide was originally conceived by Douglas Adams in 1978 as a BBC radio comedy, and then published as “a trilogy in five parts” from 1979 to 1992 and inspired films, tv series and other formats, all sharing the same comedy-sci-fi-surrealistic approach. The Guide also inspired festivities such as the Towel Day (4/2) and a significant amount of inside jokes. 
 The themes and tones of this website are borrowed from the book, publishing articles from the real world with the critical point of view of the fictional opera. 
