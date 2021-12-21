@@ -1,6 +1,6 @@
 <article>
 
-                                <hr class="author">
+                                <hr>
                                 <div>
                                     <p class="captionArticle smallChar distant">6 mins reading</p>
                                     <p class="byline distant"><span id="P1" class="mention nameAuthor person" about="SarahGilbert" data-label="Sarah Gilbert">Sarah Gilbert</span> | <span id="D1" class="mention date datePublished" about="2014" data-label="January 2014"> 30 January 2014</span></p>
