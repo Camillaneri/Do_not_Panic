@@ -550,6 +550,11 @@ h1:first-letter, button:first-letter {
   
   }
   
+  .content_article #logo_img{
+    margin: 0em !important;
+    border: 0em !important;
+    padding: 0em !important;
+  }
   
 
 
