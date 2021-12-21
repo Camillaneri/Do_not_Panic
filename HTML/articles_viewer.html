@@ -115,88 +115,102 @@
 			<div class="menu left">
 				<ul>
 					<li class="menu_item one"><a href="home.html">Archive</a></li>
-					<li class="menu_item two"><a href="#">Documentation</a></li>
+					<li class="menu_item two"><a href="https://github.com/Camillaneri/Vitale_Vitali" target="_blank">Documentation</a></li>
 					<hr class="display_none"/>
 				</ul>
 			</div>
 
 			<div class="right lensbox">
+		
 				<input type="checkbox" />
 			
-				<div class="lens_menu_icon">
-				  <img id="lens_selected" src="img/dontPanic_logo.svg" width="40"
+				<div class="lens_menu_icon tooltip">
+					
+						<img id="lens_selected" src="img/dontPanic_logo.svg" width="40"
 				  height="40"/>
+						<div class="tooltiptext">choose a style</div>
+					
+				  
 				</div>
+				
 				<span></span>
 				<span></span>
 		
-		
+				
 		
 				<div class="help">
 				  <ul class="lens">
+				
 				  <li
 					id="future"
-					
+					class="tooltip"
 					onclick="styleSwitch(this.id)"
 					onmouseenter="hover(event)"
 					onmouseleave="hover(event)"
 				  >
-		
+	
+				  <div class="tooltiptext">future</div>
 					<img src="img/svg/3000inv.svg" width="40"
 					height="40"/>
+	
 					
 				  </li>
 				  <li
 					id="Y2000s"
+					class="tooltip"
 					onclick="styleSwitch(this.id)"
 					onmouseenter="hover(event)"
 					onmouseleave="hover(event)">
-					
+					<div class="tooltiptext">2000</div>
 					<img src="img/svg/2001.svg" width="40"
 					height="40"/>
 					
 				  </li>
 				  <li
 					id="Y80s"
+					class="tooltip"
 					onclick="styleSwitch(this.id)"
 					onmouseenter="hover(event)"
 					onmouseleave="hover(event)"
 				  >
-					
+				  <div class="tooltiptext">80's</div>
 				  <img src="img/svg/1990inv.svg" width="40"
 				  height="40"/>
 					
 				  </li>
 				  <li
 					id="Y40s"
+					class="tooltip"
 					onclick="styleSwitch(this.id)"
 					onmouseenter="hover(event)"
 					onmouseleave="hover(event)"
 				  >
-					
+				  <div class="tooltiptext">40's</div>
 				  <img src="img/svg/1926inv1.svg" width="40"
 				  height="40"/>
 				   
 				  </li>
 				  <li
 					id="Y1800s"
+					class="tooltip"
 					onclick="styleSwitch(this.id)"
 					onmouseenter="hover(event)"
 					onmouseleave="hover(event)"
 				  >
-					
+				  <div class="tooltiptext">1800</div>
 				  <img src="img/svg/1800inv.svg" width="40"
 				  height="40"/>
 				
 				  </li>
 				  <li
 					id="Y300s"
+					class="tooltip"
 					onclick="styleSwitch(this.id)"
 					onmouseenter="hover(event)"
 					onmouseleave="hover(event)"
 				  >
 		
-					
+				  <div class="tooltiptext">1300</div>
 				  <img src="img/svg/1300inv2.svg" width="40"
 				  height="40"/>
 		
@@ -204,11 +218,13 @@
 				  </li>
 				  <li
 					id="no_style"
+					class="tooltip"
 					onclick="styleSwitch(this.id)"
 					onmouseenter="hover(event)"
 					onmouseleave="hover(event)"
 				  >
-		
+	
+				  <div class="tooltiptext">default</div>
 				  <img src="img/dontPanic_logo.svg" width="40"
 				  height="40"/>
 					
@@ -344,9 +360,13 @@
 				</div>
 		</div>
 
+		<img src="https://img.icons8.com/ios-filled/50/000000/info.png" width="50px !important" height="auto"/> 
 
 		<div class="content_article right">
 
+			<div class="tooltip">
+				<div class="tooltiptext">Spiega come funziona metadati</div>
+			</div>
 			<div id="one_article">
 				<div class="one_colum">
 					<div class="metadata">
@@ -754,11 +774,14 @@
 	</div>
 	
 
-	<div class="info_box">
-		<a class="world right" href="#allert">
-		  <img id="gif" src="img/200w.gif" width="100%" height="auto" />
-		</a>
-	</div>
+	<div class="info_box tooltip">
+		
+		<div class="tooltiptext">Info box</div>
+	
+	<a class="world right" href="#allert">
+	  <img id="gif" src="img/200w.gif" width="100%" height="auto" />
+	</a>
+</div>
 
 	
 

@@ -166,6 +166,7 @@ body {
   align-self: center;
   height: 100vh;
   overflow: hidden;
+  
 }
 
 .space {
@@ -376,6 +377,8 @@ body {
 	left: 5%;
 	right: 5%;
   bottom: 5%;
+  min-width: max-content;
+  min-height: max-content;
 }
 
 .menu {
@@ -472,13 +475,12 @@ transition: 0.6s;
   padding-top: 8px;
   transition: 0.5s;
   border-radius: 50px;
-  overflow: hidden;
 }
 
 .lens {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: hidden; 
   overflow-x: scroll;
   
 }
@@ -499,8 +501,7 @@ scrollbar-width: none;  /* Firefox */
   margin: 0 auto;
   width: fit-content;
   height: fit-content;
-  pointer-events: none;
- 
+  /* pointer-events: none; */
   visibility: visible;
   opacity: 1;
   
@@ -510,6 +511,8 @@ scrollbar-width: none;  /* Firefox */
   width: 22rem;
   padding-right: 0.5rem;
  }
+
+
 
 .lens_and_line{
 display:flex;
@@ -567,7 +570,7 @@ display:flex;
 visibility: hidden;
 opacity: 0;
 transition: visibility 0s, opacity 0.5s linear;
-}
+} 
 
 .hr_lens{
 width: 13.5%;
@@ -1070,6 +1073,7 @@ div.article_box:hover .overlay {
     bottom: 5%;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
+    
 }
 
 .move {
@@ -1086,6 +1090,7 @@ div.article_box:hover .overlay {
     position: absolute;
     width: 22%;
     height: 90%;
+     
 }
 
 
@@ -1106,6 +1111,7 @@ div.article_box:hover .overlay {
     position: inherit;
     overflow-x: hidden;
     overflow-y: scroll;
+    
 }
 
 /* Hide scrollbar Chrome, Safari, Opera */
@@ -1194,7 +1200,7 @@ div.article_box:hover .overlay {
 }
 
 .select-items div,.select-selected {
-  padding: 6.5%;
+  padding: 0.515em;
   border: 1.5px solid transparent;
   border-color: transparent transparent rgba(225, 225, 225, 225.5) transparent;
   font-family: 'Bebas Neue', cursive !important;
@@ -1231,7 +1237,7 @@ div.article_box:hover .overlay {
 
 .choose_article_box{
   padding: 0.6em;
-
+  padding-right: 0.8em;
 }
 
 .arrow_drop{
@@ -1281,8 +1287,9 @@ div.article_box:hover .overlay {
 .content_article h1 {
   color: black !important;
   font-weight: lighter;
-  font-size: 2.5em;
+  font-size: 4em;
   margin-bottom: 0.5em;
+  word-break: keep-all;
 }
 
 .content_article h2 {
@@ -1504,7 +1511,12 @@ article {
     margin-left: 0 !important;
     display: inline;
     text-align: left;
+    cursor: pointer;
 
+}
+
+.meta li:hover{
+  background-color: #c606d8 !important;
 }
 
 .meta ol{
@@ -1775,6 +1787,7 @@ dl::-webkit-scrollbar {
 
 .MetaFocus{
   background-color: #c606d8 !important;
+  cursor: pointer;
 }
 
 .MetaFocusAll{
@@ -1881,7 +1894,28 @@ dl::-webkit-scrollbar {
   }
 }
 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -60px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  height: auto !important;
+  display: inline-block;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 200;
+  pointer-events: all;
+}
 
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 
 
 
