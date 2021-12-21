@@ -25,21 +25,26 @@
 <p>The articles metadata are also displayed using Javascript and JQuery.</p>  
 <p>Once the articles are fetched in the page a script is run: first it selects directly from the text the general metadata relative to every article (author, date of publication, etc...) and then, the same function, proceeds to search in the text for the issue-specific metadata. This has been obtained by a previous metadatation of concepts of interest directly in the HTML of the text. The whole structure was tought to allow a fast and functional addition of issues\articles simply by being compliant to the metadatation standard and adding the proper records to the JSON file. </p>
  
-The Articles Markup 
-The markup of the articles followed our specific needs for the project. First, we marked-up the structural components of the documents, such as titles and paragraphs, referring more to the visualization needs than to the contents, and paying attention to the elements that would show particular needs for the different typographical styles. 
-We then added semantic markup, in order to highlight the metadata present in the text and make them easily extractable. Each metadata relies inside a span and carries his own id, a class "mention” followed by his specific identifier class, an attribute about and a data-label, which are of particular importance for "concepts”.  
-The classification for the metadata works with 5 main categories (Places, People, Concepts, Dates and Organizations) 4 of which are the same within the issues, while the subclasses of the Concepts categories will be treated differently for each issue, to support a higher precision in research and comparison.  
-The organization is the following: 
-Places are identified within the tag <span id="ID" class="mention place" about="SIGNIFICANT NAME " data-label="DISPLAYED NAME" data-wikidata-id="WIKIDATA IDENTIFIER">Earth</span> 
-Concepts are identified differently from issue to issue 
-Organizations are identified within the tag:  <span class="credit"><span id="ID" class="mention organization" about="ORGANIZATION NAME" data-label="DISPLAYED NAME">Getty Images </span></span> 
-People are identified within the tag: <span id="ID" class="mention person" about="PERSON NAME" data-label="DISPLAYED NAME ">Michael Marshall</span> 
-Dates are identified within the tag: <span id="ID" class="mention date" about="DATE" data-label="DISPLAYED DATE">2013</span> 
-For what regards Concepts, the attribute about serves as a wider categorization, while the data-label carries the specific information about the meaning of the metadata. For example, in the Deep Thoughts issue we can find, among others: 
-Scientifically and Not Scientifically Supported Theories: <span id="ID" class="mention concept" about="theories" data-label="Hollow Earth">hollow earth belief</span> 
-Ideas Belonging to Theories: <span id="ID" class="mention concept" about="ideas" data-label="Bible ">the world is 6,000 years old and created in seven days as for the Bible</span> 
-This serves just as an example of the logic applied to Concepts categorization: reporting the whole structure implied for every issue here will be useless since we worked towards the use of self-explanatory conceptualizations. 
-TYPOGRAPHIC STYLES 
+<h2>The Articles Markup</h2>
+<p>The markup of the articles followed our specific needs for the project. First, we marked-up the structural components of the documents, such as titles and paragraphs, referring more to the visualization needs than to the contents, and paying attention to the elements that would show particular needs for the different typographical styles. </p>
+<p>We then added semantic markup, in order to highlight the metadata present in the text and make them easily extractable. Each metadata relies inside a span and carries his own id, a class "mention” followed by his specific identifier class, an attribute about and a data-label, which are of particular importance for "concepts”.</p>  
+<p>The classification for the metadata works with 5 main categories (Places, People, Concepts, Dates and Organizations) 4 of which are the same within the issues, while the subclasses of the Concepts categories will be treated differently for each issue, to support a higher precision in research and comparison. </p> 
+  <p>The organization is the following: </p>
+ <ul>
+  <li><b>Places</b> are identified within the tag <conde> <span id="ID" class="mention place" about="SIGNIFICANT NAME " data-label="DISPLAYED NAME" data-wikidata-id="WIKIDATA IDENTIFIER">Earth</span> </code> </li>
+  <li><b>Concepts</b> are identified differently from issue to issue </li>
+  <li><b>Organizations</b> are identified within the tag:  <code><span class="credit"><span id="ID" class="mention organization" about="ORGANIZATION NAME" data-label="DISPLAYED NAME">Getty Images </span></span> </code> </li>
+  <li><b>People</b> are identified within the tag: <code><span id="ID" class="mention person" about="PERSON NAME" data-label="DISPLAYED NAME ">Michael Marshall</span> </code></li>
+  <li><b>Dates</b> are identified within the tag: <code><span id="ID" class="mention date" about="DATE" data-label="DISPLAYED DATE">2013</span></code></li>
+  </ul>
+<p>For what regards Concepts, the attribute about serves as a wider categorization, while the data-label carries the specific information about the meaning of the metadata. For example, in the Deep Thoughts issue we can find, among others: </p>
+<ol>
+ <li><b>Scientifically and Not Scientifically Supported Theories:</b><code> <span id="ID" class="mention concept" about="theories" data-label="Hollow Earth">hollow earth belief</span> </code> </li>
+ <li><b>Ideas Belonging to Theories:</b> <code> <span id="ID" class="mention concept" about="ideas" data-label="Bible ">the world is 6,000 years old and created in seven days as for the Bible</span> </code></li>
+  </ol>
+<p>This serves just as an example of the logic applied to Concepts categorization: reporting the whole structure implied for every issue here will be useless since we worked towards the use of self-explanatory conceptualizations.</p> 
+  <h1>TYPOGRAPHIC STYLES</h1>
+  
 -1300 
 Typographic style in the middle age 
 BACKGROUND 
