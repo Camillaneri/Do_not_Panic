@@ -1138,10 +1138,46 @@ div.article_box:hover .overlay {
   margin-top: 1em;
 }
 
-.refresh{
-  position: relative;
-  right: 0.5em;
+.mv_title{
+  width: 100%;
+}
+
+.title{
+  width: 72%;
+  font-size: 1.8em;
+}
+
+.icon_title{
+  width: 28%;
   top: 0.2em;
+}
+
+.info_meta{
+  width: 50%;
+  filter: invert();
+  float: left;
+}
+
+.info_meta_explain{
+  display: none;
+  border-bottom: #fff 0.115em solid;
+  padding: 1em;
+}
+
+.info_meta_explain img{
+  margin-top: 0.8em !important;
+  width: 24px !important;
+}
+
+.info_meta_explain p{
+  font-size: 1em;
+  width: 97%;
+}
+
+.refresh{
+  width: 50%;
+  position: relative;
+  float: right;
 }
 
 .refresh svg {
