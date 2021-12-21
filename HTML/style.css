@@ -690,6 +690,12 @@ margin-right: 0%;
   margin-bottom: 1em;
 }
 
+.disclamer_text{
+  height: 60%;
+  max-height: 400px;
+
+}
+
 /*team*/
 
 .team_box{
