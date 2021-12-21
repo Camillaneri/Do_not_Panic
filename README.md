@@ -1,5 +1,6 @@
 
 <h1>DON'T PANIC - DOCUMENTATION </h1>
+
 <h2>THE CONCEPT</h2>
 <p>‘’Don’t panic, Earth issue’’ is a magazine inspired by the ‘’Hitchhikers Guide for the galaxy’’ world. The Guide was originally conceived by Douglas Adams in 1978 as a BBC radio comedy, and then published as “a trilogy in five parts” from 1979 to 1992 and inspired films, tv series and other formats, all sharing the same comedy-sci-fi-surrealistic approach. The Guide also inspired festivities such as the Towel Day (4/2) and a significant amount of inside jokes. </p>
 <p>The themes and tones of this website are borrowed from the book, publishing articles from the real world with the critical point of view of the fictional opera. </p>
@@ -9,17 +10,19 @@
  <li><b>Deep thoughts’s</b> issue is covered by multidimensional beings (also known as lab rats) in the attempt to recollect the memory of the iper-computer Earth (our planet) and formulate the right question to which 42, the outcome provided by the super-computer Deep Thought to the fundamental question, could be a meaningful answer.The themes covered by this issue are the questions that we human (computer components built to formulate the question) ask ourselves regarding life and the universe , especially the ‘’most creative ones’’. </li>
  <li><b>VOGUEON </b>is an issue inspired by the Vogon race, which has the main characteristics of being very ugly, very attached to bureaucracy and able to develop the third worst poetry in the entire universe. The articles cover issues related to Earth poetry particularly appreciated by Vogon. </li
 </ul>
- 
 <p>Since we are moving through the universe of the Guide, we are fueling our magazine with an Infinite Probability Drive. That said we could be anywhere in space and time simultaneously, and that is why readers will have the chance to move in the time lenses offered by the website and observe different moments of Earth’s history. </p>
-  <h2>LLL FRAMEWORK</h2> 
+  
+<h2>LLL FRAMEWORK</h2> 
 <p>The purpose of this website is to display 3 different issues, each containing three articles, to be visualized side by side or one at a time.</p>  
 <p>We have two main aims: the first is to visualize the website and display the different articles through the lens of historical typographical layouts, while the latter is to allow users to compare metadata relative to their content. </p> 
 <p>The general idea behind the resource is to allow a simultaneous visualization and discovery of the articles, easing the comparation of their content and providing the user a journey through the lenses of typography. </p>
-  <h3>The articles and the typographical styles </h3>
+  
+<h2>The articles and the typographical styles </h2>
 <p>In order to allow such exploration, we implemented an AJAX structure: the articles are in fact .txt files that, following the request of the user, are fetched in the page and positioned in a structure from 1 to 3 columns wide. The columns are a total of 6 (1 +2 +3) and, depending on how many articles need to be visualized simultaneously the div containing the right number of columns is displayed while the other two are “hidden”: each article is independently scrollable and issues can be switched in any given moment maintaining the number of articles displayed unchanged. Also, the sources of the articles are instantiated in the sidebar next to the titles. To achieve so we used a JSON file containing the .txt files names, the titles of the articles and their sources. </p> 
 <p>A script to switch between different stylesheets (in the number of six) has also been created, which, without reloading the page, adds the script corresponding to the selected CSS below the predefined style, applying in this way the "lens” to the page. Lenses are also portable from one page to another, meaning they will last as long as the user does not change them. </p>
-  <h2>The metadata </h2>
-  <p>The articles metadata are also displayed using Javascript and JQuery.</p>  
+  
+<h2>The metadata </h2>
+<p>The articles metadata are also displayed using Javascript and JQuery.</p>  
 <p>Once the articles are fetched in the page a script is run: first it selects directly from the text the general metadata relative to every article (author, date of publication, etc...) and then, the same function, proceeds to search in the text for the issue-specific metadata. This has been obtained by a previous metadatation of concepts of interest directly in the HTML of the text. The whole structure was tought to allow a fast and functional addition of issues\articles simply by being compliant to the metadatation standard and adding the proper records to the JSON file. </p>
  
 The Articles Markup 
