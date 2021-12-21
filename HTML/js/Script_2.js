@@ -573,14 +573,16 @@ var counter=-1;
 
 function highlight_metadata(text_id, text_to_splice, selector){
   var text = text_to_splice.split(" (")[0];
+  var text_to_call ="";
   var meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+text+'"]');
   if (localStorage.getItem("text") == text_id){
   if (localStorage.getItem("meta") == text){
     localStorage.setItem("prev_selector", selector);
     for (f=0;f<meta_focus_list.length;f++){
       meta_focus_list[f].classList.add("MetaFocusAll");
+      text_to_call = meta_focus_list[f].getAttribute("data-label");
       meta_focus_list[f].addEventListener("click", function(){
-        callWiki(text);
+        callWiki(text_to_call);
       });
     }
   if (meta_focus_list.length==1){
