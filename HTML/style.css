@@ -1030,6 +1030,16 @@ div.article_box:hover .overlay {
   overflow-y: scroll;
 }
 
+.margin_cards_paragraph::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar IE, Edge, Firefox */
+.margin_cards_paragraph {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
 .arrow_box_archive {
     width: 10%;
     padding-top: 7%;
@@ -1039,17 +1049,21 @@ div.article_box:hover .overlay {
 .text_issue{
   white-space: normal !important;
   width: 85%;
-  height: 60%;
+  height: 50%;
 }
 
+.text_issue h1{
+  margin-top: 0.4em;
+}
 
-.text_issue h1, hr, p {
+.text_issue hr, p {
   margin-top: 0.9375em;
 }
 
 .text_issue button {
   position: absolute;
   bottom: 10%;
+  margin-top: 1em;
 }
 
 .text_article{
@@ -1848,7 +1862,7 @@ dl::-webkit-scrollbar {
 
 /* @media role for little laptop and tablet */
 
-@media only screen and (min-width: 0px) and (max-width: 1279px), (min-height: 700px) and (max-height: 900px){
+@media only screen and (min-width: 0px) and (max-width: 1279px), (min-height: 0px) and (max-height: 900px){
   body{
     font-size: 0.8em;
     overflow: hidden;
