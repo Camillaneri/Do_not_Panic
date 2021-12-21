@@ -1073,8 +1073,7 @@ div.article_box:hover .overlay {
     bottom: 5%;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
-     min-width: 900px;
-     max-width: 1500px;
+    
 }
 
 .move {
@@ -1091,8 +1090,7 @@ div.article_box:hover .overlay {
     position: absolute;
     width: 22%;
     height: 90%;
-     min-width: 300px;
-     max-width: 400px;
+     
 }
 
 
