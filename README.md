@@ -139,7 +139,7 @@
 <h3>Colours</h3> 
  
 What’s more futuristic than the temporal end of the Universe itself? Easy, Milliways!  
-Milliways is a restaurant placed just a millisecond before the end of everything as we know it, offering a first-row seat for the gnaB giB just before the dessert.  
+Milliways is a restaurant placed just a millisecond before the end of everything as we know it, offering a first-row seat for the Gnab Gib, the ultimate fate of the universe, consisting of a Big Bang in reverse, just before the dessert.  
 The restaurant building resembles a giant glittering starfish and is described as an intergalactic diner, situated at the end of time and matter: it has some of the most extravagant décor ever seen and serves a particularly good Pan Galactic Gargle Blaster. 
 The layout 
 We decided to develop our stylesheet following the aforementioned scenario: a user would expect from the end of the universe something resembling a futuristic diner menu, with neon colours, smooth angles and glittering, visible items in the page.  
