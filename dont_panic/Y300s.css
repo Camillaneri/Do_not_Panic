@@ -149,9 +149,9 @@ article p:first-of-type::first-letter{
   margin: 0em !important;
 }
 
-#C2{
+/*#C2{
   display: none;
-}
+}*/
 
 #text_3_1 h1.medium::first-letter{
   float: none;
@@ -874,3 +874,14 @@ body {
 
 }
 
+.content_article {
+  background-color: rgba(179, 115, 18, 0.76);
+  border: 0em ;
+}
+.info_meta_explain {
+  border-bottom: 0em ;
+}
+
+.info_meta {
+  filter: invert(42%) sepia(93%) saturate(430%) hue-rotate(351deg) brightness(90%) contrast(90%);
+}
