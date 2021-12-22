@@ -132,8 +132,10 @@ function from_issue(adviser) {
 }
 
 function article_selector(issue, article, num_article) {
-  var articles = JSON.parse(localStorage.articles);
-  var name_displayed = JSON.parse(localStorage.name_displayed);
+  var articles = JSON.parse(localStorage.articles); /*the articles to be displayed(pastafarians qanon ecc----)*/ 
+  
+  var name_displayed = JSON.parse(localStorage.name_displayed);/*the actual headers displayed*/
+  
   var id_list = [];
   var name_list = [];
   var name_stander = "";
@@ -141,10 +143,12 @@ function article_selector(issue, article, num_article) {
   switch (num_article) {
     case 1:
       var name = "dont_panic/data/" + issue + "/" + article + ".txt";
+      
       var id = "text_" + num_article + "_1";
       var index = articles.indexOf(article);
       name_stander = name_displayed[index];
       id_list.push(id);
+      
       name_list.push(name_stander);
       populator(name, id);
       break;
@@ -156,6 +160,7 @@ function article_selector(issue, article, num_article) {
         var index = articles.indexOf(article[t]);
         name_stander = name_displayed[index];
         id_list.push(id);
+        
         name_list.push(name_stander);
         populator(name, id);
       }
@@ -166,6 +171,7 @@ function article_selector(issue, article, num_article) {
         var name = "dont_panic/data/" + issue + "/" + articles[i] + ".txt";
         var id = "text_" + num_article + "_" + (i + 1);
         id_list.push(id);
+        
         name_list = name_displayed;
         populator(name, id);
       }
@@ -173,6 +179,7 @@ function article_selector(issue, article, num_article) {
   }
   localStorage.setItem("name_list", JSON.stringify(name_list));
   localStorage.setItem("id_list", JSON.stringify(id_list));
+  
 }
 
   
@@ -439,6 +446,7 @@ function fromStyle() {
 
 function display_basic_metadata() {
   var id_pointer = JSON.parse(localStorage.id_list);
+  
   var name_pointer = JSON.parse(localStorage.name_list);
   var category_list = ["place", "person", "date", "concept", "organization"];
   for (i = 0; i < id_pointer.length; i++) {
@@ -682,32 +690,34 @@ function callWiki (text){
 }
 
 function not_your_prob (){
-  var checkProblem = document.getElementsByName("problemCheckbox")[0];
-  var issue_id = localStorage.issue_id;
-  var stringa = "";
-  var check_icon = document.getElementById("lens_selected").getAttribute("src");
-  var category_list = ["place", "person", "date", "concept", "organization"];
-  if (checkProblem.checked) {
-  var text_id = JSON.parse(localStorage.id_list);
-  for (j=0;j<text_id.length;j++) {
-  var metadata_list = document.getElementById(text_id[j]).getElementsByClassName("mention");
-  for (i=0;i<metadata_list.length;i++){
-    stringa = "";
-    var stringg = metadata_list[i].innerHTML;
-    var words = stringg.split(' ');
-    var count_words = words.length;
-  for (z=0; z<category_list.length;z++){
-    if (metadata_list[i].classList.contains(category_list[z])){
-      var svg_element = "<img id='logo_img' class = 'prob_icon prob_" +category_list[z]+ "' src='" +check_icon+ "'/>";
-      for (x=0;x<count_words;x++){
-        stringa = stringa + svg_element;
+  var checkProblem = document.getElementsByName("problemCheckbox")[0]; /*prendi checkbox(perchè devo specificare il primo?) */
+  var issue_id = localStorage.issue_id;/* issue id sono voguen magratears ecc....*/
+  var stringa = "";/*v*/
+  var check_icon = document.getElementById("lens_selected").getAttribute("src");/*prendo la source dall'icona del sito*/
+  var category_list = ["place", "person", "date", "concept", "organization"];/*v*/
+  if (checkProblem.checked) {/*se è checckato*/
+  var text_id = JSON.parse(localStorage.id_list);/*text_3_1,text_3_2,text_3_3*/
+  alert(text_id)
+  for (j=0;j<3;j++) {/*v*/
+  var metadata_list = document.getElementById(text_id[j]).getElementsByClassName("mention");/* */
+  alert(metadata_list)
+  for (i=0;i<metadata_list.length;i++){/* */
+    stringa = "";/* */
+    var stringg = metadata_list[i].innerHTML;/* */
+    var words = stringg.split(' ');/* */
+    var count_words = words.length;/* */
+  for (z=0; z<category_list.length;z++){/* */
+    if (metadata_list[i].classList.contains(category_list[z])){/* */
+      var svg_element = "<img id='logo_img' class = 'prob_icon prob_" +category_list[z]+ "' src='" +check_icon+ "'/>";/* */
+      for (x=0;x<count_words;x++){/* */
+        stringa = stringa + svg_element;/* */
       }
-      metadata_list[i].outerHTML = stringa;
+      metadata_list[i].outerHTML = stringa;/* */
     } 
   }
 }
 }
 }else{
-readIssues(issue_id, "stay");
+readIssues(issue_id, "stay");/* */
 }
 }
