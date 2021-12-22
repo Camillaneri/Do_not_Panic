@@ -164,7 +164,7 @@
 <p>The text uses Faustina fonts in bold, regular and italic variations for different sections (e.g. text, captions and emphasized parts): Faustina was designed by Alfonso Garcia for editorial typography (books, newspapers and magazines) in print and online and is a serif font. </p>
 <p>The body of the articles is displayed in 1, 2 or 3 columns, depending on the number of articles on the page, to recall the pagination of the magazines themselves.</p> 
  
- <img id="2000_5" src="img_reference/Y2000s/2000_6.jpeg"  height="480" display="inline" style="display: inline"/>   <img id="2000_6" src="img_reference/Y2000s/2000_7.jpg"  height="480" display="inline" style="display: inline"/>
+ <img id="2000_5" src="img_reference/Y2000s/2000_6.jpeg"  height="450" display="inline" style="display: inline"/>   <img id="2000_6" src="img_reference/Y2000s/2000_7.jpg"  height="450" display="inline" style="display: inline"/>
  
  <h3>Colours</h3> 
 <p>The colours chosen for this style are meant to recall the pagination of teen magazines, with a particular hint for press devoted to young girls. We chose colours from the pink and purple palette, with a splash of "sugar paper” blu and black and white for titles and paragraphs. The articles background color is meant to recall the paper tone of such magazines. The palette was extrapolated from the observation of magazine covers.</p> 
