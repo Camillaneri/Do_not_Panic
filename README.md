@@ -89,13 +89,13 @@
 <p>For what regards fonts and typographical styles, in futurism we assist to a backlash of previous typographical styles, an increasing in popularity of sans-serif fonts and small variations in stroke heights.  The Futura sans-serif style, employed in the website for the article body, was created during that period (1927). Other fonts used in this style are all sans-serif and include the planet-n-compact and the PreussicheAusgabe, chosen for the similarity with the Futurism ones reported in the images below. </p>
 
 
-<p float="left"><img id="futurism1" src="img_reference/Y40s/fut_1.jpg"  height="300" display="inline" style="display: inline"/>
+<p float="left"><img id="futurism1" src="img_reference/Y40s/fut_1.jpg"  height="250" display="inline" style="display: inline"/>
 
-<img id="futurism1" src="img_reference/Y40s/fut_2.jpg"   height="300" display="inline" style="display: inline"/>
+<img id="futurism1" src="img_reference/Y40s/fut_2.jpg"   height="250" display="inline" style="display: inline"/>
 
-<img id="futurism1" src="img_reference/Y40s/fut_3.jpg" height="300" display="inline" style="display: inline"/>
+<img id="futurism1" src="img_reference/Y40s/fut_3.jpg" height="250" display="inline" style="display: inline"/>
 
-<img id="futurism1" src="img_reference/Y40s/fut_4.jpg" height="300" display="inline" style="display: inline"/></p>
+<img id="futurism1" src="img_reference/Y40s/fut_4.jpg" height="250" display="inline" style="display: inline"/></p>
 
 
  
