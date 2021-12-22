@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Don't Panic</title>
+<meta name="description" content="Descrizione della pagina">
+<meta name="keywords" content="keyword, keyword2,keyword3">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css" >
+<link rel="stylesheet" href="#" >
+<style>
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Roboto&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+</style>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/Script.js"></script>
+<script type="text/javascript" src="js/Script_2.js"></script>
+<script type="text/javascript" src="js/issues.json"></script>
+
+</head></html>
+<body onload="fromStyle()" >
+	
+	<div id="allert">
+		<div class="allert_box">
+		  <div class="allert_content">
+			<a class="close right" href="#">&times;</a>
+			<div class="disclamer right">
+			  <h1>disclaimer</h1>
+  
+			  <hr />
+  
+			  <div class="disclamer_text">
+				<p>
+				  The purpose of this web site is to explore various types of
+				  typographic and layout style for text documents, as an
+				  end-of-course project for the "Information Modeling and Web
+				  technologies" course of the Master Degree in Digital Humanities
+				  and Digital Knowledge of the University of Bologna, under prof.
+				  Fabio Vitali. The documents contained in this web site have been
+				  selected for their length and complexity from XXX. Their
+				  publication here is not intended to be an alternative or replace
+				  their original locations:
+				</p>
+				<div class="disclamer_link">
+				  <ul>
+					<li>File 1: http://aouhadosuvosh</li>
+					<li>File 2: http://alekfpahvaoeh</li>
+					<li>etc.</li>
+				  </ul>
+  
+				</div>
+				
+	
+				<p>
+				  All copyrights and related rights on the content remain with their
+				  original owners. All copyright on the typographic and layout
+				  choices are 2021 © XY
+				</p>
+  
+			  </div>
+			  
+			  <a href="https://github.com/Camillaneri/Vitale_Vitali" target="_blank"><button class="large_button">show more</button></a>
+			</div>
+  
+			<div class="team_box left">
+			  <h1>Our team:</h1>
+			  <div id="Camilla" class="person_team">
+				<div class="empty"></div>
+  
+				<div class="team_text">
+				  <h3 class="left">Camilla Neri</h3>
+				  <i id="team_explain_Camilla" class="arrow a_down right"></i>
+				  <div class="clear"></div>
+				</div>
+				<div class="explain">
+				  <p class="team_text">
+					Lorem Ipsum is simply dummy text of the printing and
+					typesetting industry. Lorem Ipsum has been the industry's
+					standard dummy text ever since the 1500s, when an unknown
+					printer took a galley of type and scrambled it to make a type
+					specimen book.
+				  </p>
+				</div>
+			  </div>
+			  <div id="Giorgia" class="person_team">
+				<div class="empty"></div>
+  
+				<div class="team_text">
+				  <h3 class="left">Giorgia Sampò</h3>
+				  <i id="team_explain_Giorgia" class="arrow a_down right"></i>
+				  <div class="clear"></div>
+				</div>
+				<div class="explain">
+				  <p class="team_text">
+					Lorem Ipsum is simply dummy text of the printing and
+					typesetting industry. Lorem Ipsum has been the industry's
+					standard dummy text ever since the 1500s, when an unknown
+					printer took a galley of type and scrambled it to make a type
+					specimen book.
+				  </p>
+				</div>
+			  </div>
+			  <div id="Giulia" class="person_team">
+				<div class="empty"></div>
+  
+				<div class="team_text">
+				  <h3 class="left">Giulia Venditti</h3>
+				  <i id="team_explain_Giulia" class="arrow a_down right"></i>
+				  <div class="clear"></div>
+				</div>
+				<div class="explain">
+				  <p class="team_text">
+					Lorem Ipsum is simply dummy text of the printing and
+					typesetting industry. Lorem Ipsum has been the industry's
+					standard dummy text ever since the 1500s, when an unknown
+					printer took a galley of type and scrambled it to make a type
+					specimen book.
+				  </p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+
+	<div class="nav">
+		
+		<a class="logo left" href="cover.html">
+			<h1 class="up_logo">Don't Panic</h1>
+			<h1 class="bottom_logo">Earth Edition</h1>
+		</a>
+		<div class="menu left">
+			<ul>
+				<li class="menu_item one"><a href="index.html">Archive</a></li>
+				<li class="menu_item two"><a href="https://github.com/Camillaneri/Vitale_Vitali" target="_blank">Documentation</a></li>
+				<hr/>
+			</ul>
+		</div>
+
+		<div class="right lensbox">
+		
+			<input type="checkbox" />
+		
+			<div class="lens_menu_icon tooltip">
+				
+					<img id="lens_selected" src="img/dontPanic_logo.svg" width="40"
+			  height="40"/>
+					<div class="tooltiptext">choose a style</div>
+				
+			  
+			</div>
+			
+			<span></span>
+			<span></span>
+	
+			
+	
+			<div class="help">
+			  <ul class="lens">
+			
+			  <li
+				id="future"
+				class="tooltip"
+				onclick="styleSwitch(this.id)"
+				onmouseenter="hover(event)"
+				onmouseleave="hover(event)"
+			  >
+
+			  <div class="tooltiptext">future</div>
+				<img src="img/svg/3000inv.svg" width="40"
+				height="40"/>
+
+				
+			  </li>
+			  <li
+				id="Y2000s"
+				class="tooltip"
+				onclick="styleSwitch(this.id)"
+				onmouseenter="hover(event)"
+				onmouseleave="hover(event)">
+				<div class="tooltiptext">2000</div>
+				<img src="img/svg/2001.svg" width="40"
+				height="40"/>
+				
+			  </li>
+			  <li
+				id="Y80s"
+				class="tooltip"
+				onclick="styleSwitch(this.id)"
+				onmouseenter="hover(event)"
+				onmouseleave="hover(event)"
+			  >
+			  <div class="tooltiptext">80's</div>
+			  <img src="img/svg/1990inv.svg" width="40"
+			  height="40"/>
+				
+			  </li>
+			  <li
+				id="Y40s"
+				class="tooltip"
+				onclick="styleSwitch(this.id)"
+				onmouseenter="hover(event)"
+				onmouseleave="hover(event)"
+			  >
+			  <div class="tooltiptext">40's</div>
+			  <img src="img/svg/1926inv1.svg" width="40"
+			  height="40"/>
+			   
+			  </li>
+			  <li
+				id="Y1800s"
+				class="tooltip"
+				onclick="styleSwitch(this.id)"
+				onmouseenter="hover(event)"
+				onmouseleave="hover(event)"
+			  >
+			  <div class="tooltiptext">1800</div>
+			  <img src="img/svg/1800inv.svg" width="40"
+			  height="40"/>
+			
+			  </li>
+			  <li
+				id="Y300s"
+				class="tooltip"
+				onclick="styleSwitch(this.id)"
+				onmouseenter="hover(event)"
+				onmouseleave="hover(event)"
+			  >
+	
+			  <div class="tooltiptext">1300</div>
+			  <img src="img/svg/1300inv2.svg" width="40"
+			  height="40"/>
+	
+			  
+			  </li>
+			  <li
+				id="no_style"
+				class="tooltip"
+				onclick="styleSwitch(this.id)"
+				onmouseenter="hover(event)"
+				onmouseleave="hover(event)"
+			  >
+
+			  <div class="tooltiptext">default</div>
+			  <img src="img/dontPanic_logo.svg" width="40"
+			  height="40"/>
+				
+				
+			  </li>
+			  </ul>
+			  <div id="hr_lens"></div>
+			</div>
+			</div>
+	</div>
+
+	<div class="info_box tooltip">
+		
+			<div class="tooltiptext">Info box</div>
+		
+		<a class="world right" href="#allert">
+		  <img id="gif" src="img/200w.gif" width="100%" height="auto" />
+		</a>
+	</div>
+
+	<div class="scrolling_content">
+		<div class="card">
+
+			<div class="issue left">
+
+				<div id="issue_first_cover">
+					<div class="overlay">
+						<div class="margin_cards">
+							
+							<div class="text_issue left">
+								<h1>Deep Thoughts</h1>
+								<hr>
+								<div class="margin_cards_paragraph">
+								
+								<p>
+								Directly from your favorite pan-dimensional beings, an issue devoted to individuals looking for answers: we have them, and we’ll happily trade them with your 42-as-a-possible-outcome questions!
+								What you are about to read is an accurate recollection of Earth’s last spasms of cerebral production, an attempt to reconstruct humanities most fundamental questions and doubts: every outcome will definitely be better than ‘’What do you get when you multiply six by nine?’’, which is not only wrong but also insultingly stupid.
+								</p>
+
+								</div>
+								
+								<button  id="issue_1" class="large_button" onclick="issue_selected('Deep-Thoughts', '')" >
+									show more
+								</button>
+							</div>
+							<div id="first_issue_show" class="arrow_box_archive right">
+				              <i class="arrow a_right"></i>
+				            </div>
+						</div>
+				    </div>
+				</div>
+				
+			</div>
+			<div id="first_issue_article" class="articles right">
+
+				<div class="article_box">
+					<div id="article_cover_1_1" >
+						<div class="overlay"> 
+
+				            <div class="margin_cards text_article"> 
+				              <h3>Flat Earthers: What They Believe and Why</h3>
+				              <hr>
+
+							  <button class="little_button" onclick="issue_selected('Deep-Thoughts', 'Flat-Earthers')">
+								show more
+							  </button>
+				            </div>
+
+				          </div>
+					</div>
+
+		        </div>
+
+		        <div class="article_box">
+					<div id="article_cover_1_2" >
+						<div class="overlay"> 
+
+				            <div class="margin_cards text_article"> 
+				              <h3>Documentary follows Pastafarians as they strain for recognition</h3>
+				              <hr>
+							
+
+							  <button class="little_button" onclick="issue_selected('Deep-Thoughts', 'Pastafarians')">
+								show more
+							  </button>
+				            </div>
+
+				          </div>
+					</div>
+
+		        </div>
+
+		        <div class="article_box no_bottom_border">
+					<div id="article_cover_1_3" >
+						<div class="overlay"> 
+
+				            <div class="margin_cards text_article"> 
+				              <h3>What Is QAnon, the Viral Pro-Trump Conspiracy Theory?</h3>
+				              <hr>
+							 
+
+							  <button class="little_button" onclick="issue_selected('Deep-Thoughts', 'QANON')">
+								show more
+							  </button>
+				            </div>
+
+				          </div>
+					</div>
+
+		        </div>
+
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="issue left">
+
+				<div id="issue_second_cover">
+					<div class="overlay">
+						<div class="margin_cards">
+
+							
+							<div class="text_issue left">
+								<h1>Magratears</h1>
+									<hr>
+								<div class="margin_cards_paragraph">
+									
+									<p>
+									Magratears is the most famous Magrathearian publication, devoted to forever lost natural wonders forged in the laboratories of our luxurious planet. 
+									</p>
+									<p>
+									The following issue collects native narratives of the astonishing sights that were most appreciated from the Earthly unaware  indigenous: gladly taking your ignorance as a compliment we are always in for self-celebration. Please do not bother looking for replicas: Magrathea only produces single masterpieces.
+									</p>
+								</div>
+								
+								<button id="issue_2" class="large_button" onclick="issue_selected('Magratears', '')">
+									show more
+								</button>
+							</div>
+							<div id="second_issue_show" class="arrow_box_archive right">
+				              <i class="arrow a_right"></i>
+				            </div>
+						</div>
+				    </div>
+				</div>
+				
+			</div>
+			<div id="second_issue_article" class="articles right">
+
+				<div class="article_box">
+					<div id="article_cover_2_1" >
+						<div class="overlay"> 
+
+				            <div class="margin_cards text_article"> 
+				              <h3>7 Ancient Sites Some People Think Were Built by Aliens</h3>
+				              <hr>
+
+							  <button class="little_button" onclick="issue_selected('Magratears', 'Alien-Builders')">
+								show more
+							  </button>
+				            </div>
+
+				          </div>
+					</div>
+
+		        </div>
+
+		        <div class="article_box">
+					<div id="article_cover_2_2" >
+						<div class="overlay"> 
+
+				            <div class="margin_cards text_article"> 
+				              <h3>The secret part of central Norway that everyone misses</h3>
+				              <hr>
+							  
+
+							  <button class="little_button" onclick="issue_selected('Magratears', 'Norway')">
+								show more
+							  </button>
+				            </div>
+
+				          </div>
+					</div>
+
+		        </div>
+
+		        <div class="article_box no_bottom_border">
+					<div id="article_cover_2_3" >
+						<div class="overlay"> 
+
+				            <div class="margin_cards text_article"> 
+				              <h3>Nazca lines: The aliens have landed</h3>
+				              <hr>
+							  
+
+							  <button class="little_button" onclick="issue_selected('Magratears', 'Nazca-Lines')">
+								show more
+							  </button>
+				            </div>
+
+				          </div>
+					</div>
+
+		        </div>
+
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="issue left">
+
+				<div id="issue_therd_cover">
+					<div class="overlay">
+						<div class="margin_cards">
+							
+							<div class="text_issue left">
+
+								<h1>Vogueon</h1>
+								<hr>
+
+								<div class="margin_cards_paragraph">
+								
+								<p>
+									Oh fearless poetry magazine,
+									Thy brightness is to us, 
+									As glorious gabbleblotchits, in mid-winter evenings,
+									On a luscious tree,
+										That heavily has fallen down, 	
+										Its roots jurtles, grumbling,
+										Into a viable festering of papery interior screams.
+
+										Now the glorious poets manufacturings,
+										Are proclaiming noisily up the galaxies,
+										And living amateurs fraternize and spout,
+									Like mouthing muffled carcasses,
+									Groop, we thank you, foonting turlingdromes,
+									taht hooptiously drangle us,
+									With crinkly configurations, lyric make-ups.
+
+									Or else we shall rend thee in the oblivion with our lesser,
+									See if we don't!
+
+								</p>
+								</div>
+								
+								<button id="issue_3" class="large_button" onclick="issue_selected('Vogueon', '')">
+									show more
+								</button>
+							</div>
+							<div id="therd_issue_show" class="arrow_box_archive right">
+				              <i class="arrow a_right"></i>
+				            </div>
+						</div>
+				    </div>
+				</div>
+				
+			</div>
+			<div id="therd_issue_article" class="articles right">
+
+				<div class="article_box">
+					<div id="article_cover_3_1" >
+						<div class="overlay"> 
+
+				            <div class="margin_cards text_article"> 
+				              <h3>Amanda McKittrick Ros, the Worst Novelist in History</h3>
+				              <hr>
+							  
+
+							  <button class="little_button" onclick="issue_selected('Vogueon', 'Worst-Novelist-Ever')">
+								show more
+							  </button>
+				            </div>
+
+				          </div>
+					</div>
+
+		        </div>
+
+		        <div class="article_box">
+					<div id="article_cover_3_2" >
+						<div class="overlay"> 
+
+				            
+				            <div class="margin_cards text_article"> 
+								<h3>William McGonagall: The story of our best worst poet</h3>
+								<hr>
+								
+  
+								<button class="little_button" onclick="issue_selected('Vogueon', 'William-McGonagall')">
+								  show more
+								</button>
+							  </div>
+  
+
+				          </div>
+					</div>
+
+		        </div>
+
+		        <div class="article_box no_bottom_border">
+					<div id="article_cover_3_3" >
+						<div class="overlay"> 
+
+							<div class="margin_cards text_article"> 
+								<h3>The Good, the Bad, and the Good Bad</h3>
+								<hr>
+								
+  
+								<button class="little_button" onclick="issue_selected('Vogueon', 'Good-Bad')">
+								  show more
+								</button>
+							  </div>
+
+				          </div>
+					</div>
+
+		        </div>
+
+			</div>
+
+		</div>
+	</div>
+
+
+	<div id="transition"></div>
+	<div class="space stars1"></div>
+	<div class="space stars2"></div>
+	<div class="space stars3"></div>
+    
+
+
+ 
+	
+
+
+</body>
+</html>

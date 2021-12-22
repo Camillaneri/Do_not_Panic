@@ -21,8 +21,8 @@ body {
 
 @font-face {
   font-family: "neon";
-  src: url("font/future/iamonlinewithu-o96q-webfont.woff2") format("woff2"),
-    url("font/future/iamonlinewithu-o96q-webfont.woff") format("woff");
+  src: url("dont_panic/font/future/iamonlinewithu-o96q-webfont.woff2") format("woff2"),
+    url("dont_panic/font/future/iamonlinewithu-o96q-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -82,11 +82,13 @@ button:hover {
 }
 
 .menu hr {
+  margin-left: 0.5em;
   border: 1e-12em white solid;
   box-shadow: 0 -0.4em 1em rgb(0 221 29);
 }
 
 .menu_item {
+  font-size: 80%;
   padding: 0.5em;
 }
 
@@ -98,7 +100,7 @@ button:hover {
   border: 0.3em white solid;
   border-radius: 2em;
   width: fit-content;
-  font-size: 86%;
+  font-size: 76%;
   padding: 1em 2em 1em 2em;
   box-shadow: 0 0 2em rgb(0 221 29);
   animation: glow 1s ease-in-out alternate infinite;
@@ -221,6 +223,13 @@ button:hover {
   font-family: "Roboto", sans-serif !important;
 }
 
+.close_info_meta{
+  filter: invert();
+  animation: none !important;
+  width: 24px;
+  height: 24px;
+}
+
 .card {
   border: 0.3em white solid;
   border-radius: 1.5em;
@@ -265,7 +274,7 @@ hr {
 
 #issue_first_cover {
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Deep_Thoughts/future/Deep_Thoughts_future_b.jpeg");
+    url("dont_panic/img/Deep_Thoughts/future/Deep_Thoughts_future_b.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -280,7 +289,7 @@ hr {
 #issue_first_cover::before {
   content: "";
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Deep_Thoughts/future/Deep_Thoughts_future_b.jpeg");
+    url("dont_panic/img/Deep_Thoughts/future/Deep_Thoughts_future_b.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -360,7 +369,7 @@ hr {
 
 #article_cover_1_1 {
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Deep_Thoughts/future/Deep_Thoughts_future_a.jpeg");
+    url("dont_panic/img/Deep_Thoughts/future/Deep_Thoughts_future_a.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -374,7 +383,7 @@ hr {
 #article_cover_1_1::before {
   content: "";
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Deep_Thoughts/future/Deep_Thoughts_future_a.jpeg");
+    url("dont_panic/img/Deep_Thoughts/future/Deep_Thoughts_future_a.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -391,7 +400,7 @@ hr {
 
 #article_cover_1_2 {
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Deep_Thoughts/future/Deep_Thoughts_future_d.jpeg");
+    url("dont_panic/img/Deep_Thoughts/future/Deep_Thoughts_future_d.jpeg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -405,7 +414,7 @@ hr {
 #article_cover_1_2::before {
   content: "";
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Deep_Thoughts/future/Deep_Thoughts_future_d.jpeg");
+    url("dont_panic/img/Deep_Thoughts/future/Deep_Thoughts_future_d.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -422,7 +431,7 @@ hr {
 
 #article_cover_1_3 {
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Deep_Thoughts/future/Deep_Thoughts_future_c.jpeg");
+    url("dont_panic/img/Deep_Thoughts/future/Deep_Thoughts_future_c.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -436,7 +445,7 @@ hr {
 #article_cover_1_3::before {
   content: "";
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Deep_Thoughts/future/Deep_Thoughts_future_c.jpeg");
+    url("dont_panic/img/Deep_Thoughts/future/Deep_Thoughts_future_c.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -453,7 +462,7 @@ hr {
 
 #issue_second_cover {
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Magratears/future/Magratears_future_c.jpeg");
+    url("dont_panic/img/Magratears/future/Magratears_future_c.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -467,7 +476,7 @@ hr {
 #issue_second_cover::before {
   content: "";
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Magratears/future/Magratears_future_c.jpeg");
+    url("dont_panic/img/Magratears/future/Magratears_future_c.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -484,7 +493,7 @@ hr {
 
 #article_cover_2_1 {
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Magratears/future/Magratears_future_d.jpeg");
+    url("dont_panic/img/Magratears/future/Magratears_future_d.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -498,7 +507,7 @@ hr {
 #article_cover_2_1::before {
   content: "";
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Magratears/future/Magratears_future_d.jpeg");
+    url("dont_panic/img/Magratears/future/Magratears_future_d.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -515,7 +524,7 @@ hr {
 
 #article_cover_2_2 {
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Magratears/future/Magratears_future_b.jpeg");
+    url("dont_panic/img/Magratears/future/Magratears_future_b.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -529,7 +538,7 @@ hr {
 #article_cover_2_2::before {
   content: "";
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Magratears/future/Magratears_future_b.jpeg");
+    url("dont_panic/img/Magratears/future/Magratears_future_b.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -546,7 +555,7 @@ hr {
 
 #article_cover_2_3 {
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Magratears/future/Magratears_future_a.jpeg");
+    url("dont_panic/img/Magratears/future/Magratears_future_a.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -560,7 +569,7 @@ hr {
 #article_cover_2_3::before {
   content: "";
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Magratears/future/Magratears_future_a.jpeg");
+    url("dont_panic/img/Magratears/future/Magratears_future_a.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -577,7 +586,7 @@ hr {
 
 #issue_therd_cover {
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Vogueon/future/Vogueon_future_b.jpeg");
+    url("dont_panic/img/Vogueon/future/Vogueon_future_b.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -591,7 +600,7 @@ hr {
 #issue_therd_cover::before {
   content: "";
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Vogueon/future/Vogueon_future_b.jpeg");
+    url("dont_panic/img/Vogueon/future/Vogueon_future_b.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -608,7 +617,7 @@ hr {
 
 #article_cover_3_1 {
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Vogueon/future/Vogueon_future_a.jpeg");
+    url("dont_panic/img/Vogueon/future/Vogueon_future_a.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -622,7 +631,7 @@ hr {
 #article_cover_3_1::before {
   content: "";
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Vogueon/future/Vogueon_future_a.jpeg");
+    url("dont_panic/img/Vogueon/future/Vogueon_future_a.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -639,7 +648,7 @@ hr {
 
 #article_cover_3_2 {
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Vogueon/future/Vogueon_future_c.jpeg");
+    url("dont_panic/img/Vogueon/future/Vogueon_future_c.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -653,7 +662,7 @@ hr {
 #article_cover_3_2::before {
   content: "";
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Vogueon/future/Vogueon_future_c.jpeg");
+    url("dont_panic/img/Vogueon/future/Vogueon_future_c.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -670,7 +679,7 @@ hr {
 
 #article_cover_3_3 {
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Vogueon/future/Vogueon_future_d.jpeg");
+    url("dont_panic/img/Vogueon/future/Vogueon_future_d.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -684,7 +693,7 @@ hr {
 #article_cover_3_3::before {
   content: "";
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Vogueon/future/Vogueon_future_d.jpeg");
+    url("dont_panic/img//Vogueon/future/Vogueon_future_d.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

@@ -331,7 +331,7 @@ var currStyle;
 function styleSwitch(id) {
   
   var theme = document.getElementsByTagName("link")[1];
-  var new_style = id + ".css";
+  var new_style = "dont_panic/css/" + id + ".css";
 
 
 
@@ -371,39 +371,39 @@ function changeItemForStyle() {
 
   switch (theme) {
     case 'future.css':
-      world.setAttribute("src", "img/futuro-gif.gif");
-      icon_selected.setAttribute("src", "img/svg/3000inv.svg");
-      if (coverLogo){coverLogo.setAttribute("src", "img/svg/3000inv.svg");}
+      world.setAttribute("src", "dont_panic/img/futuro-gif.gif");
+      icon_selected.setAttribute("src", "dont_panic/img/svg/3000inv.svg");
+      if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/3000inv.svg");}
       break;
     case 'Y2000s.css':
-      icon_selected.setAttribute("src", "img/svg/2001.svg");
-      world.setAttribute("src", "img/matrixsmall.gif");
-      if (coverLogo){coverLogo.setAttribute("src", "img/svg/2001.svg");}
+      icon_selected.setAttribute("src", "dont_panic/img/svg/2001.svg");
+      world.setAttribute("src", "dont_panic/img/matrixsmall.gif");
+      if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/2001.svg");}
       break;
     case 'Y80s.css':
-      icon_selected.setAttribute("src", "img/svg/1990inv.svg");
-      world.setAttribute("src", "img/80ssmall.gif");
-      if (coverLogo){coverLogo.setAttribute("src", "img/svg/1990inv.svg");}
+      icon_selected.setAttribute("src", "dont_panic/img/svg/1990inv.svg");
+      world.setAttribute("src", "dont_panic/img/80ssmall.gif");
+      if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/1990inv.svg");}
       break;
     case 'Y40s.css':
-      icon_selected.setAttribute("src", "img/svg/1926inv1.svg");
-      world.setAttribute("src", "img/futuristasmall.gif");
-      if (coverLogo){coverLogo.setAttribute("src", "img/svg/1926inv1.svg");}
+      icon_selected.setAttribute("src", "dont_panic/img/svg/1926inv1.svg");
+      world.setAttribute("src", "dont_panic/img/futuristasmall.gif");
+      if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/1926inv1.svg");}
       break;
     case 'Y1800s.css':
-      icon_selected.setAttribute("src", "img/svg/1800inv.svg");
-      world.setAttribute("src", "img/victoriansmall.gif");
-      if (coverLogo){coverLogo.setAttribute("src", "img/svg/1800inv.svg");}
+      icon_selected.setAttribute("src", "dont_panic/img/svg/1800inv.svg");
+      world.setAttribute("src", "dont_panic/img/victoriansmall.gif");
+      if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/1800inv.svg");}
       break;
     case 'Y300s.css':
-      icon_selected.setAttribute("src", "img/svg/1300inv2.svg");
-      world.setAttribute("src", "img/medioevosmall.gif");
-      if (coverLogo){coverLogo.setAttribute("src", "img/svg/1300inv2.svg");}
+      icon_selected.setAttribute("src", "dont_panic/img/svg/1300inv2.svg");
+      world.setAttribute("src", "dont_panic/img/medioevosmall.gif");
+      if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/1300inv2.svg");}
       break;
     case '#':
-      icon_selected.setAttribute("src", "img/dontPanic_logo.svg");
-      world.setAttribute("src", "img/200w.gif");
-      if (coverLogo){coverLogo.setAttribute("src", "img/dontPanic_logo.svg");}
+      icon_selected.setAttribute("src", "dont_panic/img/dontPanic_logo.svg");
+      world.setAttribute("src", "dont_panic/img/200w.gif");
+      if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/dontPanic_logo.svg");}
       break;
   }
 

@@ -862,7 +862,7 @@ scrollbar-width: none;  /* Firefox */
 
 .issue {
   position: relative;
-  width: 23em;
+  width: 26em;
   height: 100%;
 }
 
@@ -885,7 +885,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 #issue_first_cover{
-	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/DeepThoughts_default.jpeg");
+	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("dont_panic/css/img/DeepThoughts_default.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -897,7 +897,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 #article_cover_1_1 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Deep_Thoughts/Deep_Thoughts_a.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("dont_panic/css/img/Deep_Thoughts/Deep_Thoughts_a.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -910,7 +910,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 #article_cover_1_2 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Deep_Thoughts/Deep_Thoughts_b.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("dont_panic/css/img/Deep_Thoughts/Deep_Thoughts_b.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -923,7 +923,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 #article_cover_1_3 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Deep_Thoughts/Deep_Thoughts_d.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("dont_panic/css/img/Deep_Thoughts/Deep_Thoughts_d.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -936,7 +936,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 #issue_second_cover{
-	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Magratears_default.jpeg");
+	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("dont_panic/css/img/Magratears_default.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -948,7 +948,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 #article_cover_2_1 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Magratears/Magratears_b.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("dont_panic/css/img/Magratears/Magratears_b.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -961,7 +961,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 #article_cover_2_2 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Magratears/Magratears_a.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("dont_panic/css/img/Magratears/Magratears_a.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -974,7 +974,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 #article_cover_2_3 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Magratears/Magratears_c.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("dont_panic/css/img/Magratears/Magratears_c.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -987,7 +987,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 #issue_therd_cover{
-	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Vogueon_default.jpeg");
+	background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("dont_panic/css/img/Vogueon_default.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -999,7 +999,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 #article_cover_3_1 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Vogueon/Vogueon_a.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("dont_panic/css/img/Vogueon/Vogueon_a.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1012,7 +1012,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 #article_cover_3_2 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Vogueon/Vogueon_b.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("dont_panic/css/img/Vogueon/Vogueon_b.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1025,7 +1025,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 #article_cover_3_3 {
-  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Vogueon/Vogueon_c.jpeg");
+  background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("dont_panic/css/img/Vogueon/Vogueon_c.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1966,7 +1966,7 @@ dl::-webkit-scrollbar {
   background-repeat: space;
   background-size: 14.8em;
   opacity: 0.5;
-  background-image: url('img/dontPanic_logo.svg');
+  background-image: url('dont_panic/css/img/dontPanic_logo.svg');
 }
 
   #transition::before {
@@ -1980,7 +1980,7 @@ dl::-webkit-scrollbar {
   
   background-size: 14.8em;
   mix-blend-mode: hard-light;
-  background-image: url('img/dontPanic_logo.svg');
+  background-image: url('dont_panic/css/img/dontPanic_logo.svg');
   animation: noise-anim-trans .3s infinite linear alternate-reverse; 
 }
 
