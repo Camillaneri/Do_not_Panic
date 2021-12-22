@@ -114,7 +114,7 @@
  
 <p>The main colours of this style are black and white, in order to replicate as close as possible the palette of Omni magazines. The background of the pages is in bright white, to recall the paper industrial quality of the period. The background of the website takes the gradient from the iconic series ‘Pictorial Number One’ from the artist Rudolf Hausner published on the Omni 0.5 issue during the 1983.</p>
 
-	<img src="img_reference" width="500px" height="auto" />
+<img src="img_reference/Y80s/reference_80_a.jpg" width="500px" height="auto" />
 
  
  <h2>2000 - Youngsters Magazines</h2> 
