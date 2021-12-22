@@ -118,12 +118,9 @@
 <p>The metadata menu viewer, archive and notice page are inspired by the magazine's back cover, white text on a black background. The style of the article layout is instead inspired by the minimalist but bold style of the revival articles, taking advantage of blocks of justified text and full columns interspersed with thick dividing lines.</p> 
 <p>The illustrations on the cards in the archive page of the website wants to remember the dreamlike and  comics environment in full Omni style. While the images are altered with blur and hue filters to simulate the palette used in the illustrations found on the Omni pages.</p>
 
-<img src="img_reference/Y80s/reference_y80s_b.jpg" width="33.33333333%" height="auto" style="display: inline"/>
-<img src="img_reference/Y80s/reference-Y80s_c.jpg" width="33.33333333%" height="auto" style="display: inline" />
-<img src="img_reference/Y80s/reference-Y80s_d.png" width="33.33333333%" height="auto" style="display: inline" />
+<img src="img_reference/Y80s/reference_y80s_b.jpg" width="32%" height="auto" style="display: inline"/> <img src="img_reference/Y80s/reference-Y80s_c.jpg" width="32%" height="auto" style="display: inline" /> <img src="img_reference/Y80s/reference-Y80s_d.png" width="32%" height="auto" style="display: inline" />
 
-<img src="img_reference/Y80s/reference-Y80s_e.png" width="49%" height="auto" style="display: inline" />
-<img src="img_reference/Y80s/reference-Y80s_f.png" width="49%" height="auto" style="display: inline" />
+<img src="img_reference/Y80s/reference-Y80s_e.png" width="49%" height="auto" style="display: inline" /> <img src="img_reference/Y80s/reference-Y80s_f.png" width="49%" height="auto" style="display: inline" />
 
 <div style="clear:both"></div>
 <h3>Colours</h3> 
@@ -166,6 +163,12 @@
 
 <p>At the end, over use of animations in this stylesheet wants to underline the visual bombardment that characterises today's internet and that, probably in a different and less naive way, will be the predominant atmosphere of the much talked “Metaverse".</p>
 
+<img src="img_reference/future /g.jpeg" width="24%" height="auto" style="display: inline"/> <img src="img_reference/future /f.jpeg" width="24%" height="auto" style="display: inline" /> <img src="img_reference/future /b.jpeg" width="24%" height="auto" style="display: inline" /> <img src="img_reference/future /d.jpeg" width="24%" height="auto" style="display: inline" />
+
+<img src="img_reference/future /c.png" width="49%" height="auto" style="display: inline" /> <img src="img_reference/future /e.jpeg" width="49%" height="auto" style="display: inline" />
+
 <h3>Colours</h3> 
  
 <p> The main colours of this style are blue jeans, light blue, green and bright pink. All proposed in gradient, neon and glitch variants. Excessive saturations and dark but never solid background want to recreate a mix of styles ranging from retro to science-fiction, without neglecting web and programming culture.</p>
+
+<img src="img_reference/future /a.png" width="100%" height="auto" />
