@@ -90,9 +90,9 @@
 
 
 <img id="futurism1" src="img_reference/Y40s/fut_1.jpg"  width="200"/>
-<img id="futurism1" src="img_reference/Y40s/fut_2.jpg" />
-<img id="futurism1" src="img_reference/Y40s/fut_3.jpg"/>
-<img id="futurism1" src="img_reference/Y40s/fut_4.jpg" />
+<img id="futurism1" src="img_reference/Y40s/fut_2.jpg" width="200"/>
+<img id="futurism1" src="img_reference/Y40s/fut_3.jpg"width="200"/>
+<img id="futurism1" src="img_reference/Y40s/fut_4.jpg" width="200"/>
  
 <p>Also for the background of the page we decided to recall the Futurism artistic movements with two artworks, namely "Reaching the Sun” from Tullio Cralli and “The city that raises” from Umberto Boccioni: the first inspired the background colours while the second is recalled by the movement of the "stars". This choice was made in order to highlight the concept of movement and dynamism, central for Futurism, which we tried to obtain in the background of the page which is faster and more colorful than any other style.</p> 
  
