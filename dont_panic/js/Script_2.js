@@ -112,7 +112,9 @@ function from_issue(adviser) {
   document.getElementById("article_1_source").href = sources[0];
   document.getElementById("article_2_source").href = sources[1];
   document.getElementById("article_3_source").href = sources[2];
-
+  document.getElementById("article_1_source").setAttribute('target', '_blank');
+  document.getElementById("article_2_source").setAttribute('target', '_blank');
+  document.getElementById("article_3_source").setAttribute('target', '_blank');
   if (name_article == "") {
     if (adviser == "stay") {
       getCheckedBoxes("Article");
@@ -671,10 +673,10 @@ function scroll_metadata_up(text_id){
   meta_offset = meta_offset + 200;
     document.getElementById(text_id).scrollBy(0, topOffSet);
     document.getElementById(text_id).scrollBy(0, -meta_offset);
-  var newOffSet = document.getElementById(text_id).getElementsByClassName("MetaFocus")[0].getBoundingClientRect().top;
-  if (newOffSet>400){
-    document.getElementById(text_id).scrollBy(0, 600);
-  }
+    var newOffSet = document.getElementById(text_id).getElementsByClassName("MetaFocus")[0].getBoundingClientRect().top;
+    if (newOffSet>meta_offset){
+      document.getElementById(text_id).scrollBy(0, 500);
+    }
 }
 
 function callWiki (text){
