@@ -103,6 +103,16 @@ figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: wh
   font-size: 110%;
 }
 
+.logo_big .bottom_logo {
+  font-size: 4.5em;
+  margin-top: -0.2em;
+}
+
+
+.logo_big .up_logo {
+  padding-left: 0.7em;
+}
+
 .up_logo {
   font-size: 4em;
   font-weight: 900;
