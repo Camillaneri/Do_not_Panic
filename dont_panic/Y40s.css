@@ -162,6 +162,10 @@ figcaption  {font-family: 'futura_bold', serif !important; color: white; font-si
     width: 100%;
   }
   
+  .disclamer button{
+    max-width: 550px;
+  }
+
   #allert {
     background-color: rgb(42, 122, 168 / 22%);
   }
