@@ -271,6 +271,14 @@ h1:first-letter, button:first-letter {
 
 /*ALERT*/
 
+.disclamer_text {
+  column-count: 2;
+  height: 50%;
+  min-height: 229px;
+  overflow: hidden;
+  overflow-y: scroll;
+} 
+
 #allert {
   z-index: 7;
   position: absolute;
@@ -302,6 +310,8 @@ h1:first-letter, button:first-letter {
 }
 
 .disclamer .large_button{
+  margin-left: 40%;
+  margin-bottom: 7%;
   border-color: rgb(0, 0, 0);
 }
 
@@ -327,6 +337,12 @@ h1:first-letter, button:first-letter {
   margin-top: 7%;
   margin-right: 10%;
   font-size: 1.2em;
+}
+
+
+.disclamer_link a{
+
+  color: black;
 }
 
 .team_box h1 {
@@ -556,7 +572,6 @@ h1:first-letter, button:first-letter {
     padding: 0em !important;
   }
   
-
 
 
 
