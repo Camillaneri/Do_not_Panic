@@ -140,3 +140,15 @@ $(document).ready(function(){
     $(self).hide();
   })
 })
+
+$(document).ready(function(){
+  $(".info_meta").click(function(){
+    $(".info_meta_explain").show("slow")
+  })
+})
+
+$(document).ready(function(){
+  $(".close_info_meta").click(function(){
+    $(".info_meta_explain").hide("slow")
+  })
+})

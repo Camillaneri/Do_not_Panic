@@ -8,7 +8,7 @@
 		
 	
 		<figure>
-		<img class="expand left" src="img/Vogueon/Worst-Novelist-Ever/NOVELIST.jpg" style="max-width: 460px;"> <figcaption class="captionPhoto smallChar left"> </figcaption>
+		<img class="expand left" src="dont_panic/img/Vogueon/Worst-Novelist-Ever/NOVELIST.jpg" style="max-width: 460px;"> <figcaption class="captionPhoto smallChar left"> </figcaption>
 		</figure><div class="clear"> </div>
 		<p class="smallChar grey">Illustration by Mark Alan Stamaty.</p>
 		<h3 class="midSmall captionArticle">This is an excerpt from <span id="P4" class="mention person" about="MarkOConnell" data-label="Mark O’Connell">Mark O’Connell</span>’s <span id="C3" class="mention concept" about="LiteraryWork" data-label="Epic Fail">Epic Fail</span>, an original e-book published by <span id="O1" class="mention organization" about="TheMillions" data-label="The Millions">The Millions</span>.</h3>

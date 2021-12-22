@@ -6,7 +6,7 @@
 <hr class="distant grey">
 
 <figure class="center">
-    <img class="expand left" src="img/Deep_Thoughts/QANON/QANON_Cover.jpg" alt="Signs referring to the QAnon conspiracy theory — with a Q —  appeared at rallies for President Donald J. Trump" />
+    <img class="expand left" src="dont_panic/img/Deep_Thoughts/QANON/QANON_Cover.jpg" alt="Signs referring to the QAnon conspiracy theory — with a Q —  appeared at rallies for President Donald J. Trump" />
     <figcaption class="captionPhoto smallChar left">
     Signs referring to the <span id="C6" class="mention concept" about="theories" data-label="QAnon">QAnon conspiracy theory</span> — with a Q —  appeared at <span id="C7" class="mention concept" about="means" data-label="Social">rallies</span> for <span id="P3" class="mention person" about="DonaldTrump" data-label="Donald Trump">President Donald J. Trump</span>.
     <span class="namePhoto smallChar follow">
@@ -18,7 +18,7 @@
 
 <div class="author">
 <a href="https://www.nytimes.com/by/kevin-roose">  
-    <img class="small close" src="img/Deep_Thoughts/QANON/QANON_Author.jpg" alt="Kevin Roose" />
+    <img class="small close" src="dont_panic/img/Deep_Thoughts/QANON/QANON_Author.jpg" alt="Kevin Roose" />
     <p class="centered byline">By <span id="P5" class="mention person" about="KevinRoose" data-label="Kevin Roose"><span class = "nameAuthor">Kevin Roose</span></span></p>
 </a>
 </div>
@@ -63,7 +63,7 @@
 <h2 class="distant">Why is it called ‘<span id="C74" class="mention concept" about="facts" data-label="Event">“The Storm”</span>’?</h2>
 
 <figure class="center">
-    <img class="expand left" src="img/Deep_Thoughts/QANON/QANON_1.jpg" alt="Mr. Trump made a remark with senior military leaders in 2017 that QAnon believers have pointed to as proof of his plan to break up a cabal" />
+    <img class="expand left" src="dont_panic/img/Deep_Thoughts/QANON/QANON_1.jpg" alt="Mr. Trump made a remark with senior military leaders in 2017 that QAnon believers have pointed to as proof of his plan to break up a cabal" />
     <figcaption class="captionPhoto smallChar left"> <span> <span id="P24" class="mention person" about="DonaldTrump" data-label="Donald Trump">Mr. Trump</span> made a <span id="C75" class="mention concept" about="means" data-label="Political Act">remark with senior military leaders</span> in <span id="D9" class="mention date" about="2017" data-label="2017">2017</span> that <span id="C76" class="mention concept" about="positions" data-label="Believer">QAnon believers</span> have pointed to as <span id="C77" class="mention concept" about="ideas" data-label="Belief">proof of his plan to break up a cabal</span></span>
     <span class="namePhoto follow">Pool photo by <span id="P25" class="mention person" about="AndrewHarrer" data-label="Andrew Harrer">Andrew Harrer</span></span>
   </figcaption>

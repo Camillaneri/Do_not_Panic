@@ -82,11 +82,13 @@ button:hover {
 }
 
 .menu hr {
+  margin-left: 0.5em;
   border: 1e-12em white solid;
   box-shadow: 0 -0.4em 1em rgb(0 221 29);
 }
 
 .menu_item {
+  font-size: 80%;
   padding: 0.5em;
 }
 
@@ -98,7 +100,7 @@ button:hover {
   border: 0.3em white solid;
   border-radius: 2em;
   width: fit-content;
-  font-size: 86%;
+  font-size: 76%;
   padding: 1em 2em 1em 2em;
   box-shadow: 0 0 2em rgb(0 221 29);
   animation: glow 1s ease-in-out alternate infinite;
@@ -184,10 +186,6 @@ button:hover {
   margin-top: 0;
 }
 
-.team_box {
-  overflow: inherit;
-}
-
 .world {
   border: 0.3em white solid;
   box-shadow: 0 0 2em rgb(0 221 29);
@@ -223,6 +221,13 @@ button:hover {
 
 .close {
   font-family: "Roboto", sans-serif !important;
+}
+
+.close_info_meta{
+  filter: invert();
+  animation: none !important;
+  width: 24px;
+  height: 24px;
 }
 
 .card {
@@ -688,7 +693,7 @@ hr {
 #article_cover_3_3::before {
   content: "";
   background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0)),
-    url("img/Vogueon/future/Vogueon_future_d.jpeg");
+    url("img//Vogueon/future/Vogueon_future_d.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -838,4 +843,8 @@ figcaption p {
 
 table {
   color: white;
+}
+
+.content_article #logo_img{
+  display:inline !important;
 }

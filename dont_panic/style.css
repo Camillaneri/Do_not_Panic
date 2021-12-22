@@ -369,6 +369,7 @@ body {
 /*NAVIGATOR*/
 
 .nav{
+  min-height: 100px;
 	z-index: 5;
 	position: absolute;
   height: 15%;
@@ -378,7 +379,7 @@ body {
 	right: 5%;
   bottom: 5%;
   min-width: max-content;
-  min-height: max-content;
+  min-height: 100px;
 }
 
 .menu {
@@ -632,6 +633,8 @@ margin-right: 0%;
 
 .allert_box{
   border:  0.125em white solid;
+  min-width: 700px;
+  min-height: 400px;
   width: 60%;
     height: 60%;
     position: absolute;
@@ -678,7 +681,7 @@ margin-right: 0%;
 
 .disclamer  {
   width: 62%;
-  height: auto;
+  height: fit-content;
   margin-top: 2.5%;
   margin-right: 10%;
 }
@@ -691,6 +694,52 @@ margin-right: 0%;
   margin-bottom: 1em;
 }
 
+.disclamer_text{
+  height: 57%;
+  min-height: 229px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.disclamer_text > p:first-child{
+  margin-top: 0 !important;
+}
+
+/* Hide scrollbar Chrome, Safari, Opera */
+.disclamer_text::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar IE, Edge, Firefox */
+.disclamer_text {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+.disclamer_link {
+  width: 56%;
+  height: 3em;
+  padding: 1em;
+  overflow: hidden;
+  overflow-y: scroll;
+  border: 0.125em white solid;
+}
+
+/* Hide scrollbar Chrome, Safari, Opera */
+.disclamer_link::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar IE, Edge, Firefox */
+.disclamer_link {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+.disclamer button{
+  bottom: 5%;
+  position: absolute;
+}
 /*team*/
 
 .team_box{
@@ -700,7 +749,9 @@ margin-right: 0%;
   overflow: hidden;
   margin-left: 3%;
   width: 20%;
-  height: 90%;
+  position: absolute;
+  bottom: 5%;
+  top: 0.5%;
   margin-top: 2.5%;
 }
 
@@ -727,7 +778,7 @@ margin-right: 0%;
 
 .person_team{
   width: 100%;
-  height: 26.333333%;
+  height: 40%;
   border-bottom: 0.125em white solid;
   transition: .5s ease;
   display: flex;
@@ -789,6 +840,8 @@ margin-right: 0%;
   overflow-y: hidden;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+  margin-top: 2em;
+  min-height: 400px;
   height: 75%;
   width: 90%;
   top: 20%;
@@ -810,6 +863,7 @@ margin-right: 0%;
 
 .card {
   width: fit-content;
+  min-height: 400px;
   height: 90%;
   display: inline-block;
   margin-right: 50px;  
@@ -819,13 +873,13 @@ margin-right: 0%;
 
 .issue {
   position: relative;
-  width: 350px;
+  width: 26em;
   height: 100%;
 }
 
 .articles {
   display: none;
-  width: 200px;
+  width: 13em;
   height: 100%;
 }
 
@@ -1025,6 +1079,22 @@ div.article_box:hover .overlay {
   overflow: hidden;
 }
 
+.margin_cards_paragraph{
+  height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.margin_cards_paragraph::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar IE, Edge, Firefox */
+.margin_cards_paragraph {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
 .arrow_box_archive {
     width: 10%;
     padding-top: 7%;
@@ -1034,17 +1104,21 @@ div.article_box:hover .overlay {
 .text_issue{
   white-space: normal !important;
   width: 85%;
-  height: 60%;
+  height: 50%;
 }
 
+.text_issue h1{
+  margin-top: 0.4em;
+}
 
-.text_issue h1, hr, p {
+.text_issue hr, p {
   margin-top: 0.9375em;
 }
 
 .text_issue button {
   position: absolute;
   bottom: 10%;
+  margin-top: 1em;
 }
 
 .text_article{
@@ -1145,10 +1219,46 @@ div.article_box:hover .overlay {
   margin-top: 1em;
 }
 
-.refresh{
-  position: relative;
-  right: 0.5em;
+.mv_title{
+  width: 100%;
+}
+
+.title{
+  width: 72%;
+  font-size: 1.8em;
+}
+
+.icon_title{
+  width: 28%;
   top: 0.2em;
+}
+
+.info_meta{
+  width: 50%;
+  filter: invert();
+  float: left;
+}
+
+.info_meta_explain{
+  display: none;
+  border-bottom: #fff 0.115em solid;
+  padding: 1em;
+}
+
+.info_meta_explain img{
+  margin-top: 0.8em !important;
+  width: 24px !important;
+}
+
+.info_meta_explain p{
+  font-size: 1em;
+  width: 97%;
+}
+
+.refresh{
+  width: 50%;
+  position: relative;
+  float: right;
 }
 
 .refresh svg {
@@ -1518,11 +1628,43 @@ article {
     margin-left: 0 !important;
     display: inline;
     text-align: left;
+<<<<<<< HEAD:HTML/style.css
     cursor: pointer;
 }
 
 
 .meta li:hover{
+=======
+}
+
+.show_meta_one li:hover{
+  cursor: pointer;
+  background-color: #c606d8 !important;
+}
+
+.show_meta_one dd:hover{
+  cursor: pointer;
+  background-color: #c606d8 !important;
+}
+
+.show_meta_two li:hover{
+  cursor: pointer;
+  background-color: #c606d8 !important;
+}
+
+.show_meta_two dd:hover{
+  cursor: pointer;
+  background-color: #c606d8 !important;
+}
+
+.show_meta_three li:hover{
+  cursor: pointer;
+  background-color: #c606d8 !important;
+}
+
+.show_meta_three dd:hover{
+  cursor: pointer;
+>>>>>>> d75219b0158eda37dddb9462a76c9796585727ec:dont_panic/style.css
   background-color: #c606d8 !important;
 }
 
@@ -1605,7 +1747,6 @@ dl::-webkit-scrollbar {
   display: block !important;
   line-height: 0.8em;
   margin-top: 1em;
-  margin-bottom: 2em;
 }
 
 .meta_down dt:last-child{
@@ -1794,18 +1935,20 @@ dl::-webkit-scrollbar {
 
 .MetaFocus{
   background-color: #c606d8 !important;
+  pointer-events: auto !important;
   cursor: pointer;
 }
 
 .MetaFocusAll{
   background-color: #b8d806;
+  pointer-events: none;
 }
 
 
 
 /* @media role for little laptop and tablet */
 
-@media only screen and (min-width: 769px) and (max-width: 1279px), (min-height: 700px) and (max-height: 900px){
+@media only screen and (min-width: 0px) and (max-width: 1279px), (min-height: 0px) and (max-height: 900px){
   body{
     font-size: 0.8em;
     overflow: hidden;
@@ -1924,6 +2067,29 @@ dl::-webkit-scrollbar {
   visibility: visible;
 }
 
+.prob_place{
+  filter: invert(42%) sepia(93%) saturate(430%) hue-rotate(335deg) brightness(80%) contrast(90%) !important;
+}
+
+.prob_person{
+  filter: invert(42%) sepia(93%) saturate(430%) hue-rotate(
+    182deg) brightness(80%) contrast(90%) !important;
+}
+
+.prob_date{
+  filter:invert(42%) sepia(93%) saturate(430%) hue-rotate(
+    43deg) brightness(80%) contrast(90%) !important;
+}
+
+.prob_concept{
+  filter: invert(42%) sepia(93%) saturate(430%) hue-rotate(
+    295deg) brightness(80%) contrast(90%) !important;
+}
+
+.prob_organization{
+  filter: invert(42%) sepia(93%) saturate(430%) hue-rotate(
+    99deg) brightness(80%) contrast(90%) !important;
+}
 
 
 

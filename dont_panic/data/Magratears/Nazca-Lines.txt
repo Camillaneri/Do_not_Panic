@@ -1,6 +1,6 @@
 <article>
 
-                                <hr class="author">
+                                <hr>
                                 <div>
                                     <p class="captionArticle smallChar distant">6 mins reading</p>
                                     <p class="byline distant"><span id="P1" class="mention nameAuthor person" about="SarahGilbert" data-label="Sarah Gilbert">Sarah Gilbert</span> | <span id="D1" class="mention date datePublished" about="2014" data-label="January 2014"> 30 January 2014</span></p>
@@ -11,7 +11,7 @@
                                 </div>
 
                                 <figure class="center">
-                                    <img class="expand left" src="img/Magratears/Nazca/Nazca_Cover.jpg" alt="Cover Image" />
+                                    <img class="expand left" src="dont_panic/img/Magratears/Nazca/Nazca_Cover.jpg" alt="Cover Image" />
                                     <figcaption class="captionPhoto smallChar left"> The Nazca Lines /ˈnæzkɑː/ - a group of very large geoglyphs made in the soil of the Nazca Desert in southern Peru.</figcaption>
                                 </figure>
                                 <div class="clear"></div>
