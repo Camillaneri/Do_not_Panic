@@ -696,11 +696,11 @@ function not_your_prob (){
   var check_icon = document.getElementById("lens_selected").getAttribute("src");/*prendo la source dall'icona del sito*/
   var category_list = ["place", "person", "date", "concept", "organization"];/*v*/
   if (checkProblem.checked) {/*se è checckato*/
-  var text_id = JSON.parse(localStorage.id_list);/*text_3_1,text_3_2,text_3_3*/
-  alert(text_id)
-  for (j=0;j<3;j++) {/*v*/
+  var text_id = JSON.parse(localStorage.id_list);/*the n of texts displayed text_3_1,text_3_2,text_3_3 if  pages, text_2_1,text_2_2 if 2 ecc...*/
+  
+  for (j=0;j<text_id.length;j++) {/*iterate for n of texts shown */
   var metadata_list = document.getElementById(text_id[j]).getElementsByClassName("mention");/* */
-  alert(metadata_list)
+  alert(metadata_list[0])
   for (i=0;i<metadata_list.length;i++){/* */
     stringa = "";/* */
     var stringg = metadata_list[i].innerHTML;/* */
