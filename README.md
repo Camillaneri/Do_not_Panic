@@ -87,6 +87,15 @@
 
 <h3>Layout</h3> 
 <p>For what regards fonts and typographical styles, in futurism we assist to a backlash of previous typographical styles, an increasing in popularity of sans-serif fonts and small variations in stroke heights.  The Futura sans-serif style, employed in the website for the article body, was created during that period (1927). Other fonts used in this style are all sans-serif and include the planet-n-compact and the PreussicheAusgabe, chosen for the similarity with the Futurism ones reported in the images below. </p>
+
+
+<figure class="center">
+	<img id="futurism1" src="https://github.com/Camillaneri/Do_not_Panic/blob/main/fut_1.jpg?raw=true" width="40"height="40"/>
+</figure>
+<img id="futurism1" src="https://github.com/Camillaneri/Do_not_Panic/blob/main/fut_1.jpg?raw=true" width="40"height="40"/>
+<img id="futurism1" src="img_reference/Y40s/fut_2.jpg" width="40"height="40"/>
+<img id="futurism1" src="img_reference/Y40s/fut_3.jpg" width="40"height="40"/>
+<img id="futurism1" src="img_reference/Y40s/fut_4.jpg" width="40"height="40"/>
  
 <p>Also for the background of the page we decided to recall the Futurism artistic movements with two artworks, namely "Reaching the Sun” from Tullio Cralli and “The city that raises” from Umberto Boccioni: the first inspired the background colours while the second is recalled by the movement of the "stars". This choice was made in order to highlight the concept of movement and dynamism, central for Futurism, which we tried to obtain in the background of the page which is faster and more colorful than any other style.</p> 
  
