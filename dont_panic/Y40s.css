@@ -9,8 +9,8 @@ body {
 /*title*/
 @font-face {
   font-family: 'planet_n_compact_condensedCn';
-  src: url('font/Y40S/planetncompactcond-webfont.woff2') format('woff2'),
-       url('font/Y40S/planetncompactcond-webfont.woff') format('woff');
+  src: url('font/Y40s/planetncompactcond-webfont.woff2') format('woff2'),
+       url('font/Y40s/planetncompactcond-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -21,8 +21,8 @@ body {
 
 @font-face {
   font-family: 'planet_n_compact_expaexpanded';
-  src: url('font/Y40S/planetncompactexpand-webfont.woff2') format('woff2'),
-       url('font/Y40S/planetncompactexpand-webfont.woff') format('woff');
+  src: url('font/Y40s/planetncompactexpand-webfont.woff2') format('woff2'),
+       url('font/Y40s/planetncompactexpand-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -32,8 +32,8 @@ body {
 /*subtitle*/
  @font-face {
     font-family: 'preussischeiv44ausgabe3Rg';
-    src: url('font/Y40S/pr_iv_44_ausg3-webfont.woff2') format('woff2'),
-         url('font/Y40S/pr_iv_44_ausg3-webfont.woff') format('woff');
+    src: url('font/Y40s/pr_iv_44_ausg3-webfont.woff2') format('woff2'),
+         url('font/Y40s/pr_iv_44_ausg3-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -42,16 +42,16 @@ body {
 /*text*/
 @font-face {
   font-family: 'futura_bold';
-  src: url('font/Y40S/futura_bold_font-webfont.woff2') format('woff2'),
-       url('font/Y40S/futura_bold_font-webfont.woff') format('woff');
+  src: url('font/Y40s/futura_bold_font-webfont.woff2') format('woff2'),
+       url('font/Y40s/futura_bold_font-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'futura_regular';
-  src: url('font/Y40S/futura_medium_bt-webfont.woff2') format('woff2'),
-       url('font/Y40S/futura_medium_bt-webfont.woff') format('woff');
+  src: url('font/Y40s/futura_medium_bt-webfont.woff2') format('woff2'),
+       url('font/Y40s/futura_medium_bt-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
