@@ -350,7 +350,7 @@ function styleSwitch(id) {
 
   document.getElementById("transition").style.display="block";
   window.setTimeout("closeHelpDiv();", 1000);
-
+  
   if (checkprob == true){
     document.getElementsByName("problemCheckbox")[0].click();
   }
