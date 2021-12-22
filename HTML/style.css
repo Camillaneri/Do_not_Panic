@@ -641,6 +641,10 @@ margin-right: 0%;
   transition: all 5s ease-in-out;
 }
 
+.allert_box ul{
+  column-count: 3;
+}
+
 /*@media only screen and (max-width: 1429px) {
   .allert_box {
     width: 70%;
@@ -1010,6 +1014,9 @@ div.article_box:hover .overlay {
   height: 100%;
 }
 
+#issue_therd_cover p{
+ font-size: 90% !important;
+}
 
 .margin_cards {
   width: 90%;
@@ -1512,8 +1519,8 @@ article {
     display: inline;
     text-align: left;
     cursor: pointer;
-
 }
+
 
 .meta li:hover{
   background-color: #c606d8 !important;

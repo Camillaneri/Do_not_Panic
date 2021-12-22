@@ -668,8 +668,10 @@ function highlight_metadata(text_id, text_to_splice, selector){
 
 function scroll_metadata_up(text_id){
   var topOffSet = document.getElementById(text_id).getElementsByClassName("MetaFocus")[0].getBoundingClientRect().top;
+  var meta_offset = document.getElementById(text_id).getBoundingClientRect().bottom;
+  meta_offset = meta_offset + 200;
     document.getElementById(text_id).scrollBy(0, topOffSet);
-    document.getElementById(text_id).scrollBy(0, -380);
+    document.getElementById(text_id).scrollBy(0, -meta_offset);
   var newOffSet = document.getElementById(text_id).getElementsByClassName("MetaFocus")[0].getBoundingClientRect().top;
   if (newOffSet>400){
     document.getElementById(text_id).scrollBy(0, 600);
