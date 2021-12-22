@@ -141,7 +141,7 @@
  <h3>Colours</h3> 
 <p>The colours chosen for this style are meant to recall the pagination of teen magazines, with a particular hint for press devoted to young girls. We chose colours from the pink and purple palette, with a splash of "sugar paper” blu and black and white for titles and paragraphs. The articles background color is meant to recall the paper tone of such magazines. The palette was extrapolated from the observation of magazine covers.</p> 
  
- <h2>The Future</h2>
+ <h2>The Future - A Futuristic Melting Pot</h2>
  
  <h3>Background</h3>
  <p>What’s more futuristic than the temporal end of the Universe itself? Easy, Milliways! </p>
