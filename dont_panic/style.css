@@ -718,12 +718,13 @@ scrollbar-width: none;  /* Firefox */
 
 .disclamer_link {
   width: 56%;
-  height: 3em;
-  padding: 1em;
+  height: 5em;
+  padding: 0.3em 1em;
   overflow: hidden;
   overflow-y: scroll;
   border: 0.125em white solid;
 }
+
 
 /* Hide scrollbar Chrome, Safari, Opera */
 .disclamer_link::-webkit-scrollbar {
@@ -1066,10 +1067,6 @@ div.issue:hover .overlay {
 
 div.article_box:hover .overlay {
   height: 100%;
-}
-
-#issue_therd_cover p{
- font-size: 90% !important;
 }
 
 .margin_cards {
