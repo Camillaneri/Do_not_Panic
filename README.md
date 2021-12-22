@@ -154,7 +154,7 @@
  <h3>Layout </h3>
 <p>For the 90s and early 2000s we took inspiration from Teen People, the youngsters version of "People” published from 1988 to 2006, and J-14 founded in 1998 which in 2007 was found to have been read from one American girl out of three from Experian Simmon Research, Florida. We chose to focus on the issues of 2000's.</p> 
  
- <img id="2000_1" src="img_reference/Y2000s/2000_1.jpg"  height="380" display="inline" style="display: inline"/>     <img id="2000_2" src="img_reference/Y2000s/2000_2.jpg"   height="380"  display="inline" style="display: inline"/> 
+ <img id="2000_1" src="img_reference/Y2000s/2000_1.jpg"  height="380" display="inline" style="display: inline"/>     <img id="2000_2" src="img_reference/Y2000s/2000_2.jpeg"   height="380"  display="inline" style="display: inline"/> 
  
 <p>We wanted to highlight the sparkling and colorful side of early 2000's publication, focusing on pink and purple shades that were particularly diffused in magazines devoted to teens, nonetheless sticking to the faint tint of fashion magazines paper for the articles background.</p> 
  
