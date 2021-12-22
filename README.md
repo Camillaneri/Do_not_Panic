@@ -148,7 +148,7 @@
 <p>As explained in ‘’Hitchhikers Guide for the galaxy’’, Milliways is a restaurant placed just a millisecond before the end of everything. As we know it, it offers just before the dessert a first-row seat for the Gnab Gib, the ultimate fate of the universe, consisting of a Big Bang in reverse. </p> 
 <p>The restaurant building resembles a giant glittering starfish and is described as an intergalactic diner, situated at the end of time and matter: it has some of the most extravagant décor ever seen and serves a particularly good Pan Galactic Gargle Blaster. </p>
  
-<h3>Layout<h3> 
+<h3>Layout</h3> 
 
 <p>We decided to develop our stylesheet following the above scenario: a user would expect from the end of the universe something like a futuristic menu, with neon colours, smooth angles and glittering, visible elements in the page. </p>
 
