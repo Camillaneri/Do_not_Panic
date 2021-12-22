@@ -673,12 +673,21 @@ body {
 }
 
 .disclamer .large_button{
+  margin-bottom: 2%;
   border-color: rgb(179, 114, 18);
 }
 
 .disclamer p, .disclamer li, .team_box h3{
   color: rgb(0, 0, 0);
   font-size: 1.3em;
+}
+
+.disclamer_link {
+  width: 56%;
+  height: 5em;
+  padding: 0.3em 1em;
+  overflow: hidden scroll;
+  border: 0em;
 }
 
 .explain {
