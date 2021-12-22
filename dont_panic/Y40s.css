@@ -78,6 +78,10 @@ figcaption  {font-family: 'futura_bold', serif !important; color: white; font-si
   font-family: 'preussischeiv44ausgabe3Rg' !important;
 }
 
+.logo_big .bottom_logo {
+  padding-left: 0 !important;
+}
+
 .up_logo {
   font-size: 5em !important;
   font-family: 'planet_n_compact_condensedCn'!important;

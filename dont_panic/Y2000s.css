@@ -104,7 +104,13 @@ figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: wh
 }
 
 .logo_big .bottom_logo {
-  font-size: 100%;
+  font-size: 4.5em;
+  margin-top: -0.2em;
+}
+
+
+.logo_big .up_logo {
+  margin-right: -0.2em;
 }
 
 .up_logo {
