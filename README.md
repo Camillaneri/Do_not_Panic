@@ -96,9 +96,12 @@
  
 <p>Also for the background of the page we decided to recall the Futurism artistic movements with two artworks, namely "Reaching the Sun” from Tullio Cralli and “The city that raises” from Umberto Boccioni: the first inspired the background colours while the second is recalled by the movement of the "stars". This choice was made in order to highlight the concept of movement and dynamism, central for Futurism, which we tried to obtain in the background of the page which is faster and more colorful than any other style.</p> 
  
- 
+<img id="futurism1" src="img_reference/Y40s/fut_5.jpg" />
+
  <h3>Colours</h3> 
 <p>The main colours of this style are pure red, black and white, in order to replicate as close as possible the palette of Futurism's magazines. The background of the pages is realized in a smooth yellow, to recall the paper quality of the period. The background of the website takes the colors of Cralli’s artworks, with a gradient from yellow to white and then blue and a set of moving lines in the tones of Boccioni’s work.</p> 
+
+<img id="futurism1" src="img_reference/Y40s/fut_6.jpg" />
  
 <h2>1980 - Modern graphic design</h2>
  
