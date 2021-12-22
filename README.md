@@ -64,7 +64,7 @@
 <h2>1800</h2> 
 <p>This web page layout is inspired by daily newspapers of the 19th century</p>
 <p>The invention of the steam powered press, in 1812, made it possible to print over a thousand copies of a page per hour, this began to make newspapers available to a mass audience (which in turn helped spread literacy), and from the 1820s changed the nature of book production, forcing a greater standardization in titles and other metadata.</p>
-<p>The newspaper printed in this period are mass produced, characterized by a dense disposition of the text across multiple columns in the same page, with lesser line height and smaller margins. </p> 
+<p>The newspaper printed in this period are mass produced, characterized by a dense disposition of the text across multiple columns in the same page, with lesser line height and smaller margins. </p> 
 <p>The name of the newspaper at the top of the page is often characterized by wide, gothic and elaborate fonts, while the article titles are fond in various different fonts. </p>
 <p>Many stylistic choices were influenced by the need to optimize the use of paper and the dramatic presence of advertisements, which where necessary for the economy of the journals.</p> 
 <h3>Cover page</h3>
@@ -107,7 +107,7 @@
 <h3>Background</h3>
 
 <p>Graphic design in the 1980s marked the early beginnings of the digital revolution and the introduction of business and personal computers. As a result, there was an influx of technology in the development of graphics software. This new invention had a huge impact on graphic design. In this decade, the industry had changed forever.</p>
-<p>It’s quite challenging to find authentic graphic designs that originated in the 1980s. So much of what’s on the Internet is actually current and only inspired by that decade. Carrying the brashness of ’70s graphic design over, graphic design in the 1980s is eye-catching. With its bold colours, jagged typography, and hair-raising styles, it was all about grabbing people’s attention. </p>  
+<p>It’s quite challenging to find authentic graphic designs that originated in the 1980s. So much of what’s on the Internet is actually current and only inspired by that decade. Carrying the brashness of ’70s graphic design over, graphic design in the 1980s is eye-catching. With its bold colours, jagged typography, and hair-raising styles, it was all about grabbing people’s attention.</p> 
 <p>Moreover, with the introduction of design software, graphic artists had the ability to create powerful images and easily manipulate layout, colour, and form. Graphic designers were freer to experiment and test new things. This led artists to steer away from earlier modern fonts. They created and mixed font families, weights, and sizes to create a jumbled, spontaneous feel. This “new wave” approach then led to the development of the Deconstructive Typology movement, which is characterised by nonlinear type that incorporates spatial layout.</p> 
 <p>As a result, graphic design in the 1980s was modern and cool. Designers had a distinct style. They used different geometric patterns, complementary color schemes, and technology to give their design a “futuristic” feel as people in the 1980s were future-inclined and wanted to depict what lay ahead.</p>
  
@@ -121,6 +121,7 @@
 <img src="img_reference/Y80s/reference_y80s_b.jpg" width="33.33333333%" height="auto" style="float:left"/>
 <img src="img_reference/Y80s/reference-Y80s_c.jpg" width="33.33333333%" height="auto" style="float:left" />
 <img src="img_reference/Y80s/reference-Y80s_d.jpg" width="33.33333333%" height="auto" style="float:left" />
+
 <img src="img_reference/Y80s/reference-Y80s_e.jpg" width="50%" height="auto" style="float:left" />
 <img src="img_reference/Y80s/reference-Y80s_f.jpg" width="50%" height="auto" style="float:left" />
 
