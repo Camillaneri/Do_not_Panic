@@ -136,14 +136,20 @@
  <h2>The Future</h2>
  
  <h3>Background</h3>
+ <p>What’s more futuristic than the temporal end of the Universe itself? Easy, Milliways! </p>
+<p>As explained in ‘’Hitchhikers Guide for the galaxy’’, Milliways is a restaurant placed just a millisecond before the end of everything. As we know it, it offers just before the dessert a first-row seat for the Gnab Gib, the ultimate fate of the universe, consisting of a Big Bang in reverse. </p> 
+<p>The restaurant building resembles a giant glittering starfish and is described as an intergalactic diner, situated at the end of time and matter: it has some of the most extravagant décor ever seen and serves a particularly good Pan Galactic Gargle Blaster. </p>
  
 <h3>Layout<h3> 
-  
+
+<p>We decided to develop our stylesheet following the above scenario: a user would expect from the end of the universe something like a futuristic menu, with neon colours, smooth angles and glittering, visible elements in the page. </p>
+
+<p>Probably plagiarised by the futuristic visual background of recent years, there are clear references to the Modern design of the 80s, the Cobol and the Matrix style of the 90s, Material design and, last but not least, the Vapour Wave that has characterised the social media graphic style of the last few years.</p>
+
+<p>This mix results in glitched images ultra saturated, smoothed boxes rounded by a green neon. Logo and buttons remembering the fast food’s style in the futuristic cartoon "The Jetsons". A font for the titles that recalls the neon ones of the 80s. Paragraphs fill by bright green, justified on the left and free to float into space.</p>
+
+<p>At the end, over use of animations in this stylesheet wants to underline the visual bombardment that characterises today's internet and that, probably in a different and less naive way, will be the predominant atmosphere of the much talked “Metaverse".</p>
+
 <h3>Colours</h3> 
  
-What’s more futuristic than the temporal end of the Universe itself? Easy, Milliways!  
-Milliways is a restaurant placed just a millisecond before the end of everything as we know it, offering a first-row seat for the Gnab Gib, the ultimate fate of the universe, consisting of a Big Bang in reverse, just before the dessert.  
-The restaurant building resembles a giant glittering starfish and is described as an intergalactic diner, situated at the end of time and matter: it has some of the most extravagant décor ever seen and serves a particularly good Pan Galactic Gargle Blaster. 
-The layout 
-We decided to develop our stylesheet following the aforementioned scenario: a user would expect from the end of the universe something resembling a futuristic diner menu, with neon colours, smooth angles and glittering, visible items in the page.  
-For this reasons........
+<p> The main colours of this style are blue jeans, light blue, green and bright pink. All proposed in gradient, neon and glitch variants. Excessive saturations and dark but never solid background want to recreate a mix of styles ranging from retro to science-fiction, without neglecting web and programming culture.</p>
