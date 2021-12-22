@@ -783,7 +783,7 @@ case 'Y1800s.css':
       var check_icon = document.getElementById("lens_selected").getAttribute("src");/*cerca un elemento nella pagina che habbia l'img source che ci interessa*/
       var category_list = ["place", "person", "date", "concept", "organization"];
       if (checkProblem.checked) {/* se la checlist è checkata*/
-      var text_id = JSON.parse(localStorage.id_list);
+      var text_id = JSON.parse(localStorage.id_list);/*id_list dovrebbe contenere tutte le id dei metadati */
       for (j=0;j<text_id.length;j++) {
       var metadata_list = document.getElementById(text_id[j]).getElementsByClassName("mention");
       for (i=0;i<metadata_list.length;i++){
