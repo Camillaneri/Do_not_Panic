@@ -3,13 +3,21 @@
 
 <h2>Table of content</h2>
 <dl>
-  <dt>Coffee</dt>
-   <dd>Black hot drink</dd>
-  <dt>Milk</dt>
-   <dd>White cold drink</dd>
+  <dt><a href="#one">THE CONCEPT</a></dt>
+  <dt><a href="#two">LLL FRAMEWORK</a></dt>
+  <dt><a href="#three">The articles and the typographical styles</a></dt>
+  <dt><a href="#four">The metadata</a></dt>
+  <dt><a href="#five">The Articles Markup</a></dt>
+  <dt><a href="#six">TYPOGRAPHIC STYLES</a></dt>
+    <dd><a href="#seven">1300</a></dd>
+    <dd><a href="#eight">1800</a></dd>
+    <dd><a href="#nine">1930 - Futurism</a></dd>
+    <dd><a href="#ten">1980 - Modern graphic design</a></dd>
+    <dd><a href="#eleven">2000 - Youngsters Magazines</a></dd>
+    <dd><a href="#twelve">The Future - A Futuristic Melting Pot</a></dd>
 </dl>
 
-<h2>THE CONCEPT</h2>
+<h2 id="one">THE CONCEPT</h2>
 <p>‘’Don’t panic, Earth issue’’ is a magazine inspired by the ‘’Hitchhikers Guide for the galaxy’’ world. The Guide was originally conceived by Douglas Adams in 1978 as a BBC radio comedy, and then published as “a trilogy in five parts” from 1979 to 1992 and inspired films, tv series and other formats, all sharing the same comedy-sci-fi-surrealistic approach. The Guide also inspired festivities such as the Towel Day (4/2) and a significant amount of inside jokes. </p>
 <p>The themes and tones of this website are borrowed from the book, publishing articles from the real world with the critical point of view of the fictional opera. </p>
 <p>The title and the scenario behind the magazine take inspiration from the destruction of Earth happening in the novel: we used this as a starting point for imagining the publication of a collection of articles covering earthly issues from intergalactic publishers, namely “Deep Thoughts", “Magratears” and "Vogueon”. </p>
@@ -20,20 +28,20 @@
 </ul>
 <p>Since we are moving through the universe of the Guide, we are fueling our magazine with an Infinite Probability Drive. That said we could be anywhere in space and time simultaneously, and that is why readers will have the chance to move in the time lenses offered by the website and observe different moments of Earth’s history. </p>
   
-<h2>LLL FRAMEWORK</h2> 
+<h2 id="two">LLL FRAMEWORK</h2> 
 <p>The purpose of this website is to display 3 different issues, each containing three articles, to be visualized side by side or one at a time.</p>  
 <p>We have two main aims: the first is to visualize the website and display the different articles through the lens of historical typographical layouts, while the latter is to allow users to compare metadata relative to their content. </p> 
 <p>The general idea behind the resource is to allow a simultaneous visualization and discovery of the articles, easing the comparation of their content and providing the user a journey through the lenses of typography. </p>
   
-<h2>The articles and the typographical styles </h2>
+<h2 id="three">The articles and the typographical styles </h2>
 <p>In order to allow such exploration, we implemented an AJAX structure: the articles are in fact .txt files that, following the request of the user, are fetched in the page and positioned in a structure from 1 to 3 columns wide. The columns are a total of 6 (1 +2 +3) and, depending on how many articles need to be visualized simultaneously the div containing the right number of columns is displayed while the other two are “hidden”: each article is independently scrollable and issues can be switched in any given moment maintaining the number of articles displayed unchanged. Also, the sources of the articles are instantiated in the sidebar next to the titles. To achieve so we used a JSON file containing the .txt files names, the titles of the articles and their sources. </p> 
 <p>A script to switch between different stylesheets (in the number of six) has also been created, which, without reloading the page, adds the script corresponding to the selected CSS below the predefined style, applying in this way the "lens” to the page. Lenses are also portable from one page to another, meaning they will last as long as the user does not change them. </p>
   
-<h2>The metadata </h2>
+<h2 id="four">The metadata </h2>
 <p>The articles metadata are also displayed using Javascript and JQuery.</p>  
 <p>Once the articles are fetched in the page a script is run: first it selects directly from the text the general metadata relative to every article (author, date of publication, etc...) and then, the same function, proceeds to search in the text for the issue-specific metadata. This has been obtained by a previous metadatation of concepts of interest directly in the HTML of the text. The whole structure was tought to allow a fast and functional addition of issues\articles simply by being compliant to the metadatation standard and adding the proper records to the JSON file. </p>
  
-<h2>The Articles Markup</h2>
+<h2 id="five">The Articles Markup</h2>
 <p>The markup of the articles followed our specific needs for the project. First, we marked-up the structural components of the documents, such as titles and paragraphs, referring more to the visualization needs than to the contents, and paying attention to the elements that would show particular needs for the different typographical styles. </p>
 <p>We then added semantic markup, in order to highlight the metadata present in the text and make them easily extractable. Each metadata relies inside a span and carries his own id, a class "mention” followed by his specific identifier class, an attribute about and a data-label, which are of particular importance for "concepts”.</p>  
 <p>The classification for the metadata works with 5 main categories (Places, People, Concepts, Dates and Organizations) 4 of which are the same within the issues, while the subclasses of the Concepts categories will be treated differently for each issue, to support a higher precision in research and comparison. </p> 
@@ -51,9 +59,10 @@
  <li><b>Ideas Belonging to Theories:</b> <code> &#60;span id="ID" class="mention concept" about="ideas" data-label="Bible ">the world is 6,000 years old and created in seven days as for the Bible&#60;/span> </code></li>
   </ol>
 <p>This serves just as an example of the logic applied to Concepts categorization: reporting the whole structure implied for every issue here will be useless since we worked towards the use of self-explanatory conceptualizations.</p> 
-  <h1>TYPOGRAPHIC STYLES</h1>
+
+<h1 id="six">TYPOGRAPHIC STYLES</h1>
   
-<h2>1300</h2> 
+<h2 id="seven">1300</h2> 
 <p>This web page layout is inspired to the design of a manuscript of the XIV century even if the standardization of layout design as we know it today started with the emergence of the printed book, and no universal rule is followed in the production of manuscripts it’s easy to recognize common tendencies and recurring structures. </p>
 <p>The page layout is characterized by small paragraphs of text, a wide margin is left under and between, this space can be left empty but is often filled by miniatures.</p> 
 <p>The distinction between paragraphs of text is usually not signaled by an empty space, but the starting letter of the first line is bigger than the rest and differently colored. </p>
@@ -69,7 +78,7 @@
 <p><b>archive, menus, and cover page</b> </p>
 <p>For the style used in the archive, menus, and cover page we have been more liberal with the layout, I choose a palette of gold and blue inspired miniatures of starry skies, used the page icon to simulate a miniature in the cover page, and proceeded to use golden color fonts to give the idea of a precious miniated volume. </p>
  
-<h2>1800</h2> 
+<h2 id="eight">1800</h2> 
 <p>This web page layout is inspired by daily newspapers of the 19th century</p>
 <p>The invention of the steam powered press, in 1812, made it possible to print over a thousand copies of a page per hour, this began to make newspapers available to a mass audience (which in turn helped spread literacy), and from the 1820s changed the nature of book production, forcing a greater standardization in titles and other metadata.</p>
 <p>The newspaper printed in this period are mass produced, characterized by a dense disposition of the text across multiple columns in the same page, with lesser line height and smaller margins. </p> 
@@ -85,7 +94,7 @@
 <p>Finally, we kept the palette exclusively black and white and applied a filter to desaturate the pictures, while coloured print was available in the late 1800 only specialized magazines used colour print for illustrations, while daily newspapers where optimized to be cheap and produced quickly and where usually colourless. </p>
  
  
-<h2>1930 - Futurism </h2>
+<h2 id="nine">1930 - Futurism </h2>
 <h3>Background </h3>
 <p>The 1930s was a fascinating era: on one side, there was great growth for culture, music, literature, and the arts; but on the other hand, it was a depressing time marked by unemployment, political turmoil, and the looming threats of WWII. There were also plenty of political movements, including the spread of populist ideas as well as the beginnings of World War II.</p> 
 <p>The futurism is from its first moment tendent towards the embracing of new experiences and innovations favored by technique improvement and technology development: new printing techniques such as the screen printing and spirit duplicator were introduced from the beginning of 1900’ and factory produced movable type gained popularity increasing publishing efficiency.</p> 
@@ -110,7 +119,7 @@
 
 <img id="futurism1" src="img_reference/Y40s/fut_6.jpg" />
  
-<h2>1980 - Modern graphic design</h2>
+<h2 id="ten">1980 - Modern graphic design</h2>
  
 <h3>Background</h3>
 
@@ -138,7 +147,7 @@
 <img src="img_reference/Y80s/reference_80_a.jpg" width="100%" height="auto" />
 
  
- <h2>2000 - Youngsters Magazines</h2> 
+ <h2 id="eleven">2000 - Youngsters Magazines</h2> 
  <h3>Background</h3> 
 <p>The period spanning from 1990 to 2000 is clearly a flow, more than a breaking point signed by the turning of the millennium. The world is still experiencing economic growth and economies around the world are becoming more and more interconnected with a strong jump ahead in the globalization process. The invention of the WWW is finally blossoming into social networking and blogs, with the birth of Twitter and Facebook at the beginning of the century.</p> 
 <p>The popular culture of this period can be considered iconic for the fast switching in trends and the unpredictable growth and decade of icons: especially for young people, following the latest news and trends, magazines become a way to keep on track with their favorite celebrities before finally and inevitably switching to social medias. </p> 
@@ -154,7 +163,7 @@
  <h3>Colours</h3> 
 <p>The colours chosen for this style are meant to recall the pagination of teen magazines, with a particular hint for press devoted to young girls. We chose colours from the pink and purple palette, with a splash of "sugar paper” blu and black and white for titles and paragraphs. The articles background color is meant to recall the paper tone of such magazines. The palette was extrapolated from the observation of magazine covers.</p> 
  
- <h2>The Future - A Futuristic Melting Pot</h2>
+ <h2 id="twelve">The Future - A Futuristic Melting Pot</h2>
  
  <h3>Background</h3>
  <p>What’s more futuristic than the temporal end of the Universe itself? Easy, Milliways! </p>
