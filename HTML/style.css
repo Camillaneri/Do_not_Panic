@@ -633,7 +633,7 @@ margin-right: 0%;
 
 .allert_box{
   border:  0.125em white solid;
-  min-width: 400px;
+  min-width: 700px;
   min-height: 400px;
   width: 60%;
     height: 60%;
@@ -643,13 +643,6 @@ margin-right: 0%;
     transform: translate(-50%, -50%);
   transition: all 5s ease-in-out;
 }
-
-/*@media only screen and (max-width: 1429px) {
-  .allert_box {
-    width: 70%;
-    height: 70%;
-  }
-}*/
 
 .allert_box .close {
   position: absolute;
@@ -677,7 +670,7 @@ margin-right: 0%;
 
 .disclamer  {
   width: 62%;
-  height: auto;
+  height: fit-content;
   margin-top: 2.5%;
   margin-right: 10%;
 }
@@ -691,11 +684,51 @@ margin-right: 0%;
 }
 
 .disclamer_text{
-  height: 60%;
-  max-height: 400px;
-
+  height: 57%;
+  min-height: 229px;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
+.disclamer_text > p:first-child{
+  margin-top: 0 !important;
+}
+
+/* Hide scrollbar Chrome, Safari, Opera */
+.disclamer_text::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar IE, Edge, Firefox */
+.disclamer_text {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+.disclamer_link {
+  width: 56%;
+  height: 3em;
+  padding: 1em;
+  overflow: hidden;
+  overflow-y: scroll;
+  border: 0.125em white solid;
+}
+
+/* Hide scrollbar Chrome, Safari, Opera */
+.disclamer_link::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar IE, Edge, Firefox */
+.disclamer_link {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+.disclamer button{
+  bottom: 5%;
+  position: absolute;
+}
 /*team*/
 
 .team_box{
@@ -705,7 +738,9 @@ margin-right: 0%;
   overflow: hidden;
   margin-left: 3%;
   width: 20%;
-  height: 90%;
+  position: absolute;
+  bottom: 5%;
+  top: 0.5%;
   margin-top: 2.5%;
 }
 
@@ -732,7 +767,7 @@ margin-right: 0%;
 
 .person_team{
   width: 100%;
-  height: 26.333333%;
+  height: 40%;
   border-bottom: 0.125em white solid;
   transition: .5s ease;
   display: flex;
@@ -1579,11 +1614,35 @@ article {
     margin-left: 0 !important;
     display: inline;
     text-align: left;
-    cursor: pointer;
-
 }
 
-.meta li:hover{
+.show_meta_one li:hover{
+  cursor: pointer;
+  background-color: #c606d8 !important;
+}
+
+.show_meta_one dd:hover{
+  cursor: pointer;
+  background-color: #c606d8 !important;
+}
+
+.show_meta_two li:hover{
+  cursor: pointer;
+  background-color: #c606d8 !important;
+}
+
+.show_meta_two dd:hover{
+  cursor: pointer;
+  background-color: #c606d8 !important;
+}
+
+.show_meta_three li:hover{
+  cursor: pointer;
+  background-color: #c606d8 !important;
+}
+
+.show_meta_three dd:hover{
+  cursor: pointer;
   background-color: #c606d8 !important;
 }
 
@@ -1666,7 +1725,6 @@ dl::-webkit-scrollbar {
   display: block !important;
   line-height: 0.8em;
   margin-top: 1em;
-  margin-bottom: 2em;
 }
 
 .meta_down dt:last-child{

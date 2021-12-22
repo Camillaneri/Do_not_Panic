@@ -349,7 +349,6 @@ function styleSwitch(id) {
   changeItemForStyle();
 
   document.getElementById("transition").style.display="block";
-
   window.setTimeout("closeHelpDiv();", 1000);
 }
 
@@ -407,7 +406,7 @@ function changeItemForStyle() {
       if (coverLogo){coverLogo.setAttribute("src", "img/dontPanic_logo.svg");}
       break;
   }
-no_prob_checker();
+
 
 }
 
