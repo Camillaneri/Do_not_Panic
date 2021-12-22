@@ -89,10 +89,21 @@ $(document).ready(function() {
     var inputValue = $(this).attr("value");
       $("." + inputValue).hide();
       $(".default").show();
-
     }
+
+    var numberOfChecked = $('input[type="checkbox"].input:checked').length;
+    console.log(numberOfChecked);
+
+    switch (numberOfChecked){
+      case 1:
+        $(".article").css("height", "77%");
+        break;
+    }
+
   });
 });
+
+
 
 
 $(document).ready(function(){
