@@ -95,6 +95,25 @@ p {text-align: justify;}
   width: 100%;
 }
 
+.info_meta_explain img {
+  filter: none !important;
+}
+
+.info_meta_explain p {
+  margin: 0 !important;
+  margin-bottom: 1em !important;
+  border-bottom: 0.2em black solid;
+  padding-bottom: 1em;
+  padding-top:0 !important ;
+  border-top: 0 !important ;
+  width: 95%;
+}
+
+.disclamer button {
+  
+  max-width: 445px;
+}
+
 #allert {
   background-color: rgb(255 206 115 / 22%);
 }
