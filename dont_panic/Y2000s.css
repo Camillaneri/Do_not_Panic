@@ -110,6 +110,11 @@ figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: wh
 
 
 .logo_big .up_logo {
+  padding-left: 0.2em;
+}
+
+
+.logo_big .up_logo {
   margin-right: -0.2em;
 }
 
