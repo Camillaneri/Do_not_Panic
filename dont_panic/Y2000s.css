@@ -201,6 +201,10 @@ figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: wh
   width: 100%;
 }
 
+.disclamer button{
+  max-width: 445px;
+}
+
 #allert {
   background-color: rgb(42, 122, 168 / 22%);
 }
