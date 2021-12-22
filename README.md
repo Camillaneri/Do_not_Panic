@@ -118,11 +118,11 @@
 <p>The metadata menu viewer, archive and notice page are inspired by the magazine's back cover, white text on a black background. The style of the article layout is instead inspired by the minimalist but bold style of the revival articles, taking advantage of blocks of justified text and full columns interspersed with thick dividing lines.</p> 
 <p>The illustrations on the cards in the archive page of the website wants to remember the dreamlike and  comics environment in full Omni style. While the images are altered with blur and hue filters to simulate the palette used in the illustrations found on the Omni pages.</p>
 
-<img src="img_reference/Y80s/reference_y80s_b.jpg" width="32%" height="auto" style="display: inline"/> <img src="img_reference/Y80s/reference-Y80s_c.jpg" width="32%" height="auto" style="display: inline" /> <img src="img_reference/Y80s/reference-Y80s_d.png" width="32%" height="auto" style="display: inline" />
+<img src="img_reference/Y80s/reference_y80s_b.jpg" width="32%" height="auto" style="display: inline"/> <img src="img_reference/Y80s/reference-Y80s_c.jpg" width="32%" height="auto" style="display: inline" /> <img src="img_reference/Y80s/reference-Y80s_d.png" width="33%" height="auto" style="display: inline" />
+>>>>>>> 31427b0bda5a254a73e8a1ec59b6d89c7cf4171b
 
 <img src="img_reference/Y80s/reference-Y80s_e.png" width="49%" height="auto" style="display: inline" /> <img src="img_reference/Y80s/reference-Y80s_f.png" width="49%" height="auto" style="display: inline" />
 
-<div style="clear:both"></div>
 <h3>Colours</h3> 
  
 <p>The main colours of this style are black and white, in order to replicate as close as possible the palette of Omni magazines. The background of the pages is in bright white, to recall the paper industrial quality of the period. The background of the website takes the gradient from the iconic series ‘Pictorial Number One’ from the artist Rudolf Hausner published on the Omni 0.5 issue during the 1983.</p>
