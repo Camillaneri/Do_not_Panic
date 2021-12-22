@@ -10,8 +10,8 @@ body {
 
 @font-face {
   font-family: 'omnibold';
-  src: url('font/Y80S/arista-pro-alternate-light-trial-webfont.woff2') format('woff2'),
-       url('font/Y80S/arista-pro-alternate-light-trial-webfont.woff') format('woff');
+  src: url('font/Y80s/arista-pro-alternate-light-trial-webfont.woff2') format('woff2'),
+       url('font/Y80s/arista-pro-alternate-light-trial-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
