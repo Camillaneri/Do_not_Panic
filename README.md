@@ -119,10 +119,10 @@
 <p>The illustrations on the cards in the archive page of the website wants to remember the dreamlike and  comics environment in full Omni style. While the images are altered with blur and hue filters to simulate the palette used in the illustrations found on the Omni pages.</p>
 
 <img src="img_reference/Y80s/reference_y80s_b.jpg" width="33.33333333%" height="auto" style="float:left"/>
-<img src="img_reference/Y80s/reference_Y80s_c.jpg" width="33.33333333%" height="auto" style="float:left" />
-<img src="img_reference/Y80s/reference_Y80s_d.jpg" width="33.33333333%" height="auto" style="float:left" />
-<img src="img_reference/Y80s/reference_Y80s_e.jpg" width="50%" height="auto" style="float:left" />
-<img src="img_reference/Y80s/reference_Y80s_f.jpg" width="50%" height="auto" style="float:left" />
+<img src="img_reference/Y80s/reference-Y80s_c.jpg" width="33.33333333%" height="auto" style="float:left" />
+<img src="img_reference/Y80s/reference-Y80s_d.jpg" width="33.33333333%" height="auto" style="float:left" />
+<img src="img_reference/Y80s/reference-Y80s_e.jpg" width="50%" height="auto" style="float:left" />
+<img src="img_reference/Y80s/reference-Y80s_f.jpg" width="50%" height="auto" style="float:left" />
 
 <div style="clear:both"></div>
 <h3>Colours</h3> 
