@@ -94,13 +94,35 @@
  <h3>Colours</h3> 
 <p>The main colours of this style are pure red, black and white, in order to replicate as close as possible the palette of Futurism's magazines. The background of the pages is realized in a smooth yellow, to recall the paper quality of the period. The background of the website takes the colors of Cralli’s artworks, with a gradient from yellow to white and then blue and a set of moving lines in the tones of Boccioni’s work.</p> 
  
+ 
+ 
+ 
+ 
 <h2>1980</h2>
  
 <h3>Background</h3>
+
+<p>Graphic design in the 1980s marked the early beginnings of the digital revolution and the introduction of business and personal computers. As a result, there was an influx of technology in the development of graphics software. This new invention had a huge impact on graphic design. In this decade, the industry had changed forever.</p>
+
+<p>It’s quite challenging to find authentic graphic designs that originated in the 1980s. So much of what’s on the Internet is actually current and only inspired by that decade. Carrying the brashness of ’70s graphic design over, graphic design in the 1980s is eye-catching. With its bold colours, jagged typography, and hair-raising styles, it was all about grabbing people’s attention. </p>  
+
+<p>Moreover, with the introduction of design software, graphic artists had the ability to create powerful images and easily manipulate layout, colour, and form. Graphic designers were freer to experiment and test new things. This led artists to steer away from earlier modern fonts. They created and mixed font families, weights, and sizes to create a jumbled, spontaneous feel. This “new wave” approach then led to the development of the Deconstructive Typology movement, which is characterised by nonlinear type that incorporates spatial layout.</p> 
+
+<p>As a result, graphic design in the 1980s was modern and cool. Designers had a distinct style. They used different geometric patterns, complementary color schemes, and technology to give their design a “futuristic” feel as people in the 1980s were future-inclined and wanted to depict what lay ahead.</p>
  
 <h3>Layout<h3> 
+ 
+<p>This stylesheet takes inspiration from Omni magazine, a science and science fiction magazine published between 1978 and 1995 in the United States and the United Kingdom. It contained articles on science, parapsychology and short works of science fiction and fantasy. Its design was characterised by letters and words in a bright color, often against a darker background, and the typical use both those years of a sans-serif fonts with more pronounced angles and curves.</p>
+
+<p>For those motive we decide to use Artista-Pro font type, the free online available font similar to the Omni font, for the titles and Verdana font type, the one actually used by Omni magazine, for paragraph text.</p>
+
+<p>The metadata menu viewer, archive and notice page are inspired by the magazine's back cover, white text on a black background. The style of the article layout is instead inspired by the minimalist but bold style of the revival articles, taking advantage of blocks of justified text and full columns interspersed with thick dividing lines.</p> 
+
+<p>The illustrations on the cards in the archive page of the website wants to remember the dreamlike and  comics environment in full Omni style. While the images are altered with blur and hue filters to simulate the palette used in the illustrations found on the Omni pages.</p>
   
 <h3>Colours</h3> 
+ 
+<p>The main colours of this style are black and white, in order to replicate as close as possible the palette of Omni magazines. The background of the pages is in bright white, to recall the paper industrial quality of the period. The background of the website takes the gradient from the iconic series ‘Pictorial Number One’ from the artist Rudolf Hausner published on the Omni 0.5 issue during the 1983.</p>
  
  
  
