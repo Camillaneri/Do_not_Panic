@@ -91,6 +91,8 @@
 
 <span><img id="futurism1" src="img_reference/Y40s/fut_1.jpg"  width="200" display="inline"/></span>
 
+<span><img id="futurism1" src="img_reference/Y40s/fut_2.jpg"  width="200" display="inline"/></span>
+
 <span><img id="futurism1" src="img_reference/Y40s/fut_2.jpg" width="200"display="inline"/></span>
 <span><img id="futurism1" src="img_reference/Y40s/fut_3.jpg"width="200"display="inline"/></span>
 <span><img id="futurism1" src="img_reference/Y40s/fut_4.jpg" width="200"display="inline"/></span>
