@@ -91,9 +91,9 @@
 
 <p float="left"><img id="futurism1" src="img_reference/Y40s/fut_1.jpg"  height="250" display="inline" style="display: inline"/>
 
-<img id="futurism1" src="img_reference/Y40s/fut_2.jpg"   height="250" display="inline" style="display: inline"/>
+<img id="futurism1" src="img_reference/Y40s/fut_2.jpg"   height="250" display="inline" style="display: inline"/></p>
 
-<img id="futurism1" src="img_reference/Y40s/fut_3.jpg" height="250" display="inline" style="display: inline"/>
+<p float="left"><img id="futurism1" src="img_reference/Y40s/fut_3.jpg" height="250" display="inline" style="display: inline"/>
 
 <img id="futurism1" src="img_reference/Y40s/fut_4.jpg" height="250" display="inline" style="display: inline"/></p>
 
