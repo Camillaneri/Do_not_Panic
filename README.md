@@ -163,7 +163,7 @@
 
 <p>At the end, over use of animations in this stylesheet wants to underline the visual bombardment that characterises today's internet and that, probably in a different and less naive way, will be the predominant atmosphere of the much talked “Metaverse".</p>
 
-<img src="img_reference/future /g.jpeg" width="24%" height="auto" style="display: inline"/> <img src="img_reference/future /f.jpeg" width="24%" height="auto" style="display: inline" /> <img src="img_reference/future /b.jpeg" width="24%" height="auto" style="display: inline" /> <img src="img_reference/future /d.jpeg" width="24%" height="auto" style="display: inline" />
+<img src="img_reference/future /g.png" width="24%" height="auto" style="display: inline"/> <img src="img_reference/future /f.png" width="24%" height="auto" style="display: inline" /> <img src="img_reference/future /b.jpeg" width="24%" height="auto" style="display: inline" /> <img src="img_reference/future /d.png" width="24%" height="auto" style="display: inline" />
 
 <img src="img_reference/future /c.png" width="49%" height="auto" style="display: inline" /> <img src="img_reference/future /e.jpeg" width="49%" height="auto" style="display: inline" />
 
