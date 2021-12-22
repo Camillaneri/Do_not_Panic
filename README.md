@@ -154,17 +154,17 @@
  <h3>Layout </h3>
 <p>For the 90s and early 2000s we took inspiration from Teen People, the youngsters version of "People” published from 1988 to 2006, and J-14 founded in 1998 which in 2007 was found to have been read from one American girl out of three from Experian Simmon Research, Florida. We chose to focus on the issues of 2000's.</p> 
  
- <img id="2000_1" src="img_reference/Y2000s/2000_1.jpg"  height="380" display="inline" style="display: inline"/>     <img id="2000_2" src="img_reference/Y2000s/2000_2.jpg"   height="380"  display="inline" style="display: inline"/> 
+ <img id="2000_1" src="img_reference/Y2000s/2000_1.jpg"  height="480" display="inline" style="display: inline"/>     <img id="2000_2" src="img_reference/Y2000s/2000_2.jpg"   height="480"  display="inline" style="display: inline"/> 
  
 <p>We wanted to highlight the sparkling and colorful side of early 2000's publication, focusing on pink and purple shades that were particularly diffused in magazines devoted to teens, nonetheless sticking to the faint tint of fashion magazines paper for the articles background.</p> 
  
-  <img id="2000_3" src="img_reference/Y2000s/2000_3.png"  height="280" display="inline" style="display: inline"/>     <img id="2000_4" src="img_reference/Y2000s/2000_4.jpg"   height="280"  display="inline" style="display: inline"/> 
+  <img id="2000_3" src="img_reference/Y2000s/2000_3.png"  height="480" display="inline" style="display: inline"/>     <img id="2000_4" src="img_reference/Y2000s/2000_4.jpg"   height="480"  display="inline" style="display: inline"/> 
  
 <p>The titles of the articles are in lowercase, to recall the typographical style of the magazines of the period. The font used for the title is the same as the one employed by “Teen People” and is called Egyptienne. For the subtitles we used Ginger, a font particularly used in the 2000, a typical Swiss sans serif, with a twirky geometric twist.</p>
 <p>The text uses Faustina fonts in bold, regular and italic variations for different sections (e.g. text, captions and emphasized parts): Faustina was designed by Alfonso Garcia for editorial typography (books, newspapers and magazines) in print and online and is a serif font. </p>
 <p>The body of the articles is displayed in 1, 2 or 3 columns, depending on the number of articles on the page, to recall the pagination of the magazines themselves.</p> 
  
- <img id="2000_5" src="img_reference/Y2000s/2000_6.jpeg"  height="280" display="inline" style="display: inline"/>   <img id="2000_6" src="img_reference/Y2000s/2000_7.jpg"  height="280" display="inline" style="display: inline"/>
+ <img id="2000_5" src="img_reference/Y2000s/2000_6.jpeg"  height="480" display="inline" style="display: inline"/>   <img id="2000_6" src="img_reference/Y2000s/2000_7.jpg"  height="480" display="inline" style="display: inline"/>
  
  <h3>Colours</h3> 
 <p>The colours chosen for this style are meant to recall the pagination of teen magazines, with a particular hint for press devoted to young girls. We chose colours from the pink and purple palette, with a splash of "sugar paper” blu and black and white for titles and paragraphs. The articles background color is meant to recall the paper tone of such magazines. The palette was extrapolated from the observation of magazine covers.</p> 
