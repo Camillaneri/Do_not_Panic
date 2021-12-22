@@ -101,9 +101,11 @@ figcaption  {font-family: 'faustinasemibold_italic', serif !important; color: wh
 
 .logo_big {
   font-size: 110%;
-
 }
 
+.logo_big .bottom_logo {
+  font-size: 100%;
+}
 
 .up_logo {
   font-size: 4em;
