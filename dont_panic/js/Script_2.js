@@ -332,7 +332,7 @@ function styleSwitch(id) {
   
   var theme = document.getElementsByTagName("link")[1];
   var new_style = "dont_panic/" + id + ".css";
-
+  var checkprob = document.getElementsByName("problemCheckbox")[0].checked;
 
 
   if (id != "no_style") {
@@ -350,10 +350,15 @@ function styleSwitch(id) {
 
   document.getElementById("transition").style.display="block";
   window.setTimeout("closeHelpDiv();", 1000);
+
+  if (checkprob == true){
+    document.getElementsByName("problemCheckbox")[0].click();
+  }
 }
 
 function closeHelpDiv(){
   document.getElementById("transition").style.display=" none";
+  
 }
 
 function changeItemForStyle() {
@@ -410,12 +415,7 @@ function changeItemForStyle() {
 
 }
 
-function no_prob_checker(){
-  if (document.getElementsByName("problemCheckbox")[0].checked == true){
-    document.getElementsByName("problemCheckbox")[0].click();
-    
-  }
-}
+
 
 function fromStyle() {
   var cur_style = localStorage.getItem('style');
