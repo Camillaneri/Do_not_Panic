@@ -98,7 +98,7 @@
  
  
  
-<h2>1980</h2>
+<h2>1980 - Modern graphic design</h2>
  
 <h3>Background</h3>
 
@@ -110,7 +110,7 @@
 
 <p>As a result, graphic design in the 1980s was modern and cool. Designers had a distinct style. They used different geometric patterns, complementary color schemes, and technology to give their design a “futuristic” feel as people in the 1980s were future-inclined and wanted to depict what lay ahead.</p>
  
-<h3>Layout<h3> 
+<h3>Layout</h3> 
  
 <p>This stylesheet takes inspiration from Omni magazine, a science and science fiction magazine published between 1978 and 1995 in the United States and the United Kingdom. It contained articles on science, parapsychology and short works of science fiction and fantasy. Its design was characterised by letters and words in a bright color, often against a darker background, and the typical use both those years of a sans-serif fonts with more pronounced angles and curves.</p>
 
