@@ -163,12 +163,12 @@
 
 <p>At the end, over use of animations in this stylesheet wants to underline the visual bombardment that characterises today's internet and that, probably in a different and less naive way, will be the predominant atmosphere of the much talked “Metaverse".</p>
 
-<img src="img_reference/future /g.png" width="24%" height="auto" style="display: inline"/> <img src="img_reference/future /f.png" width="24%" height="auto" style="display: inline" /> <img src="img_reference/future /b.jpeg" width="24%" height="auto" style="display: inline" /> <img src="img_reference/future /d.png" width="24%" height="auto" style="display: inline" />
+<img src="img_reference/future/g.png" width="24%" height="auto" style="display: inline"/> <img src="img_reference/future/f.png" width="24%" height="auto" style="display: inline" /> <img src="img_reference/future/b.jpeg" width="24%" height="auto" style="display: inline" /> <img src="img_reference/future/d.png" width="24%" height="auto" style="display: inline" />
 
-<img src="img_reference/future /c.png" width="49%" height="auto" style="display: inline" /> <img src="img_reference/future /e.jpeg" width="49%" height="auto" style="display: inline" />
+<img src="img_reference/future/c.png" width="49%" height="auto" style="display: inline" /> <img src="img_reference/future/e.jpeg" width="49%" height="auto" style="display: inline" />
 
 <h3>Colours</h3> 
  
 <p> The main colours of this style are blue jeans, light blue, green and bright pink. All proposed in gradient, neon and glitch variants. Excessive saturations and dark but never solid background want to recreate a mix of styles ranging from retro to science-fiction, without neglecting web and programming culture.</p>
 
-<img src="img_reference/future /a.png" width="100%" height="auto" />
+<img src="img_reference/future/a.png" width="100%" height="auto" />
