@@ -102,7 +102,7 @@
   <tr>
     <td>[LL]</td>
     <td>TRUTH reveal TARMAC [BC]</td>
-    <td>[LL] - <span id="P37" class="mention person" about="LorettaLynch" data-label="Loretta Lynch">Loretta Lynch</span>, <span id="P38" class="mention person" about="BarackObama" data-label="Barack Obama">President Obama</span>’s former attorney general, [BC] - <span id="P39" class="mention person" about="BillClinton" data-label="Bill Clinton">Bill Clinton<</span></td>
+    <td>[LL] - <span id="P37" class="mention person" about="LorettaLynch" data-label="Loretta Lynch">Loretta Lynch</span>, <span id="P38" class="mention person" about="BarackObama" data-label="Barack Obama">President Obama</span>’s former attorney general, [BC] - <span id="P39" class="mention person" about="BillClinton" data-label="Bill Clinton">Bill Clinton</span></td>
   </tr>
   <tr>
     <td>[LL]</td>
