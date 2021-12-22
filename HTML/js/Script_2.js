@@ -777,16 +777,12 @@ case 'Y1800s.css':
     }
     */
     function not_your_prob (){
-      var checkProblem = document.getElementsByName("problemCheckbox")[0];
-      var issue_id = localStorage.issue_id;
-      /*var imgs = document.createElement('img'); 
-      imgs.src = 'img/dontPanic_logo.svg';
-      num_word_list = Array().fill(imgs);*/
-
+      var checkProblem = document.getElementsByName("problemCheckbox")[0];/*not_your_prob checkbox*/
+      var issue_id = localStorage.issue_id; /*issue_id is article_1 article_1_2 ecc...*/ 
       var stringa = "";
-      var check_icon = document.getElementById("lens_selected").getAttribute("src");
+      var check_icon = document.getElementById("lens_selected").getAttribute("src");/*cerca un elemento nella pagina che habbia l'img source che ci interessa*/
       var category_list = ["place", "person", "date", "concept", "organization"];
-      if (checkProblem.checked) {
+      if (checkProblem.checked) {/* se la checlist è checkata*/
       var text_id = JSON.parse(localStorage.id_list);
       for (j=0;j<text_id.length;j++) {
       var metadata_list = document.getElementById(text_id[j]).getElementsByClassName("mention");
