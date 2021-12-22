@@ -1625,14 +1625,10 @@ article {
     margin-left: 0 !important;
     display: inline;
     text-align: left;
-<<<<<<< HEAD:HTML/style.css
     cursor: pointer;
 }
 
 
-.meta li:hover{
-=======
-}
 
 .show_meta_one li:hover{
   cursor: pointer;
