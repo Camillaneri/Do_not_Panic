@@ -140,7 +140,7 @@ function article_selector(issue, article, num_article) {
 
   switch (num_article) {
     case 1:
-      var name = "data/" + issue + "/" + article + ".txt";
+      var name = "dont_panic/data/" + issue + "/" + article + ".txt";
       var id = "text_" + num_article + "_1";
       var index = articles.indexOf(article);
       name_stander = name_displayed[index];
@@ -151,7 +151,7 @@ function article_selector(issue, article, num_article) {
 
     case 2:
       for (t = 0; t < 2; t++) {
-        var name = "data/" + issue + "/" + article[t] + ".txt";
+        var name = "dont_panic/data/" + issue + "/" + article[t] + ".txt";
         var id = "text_" + num_article + "_" + (t + 1);
         var index = articles.indexOf(article[t]);
         name_stander = name_displayed[index];
@@ -163,7 +163,7 @@ function article_selector(issue, article, num_article) {
 
     case 3:
       for (i = 0; i < 3; i++) {
-        var name = "data/" + issue + "/" + articles[i] + ".txt";
+        var name = "dont_panic/data/" + issue + "/" + articles[i] + ".txt";
         var id = "text_" + num_article + "_" + (i + 1);
         id_list.push(id);
         name_list = name_displayed;
@@ -188,7 +188,7 @@ function article_selector(issue, article, num_article) {
   }
 
 function readIssues(issue_id, name_article) {
-  readJSon("js/issues.json", function (content) {
+  readJSon("dont_panic/js/issues.json", function (content) {
     var issues = JSON.parse(content);
     var len = issues.length;
     var articles = [];
@@ -331,7 +331,7 @@ var currStyle;
 function styleSwitch(id) {
   
   var theme = document.getElementsByTagName("link")[1];
-  var new_style = "dont_panic/css/" + id + ".css";
+  var new_style = "dont_panic/" + id + ".css";
 
 
 
@@ -370,35 +370,35 @@ function changeItemForStyle() {
 
 
   switch (theme) {
-    case 'dont_panic/css/future.css':
+    case 'dont_panic/future.css':
       world.setAttribute("src", "dont_panic/img/futuro-gif.gif");
       icon_selected.setAttribute("src", "dont_panic/img/svg/3000inv.svg");
       if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/3000inv.svg");}
       break;
-    case 'dont_panic/css/Y2000s.css':
+    case 'dont_panic/Y2000s.css':
       icon_selected.setAttribute("src", "dont_panic/img/svg/2001.svg");
       world.setAttribute("src", "dont_panic/img/matrixsmall.gif");
       if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/2001.svg");}
       break;
-    case 'dont_panic/css/Y80s.css':
+    case 'dont_panic/Y80s.css':
       icon_selected.setAttribute("src", "dont_panic/img/svg/1990inv.svg");
       world.setAttribute("src", "dont_panic/img/80ssmall.gif");
       if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/1990inv.svg");}
       break;
-    case 'dont_panic/css/Y40s.css':
+    case 'dont_panic/Y40s.css':
       icon_selected.setAttribute("src", "dont_panic/img/svg/1926inv1.svg");
       world.setAttribute("src", "dont_panic/img/futuristasmall.gif");
       if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/1926inv1.svg");}
       break;
-    case 'dont_panic/css/Y1800s.css':
+    case 'dont_panic/Y1800s.css':
       icon_selected.setAttribute("src", "dont_panic/img/svg/1800inv.svg");
       world.setAttribute("src", "dont_panic/img/victoriansmall.gif");
       if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/1800inv.svg");}
       break;
-    case 'dont_panic/css/Y300s.css':
+    case 'dont_panic/Y300s.css':
       icon_selected.setAttribute("src", "dont_panic/img/svg/1300inv2.svg");
       world.setAttribute("src", "dont_panic/img/medioevosmall.gif");
-      if (coverLogo){coverLogo.setAttribute("src", "ont_panic/img/svg/1300inv2.svg");}
+      if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/1300inv2.svg");}
       break;
     case '#':
       icon_selected.setAttribute("src", "dont_panic/img/dontPanic_logo.svg");

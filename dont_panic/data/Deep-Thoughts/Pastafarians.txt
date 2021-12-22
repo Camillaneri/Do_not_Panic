@@ -14,7 +14,7 @@
 <br>
 
 <figure class="center">
-    <img class="expand left" src="img/Deep_Thoughts/Pastafarians/Pasta_Cover.jpg" alt="The Church of the Flying Spaghetti Monster’s believers wear colanders on their heads in homage to their deity." />
+    <img class="expand left" src="dont_panic/img/Deep_Thoughts/Pastafarians/Pasta_Cover.jpg" alt="The Church of the Flying Spaghetti Monster’s believers wear colanders on their heads in homage to their deity." />
     <figcaption class="captionPhoto smallChar left">The <span id="C5" class="mention concept" about="theories" data-label="Pastafarianism">Church of the Flying Spaghetti Monster’s</span> <span id="C6" class="mention concept" about="positions" data-label="Believer">believers</span> wear colanders on their heads in homage to their deity.
     <p class="namePhoto">Photograph: <span class="credit"><span id="O1" class="mention organization" about="Pastafarian" data-label="Pastafarian"><a href="www.ipastafaridoc.com">www.ipastafaridoc.com</a></span></span>
     </p>
@@ -25,7 +25,7 @@
 
 
 <div class="author">
-    <img class="small close" src="img/Deep_Thoughts/Pastafarians/Pasta_Author.png" alt="Jon Henley" />
+    <img class="small close" src="dont_panic/img/Deep_Thoughts/Pastafarians/Pasta_Author.png" alt="Jon Henley" />
     <p class="byline centered"><a class="caption " href="https://www.theguardian.com/profile/jonhenley"> <span id="P1" class="mention person" about="JonHenley" data-label="Jon Henley"><span class="nameAuthor">Jon Henley</span></span></a>
     <br>
     <span class="caption italic "><span id="L1" class="mention place" about="Europe" data-label="Europe" data-wikidata-id="Q46">Europe</span> correspondant</span>
@@ -50,7 +50,7 @@
 
 
 <figure class="center">
-    <img class="expand left" src="img/Deep_Thoughts/Pastafarians/Pasta_1.jpg" alt="Mienke de Wilde’s ID card photos." />
+    <img class="expand left" src="dont_panic/img/Deep_Thoughts/Pastafarians/Pasta_1.jpg" alt="Mienke de Wilde’s ID card photos." />
     <figcaption class="captionPhoto smallChar left">
         <span><span id="P6" class="mention person" about="MinkeDeWilde" data-label="Minke De Wilde">Mienke de Wilde</span>’s ID card photos.</span>
         <span class="namePhoto">Photograph: <span class="credit"><span id="O4" class="mention organization" about="Pastafarian" data-label="Pastafarian"><a href="www.ipastafaridoc.com">www.ipastafaridoc.com</a></span></span>
@@ -72,7 +72,7 @@
 <p><span id="P11" class="mention person" about="BobbyHenderson" data-label="Bobby Henderson">Henderson</span>’s basic point, expertly if satirically made, was that <span id="C48" class="mention concept" about="means" data-label="Explanation">since <span id="C49" class="mention concept" about="theories" data-label="Foundamental Christianism">intelligent design</span> was every bit as much of an <span id="C50" class="mention concept" about="theories" data-label="Science Theory">evidence-based theory</span> as the <span id="C51" class="mention concept" about="theories" data-label="Pastafarianism">unshakable belief that the world was created by an omniscient flying monster made of spaghetti</span>, nothing should be <span id="C52" class="mention concept" about="means" data-label="Teaching">taught in science classes</span> but <span id="C53" class="mention concept" about="theories" data-label="Science Theory">science</span></span>.</p>
 
 <figure class="center">
-    <img class="expand left" src="img/Deep_Thoughts/Pastafarians/Pasta_2.jpg" alt="Mathé Coolen, an archbishop of Pastafarianism, wearing his colander in court in a still from the documentary" />
+    <img class="expand left" src="dont_panic/img/Deep_Thoughts/Pastafarians/Pasta_2.jpg" alt="Mathé Coolen, an archbishop of Pastafarianism, wearing his colander in court in a still from the documentary" />
     <figcaption class="captionPhoto smallChar left">
         <span> <span id="P12" class="mention person" about="MathéCoolen" data-label="Mathé Coolen">Mathé Coolen</span>, an archbishop of <span id="C54" class="mention concept" about="theories" data-label="Pastafarianism">Pastafarianism</span>, <span id="C55" class="mention concept" about="means" data-label="Legal Act">wearing his colander in court</span> in a still from the <span id="C56" class="mention concept" about="means" data-label="Social Act">documentary</span>.</span>
         <span class="namePhoto">Photograph:<span class="credit"><span id="O5" class="mention organization" about="Pastafarian" data-label="Pastafarian"><a href="www.ipastafaridoc.com">www.ipastafaridoc.com</a></span></span>
@@ -92,7 +92,7 @@
 <p>“I can imagine it all looks very odd if you’re <span id="C74" class="mention concept" about="positions" data-label="Skeptic">not a believer</span>. But that’s the case with <span id="C75" class="mention concept" about="theories" data-label="Pseudoscience">many faiths – people who walk on water or split themselves in three</span>, for example. Personally, I find other religions unbelievable.”</p>
 
 <figure class="center">
-    <img class="expand left" src="img/Deep_Thoughts/Pastafarians/Pasta_3.jpg" alt="De Wilde reads the Gospel of the Flying Spaghetti Monster. " />
+    <img class="expand left" src="dont_panic/img/Deep_Thoughts/Pastafarians/Pasta_3.jpg" alt="De Wilde reads the Gospel of the Flying Spaghetti Monster. " />
     <figcaption class="captionPhoto smallChar left">
     <span>  <span id="P17" class="mention person" about="MinkeDeWilde" data-label="Minke De Wilde">De Wilde</span> reads the <span id="C76" class="mention concept" about="means" data-label="Social">Gospel of the Flying Spaghetti Monster</span>.</span>
     <span class="namePhoto">Photograph: <span class="credit"><span id="O8" class="mention organization" about="Pastafarian" data-label="Pastafarian"><a href="www.ipastafaridoc.com">www.ipastafaridoc.com</a></span></span>
@@ -112,7 +112,7 @@
 <p>He readily concedes, however, that <span id="C100" class="mention concept" about="theories" data-label="Pastafarianism">Flying Spaghetti Monsterism</span> is a diverse church. “For some, it’s not a political thing at all. In some countries, <span id="C101" class="mention concept" about="positions" data-label="Believer">Pastafarians</span> mainly just want <span id="C102" class="mention concept" about="means" data-label="Principle">to have fun and eat pasta</span>.”</p>
 
 <figure class="center">
-    <img class="expand left" src="img/Deep_Thoughts/Pastafarians/Pasta_4.jpg" alt="Bruder Spaghettus, a leading German Pastafarian, by a ‘noodle mass’ sign in Templin outside Berlin" />
+    <img class="expand left" src="dont_panic/img/Deep_Thoughts/Pastafarians/Pasta_4.jpg" alt="Bruder Spaghettus, a leading German Pastafarian, by a ‘noodle mass’ sign in Templin outside Berlin" />
     <figcaption  class="captionPhoto smallChar left">
     <span> <span id="P21" class="mention person" about="BruderSpaghettus" data-label="Bruder Spaghettus">Bruder Spaghettus</span>, a leading German <span id="C103" class="mention concept" about="theories" data-label="Pastafarianism">Pastafarian</span>, by a <span id="C104" class="mention concept" about="means" data-label="Conversion">‘noodle mass’ sign</span> in <span id="L13" class="mention place" about="Templin" data-label="Templin" data-wikidata-id="Q519157">Templin</span> outside <span id="L14" class="mention place" about="Berlin" data-label="Berlin" data-wikidata-id="Q64">Berlin</span>.</span>
     <span class="namePhoto ">Photograph: <span class="credit"><span id="O9" class="mention organization" about="Pastafarian" data-label="Pastafarian"><a href="www.ipastafaridoc.com">www.ipastafaridoc.com</a></span></span>

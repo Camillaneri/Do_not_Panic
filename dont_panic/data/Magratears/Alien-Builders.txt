@@ -4,7 +4,7 @@
 
 
                                 <figure class="center">
-                                    <img class="expand left" src="img/Magratears/Alien/Alien_Cover.jpg" alt="Clouds roll over Easter Island's monolithic statues." />
+                                    <img class="expand left" src="dont_panic/img/Magratears/Alien/Alien_Cover.jpg" alt="Clouds roll over Easter Island's monolithic statues." />
                                     <figcaption class="captionPhoto left"> <p>Clouds roll over <span id="L1" class="mention place" about="EasterIsland" data-label="Easter Island" data-wikidata-id="Q14452">Easter Island</span>'s <span id="C1" class="mention concept" about="sights" data-label="Statue">monolithic statues</span>.</p>
                                     <p class="namePhoto byline ">PHOTOGRAPH BY <span id="P1" class="mention person" about="ChristianHeeb" data-label="Christian Heeb">CHRISTIAN HEEB</span>, <span class="credit"><span id="O1" class="mention organization" about="Redux" data-label="Redix">LIAF/REDUX</span></span>
                                 </p>
@@ -48,7 +48,7 @@
 
 
                                 <figure class="center ">
-                                    <img class="expand left" src="img/Magratears/Alien/Alien_1.jpg" alt="The ancient fortress of Sacsayhuamán contrasts with Cusco's modern buildings." />
+                                    <img class="expand left" src="dont_panic/img/Magratears/Alien/Alien_1.jpg" alt="The ancient fortress of Sacsayhuamán contrasts with Cusco's modern buildings." />
                                     <figcaption class="captionPhoto left"><p>The <span id="C22" class="mention concept" about="sights" data-label="Monument">ancient fortress</span> of <span id="L9" class="mention place" about="Sacsayhuamán" data-label="Sacsayhuamán" data-wikidata-id="Q828336">Sacsayhuamán</span> contrasts with <span id="L10" class="mention place" about="Cusco" data-label="Cusco" data-wikidata-id="Q205057">Cusco</span>'s <span id="C23" class="mention concept" about="sights" data-label="Building">modern buildings</span>.</p>
                                     <p class="namePhoto ">PHOTOGRAPH BY <span id="P3" class="mention person" about="HeikoMeyer" data-label="Heiko Meyer">HEIKO MEYER</span>, <span class="credit"><span id="O2" class="mention organization" about="Redux" data-label="Redix">LIAF/REDUX</span></span></p>
                                     </figcaption> 
@@ -69,7 +69,7 @@
                                 <h2 class="midSmall distant"><span id="L17" class="mention place" about="NazcaLines" data-label="Nazca Lines" data-wikidata-id="Q2620036">Nasca lines</span></h2>
 
                                 <figure class="center ">
-                                    <img class="expand left" src="img/Magratears/Alien/Alien_2.jpg" alt="The ancient fortress of Sacsayhuamán contrasts with Cusco's modern buildings." />
+                                    <img class="expand left" src="dont_panic/img/Magratears/Alien/Alien_2.jpg" alt="The ancient fortress of Sacsayhuamán contrasts with Cusco's modern buildings." />
                                     <figcaption class="captionPhoto left"><p>A plane glides over an <span id="C47" class="mention concept" about="sights" data-label="Trace">ancient spider geoglyph</span> in the <span id="L18" class="mention place" about="Desert" data-label="Peruvian desert" data-wikidata-id="Q8514">Peruvian desert</span>.</p>
                                     <p class="namePhoto ">PHOTOGRAPH BY <span id="P4" class="mention person" about="RobertClark" data-label="Robert Clark">ROBERT CLARK</span>, <span class="credit"><span id="O3" class="mention organization" about="NationalGeographic" data-label="National Geographic">NAT GEO IMAGE COLLECTION</span></span></p>
                                 </figcaption>
@@ -91,7 +91,7 @@
 
 
                                 <figure class="center ">
-                                    <img class="expand left" src="img/Magratears/Alien/Alien_3.jpg" alt="The sun sets over the Giza necropolis on the outskirts of Cairo, Egypt." />
+                                    <img class="expand left" src="dont_panic/img/Magratears/Alien/Alien_3.jpg" alt="The sun sets over the Giza necropolis on the outskirts of Cairo, Egypt." />
                                     <figcaption class="captionPhoto left"><p>The sun sets over the <span id="L27" class="mention place" about="GizaPyramids" data-label="Giza Pyramids" data-wikidata-id="Q13217298">Giza necropolis</span> on the outskirts of <span id="L28" class="mention place" about="Cairo" data-label="Cairo" data-wikidata-id="Q85">Cairo</span>, <span id="L29" class="mention place" about="Egypt" data-label="Egypt" data-wikidata-id="Q79">Egypt</span>.</p>
                                     <p class="namePhoto ">PHOTOGRAPH BY <span id="P5" class="mention person" about="EzequielScagnetti" data-label="Ezequiel Scagnetti">EZEQUIEL SCAGNETTI</span>, <span class="credit"><span id="O4" class="mention organization" about="Redux" data-label="Redix">REDUX</span></p>
                                 </figcaption>
@@ -114,7 +114,7 @@
 
 
                                 <figure class="center ">
-                                    <img class="expand left" src="img/Magratears/Alien/Alien_4.jpg" alt="Bands of pink and purple streak the sky over Stonehenge at dawn." />
+                                    <img class="expand left" src="dont_panic/img/Magratears/Alien/Alien_4.jpg" alt="Bands of pink and purple streak the sky over Stonehenge at dawn." />
                                     <figcaption class="captionPhoto left"><p>Bands of pink and purple streak the sky over <span id="L40" class="mention place" about="Stonehenge" data-label="Stonehenge" data-wikidata-id="Q39671">Stonehenge</span> at dawn.</p>
                                     <p class="namePhoto ">PHOTOGRAPH BY <span id="P7" class="mention person" about="PhilipKramer" data-label="Philip Kramer">PHILIP KRAMER</span>, <span class="credit"><span id="O5" class="mention organization" about="GettyImages" data-label="Getty Images">GETTY IMAGES</span></span></p>
                                     </figcaption>
@@ -134,7 +134,7 @@
                                 <h2 class="midSmall distant"><span id="L44" class="mention place" about="Teotihuacán" data-label="Teotihuacán" data-wikidata-id="Q172613">Teotihuacán</span></h2>
 
                                 <figure class="center ">
-                                    <img class="expand left" src="img/Magratears/Alien/Alien_5.jpg" alt="Teotihuacán’s Pyramid of the Sun rises up against the cobalt sky in Mexico City." />
+                                    <img class="expand left" src="dont_panic/img/Magratears/Alien/Alien_5.jpg" alt="Teotihuacán’s Pyramid of the Sun rises up against the cobalt sky in Mexico City." />
                                      <figcaption class="captionPhoto left"><p><span id="L45" class="mention place" about="PyramidOfTheSun" data-label="Pyramid Of The Sun" data-wikidata-id="Q29238">Teotihuacán’s Pyramid of the Sun</span> rises up against the cobalt sky in <span id="L46" class="mention place" about="MexicoCity" data-label="Mexico City" data-wikidata-id="Q1489">Mexico City</span>.</p>
                                     <p class="namePhoto ">PHOTOGRAPH BY <span id="P9" class="mention person" about="RobertFried" data-label="Robert Fried">ROBERT FRIED</span>, <span class="credit"><span id="O6" class="mention organization" about="AlamyStockPhoto" data-label="Alamy Stock Photo">ALAMY STOCK PHOTO</span></span>
                                     </p>
@@ -154,7 +154,7 @@
                                 <h2 class="midSmall distant"><span id="L56" class="mention place" about="EasterIsland" data-label="Easter Island" data-wikidata-id="Q14452">Easter Island</span></h2>
 
                                 <figure class="center ">
-                                    <img class="expand left" src="img/Magratears/Alien/Alien_6.jpg" alt="Moai dot the grassy hills of Easter Island, a Chilean territory located in the southeastern Pacific." />
+                                    <img class="expand left" src="dont_panic/img/Magratears/Alien/Alien_6.jpg" alt="Moai dot the grassy hills of Easter Island, a Chilean territory located in the southeastern Pacific." />
                                     <figcaption class="captionPhoto left"><p><span id="C99" class="mention concept" about="sights" data-label="Statue">Moai</span> dot the grassy hills of <span id="L57" class="mention place" about="EasterIsland" data-label="Easter Island" data-wikidata-id="Q14452">Easter Island</span>, a Chilean territory located in the southeastern Pacific.</p>
                                     <p class="namePhoto ">PHOTOGRAPH BY <span id="P10" class="mention person" about="JochemWijnands" data-label="Jochem D. Wijnands">JOCHEM D. WIJNANDS</span>, <span class="credit"><span id="O7" class="mention organization" about="GettyImages" data-label="Getty Images">GETTY IMAGES</span></span></p>
                                     </figcaption>
@@ -174,7 +174,7 @@
                                 <h2 class="midSmall distant"><span id="L61" class="mention place" about="Mars" data-label="Mars" data-wikidata-id="Q58969">The Face on Mars</span></h2>
 
                                 <figure class="center ">
-                                    <img class="expand left" src="img/Magratears/Alien/Alien_7.jpg" alt="NASA's Viking 1 orbiter took this photograph of Mars in 1976. Shadows in the rock formation create an illusion of a human face." />
+                                    <img class="expand left" src="dont_panic/img/Magratears/Alien/Alien_7.jpg" alt="NASA's Viking 1 orbiter took this photograph of Mars in 1976. Shadows in the rock formation create an illusion of a human face." />
                                     <figcaption class="captionPhoto left">
                                     <p><span class="credit"><span id="O8" class="mention organization" about="Nasa" data-label="Nasa">NASA</span></span>'s <span id="C113" class="mention concept" about="tools" data-label="Resource">Viking 1 orbiter</span> took this photograph of <span id="L62" class="mention place" about="Mars" data-label="Mars" data-wikidata-id="Q58969">Mars</span> in <span id="D3" class="mention date" about="'900'" data-label="1976">1976</span>. Shadows in the rock formation create an illusion of a human face.</p>
                                     <p class="namePhoto ">PHOTOGRAPH BY <span class="credit"><span id="O9" class="mention organization" about="Nasa" data-label="Nasa">NASA/JPL</span></span></p>

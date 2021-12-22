@@ -11,7 +11,7 @@
                                 </div>
 
                                 <figure class="center">
-                                    <img class="expand left" src="img/Magratears/Nazca/Nazca_Cover.jpg" alt="Cover Image" />
+                                    <img class="expand left" src="dont_panic/img/Magratears/Nazca/Nazca_Cover.jpg" alt="Cover Image" />
                                     <figcaption class="captionPhoto smallChar left"> The Nazca Lines /ˈnæzkɑː/ - a group of very large geoglyphs made in the soil of the Nazca Desert in southern Peru.</figcaption>
                                 </figure>
                                 <div class="clear"></div>
