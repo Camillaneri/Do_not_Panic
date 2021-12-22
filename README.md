@@ -89,6 +89,8 @@
 <p>For what regards fonts and typographical styles, in futurism we assist to a backlash of previous typographical styles, an increasing in popularity of sans-serif fonts and small variations in stroke heights.  The Futura sans-serif style, employed in the website for the article body, was created during that period (1927). Other fonts used in this style are all sans-serif and include the planet-n-compact and the PreussicheAusgabe, chosen for the similarity with the Futurism ones reported in the images below. </p>
 
 
+![alt text](https://github.com/Camillaneri/Do_not_Panic/blob/main/fut_1.jpg?raw=true)
+
 <figure class="center">
 	<img id="futurism1" src="https://github.com/Camillaneri/Do_not_Panic/blob/main/fut_1.jpg?raw=true" width="40"height="40"/>
 </figure>
