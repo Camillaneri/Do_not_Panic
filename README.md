@@ -45,111 +45,92 @@
 <p>This serves just as an example of the logic applied to Concepts categorization: reporting the whole structure implied for every issue here will be useless since we worked towards the use of self-explanatory conceptualizations.</p> 
   <h1>TYPOGRAPHIC STYLES</h1>
   
-1300 
+<h2>1300</h2> 
+<p>This web page layout is inspired to the design of a manuscript of the XIV century even if the standardization of layout design as we know it today started with the emergence of the printed book, and no universal rule is followed in the production of manuscripts it’s easy to recognize common tendencies and recurring structures. </p>
+<p>The page layout is characterized by small paragraphs of text, a wide margin is left under and between, this space can be left empty but is often filled by miniatures.</p> 
+<p>The distinction between paragraphs of text is usually not signaled by an empty space, but the starting letter of the first line is bigger than the rest and differently colored. </p>
+<p>Headers can be recognized by a different color (usually red), bigger font size, and by the first letter often beautifully miniated and taking up to half the space dedicated to the text. </p>
+<h3>Article display </h3>
+<p>On the web page dedicated to the article display we used a filter to recreate the effect of parchment on the boxes where text is shown and we deleted most of the spacing between paragraphs. </p>
+<p>Since manuscripts are handwritten we choose to use a single font, modifying only the size and color, for all the written text : Candlebright that we thought was most similar to the hand-writing style used by the copyists.</p> 
+<p>The second font xxxxx is used exclusively on the first letter of headers and on the first letter of the first word of every paragraph to reproduce the elaborate drop caps. </p>
+<p>The Headers also decorated with a drop-cap are a deep red that simulates the rich inks used for miniatures.</p> 
+<p>To recreate the manuscript layout we used a different visualization depending on the number of the issue’s articles showed in the web page:</p>
+<p>When two articles are shown side by side we used ample margins on the left of the left article and on the right of the right article so the text is pushed on the upper-central part of the displaying area to suggest the idea of an open manuscript, a similar effect is obtained with two column when a single article is displayed.</p>
+<p>We decided to maintain a smallest margin when three articles are shown one beside the other to not impair readability.</p>
+<p><b>archive, menus, and cover page</b> </p>
+<p>For the style used in the archive, menus, and cover page we have been more liberal with the layout, I choose a palette of gold and blue inspired miniatures of starry skies, used the page icon to simulate a miniature in the cover page, and proceeded to use golden color fonts to give the idea of a precious miniated volume. </p>
+ 
+<h2>1800</h2> 
+<p>This web page layout is inspired by daily newspapers of the 19th century</p>
+<p>The invention of the steam powered press, in 1812, made it possible to print over a thousand copies of a page per hour, this began to make newspapers available to a mass audience (which in turn helped spread literacy), and from the 1820s changed the nature of book production, forcing a greater standardization in titles and other metadata.</p>
+<p>The newspaper printed in this period are mass produced, characterized by a dense disposition of the text across multiple columns in the same page, with lesser line height and smaller margins. </p> 
+<p>The name of the newspaper at the top of the page is often characterized by wide, gothic and elaborate fonts, while the article titles are fond in various different fonts. </p>
+<p>Many stylistic choices were influenced by the need to optimize the use of paper and the dramatic presence of advertisements, which where necessary for the economy of the journals.</p> 
+<h3>Cover page</h3>
+<p>The ads of these period often show big illustrations and extravagant fonts, the cover page of the website is freely inspired by one of those, with a vertical layout and an eye-catching illustration (the web-page logo)</p>
+<h3>Article visualization page </h3>
+<p>We choose xxxxxx a decadent font for the headers very similar to the ones used at the time for the newspaper’s names, a more modest font for the smaller headers(xxxxx) inspired by the article headers, and a classic serifed font for the text (times new roman). </p>
+<p>To reproduce the tall and numerous columns of text used in newspapers layout I divided the text in two column when two articles are visualized side by side (four column in total), and in four when only an article is visualised.</p> 
+<p>We kept a small line height and small margins to imitate the crowded pages of the period.</p>
+<h3>palette</h3>
+<p>Finally, we kept the palette exclusively black and white and applied a filter to desaturate the pictures, while coloured print was available in the late 1800 only specialized magazines used colour print for illustrations, while daily newspapers where optimized to be cheap and produced quickly and where usually colourless. </p>
+ 
+ 
+<h2>1930 - Futurism </h2>
+<h3>Background </h3>
+<p>The 1930s was a fascinating era: on one side, there was great growth for culture, music, literature, and the arts; but on the other hand, it was a depressing time marked by unemployment, political turmoil, and the looming threats of WWII. There were also plenty of political movements, including the spread of populist ideas as well as the beginnings of World War II.</p> 
+<p>The futurism is from its first moment tendent towards the embracing of new experiences and innovations favored by technique improvement and technology development: new printing techniques such as the screen printing and spirit duplicator were introduced from the beginning of 1900’ and factory produced movable type gained popularity increasing publishing efficiency.</p> 
+<p>The periodic “ Futurismo”, which is not part of the clandestine phenomenon which diffused in that period in Italy, was first born in Rome in 1932 from the mind of Mino Somenzi, who was in touch with the futurist movement from 1913. The paper will stay in print until number 59 in 1933.</p> 
+<p>First born as a 15day periodic of 50x32, 12 pages each, from 1932 the format increases notably to 64x43 and the periodical starts to come out once a week.</p> 
+<p>The issues treated from the paper, ideologically close to the Futurist movement, included a wide variety of themes from architecture to theatre, from music to pedagogy and also poetry, cuisine and arts.</p> 
 
-BACKGROUND 
-Layout design appeared on the pages of manuscripts in the medieval time well before the emergence of typesetting and printing. A scribe hand-copied an entire book composed very often in a beautifully designed layout. Many scribes were monks who would complete the task of writing a book, usually made from vellum, in a year or so. In fact, monasteries produced most of books until the 13th century. But as literacy diffused among the populace, and major universities were expanding, secular scribes outside the monasteries began to take up the work of bookmaking to increase the supply of written material. 
+<h3>Layout</h3> 
+<p>For what regards fonts and typographical styles, in futurism we assist to a backlash of previous typographical styles, an increasing in popularity of sans-serif fonts and small variations in stroke heights.  The Futura sans-serif style, employed in the website for the article body, was created during that period (1927). Other fonts used in this style are all sans-serif and include the planet-n-compact and the PreussicheAusgabe, chosen for the similarity with the Futurism ones reported in the images below. </p>
  
-When each script was finished, it was decorated with an artist’s ornamental design—known as illumination. The composition of these layouts most often were surprisingly modern, using various page format, with different number of columns, applying artistically composed lettering in harmonic colors and variations in letter size for emphasis. After the invention of the printing press, the first printed page layouts were modeled on the manuscript layouts. But over time one major difference was introduced—justified setting. In this, spaces between words in continuous text are adjusted in each line so that columns align on both left and right sides. Although manuscript pages were symmetrical when viewed as spreads, the ranged-left lettering made them essentially asymmetric.There isn’t a specific layot for medieval manuscripts, some were justified some not,  
--1300 
-This web page layout is inspired to the design of a manuscript of the XIV century even if the standardization of layout design as we know it today started with the emergence of the printed book, and no universal rule is followed in the production of manuscripts it’s easy to recognize common tendencies and recurring structures. 
-The page layout is characterized by small paragraphs of text, a wide margin is left under and between, this space can be left empty but is often filled by miniatures. 
-The distinction between paragraphs of text is usually not signaled by an empty space, but the starting letter of the first line is bigger than the rest and differently colored. 
-Headers can be recognized by a different color (usually red), bigger font size, and by the first letter often beautifully miniated and taking up to half the space dedicated to the text. 
-Article display 
-On the web page dedicated to the article display we used a filter to recreate the effect of parchment on the boxes where text is shown and we deleted most of the spacing between paragraphs. 
- Since manuscripts are handwritten we choose to use a single font, modifying only the size and color, for all the written text : Candlebright that we thought was most similar to the hand-writing style used by the copyists. 
-The second font xxxxx is used exclusively on the first letter of headers and on the first letter of the first word of every paragraph to reproduce the elaborate drop caps. 
-The Headers also decorated with a drop-cap are a deep red that simulates the rich inks used for miniatures. 
-To recreate the manuscript layout we used a different visualization depending on the number of the issue’s articles showed in the web page: 
-When two articles are shown side by side we used ample margins on the left of the left article and on the right of the right article so the text is pushed on the upper-central part of the displaying area to suggest the idea of an open manuscript, a similar effect is obtained with two column when a single article is displayed. 
-We decided to maintain a smallest margin when three articles are shown one beside the other to not impair readability. 
-archive, menus, and cover page 
-For the style used in the archive, menus, and cover page we have been more liberal with the layout, I choose a palette of gold and blue inspired miniatures of starry skies, used the page icon to simulate a miniature in the cover page, and proceeded to use golden color fonts to give the idea of a precious miniated volume. 
- 
-LAYOUTS 
--red ink for titles  
--no spacing between paragraph 
--drop caps 
--red and gold ink 
--  
-PALETTE 
-SOURCES 
- 
--1800 
-This web page layout is inspired by daily newspapers of the 19th century 
-The invention of the steam powered press, in 1812, made it possible to print over a thousand copies of a page per hour, this began to make newspapers available to a mass audience (which in turn helped spread literacy), and from the 1820s changed the nature of book production, forcing a greater standardization in titles and other metadata. 
-The newspaper printed in this period are mass produced, characterized by a dense disposition of the text across multiple columns in the same page, with lesser line height and smaller margins.  
-The name of the newspaper at the top of the page is often characterized by wide, gothic and elaborate fonts, while the article titles are fond in various different fonts. 
-Many stylistic choices were influenced by the need to optimize the use of paper and the dramatic presence of advertisements, which where necessary for the economy of the journals. 
-Cover page 
-The ads of these period often show big illustrations and extravagant fonts, the cover page of the website is freely inspired by one of those, with a vertical layout and an eye-catching illustration (the web-page logo) 
-Article visualization page 
-We choose xxxxxx a decadent font for the headers very similar to the ones used at the time for the newspaper’s names, a more modest font for the smaller headers(xxxxx) inspired by the article headers, and a classic serifed font for the text (times new roman). 
-To reproduce the tall and numerous columns of text used in newspapers layout I divided the text in two column when two articles are visualized side by side (four column in total), and in four when only an article is visualised. 
-We kept a small line height and small margins to imitate the crowded pages of the period. 
-palette 
-Finally, we kept the palette exclusively black and white and applied a filter to desaturate the pictures, while coloured print was available in the late 1800 only specialized magazines used colour print for illustrations, while daily newspapers where optimized to be cheap and produced quickly and where usually colourless. 
+<p>Also for the background of the page we decided to recall the Futurism artistic movements with two artworks, namely "Reaching the Sun” from Tullio Cralli and “The city that raises” from Umberto Boccioni: the first inspired the background colours while the second is recalled by the movement of the "stars". This choice was made in order to highlight the concept of movement and dynamism, central for Futurism, which we tried to obtain in the background of the page which is faster and more colorful than any other style.</p> 
  
  
-1930 - Futurism 
-Background 
-The 1930s was a fascinating era: on one side, there was great growth for culture, music, literature, and the arts; but on the other hand, it was a depressing time marked by unemployment, political turmoil, and the looming threats of WWII. There were also plenty of political movements, including the spread of populist ideas as well as the beginnings of World War II.  
-The futurism is from its first moment tendent towards the embracing of new experiences and innovations favored by technique improvement and technology development: new printing techniques such as the screen printing and spirit duplicator were introduced from the beginning of 1900’ and factory produced movable type gained popularity increasing publishing efficiency. 
-The periodic “ Futurismo”, which is not part of the clandestine phenomenon which diffused in that period in Italy, was first born in Rome in 1932 from the mind of Mino Somenzi, who was in touch with the futurist movement from 1913. The paper will stay in print until number 59 in 1933. 
-First born as a 15day periodic of 50x32, 12 pages each, from 1932 the format increases notably to 64x43 and the periodical starts to come out once a week. 
-The issues treated from the paper, ideologically close to the Futurist movement, included a wide variety of themes from architecture to theatre, from music to pedagogy and also poetry, cuisine and arts. 
-Layout 
-For what regards fonts and typographical styles, in futurism we assist to a backlash of previous typographical styles, an increasing in popularity of sans-serif fonts and small variations in stroke heights.  The Futura sans-serif style, employed in the website for the article body, was created during that period (1927). Other fonts used in this style are all sans-serif and include the planet-n-compact and the PreussicheAusgabe, chosen for the similarity with the Futurism ones reported in the images below. 
+ <h3>Colours</h3> 
+<p>The main colours of this style are pure red, black and white, in order to replicate as close as possible the palette of Futurism's magazines. The background of the pages is realized in a smooth yellow, to recall the paper quality of the period. The background of the website takes the colors of Cralli’s artworks, with a gradient from yellow to white and then blue and a set of moving lines in the tones of Boccioni’s work.</p> 
  
-Also for the background of the page we decided to recall the Futurism artistic movements with two artworks, namely "Reaching the Sun” from Tullio Cralli and “The city that raises” from Umberto Boccioni: the first inspired the background colours while the second is recalled by the movement of the "stars". This choice was made in order to highlight the concept of movement and dynamism, central for Futurism, which we tried to obtain in the background of the page which is faster and more colorful than any other style. 
+<h2>1980</h2>
  
+<h3>Background</h3>
  
-Colours 
-The main colours of this style are pure red, black and white, in order to replicate as close as possible the palette of Futurism's magazines. The background of the pages is realized in a smooth yellow, to recall the paper quality of the period. The background of the website takes the colors of Cralli’s artworks, with a gradient from yellow to white and then blue and a set of moving lines in the tones of Boccioni’s work.  
- 
-1980 
-80’s fonts and typographic styles were heavily influenced by the advancement of technology, and diffusion of videogames, the upcoming genre of music of the times. 
-Magazine covers from this period are colorful, crowded and excessive.   
-These fonts in particular have a futuristic style, heavy, sans-serif, commonly use neon aesthetics, gradients and mirrored sheen effect. 
-This stylesheet main inspiration in the magazine Omni, science and science fiction magazine published between 1978 and 1995 in the US and the UK, It contained articles on science, parapsychology, and short works of science fiction and fantasy.  
- 
- 
-Logo e bottoni usano omni font face (alternativa gratuita - Artista-Pro) Testi con Verdana, pretende linea gutter top, Prima lettera 
- 
-The palette of the backgrownd page take inspiration from the cover of the xxx number, the Logo an buttons use the same font used for headers in the magazine, (the free to use alternative)  
-The font for the text body Verdana, sans serif lean and clear very similar to the onesused in omni. 
- 
- 
- 
- 
-The mettadata menu viewer take inspitraation by the back cover, with white text against black background, while the article viewers take inspiration by the minimalistic but bold and futuristic impagination in the magazine with lean font for the titles and thick text interlines to divide paragraphs. 
- 
-The palette take inspiration by illustration found in the magazine, and the background colors in particular reproduce the xxxx year month cover. 
- 
+<h3>Layout<h3> 
+  
+<h3>Colours</h3> 
  
  
  
   
  
  
-2000 - Youngsters Magazines  
-Background 
-The period spanning from 1990 to 2000 is clearly a flow, more than a breaking point signed by the turning of the millennium. The world is still experiencing economic growth and economies around the world are becoming more and more interconnected with a strong jump ahead in the globalization process. The invention of the WWW is finally blossoming into social networking and blogs, with the birth of Twitter and Facebook at the beginning of the century. 
-The popular culture of this period can be considered iconic for the fast switching in trends and the unpredictable growth and decade of icons: especially for young people, following the latest news and trends, magazines become a way to keep on track with their favorite celebrities before finally and inevitably switching to social medias.  
-Layout 
-For the 90s and early 2000s we took inspiration from Teen People, the youngsters version of "People” published from 1988 to 2006, and J-14 founded in 1998 which in 2007 was found to have been read from one American girl out of three from Experian Simmon Research, Florida. We chose to focus on the issues of 2000's. 
+ <h2>2000 - Youngsters Magazines</h2> 
+ <h3>Background</h3> 
+<p>The period spanning from 1990 to 2000 is clearly a flow, more than a breaking point signed by the turning of the millennium. The world is still experiencing economic growth and economies around the world are becoming more and more interconnected with a strong jump ahead in the globalization process. The invention of the WWW is finally blossoming into social networking and blogs, with the birth of Twitter and Facebook at the beginning of the century.</p> 
+<p>The popular culture of this period can be considered iconic for the fast switching in trends and the unpredictable growth and decade of icons: especially for young people, following the latest news and trends, magazines become a way to keep on track with their favorite celebrities before finally and inevitably switching to social medias. </p> 
+ <h3>Layout </h3>
+<p>For the 90s and early 2000s we took inspiration from Teen People, the youngsters version of "People” published from 1988 to 2006, and J-14 founded in 1998 which in 2007 was found to have been read from one American girl out of three from Experian Simmon Research, Florida. We chose to focus on the issues of 2000's.</p> 
  
-We wanted to highlight the sparkling and colorful side of early 2000's publication, focusing on pink and purple shades that were particularly diffused in magazines devoted to teens, nonetheless sticking to the faint tint of fashion magazines paper for the articles background. 
+<p>We wanted to highlight the sparkling and colorful side of early 2000's publication, focusing on pink and purple shades that were particularly diffused in magazines devoted to teens, nonetheless sticking to the faint tint of fashion magazines paper for the articles background.</p> 
  
-The titles of the articles are in lowercase, to recall the typographical style of the magazines of the period. The font used for the title is the same as the one employed by “Teen People” and is called Egyptienne. For the subtitles we used Ginger, a font particularly used in the 2000, a typical Swiss sans serif, with a twirky geometric twist. 
-The text uses Faustina fonts in bold, regular and italic variations for different sections (e.g. text, captions and emphasized parts): Faustina was designed by Alfonso Garcia for editorial typography (books, newspapers and magazines) in print and online and is a serif font. 
-The body of the articles is displayed in 1, 2 or 3 columns, depending on the number of articles on the page, to recall the pagination of the magazines themselves. 
+<p>The titles of the articles are in lowercase, to recall the typographical style of the magazines of the period. The font used for the title is the same as the one employed by “Teen People” and is called Egyptienne. For the subtitles we used Ginger, a font particularly used in the 2000, a typical Swiss sans serif, with a twirky geometric twist.</p>
+<p>The text uses Faustina fonts in bold, regular and italic variations for different sections (e.g. text, captions and emphasized parts): Faustina was designed by Alfonso Garcia for editorial typography (books, newspapers and magazines) in print and online and is a serif font. </p>
+<p>The body of the articles is displayed in 1, 2 or 3 columns, depending on the number of articles on the page, to recall the pagination of the magazines themselves.</p> 
  
-Colours 
-The colours chosen for this style are meant to recall the pagination of teen magazines, with a particular hint for press devoted to young girls. We chose colours from the pink and purple palette, with a splash of "sugar paper” blu and black and white for titles and paragraphs. The articles background color is meant to recall the paper tone of such magazines. The palette was extrapolated from the observation of magazine covers. 
+ <h3>Colours</h3> 
+<p>The colours chosen for this style are meant to recall the pagination of teen magazines, with a particular hint for press devoted to young girls. We chose colours from the pink and purple palette, with a splash of "sugar paper” blu and black and white for titles and paragraphs. The articles background color is meant to recall the paper tone of such magazines. The palette was extrapolated from the observation of magazine covers.</p> 
  
-The Future 
+ <h2>The Future</h2>
+ 
+ <h3>Background</h3>
+ 
+<h3>Layout<h3> 
+  
+<h3>Colours</h3> 
+ 
 What’s more futuristic than the temporal end of the Universe itself? Easy, Milliways!  
 Milliways is a restaurant placed just a millisecond before the end of everything as we know it, offering a first-row seat for the gnaB giB just before the dessert.  
 The restaurant building resembles a giant glittering starfish and is described as an intergalactic diner, situated at the end of time and matter: it has some of the most extravagant décor ever seen and serves a particularly good Pan Galactic Gargle Blaster. 
