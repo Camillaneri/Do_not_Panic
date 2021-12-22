@@ -45,8 +45,8 @@
 <p>This serves just as an example of the logic applied to Concepts categorization: reporting the whole structure implied for every issue here will be useless since we worked towards the use of self-explanatory conceptualizations.</p> 
   <h1>TYPOGRAPHIC STYLES</h1>
   
--1300 
-Typographic style in the middle age 
+1300 
+
 BACKGROUND 
 Layout design appeared on the pages of manuscripts in the medieval time well before the emergence of typesetting and printing. A scribe hand-copied an entire book composed very often in a beautifully designed layout. Many scribes were monks who would complete the task of writing a book, usually made from vellum, in a year or so. In fact, monasteries produced most of books until the 13th century. But as literacy diffused among the populace, and major universities were expanding, secular scribes outside the monasteries began to take up the work of bookmaking to increase the supply of written material. 
  
