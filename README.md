@@ -122,8 +122,8 @@
 <img src="img_reference/Y80s/reference-Y80s_c.jpg" width="33.33333333%" height="auto" style="float: left" />
 <img src="img_reference/Y80s/reference-Y80s_d.png" width="33.33333333%" height="auto" style="float: left" />
 
-<img src="img_reference/Y80s/reference-Y80s_e.png" width="50%" height="auto" style="float: left" />
-<img src="img_reference/Y80s/reference-Y80s_f." width="50%" height="auto" style="float: left" />
+<img src="img_reference/Y80s/reference-Y80s_e.png" width="49%" height="auto" style="float: left" />
+<img src="img_reference/Y80s/reference-Y80s_f.png" width="49%" height="auto" style="float: left" />
 
 <div style="clear:both"></div>
 <h3>Colours</h3> 
