@@ -379,7 +379,7 @@ function styleSwitch(id) {
   window.setTimeout("closeHelpDiv();", 1000);
   
   if(document.getElementsByName("problemCheckbox")){
-    var checkprob = document.getElementsByName("problemCheckbox")[0].checked;
+    var checkprob = document.getElementsByName("problemCheckbox")[0]?.checked;
     }
   if (checkprob == true){
     document.getElementsByName("problemCheckbox")[0].click();
