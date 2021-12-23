@@ -128,7 +128,7 @@ In an open codex the text is pushed upward and toward the center of the pages by
 <img id="futurism1" src="img_reference/Y40s/fut_5.jpg" />
 
  <h3>Colours</h3> 
-<p>The main colours of this style are pure red, black and white, in order to replicate as close as possible the palette of Futurism's magazines. The background of the pages is realized in a smooth yellow, to recall the paper quality of the period. The background of the website takes the colours of Cralli’s artworks, with a gradient from yellow to white and then blue and a set of moving lines in the tones of Boccioni’s work.</p> 
+<p>The main colours of this style are pure red, black and white, in order to replicate as close as possible the palette of Futurism's magazines. The background of the pages is realized in a smooth yellow, to recall the paper quality of the period. The background of the website takes the colours of Cralli’s artworks, with a gradient from yellow to white and then blue and a set of moving lines in the tones of Boccioni’s work. The images are here filtered with a grayscale, a contrast of 110% and a sepia of 50%.</p> 
 
 <img id="futurism1" src="img_reference/Y40s/fut_6.jpg" />
  
@@ -180,7 +180,7 @@ In an open codex the text is pushed upward and toward the center of the pages by
  <img id="2000_5" src="img_reference/Y2000s/2000_6.jpeg"  height="450" display="inline" style="display: inline"/>   <img id="2000_6" src="img_reference/Y2000s/2000_7.jpg"  height="450" display="inline" style="display: inline"/>
  
  <h3>Colours</h3> 
-<p>The colours chosen for this style are meant to recall the pagination of teen magazines, with a particular hint for press devoted to young girls. We chose colours from the pink and purple palette, with a splash of "sugar paper” blu and black and white for titles and paragraphs. The articles background color is meant to recall the paper tone of such magazines. The palette was extrapolated from the observation of magazine covers.</p> 
+<p>The colours chosen for this style are meant to recall the pagination of teen magazines, with a particular hint for press devoted to young girls. We chose colours from the pink and purple palette, with a splash of "sugar paper” blu and black and white for titles and paragraphs. The articles background color is meant to recall the paper tone of such magazines. The images are also filtered with a brightness of 135%, a contrast of 90% and a saturation of 120% to reflect the style of the period.</p> 
  
  <h2 id="twelve">The Future - A Futuristic Melting Pot</h2>
  
