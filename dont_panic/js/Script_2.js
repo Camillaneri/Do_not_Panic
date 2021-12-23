@@ -358,6 +358,8 @@ function styleSwitch(id) {
     document.head.appendChild(link_plus);
   }
 
+  theme=document.getElementsByTagName("link")[1];
+
 
   if (id != "no_style") {
     theme.setAttribute("href", new_style);
