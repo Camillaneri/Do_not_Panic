@@ -326,7 +326,9 @@ color: rgb(255, 0, 0) !important;
 padding-bottom: 1em !important;
 margin-top: -0.5em !important;
 }
-
+ #C2{
+   margin-bottom: 1em !important;
+ }
 
 .content_article p:first-child{
   border-top: none;
