@@ -700,12 +700,13 @@ function highlight_metadata(text_id, text_to_splice, selector){
 function scroll_metadata_up(text_id){
   var topOffSet = document.getElementById(text_id).getElementsByClassName("MetaFocus")[0].getBoundingClientRect().top;
   var meta_offset = document.getElementById(text_id).getBoundingClientRect().bottom;
-  meta_offset = meta_offset + 200;
     document.getElementById(text_id).scrollBy(0, topOffSet);
     document.getElementById(text_id).scrollBy(0, -meta_offset);
     var newOffSet = document.getElementById(text_id).getElementsByClassName("MetaFocus")[0].getBoundingClientRect().top;
     if (newOffSet>meta_offset){
-      document.getElementById(text_id).scrollBy(0, 300);
+      var scroll_by_me = newOffSet-meta_offset;
+      scroll_by_me = scroll_by_me + 200;
+      document.getElementById(text_id).scrollBy(0, scroll_by_me);
     }
 }
 
