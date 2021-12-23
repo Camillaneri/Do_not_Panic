@@ -334,11 +334,7 @@ var currStyle;
 function styleSwitch(id) {
   
   var theme = document.getElementsByTagName("link");
-  console.log(theme[0]);
-  console.log(theme[1]);
   var new_style = "dont_panic/" + id + ".css";
-
-
 
   if (id != "no_style") {
     theme.setAttribute("href", new_style);
