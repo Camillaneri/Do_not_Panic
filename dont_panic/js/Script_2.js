@@ -12,6 +12,7 @@ function populate_selection() {
   l = x.length;
   for (i = 0; i < l; i++) {
     selElmnt = x[i].getElementsByTagName("select")[0];
+    console.log(selElmnt);
     ll = selElmnt.length;
     a = document.createElement("DIV");
     a.setAttribute("class", "select-selected");
