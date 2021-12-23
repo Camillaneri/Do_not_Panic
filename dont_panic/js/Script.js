@@ -57,6 +57,7 @@ $(document).ready(function(){
     $(".meta_down_one").toggleClass("a_up");
     $(".meta_one").toggleClass("meta_down");
     $(".show_meta_one").toggleClass("show_meta_down");
+      
   });
 })
 
@@ -84,6 +85,7 @@ $(document).ready(function() {
       var inputValue = $(this).attr("value");
       $("." + inputValue).toggle();
       $(".default").hide();
+      
     }
     else{
     var inputValue = $(this).attr("value");
@@ -97,9 +99,28 @@ $(document).ready(function() {
     switch (numberOfChecked){
       case 1:
         $(".article").css("height", "77%");
+        //if($("div.meta_one").hasClass("meta").toString() == "true"){
+          //$(".article").css("height", "66%");}
+        break;
+
+      case 2:
+        $(".article").css("height", "69%");
+        break;
+      
+      case 3:
+        $(".article").css("height", "62%");
+        break;
+          
+      case 4:
+        $(".article").css("height", "52%");
+        break;
+
+      case 5:
+        $(".article").css("height", "45%");
         break;
     }
 
+  
   });
 });
 

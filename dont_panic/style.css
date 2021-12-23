@@ -1773,7 +1773,7 @@ dl::-webkit-scrollbar {
   flex-direction: column;
     width: 100%;
     height: fit-content;
-    max-height: 27em;
+   
     overflow-x: hidden;
     overflow-y: scroll;
     margin-top: 0.5em;
@@ -1826,7 +1826,7 @@ dl::-webkit-scrollbar {
   display: flex;
   flex-flow: row wrap;
   align-content: stretch;
-  justify-content: sp;
+  
 }
 
 .Place, .Person, .Date, .Concept, .Organization {
