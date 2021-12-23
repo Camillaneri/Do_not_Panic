@@ -83,6 +83,7 @@ In an open codex the text is pushed upward and toward the center of the pages by
 <p>To reproduce the vibrant colours of miniatures we choose a palette of gold and blues for the archives and the menus, dark red for the article headers, and used images of original miniatures for the archive pages. </p>
 <img id="middleage2" src="img_reference/Y300s/med1.png"/> 
 <h2 id="eight">1800 - Dayly Newspaper</h2> 
+
 <h3>Background</h3>
 <p>The 19th century was an age of great changes and revolutions. </p>
 <p>In the troubled political climate, where new nations where formed, consolidated empires like The British and the Russian empires secured and expanded their power over colonies. </p>
@@ -94,7 +95,7 @@ In an open codex the text is pushed upward and toward the center of the pages by
 
 <h3>Layout</h3>
 <p>To capture the spirit of a 19th century newspaper we took inspiration from The Times one of the most influential news outlets of the time, founded by John Walter in 1784 and still printed today. </p>
-<img id="middleage1" src="img_reference/Y1800s/times1.png" width="32%" position= "center"/>
+<img id="middleage1" src="img_reference/Y1800s/times1.png" width="32%" position= "center"/><img id="middleage1" src="img_reference/Y1800s/j1.jpg" width="32%"/><img id="middleage1" src="img_reference/Y1800s/j2.jpg" width="32%"/><img id="middleage1" src="img_reference/Y1800s/j3.jpg" width="32%"/>
 <p>We choose Manuskript Gotish a decadent font for the headline that resembles Old English blackletters, very similar to the fonts used for most newspaper’s headers, and a more modest serifed font for the the article headers: Opulence. </p>
 <p float="left"><img id="middleage1" src="img_reference/Y1800s/header.jpg" width="48%"/>     <img id="middleage1" src="img_reference/Y1800s/header2.jpg" width="48%"/></p>
 <p>Of course, for the text body we used Times New Romans the most classic serif font and commissioned precisely by the Times. </p>
