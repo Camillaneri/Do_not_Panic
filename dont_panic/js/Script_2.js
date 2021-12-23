@@ -336,7 +336,7 @@ function styleSwitch(id) {
   var theme = document.getElementsByTagName("link")[1];
   var new_style = "dont_panic/" + id + ".css";
 
-  console.loog(theme);
+  console.log(theme);
 
 
   if (id != "no_style") {
