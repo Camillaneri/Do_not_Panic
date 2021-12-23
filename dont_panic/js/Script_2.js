@@ -344,7 +344,7 @@ function styleSwitch(id) {
   var theme = document.getElementsByTagName("link")[1];
   var new_style = "dont_panic/" + id + ".css";
 
-  if (theme[1]==undefined){
+  if (theme==undefined){
     var link_plus= document.createElement('link');
     link_plus.outerHTML="<link rel='stylesheet'  type='text/css' href='#'/>";
     document.getElementsByTagName('link')[0].appendChild(link_plus);
