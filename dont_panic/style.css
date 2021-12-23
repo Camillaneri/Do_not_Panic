@@ -801,9 +801,11 @@ scrollbar-width: none;  /* Firefox */
 }
 
 #Giorgia{
-  /*background-image: url("img/delfino.jpg");*/
   background-image: url(img/giorgia_cover.jpeg);
   margin-bottom: 1.3em;
+  background-repeat: no-repeat ;
+  background-position: 0% 20%;
+  background-size: cover;
 }
 
 #Giulia{
