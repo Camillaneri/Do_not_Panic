@@ -298,7 +298,8 @@ figcaption  {font-family: 'futura_bold', serif !important; color: white; font-si
 .content_article h3 {
   color: rgb(255, 0, 0) !important;
   font-weight: lighter;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
 }
 
 .content_article a {
