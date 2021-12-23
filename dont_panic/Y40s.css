@@ -4,7 +4,10 @@ body {
   align-self: center;
   height: 100vh;
   overflow: hidden;
+  font-family: 'futura-bold', sans-serif;
 }
+
+
 
 /*title*/
 @font-face {
@@ -171,6 +174,10 @@ figcaption  {font-family: 'futura_bold', serif !important; color: white; font-si
   
   .disclamer button{
     max-width: 445px;
+  }
+
+  .disclamer_text{
+    font-size: 1.1em !important;
   }
 
   #allert {
