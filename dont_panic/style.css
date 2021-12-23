@@ -801,13 +801,16 @@ scrollbar-width: none;  /* Firefox */
 
 #Giorgia{
   /*background-image: url("img/delfino.jpg");*/
-  background-color: #d8ca06;
+  background-image: url(img/giorgia_cover.jpeg);
   margin-bottom: 1.3em;
 }
 
 #Giulia{
-  /*background-image: url("img/delfino.jpg");*/
+  background-image: url("img/giulia.jpeg");
   background-color: #c606d8;
+  background-repeat: no-repeat ;
+  background-position: 0% 20%;
+  background-size: cover;
 }
 
 .empty{
