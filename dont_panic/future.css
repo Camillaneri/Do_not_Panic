@@ -16,7 +16,7 @@ body {
   align-self: center;
   height: 100vh;
   overflow: hidden;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "VT323", monospace, sans-serif !important;
 }
 
 @font-face {
@@ -46,7 +46,6 @@ button {
 p,
 a,
 ul,
-li,
 dl,
 figcaption,
 label {
@@ -55,6 +54,9 @@ label {
   word-break: keep-all;
   font-size: 1.3em;
 }
+
+li{font-family: "VT323", monospace, sans-serif !important;
+  color: #1bcd4a !important;}
 
 button {
   border: none;
@@ -303,31 +305,6 @@ hr {
   animation: noise-anim 0.3s infinite linear alternate-reverse;
   opacity: 0.9;
 }
-
-/*#issue_first_cover::before {
-  content: '';
-  position: absolute;
-  border-radius: 1em;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url("img/Deep_Thoughts/future/Deep_Thoughts_future_b.jpeg");
-  opacity: 1;
-}
-
-#issue_first_cover::before{
-  clip: rect(0, 5em, 5em, 0);
-  left: 5em;
-  box-shadow: -1px 0 red;
-  animation: noise-anim 2s infinite linear alternate-reverse;
-}
-
-#issue_first_cover::before{
-  clip: rect(0, 100%, 0, 0);
-  mix-blend-mode: hard-light;
-  animation: noise-anim .2s infinite linear alternate-reverse;
-}*/
 
 @keyframes noise-anim {
   0% {
