@@ -253,11 +253,12 @@ h1:first-letter, button:first-letter {
 
 .cover_text{
   width: 34%;
-  height: fit-content;
+  height: 99%;
   margin-top: 0em;
   float: left;
-  font-size: 110%;
+  font-size: 106%;
   margin-left: 1.8em;
+  overflow: hidden;
   text-align: justify;
   padding-top: 1em;
 }
