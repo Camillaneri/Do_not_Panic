@@ -107,10 +107,6 @@ h1:first-letter, button:first-letter {
   max-width: 100%;
 }
 
-/*.one_colum p{
-  column-count: 3;
-  column-fill: balance;
-}*/
 .subtitle{
   font-family: 'opulence', normal !important;
 }
@@ -147,7 +143,18 @@ h1:first-letter, button:first-letter {
 
 .article h1{
   text-align: center;
+  border-bottom: 0.046em black solid;
+  margin-bottom: 0em;
+  padding-bottom: 0.5em;
   }
+
+.article h3, .article h4, .article h5, .article h6, .article .subtitle{
+ text-transform: uppercase;
+}
+
+.article h2{
+  margin-top: 0.5em;
+}
 
 .overlay {
   position: absolute;
@@ -572,9 +579,6 @@ h1:first-letter, button:first-letter {
     padding: 0em !important;
   }
   
-
-
-
 
 
 
