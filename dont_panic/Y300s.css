@@ -675,6 +675,7 @@ body {
 .disclamer .large_button{
   margin-bottom: 2%;
   border-color: rgb(179, 114, 18);
+  max-width: 445px;
 }
 
 .disclamer p, .disclamer li, .team_box h3{
