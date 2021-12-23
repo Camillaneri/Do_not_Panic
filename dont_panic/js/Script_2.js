@@ -12,6 +12,7 @@ function populate_selection() {
   l = x.length;
   for (i = 0; i < l; i++) {
     selElmnt = x[i].getElementsByTagName("select")[0];
+    if (selElmnt){
     ll = selElmnt.length;
     a = document.createElement("DIV");
     a.setAttribute("class", "select-selected");
@@ -57,7 +58,6 @@ function populate_selection() {
 
       b.appendChild(c);
     }
-
     x[i].appendChild(b);
 
     a.addEventListener("click", function (e) {
@@ -67,6 +67,7 @@ function populate_selection() {
       this.classList.toggle("select-arrow-active");
     });
   }
+}
 }
 
 function closeAllSelect(elmnt) {
