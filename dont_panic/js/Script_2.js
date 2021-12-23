@@ -369,7 +369,6 @@ function styleSwitch(id) {
   }
 
   var href = theme.getAttribute('href');
-  console.log(href)
 
   localStorage.setItem('style', theme.outerHTML);
   localStorage.setItem('theme_href', href)
@@ -395,7 +394,6 @@ function changeItemForStyle() {
   var world = document.getElementById("gif");
   var coverLogo = document.getElementById("logo_img");
   var theme = localStorage.getItem('theme_href');
-  console.log(theme)
   var icon_selected = document.getElementById('lens_selected');
 
   var myPara = document.getElementById("hr_lens");
