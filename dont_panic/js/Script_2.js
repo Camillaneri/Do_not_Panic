@@ -482,9 +482,9 @@ function display_basic_metadata() {
     var meta_author = "";
     var meta_date = "";
     var meta_publisher = "";
-    meta_author = document.getElementById(single_id).getElementsByClassName("nameAuthor")[0].innerHTML;
-    meta_publisher = document.getElementById(single_id).getElementsByClassName("publishedBy")[0].innerHTML;
-    meta_date = document.getElementById(single_id).getElementsByClassName("datePublished")[0].innerHTML;
+    meta_author = document.getElementById(single_id).getElementsByClassName("nameAuthor")[0]?.innerHTML;
+    meta_publisher = document.getElementById(single_id).getElementsByClassName("publishedBy")[0]?.innerHTML;
+    meta_date = document.getElementById(single_id).getElementsByClassName("datePublished")[0]?.innerHTML;
     document.getElementById(meta_pointer).getElementsByClassName("meta_name_author")[0].innerHTML = meta_author;
     document.getElementById(meta_pointer).getElementsByClassName("meta_name_publisher")[0].innerHTML=meta_publisher;
     document.getElementById(meta_pointer).getElementsByClassName("meta_name_date")[0].innerHTML=meta_date;
