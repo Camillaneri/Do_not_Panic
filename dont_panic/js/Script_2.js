@@ -705,7 +705,7 @@ function scroll_metadata_up(text_id){
     document.getElementById(text_id).scrollBy(0, -meta_offset);
     var newOffSet = document.getElementById(text_id).getElementsByClassName("MetaFocus")[0].getBoundingClientRect().top;
     if (newOffSet>meta_offset){
-      document.getElementById(text_id).scrollBy(0, 500);
+      document.getElementById(text_id).scrollBy(0, 300);
     }
 }
 
