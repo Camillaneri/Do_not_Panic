@@ -805,8 +805,11 @@ scrollbar-width: none;  /* Firefox */
 }
 
 #Giulia{
-  /*background-image: url("img/delfino.jpg");*/
+  background-image: url("img/giulia.jpeg");
   background-color: #c606d8;
+  background-repeat: no-repeat ;
+  background-position: 0% 20%;
+  background-size: cover;
 }
 
 .empty{
