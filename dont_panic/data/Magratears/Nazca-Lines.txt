@@ -3,7 +3,7 @@
                                 <hr>
                                 <div>
                                     <p class="captionArticle smallChar distant">6 mins reading</p>
-                                    <p class="byline distant"><span id="P1" class="mention nameAuthor person" about="SarahGilbert" data-label="Sarah Gilbert">Sarah Gilbert</span> | <span id="D1" class="mention date datePublished" about="2014" data-label="January 2014"> 30 January 2014</span></p>
+                                    <p class="byline distant"><span id="P1" class="mention person nameAuthor" about="SarahGilbert" data-label="Sarah Gilbert">Sarah Gilbert</span> | <span id="D1" class="mention date datePublished" about="2014" data-label="January 2014"> 30 January 2014</span></p>
                                     <h1 data-src="https://www.wanderlust.co.uk/content/exploring-the-nazca-lines-peru/"><span id="L1" class="mention place" about="NazcaLines" data-label="Nazca Lines" data-wikidata-id="Q2620036">Nazca lines</span>: The <span id="C1" class="mention concept" about="agents" data-label="Alien">aliens</span> have landed</h1>
                                 </div>
 
