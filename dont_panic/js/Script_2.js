@@ -341,7 +341,7 @@ function styleSwitch(id) {
   if (id != "no_style") {
     theme.setAttribute("href", new_style);
   } else {
-    theme.setAttribute("href", "#");
+    theme.setAttribute("href", "dont_panic/style.css");
   }
 
   var href = theme.getAttribute('href');
@@ -410,7 +410,7 @@ function changeItemForStyle() {
       world.setAttribute("src", "dont_panic/img/medioevosmall.gif");
       if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/1300inv2.svg");}
       break;
-    case '#':
+    case 'dont_panic/style.css':
       icon_selected.setAttribute("src", "dont_panic/img/dontPanic_logo.svg");
       world.setAttribute("src", "dont_panic/img/200w.gif");
       if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/dontPanic_logo.svg");}
@@ -434,10 +434,10 @@ function fromStyle() {
   
 
   if (cur_style){
-    if (cur_style !== '<link rel="stylesheet" type="text/css" href="#">'){
+    if (cur_style !== '<link rel="stylesheet" type="text/css" href="dont_panic/style.css">'){
       link.outerHTML = cur_style;
     } else {
-      link = '<link rel="stylesheet" type="text/css" href="#">';
+      link = '<link rel="stylesheet" type="text/css" href="dont_panic/style.css">';
     }
   }
   
