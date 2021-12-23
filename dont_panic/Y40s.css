@@ -284,6 +284,7 @@ figcaption  {font-family: 'futura_bold', serif !important; color: white; font-si
   font-size: 3em !important; 
   font-weight:bolder !important;
   margin-bottom: 0.5em;
+  margin-top: 0.2em;
   text-align: justify;
   text-justify: inter-character;
 }
@@ -327,9 +328,6 @@ color: rgb(255, 0, 0) !important;
 padding-bottom: 1em !important;
 margin-top: -0.5em !important;
 }
- #C2{
-   margin-bottom: 3em !important;
- }
 
 .content_article p:first-child{
   border-top: none;
