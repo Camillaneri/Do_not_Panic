@@ -79,8 +79,8 @@
 <p>We gave particular attention to the page layout and used a different text disposition depending on the number of issue’s articles showed on the page:
 In an open codex the text is pushed upward and toward the center of the pages by small gutters and wide margin below and aside. </p>
 <p>We recreated this layout when two article are shown aside, and displaying the text in two column when a single article is shown, while we decided to maintain a smaller margin when three articles are shown to not impair readability. </p>
-<h3>Colors</h3>
-<p>To reproduce the vibrant colors of miniatures we choose a palette of gold and blues for the archives and the menus, dark red for the article headers, and used images of original miniatures for the archive pages. </p>
+<h3>Colours</h3>
+<p>To reproduce the vibrant colours of miniatures we choose a palette of gold and blues for the archives and the menus, dark red for the article headers, and used images of original miniatures for the archive pages. </p>
 <img id="middleage2" src="img_reference/Y300s/med1.png"/> 
 <h2 id="eight">1800 - Dayly Newspaper</h2> 
 <h3>Background</h3>
@@ -98,7 +98,7 @@ In an open codex the text is pushed upward and toward the center of the pages by
 <p>Of course, for the text body we used Times New Romans the most classic serif font and commissioned precisely by the Times. </p>
 <p>To reproduce the layout of the crowded newspaper’s pages we justified the text, kept a small line height, small margins, and divided the page in several columns (three or four depending on the number of articles visualized simultaneously). </p>
 <p>The coper page is inspired by the adds that started gaining ground at the time: vertical layout and an eye-catching illustration (in this case the web-page logo) </p>
-<h3>Colors</h3>
+<h3>Colours</h3>
 <p>Finally, we kept the palette exclusively black and white and applied a filter to desaturate the pictures, while colored print was available in the late 1800, daily newspapers were optimized to be cheap and produced quickly and were usually colorless. </p>
 
  
@@ -123,7 +123,7 @@ In an open codex the text is pushed upward and toward the center of the pages by
 <img id="futurism1" src="img_reference/Y40s/fut_5.jpg" />
 
  <h3>Colours</h3> 
-<p>The main colours of this style are pure red, black and white, in order to replicate as close as possible the palette of Futurism's magazines. The background of the pages is realized in a smooth yellow, to recall the paper quality of the period. The background of the website takes the colors of Cralli’s artworks, with a gradient from yellow to white and then blue and a set of moving lines in the tones of Boccioni’s work.</p> 
+<p>The main colours of this style are pure red, black and white, in order to replicate as close as possible the palette of Futurism's magazines. The background of the pages is realized in a smooth yellow, to recall the paper quality of the period. The background of the website takes the colours of Cralli’s artworks, with a gradient from yellow to white and then blue and a set of moving lines in the tones of Boccioni’s work.</p> 
 
 <img id="futurism1" src="img_reference/Y40s/fut_6.jpg" />
  
