@@ -809,7 +809,7 @@ scrollbar-width: none;  /* Firefox */
   background-image: url("img/giulia.jpeg");
   background-color: #c606d8;
   background-repeat: no-repeat ;
-  background-position: top;
+  background-position: 0% 20%;
   background-size: cover;
 }
 
