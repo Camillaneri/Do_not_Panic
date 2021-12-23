@@ -148,6 +148,12 @@ function article_selector(issue, article, num_article) {
   var id_list = [];
   var name_list = [];
   var name_stander = "";
+  if(document.getElementsByName("problemCheckbox")){
+    var checkprob = document.getElementsByName("problemCheckbox")[0].checked;
+    }
+  if (checkprob == true){
+    document.getElementsByName("problemCheckbox")[0].click();
+  }
 
   switch (num_article) {
     case 1:
