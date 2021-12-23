@@ -190,13 +190,10 @@ In an open codex the text is pushed upward and toward the center of the pages by
  
 <h3>Layout</h3> 
 
-<p>We decided to develop our stylesheet following the above scenario: a user would expect from the end of the universe something like a futuristic menu, with neon colours, smooth angles and glittering, visible elements in the page. </p>
-
-<p>Probably plagiarised by the futuristic visual background of recent years, there are clear references to the Modern design of the 80s, the Cobol and the Matrix style of the 90s, Material design and, last but not least, the Vapour Wave that has characterised the social media graphic style of the last few years.</p>
-
-<p>This mix results in glitched images ultra saturated, smoothed boxes rounded by a green neon. Logo and buttons remembering the fast food’s style in the futuristic cartoon "The Jetsons". A font for the titles that recalls the neon ones of the 80s. Paragraphs fill by bright green, justified on the left and free to float into space.</p>
-
-<p>At the end, over use of animations in this stylesheet wants to underline the visual bombardment that characterises today's internet and that, probably in a different and less naive way, will be the predominant atmosphere of the much talked “Metaverse".</p>
+<p>We decided to develop our stylesheet following the above scenario: a user would expect from the end of the universe something like a futuristic menu, with neon colors, smooth angles, and glittering, visible elements on the page. </p>
+<p>Probably plagiarised by the futuristic visual background of recent years, there are clear references to the Modern design of the 80s, the Cobol and the Matrix-style of the 90s, Material design, and, last but not least, the Vapour Wave that has characterized the social media graphic style of the last few years.</p>
+<p>This mix results in glitched images ultra-saturated, smoothed boxes rounded by a green neon. Logo and buttons remembering the fast food’s style in the futuristic cartoon "The Jetsons". Font for the titles that recall the neon ones of the 80s. Paragraphs fill by bright green, justified on the left, and free to float into space. </p>
+<p>In the end, overuse of animations in this stylesheet wants to underline the visual bombardment that characterizes today's internet and that, probably differently and less naively, will be the predominant atmosphere of the much talked “Metaverse".</p>
 
 <img src="img_reference/future/g.png" width="24%" height="auto" style="display: inline"/> <img src="img_reference/future/f.png" width="24%" height="auto" style="display: inline" /> <img src="img_reference/future/b.jpeg" width="24%" height="auto" style="display: inline" /> <img src="img_reference/future/d.png" width="24%" height="auto" style="display: inline" />
 
@@ -204,6 +201,6 @@ In an open codex the text is pushed upward and toward the center of the pages by
 
 <h3>Colours</h3> 
  
-<p> The main colours of this style are blue jeans, light blue, green and bright pink. All proposed in gradient, neon and glitch variants. Excessive saturations and dark but never solid background want to recreate a mix of styles ranging from retro to science-fiction, without neglecting web and programming culture.</p>
+<p> The main colors of this style are blue jeans, light blue, green, and bright pink. All proposed in gradient, neon, and glitch variants. Excessive saturation and dark but never solid background want to recreate a mix of styles ranging from retro to science-fiction, without neglecting web and programming culture.</p>
 
 <img src="img_reference/future/a.png" width="100%" height="auto" />

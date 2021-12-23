@@ -570,3 +570,7 @@ filter: invert(42%) sepia(93%) saturate(250%) hue-rotate(
 .card img{
   filter:brightness(135%) contrast(90%) saturate(120%);
 }
+
+.explain{
+  background-color:rgba(132, 179, 233, 0.9) ;
+}
