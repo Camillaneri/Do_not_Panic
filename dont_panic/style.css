@@ -828,7 +828,8 @@ scrollbar-width: none;  /* Firefox */
   width: 90%;
   margin: 0 5%;
   margin-top: 10%;
-  padding-bottom: 0.625em;
+  padding: 0.625em o;
+  background-color: rgba(125, 84, 236, 0.5);
 }
 
 .explain{

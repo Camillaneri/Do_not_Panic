@@ -825,3 +825,11 @@ table {
 .content_article #logo_img{
   display:inline !important;
 }
+
+.team_text{
+  background-color: rgb(3 31 56 / 87%);
+}
+
+.explain {
+  background-color: rgb(3 31 56 / 87%);
+}
