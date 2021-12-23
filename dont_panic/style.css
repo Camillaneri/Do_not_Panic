@@ -1965,12 +1965,6 @@ dl::-webkit-scrollbar {
   
 }
 
-@media only screen and (min-device-aspect-ratio: 16/9) {
-  .scrolling_content{
-  left: 18%;
-  }
-}
-
 #Y300s{
   margin-top: 0.3em;
 }
