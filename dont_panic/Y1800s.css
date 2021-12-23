@@ -37,9 +37,18 @@ body {
 
 }
 
+@font-face {
+  font-family: 'Plantin';
+  src: url('font/Y80s/PlantinMTProLight.woff2') format('woff2'),
+       url('font/Y80s/PlantinMTProLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 h1, h2, button {font-family: 'manuskriptgotisch', normal !important; color: rgb(255, 255, 255);} 
 h3, h4, h5, h6 {font-family: 'opulence', normal !important; color: rgb(255, 255, 255);}
-p, a, ul, li, figcaption, label {font-family: 'Times New Roman', serif !important; color: rgb(255, 255, 255); font-size: 0.9em;}
+p, a, ul, li, figcaption, label {font-family: 'Plantin', normal !important; color: rgb(255, 255, 255); font-size: 0.9em;}
 
 figcaption p{
   font-family: 'opulence', normal !important; color: rgb(0, 0, 0);

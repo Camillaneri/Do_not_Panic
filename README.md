@@ -97,7 +97,8 @@ In an open codex the text is pushed upward and toward the center of the pages by
 <h3>Layout</h3>
 <p>To capture the spirit of a 19th century newspaper we took inspiration from The Times one of the most influential news outlets of the time, founded by John Walter in 1784 and still printed today. </p>
 <p float="left"><img id="middleage1" src="img_reference/Y1800s/times1.png" height="380" position= "center"/><img id="middleage1" src="img_reference/Y1800s/j1.jpg" height="380"/><img id="middleage1" src="img_reference/Y1800s/j3.jpg" height="380"/></p>
-<p>We choose Manuskript Gotish a decadent font for the headline that resembles Old English blackletters, very similar to the fonts used for most newspaper’s headers, and a more modest serifed font for the the article headers: Opulence. </p><p>Of course, for the text body we used Times New Romans the most classic serif font and commissioned precisely by the Times. </p>
+<p>We choose Manuskript Gotish a decadent font for the headline that resembles Old English blackletters, very similar to the fonts used for most newspaper’s headers, and a more modest serifed font for the the article headers: Opulence. </p>
+<p>For the text body we used Plantin a font tha was used by The Times before 1930 and that was used by Stanley Morison as the basis for Times New Roman. </p>
 <p float="left"><p float="left"><img id="middleage1" src="img_reference/Y1800s/header.jpg" width="48%"/>     <img id="middleage1" src="img_reference/Y1800s/header2.jpg" width="48%"/></p>
 <p>To reproduce the layout of the crowded newspaper’s pages we justified the text, kept a small line height, small margins, and divided the page in several columns (three or four depending on the number of articles visualized simultaneously). </p>
 
