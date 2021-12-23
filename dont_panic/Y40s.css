@@ -166,6 +166,7 @@ figcaption  {font-family: 'futura_bold', serif !important; color: white; font-si
   
 .cover_text p {
     margin-top: 0 !important;
+    text-align: justify;
   }
   
   .large_button{
@@ -284,6 +285,7 @@ figcaption  {font-family: 'futura_bold', serif !important; color: white; font-si
   font-size: 3em !important; 
   font-weight:bolder !important;
   margin-bottom: 0.5em;
+  margin-top: 0.2em;
   text-align: justify;
   text-justify: inter-character;
 }
@@ -292,13 +294,14 @@ figcaption  {font-family: 'futura_bold', serif !important; color: white; font-si
   color: rgb(255, 0, 0) !important;
   font-weight: lighter;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: -0.5em;
 }
 
 .content_article h3 {
   color: rgb(255, 0, 0) !important;
   font-weight: lighter;
-  margin-bottom: 0.5em;
+  margin-bottom: -0.8em;
+  margin-top: 0.8em;
 }
 
 .content_article a {
@@ -326,7 +329,6 @@ color: rgb(255, 0, 0) !important;
 padding-bottom: 1em !important;
 margin-top: -0.5em !important;
 }
-
 
 .content_article p:first-child{
   border-top: none;
@@ -659,5 +661,9 @@ figcaption p{
 }
 
 .explain{
+  background-color:rgba(255, 0, 0, 0.8) ;
+}
+
+.team_text{
   background-color:rgba(255, 0, 0, 0.8) ;
 }

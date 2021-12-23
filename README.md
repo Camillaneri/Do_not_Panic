@@ -3,7 +3,7 @@
 
 <h2>Table of content</h2>
 <dl>
-  <dt><a href="#one">THE CONCEPT</a></dt>
+  <dt><a href="#one" style= "text-decoration: none !important">THE CONCEPT</a></dt>
   <dt><a href="#two">LLL FRAMEWORK</a></dt>
   <dt><a href="#three">The articles and the typographical styles</a></dt>
   <dt><a href="#four">The metadata</a></dt>
@@ -97,7 +97,8 @@ In an open codex the text is pushed upward and toward the center of the pages by
 <h3>Layout</h3>
 <p>To capture the spirit of a 19th century newspaper we took inspiration from The Times one of the most influential news outlets of the time, founded by John Walter in 1784 and still printed today. </p>
 <p float="left"><img id="middleage1" src="img_reference/Y1800s/times1.png" height="380" position= "center"/><img id="middleage1" src="img_reference/Y1800s/j1.jpg" height="380"/><img id="middleage1" src="img_reference/Y1800s/j3.jpg" height="380"/></p>
-<p>We choose Manuskript Gotish a decadent font for the headline that resembles Old English blackletters, very similar to the fonts used for most newspaper’s headers, and a more modest serifed font for the the article headers: Opulence. </p><p>Of course, for the text body we used Times New Romans the most classic serif font and commissioned precisely by the Times. </p>
+<p>We choose Manuskript Gotish a decadent font for the headline that resembles Old English blackletters, very similar to the fonts used for most newspaper’s headers, and a more modest serifed font for the the article headers: Opulence. </p>
+<p>For the text body we used Plantin a font tha was used by The Times before 1930 and that was used by Stanley Morison as the basis for Times New Roman. </p>
 <p float="left"><p float="left"><img id="middleage1" src="img_reference/Y1800s/header.jpg" width="48%"/>     <img id="middleage1" src="img_reference/Y1800s/header2.jpg" width="48%"/></p>
 <p>To reproduce the layout of the crowded newspaper’s pages we justified the text, kept a small line height, small margins, and divided the page in several columns (three or four depending on the number of articles visualized simultaneously). </p>
 
@@ -143,10 +144,10 @@ In an open codex the text is pushed upward and toward the center of the pages by
  
 <h3>Layout</h3> 
  
-<p>This stylesheet takes inspiration from Omni magazine, a science and science fiction magazine published between 1978 and 1995 in the United States and the United Kingdom. It contained articles on science, parapsychology and short works of science fiction and fantasy. Its design was characterised by letters and words in a bright color, often against a darker background, and the typical use both those years of a sans-serif fonts with more pronounced angles and curves.</p>
-<p>For those motive we decide to use Artista-Pro font type, the free online available font similar to the Omni font, for the titles and Verdana font type, the one actually used by Omni magazine, for paragraph text.</p>
-<p>The metadata menu viewer, archive and notice page are inspired by the magazine's back cover, white text on a black background. The style of the article layout is instead inspired by the minimalist but bold style of the revival articles, taking advantage of blocks of justified text and full columns interspersed with thick dividing lines.</p> 
-<p>The illustrations on the cards in the archive page of the website wants to remember the dreamlike and  comics environment in full Omni style. While the images are altered with blur and hue filters to simulate the palette used in the illustrations found on the Omni pages.</p>
+<p>This stylesheet takes inspiration from Omni magazine, a science and science fiction magazine published between 1978 and 1995 in the United States and the United Kingdom. It contained articles on science, parapsychology, and short works of science fiction and fantasy. Its design was characterized by letters and words in a bright color, often against a darker background, and the typical use of both those years of sans-serif fonts with more pronounced angles and curves.</p>
+<p>For those motives, we decide to use Artista-Pro font type, the free online available font similar to the Omni font, for the titles and Verdana font type, the one used by Omni magazine, for paragraph text.</p>
+<p>The metadata menu viewer, archive, and notice page are inspired by the magazine's back cover, white text on a black background. The style of the article layout is instead inspired by the minimalist but bold style of the revival articles, taking advantage of blocks of justified text and full columns interspersed with thick dividing lines.</p> 
+<p>The illustrations on the cards on the archive page of the website want to remember the dreamlike and comics environment in full Omni style. While the images are altered with blur and hue filters to simulate the palette used in the illustrations found on the Omni pages.</p>
 
 <img src="img_reference/Y80s/reference_y80s_b.jpg" width="32%" height="auto" style="display: inline"/> <img src="img_reference/Y80s/reference-Y80s_c.jpg" width="32%" height="auto" style="display: inline" /> <img src="img_reference/Y80s/reference-Y80s_d.png" width="33%" height="auto" style="display: inline" />
 >>>>>>> 31427b0bda5a254a73e8a1ec59b6d89c7cf4171b
@@ -155,7 +156,7 @@ In an open codex the text is pushed upward and toward the center of the pages by
 
 <h3>Colours</h3> 
  
-<p>The main colours of this style are black and white, in order to replicate as close as possible the palette of Omni magazines. The background of the pages is in bright white, to recall the paper industrial quality of the period. The background of the website takes the gradient from the iconic series ‘Pictorial Number One’ from the artist Rudolf Hausner published on the Omni 0.5 issue during the 1983.</p>
+<p>The main colors of this style are black and white, to replicate as close as possible the palette of Omni magazines. The background of the pages is in bright white, to recall the paper industrial quality of the period. The background of the website takes the gradient from the iconic series ‘Pictorial Number One’ from the artist Rudolf Hausner published on the Omni 0.5 issue in 1983.</p>
 
 <img src="img_reference/Y80s/reference_80_a.jpg" width="100%" height="auto" />
 
@@ -171,7 +172,7 @@ In an open codex the text is pushed upward and toward the center of the pages by
  
 <p>We wanted to highlight the sparkling and colorful side of early 2000's publication, focusing on pink and purple shades that were particularly diffused in magazines devoted to teens, nonetheless sticking to the faint tint of fashion magazines paper for the articles background.</p> 
  
-  <img id="2000_3" src="img_reference/Y2000s/2000_3.png"  height="480" display="inline" style="display: inline"/>     <img id="2000_4" src="img_reference/Y2000s/2000_4.jpg"   height="480"  display="inline" style="display: inline"/> 
+  <img id="2000_3" src="img_reference/Y2000s/2000_3.png"  height="450" display="inline" style="display: inline"/>     <img id="2000_4" src="img_reference/Y2000s/2000_4.jpg"   height="450"  display="inline" style="display: inline"/> 
  
 <p>The titles of the articles are in lowercase, to recall the typographical style of the magazines of the period. The font used for the title is the same as the one employed by “Teen People” and is called Egyptienne. For the subtitles we used Ginger, a font particularly used in the 2000, a typical Swiss sans serif, with a twirky geometric twist.</p>
 <p>The text uses Faustina fonts in bold, regular and italic variations for different sections (e.g. text, captions and emphasized parts): Faustina was designed by Alfonso Garcia for editorial typography (books, newspapers and magazines) in print and online and is a serif font. </p>

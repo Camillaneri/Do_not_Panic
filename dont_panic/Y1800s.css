@@ -1,5 +1,5 @@
 
-/* 1800   fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff */
+/* 1800  */
 
 body {
   background: radial-gradient(circle at bottom, rgb(0, 0, 0) 0, black 100%);
@@ -28,10 +28,11 @@ body {
 
 }
 
+
 @font-face {
-  font-family: 'verdanaregular';
-  src: url('font/Y80s/verdana-webfont.woff2') format('woff2'),
-       url('font/Y80s/verdana-webfont.woff') format('woff');
+  font-family: 'Plantin';
+  src: url('font/Y1800s/PlantinMTProLight.woff2') format('woff2'),
+       url('font/Y1800s/PlantinMTProLight.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -39,7 +40,7 @@ body {
 
 h1, h2, button {font-family: 'manuskriptgotisch', normal !important; color: rgb(255, 255, 255);} 
 h3, h4, h5, h6 {font-family: 'opulence', normal !important; color: rgb(255, 255, 255);}
-p, a, ul, li, figcaption, label {font-family: 'Times New Roman', serif !important; color: rgb(255, 255, 255); font-size: 0.9em;}
+p, a, ul, li, figcaption, label {font-family: 'Plantin', normal !important; color: rgb(255, 255, 255); font-size: 0.9em;}
 
 figcaption p{
   font-family: 'opulence', normal !important; color: rgb(0, 0, 0);
@@ -258,11 +259,7 @@ h1:first-letter, button:first-letter {
   font-size: 110%;
   margin-left: 1.8em;
   text-align: justify;
-  /*column-count: 2;*/
   padding-top: 1em;
-  /*column-rule-width: 1px;
-  column-rule-style: solid;
-  column-rule-color: black;*/
 }
 
 .cover_text .large_button{
@@ -294,6 +291,7 @@ h1:first-letter, button:first-letter {
   right: 0;
   background-color: rgba(0, 0, 0, 0.68);
   display: none;
+  color: rgb(197, 197, 197);
 }
 
 .allert_box {
@@ -321,7 +319,7 @@ h1:first-letter, button:first-letter {
   border-color: rgb(0, 0, 0);
 }
 
-.disclamer p, .disclamer li, .team_box h3, .disclamer h1{
+.disclamer p, .disclamer li, .disclamer h1{
   color: rgb(0, 0, 0);
 }
 
@@ -362,8 +360,12 @@ h1:first-letter, button:first-letter {
 
 }
 
+.team_text{
+  background-color: rgba(255, 255, 255, 0);
+  }
+
 .team_box .arrow {
-  border: solid rgb(0, 0, 0);
+  border: solid rgb(139, 139, 139);
   border-width: 0 0.3em 0.3em 0;
 }
 
@@ -374,51 +376,6 @@ h1:first-letter, button:first-letter {
 .margin_cards h3{
   font-size: 1em;
 }
-/*
-
-.up_logo {
-  font-size: 3.5em;
-}
-
-.bottom_logo {
-  margin-top: -14px;
-  font-size: 2.5em;
-}
-
-.cover_content {
-  background-color: rgb(16 44 65);
-}
-
-.hr_lens{
-  margin-right: 58%;
-  }
-
-
-
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(49, 49, 49, 0.5) ;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-  }
-
-  .content_article{
-
-    overflow: hidden;
-      height: 99.4%;
-      width: 76%;
-      background-color: #ffffffba;
-      border: 0.125em white solid;
-  }
-
-  /*.p ::first-letter*/
-
-
 
   #issue_first_cover{
     background-image: radial-gradient(rgba(39, 70, 107, 0), rgba(39, 70, 107, 0) ), url("img/Y300img/1800_11.jpg");

@@ -12,7 +12,7 @@ function populate_selection() {
   l = x.length;
   for (i = 0; i < l; i++) {
     selElmnt = x[i].getElementsByTagName("select")[0];
-    console.log(selElmnt);
+    if (selElmnt){
     ll = selElmnt.length;
     a = document.createElement("DIV");
     a.setAttribute("class", "select-selected");
@@ -58,7 +58,6 @@ function populate_selection() {
 
       b.appendChild(c);
     }
-
     x[i].appendChild(b);
 
     a.addEventListener("click", function (e) {
@@ -68,6 +67,7 @@ function populate_selection() {
       this.classList.toggle("select-arrow-active");
     });
   }
+}
 }
 
 function closeAllSelect(elmnt) {
@@ -359,6 +359,8 @@ function styleSwitch(id) {
     document.head.appendChild(link_plus);
   }
 
+  theme=document.getElementsByTagName("link")[1];
+
 
   if (id != "no_style") {
     theme.setAttribute("href", new_style);
@@ -377,7 +379,7 @@ function styleSwitch(id) {
   window.setTimeout("closeHelpDiv();", 1000);
   
   if(document.getElementsByName("problemCheckbox")){
-    var checkprob = document.getElementsByName("problemCheckbox")[0].checked;
+    var checkprob = document.getElementsByName("problemCheckbox")[0]?.checked;
     }
   if (checkprob == true){
     document.getElementsByName("problemCheckbox")[0].click();
@@ -480,9 +482,9 @@ function display_basic_metadata() {
     var meta_author = "";
     var meta_date = "";
     var meta_publisher = "";
-    meta_author = document.getElementById(single_id).getElementsByClassName("nameAuthor")[0].innerHTML;
-    meta_publisher = document.getElementById(single_id).getElementsByClassName("publishedBy")[0].innerHTML;
-    meta_date = document.getElementById(single_id).getElementsByClassName("datePublished")[0].innerHTML;
+    meta_author = document.getElementById(single_id).getElementsByClassName("nameAuthor")[0]?.innerHTML;
+    meta_publisher = document.getElementById(single_id).getElementsByClassName("publishedBy")[0]?.innerHTML;
+    meta_date = document.getElementById(single_id).getElementsByClassName("datePublished")[0]?.innerHTML;
     document.getElementById(meta_pointer).getElementsByClassName("meta_name_author")[0].innerHTML = meta_author;
     document.getElementById(meta_pointer).getElementsByClassName("meta_name_publisher")[0].innerHTML=meta_publisher;
     document.getElementById(meta_pointer).getElementsByClassName("meta_name_date")[0].innerHTML=meta_date;

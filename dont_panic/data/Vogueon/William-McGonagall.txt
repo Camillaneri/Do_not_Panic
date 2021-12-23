@@ -4,7 +4,7 @@
 		<p class="datePublished">7th July 2020</p>
 		<h1><span id="P1" class="mention person" about="WilliamMcGonagall" data-label="William McGonagall">William McGonagall</span>: The story of <span id="C1" class="mention concept" about="AutorsOfBadLiterature" data-label="Unaware">our best worst poet</span></h1>
 		<p class="nameAuthor midSmall">By <span id="P2" class="mention person" about="HamishMacPherson" data-label="Hamish MacPherson">Hamish MacPherson</span>
-		<p class="nameAuthor midSmall isolate">Journalist</p>
+		<p class="midSmall isolate">Journalist</p>
 		
 		<figure>
 		<img class="expand left" src="dont_panic/img/Vogueon/William-McGonagall/POET.jpg" style="max-width: 460px;"> <figcaption class="captionPhoto smallChar left"> </figcaption>
