@@ -172,7 +172,7 @@ In an open codex the text is pushed upward and toward the center of the pages by
  
 <p>We wanted to highlight the sparkling and colorful side of early 2000's publication, focusing on pink and purple shades that were particularly diffused in magazines devoted to teens, nonetheless sticking to the faint tint of fashion magazines paper for the articles background.</p> 
  
-  <img id="2000_3" src="img_reference/Y2000s/2000_3.png"  height="480" display="inline" style="display: inline"/>     <img id="2000_4" src="img_reference/Y2000s/2000_4.jpg"   height="480"  display="inline" style="display: inline"/> 
+  <img id="2000_3" src="img_reference/Y2000s/2000_3.png"  height="450" display="inline" style="display: inline"/>     <img id="2000_4" src="img_reference/Y2000s/2000_4.jpg"   height="450"  display="inline" style="display: inline"/> 
  
 <p>The titles of the articles are in lowercase, to recall the typographical style of the magazines of the period. The font used for the title is the same as the one employed by “Teen People” and is called Egyptienne. For the subtitles we used Ginger, a font particularly used in the 2000, a typical Swiss sans serif, with a twirky geometric twist.</p>
 <p>The text uses Faustina fonts in bold, regular and italic variations for different sections (e.g. text, captions and emphasized parts): Faustina was designed by Alfonso Garcia for editorial typography (books, newspapers and magazines) in print and online and is a serif font. </p>
