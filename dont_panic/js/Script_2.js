@@ -1,3 +1,11 @@
+window.addEventListener("beforeunload", function(event) {
+  var defaulte = document.getElementsByTagName("link")[0];
+  var theme = document.getElementsByTagName("link")[1];
+  theme = '<link rel="stylesheet" type="text/css" href="#">';
+  defaulte = '<link rel="stylesheet" type="text/css" href="dont_panic/style.css">';
+   return null;
+});
+
 function populate_selection() {
   var x, i, j, l, ll, selElmnt, a, b, c;
   x = document.getElementsByClassName("custom-select");
