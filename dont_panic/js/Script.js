@@ -66,6 +66,8 @@ $(document).ready(function(){
     $(".meta_down_two").toggleClass("a_up");
     $(".meta_two").toggleClass("meta_down");
     $(".show_meta_two").toggleClass("show_meta_down");
+    var height = $("metadata").height();
+    console.log(height)
   });
 })
 
