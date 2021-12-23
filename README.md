@@ -91,13 +91,17 @@ In an open codex the text is pushed upward and toward the center of the pages by
 <p>Speed, dynamism and a belief in progress defined Europe by the end of the 19th century. Railways, electricity, cinema, photography and new theories in science and medicine affirmed Europe’s leading role in this technological coming of age. </p>
 <p>During this period the printing industry wasn’t immune to changes: the invention of the steam powered press, in 1812, made it possible to print over a thousand copies of a page per hour, this began to make newspapers available to a mass audience (which in turn helped spread literacy), and from the 1820s changed the nature of book production, forcing a greater standardization in titles and other metadata. </p>
 <p>The newspaper printed in this period are mass produced, characterized by large pages and a dense disposition of the text across multiple columns as they prioritized a fast and consistent production over the stylistic quality of the final product. </p>
-<h3>Layout</h3>
 
+<h3>Layout</h3>
 <p>To capture the spirit of a 19th century newspaper we took inspiration from The Times one of the most influential news outlets of the time, founded by John Walter in 1784 and still printed today. </p>
+<img id="middleage1" src="img_reference/Y1800s/times1.png"/>
 <p>We choose Manuskript Gotish a decadent font for the headline that resembles Old English blackletters, very similar to the fonts used for most newspaper’s headers, and a more modest serifed font for the the article headers: Opulence. </p>
+<img id="middleage1" src="img_reference/Y1800s/header.jpg"/><img id="middleage1" src="img_reference/Y1800s/header2.jpg"/>
 <p>Of course, for the text body we used Times New Romans the most classic serif font and commissioned precisely by the Times. </p>
 <p>To reproduce the layout of the crowded newspaper’s pages we justified the text, kept a small line height, small margins, and divided the page in several columns (three or four depending on the number of articles visualized simultaneously). </p>
+<img id="middleage1" src="img_reference/Y1800s/j1.jpg"/><img id="middleage1" src="img_reference/Y1800s/j2.jpg"/><img id="middleage1" src="img_reference/Y1800s/j3.jpg"/>
 <p>The coper page is inspired by the adds that started gaining ground at the time: vertical layout and an eye-catching illustration (in this case the web-page logo) </p>
+<img id="middleage1" src="img_referenceY1800s/add.jpg"/><img id="middleage1" src="img_reference/Y1800s/add2.jpg"/>
 <h3>Colours</h3>
 <p>Finally, we kept the palette exclusively black and white and applied a filter to desaturate the pictures, while colored print was available in the late 1800, daily newspapers were optimized to be cheap and produced quickly and were usually colorless. </p>
 
