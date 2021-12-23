@@ -119,6 +119,8 @@ $(document).ready(function() {
     else{
     var inputValue = $(this).attr("value");
       $("." + inputValue).hide();
+      $(".MetaFocusAll").hide();
+      $(".MetaFocus").hide();
       $(".default").show();
       var numberOfChecked = $('input[type="checkbox"].input:checked').length;
       switch (numberOfChecked){
