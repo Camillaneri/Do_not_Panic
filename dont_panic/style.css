@@ -795,7 +795,9 @@ scrollbar-width: none;  /* Firefox */
 
 #Camilla{
   background-image: url("img/fotocamilla2.jpg");
-  
+  background-repeat: no-repeat ;
+  background-position: 0% 40%;
+  background-size: cover;
   background-color: #06D85F;
   margin-bottom: 1.3em;
 }
