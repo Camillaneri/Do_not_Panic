@@ -185,9 +185,8 @@ In an open codex the text is pushed upward and toward the center of the pages by
  <h2 id="twelve">The Future - A Futuristic Melting Pot</h2>
  
  <h3>Background</h3>
- <p>What’s more futuristic than the temporal end of the Universe itself? Easy, Milliways! </p>
-<p>As explained in ‘’Hitchhikers Guide for the galaxy’’, Milliways is a restaurant placed just a millisecond before the end of everything. As we know it, it offers just before the dessert a first-row seat for the Gnab Gib, the ultimate fate of the universe, consisting of a Big Bang in reverse. </p> 
-<p>The restaurant building resembles a giant glittering starfish and is described as an intergalactic diner, situated at the end of time and matter: it has some of the most extravagant décor ever seen and serves a particularly good Pan Galactic Gargle Blaster. </p>
+ <p>What’s more futuristic than the temporal end of the Universe itself? Easy, Milliways!</p>
+<p>As explained in ‘’Hitchhikers Guide for the galaxy’’, Milliways is a restaurant placed just a millisecond before the end of everything. As we know it, it offers just before the dessert a first-row seat for the Gnab Gib, the ultimate fate of the universe, consisting of a Big Bang in reverse. The restaurant building resembles a giant glittering starfish and is described as an intergalactic diner, situated at the end of time and matter: it has some of the most extravagant décors ever seen and serves a particularly good Pan Galactic Gargle Blaster. </p>
  
 <h3>Layout</h3> 
 
