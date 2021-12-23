@@ -285,11 +285,7 @@ h1:first-letter, button:first-letter {
   overflow-y: scroll;
 } 
 
-.team_box h3{
-  color: rgb(197, 197, 197);
-}
-
-#allert {
+#alert {
   z-index: 7;
   position: absolute;
   top: 0;
@@ -298,6 +294,7 @@ h1:first-letter, button:first-letter {
   right: 0;
   background-color: rgba(0, 0, 0, 0.68);
   display: none;
+  color: rgb(197, 197, 197);
 }
 
 .allert_box {

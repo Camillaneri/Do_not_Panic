@@ -33,6 +33,11 @@ h1, h2, h3, button, h4, h5, h6, p, a, ul, li, figcaption, label {
 .cover_content h1, .cover_content h2, .cover_content p{
   color: rgb(0, 0, 0);;
 }
+
+hr{
+  margin: 0.2em !important;
+  padding: 0 !important;
+}
 /*base font articles*/
 
 article h1, article h2{
@@ -639,7 +644,7 @@ body {
 
 /*ALERT*/
 
-#allert {
+#alert {
   z-index: 7;
   position: absolute;
   top: 0;

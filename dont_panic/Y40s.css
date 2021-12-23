@@ -180,7 +180,7 @@ figcaption  {font-family: 'futura_bold', serif !important; color: white; font-si
     font-size: 1.1em !important;
   }
 
-  #allert {
+  #alert {
     background-color: rgb(42, 122, 168 / 22%);
   }
   
@@ -275,11 +275,17 @@ figcaption  {font-family: 'futura_bold', serif !important; color: white; font-si
   border: 0.2em rgb(255, 0, 0) solid;
 }
 
+.captionArticle{
+  margin-bottom: 02em !important;
+}
+
 .content_article h1 {
   color: rgb(0, 0, 0)  !important;
   font-size: 3em !important; 
   font-weight:bolder !important;
   margin-bottom: 0.5em;
+  text-align: justify;
+  text-justify: inter-character;
 }
 
 .content_article h2 {
@@ -302,8 +308,17 @@ figcaption  {font-family: 'futura_bold', serif !important; color: white; font-si
 
 .content_article p {
   font-weight: lighter;
-  margin-top: -0.3em !important;
+  margin-top: -1em !important;
+  margin-bottom: -1em !important;
   padding-top: 1em;
+  margin-left: -0.3em;
+  margin-right: -0.3em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.content_article table{
+  margin-top: 2em !important;
 }
 
 .content_article p.subtitle {
@@ -468,6 +483,10 @@ figcaption p{
 }
 
 #three_article article{
+  column-count: 1;
+}
+
+#two_article article{
   column-count: 1;
 }
 
@@ -637,4 +656,8 @@ figcaption p{
   top: 7.5%;
   left: 7.5%;
 
+}
+
+.explain{
+  background-color:rgba(255, 0, 0, 0.8) ;
 }
