@@ -87,6 +87,7 @@ $(document).ready(function() {
   $('input[type="checkbox"].input').click(function(){
     if ($('input[type="checkbox"].input').is( ":checked" )){
       var inputValue = $(this).attr("value");
+      var class_recognizer = inputValue.toLowerCase();
       $("." + inputValue).toggle();
       $(".default").hide();
 
@@ -94,56 +95,74 @@ $(document).ready(function() {
       switch (numberOfChecked){
         case 1:
           $(".article").css("height", "77%");
+          $("." + class_recognizer).removeClass("MetaFocus");
+          $("." + class_recognizer).removeClass("MetaFocusAll");
           //if($("div.meta_one").hasClass("meta").toString() == "true"){
             //$(".article").css("height", "66%");}
           break;
   
         case 2:
           $(".article").css("height", "69%");
+          $("." + class_recognizer).removeClass("MetaFocus");
+          $("." + class_recognizer).removeClass("MetaFocusAll");
           break;
         
         case 3:
           $(".article").css("height", "62%");
+          $("." + class_recognizer).removeClass("MetaFocus");
+          $("." + class_recognizer).removeClass("MetaFocusAll");
           break;
             
         case 4:
           $(".article").css("height", "52%");
+          $("." + class_recognizer).removeClass("MetaFocus");
+          $("." + class_recognizer).removeClass("MetaFocusAll");
           break;
   
         case 5:
           $(".article").css("height", "45%");
+          $("." + class_recognizer).removeClass("MetaFocus");
+          $("." + class_recognizer).removeClass("MetaFocusAll");
           break;
       }
     }
 
-    else{
+    else if($('input[type="checkbox"].input').is(":not(:checked)")){
     var inputValue = $(this).attr("value");
+    var class_recognizer = inputValue.toLowerCase();
       $("." + inputValue).hide();
-      $(".MetaFocusAll").hide();
-      $(".MetaFocus").hide();
       $(".default").show();
       var numberOfChecked = $('input[type="checkbox"].input:checked').length;
       switch (numberOfChecked){
         case 0: 
           $(".article").css("height", "83%");
+          $("." + class_recognizer).removeClass("MetaFocus");
+          $("." + class_recognizer).removeClass("MetaFocusAll");
           break;
 
         case 1:
           $(".article").css("height", "77%");
+          $("." + class_recognizer).removeClass("MetaFocus");
+          $("." + class_recognizer).removeClass("MetaFocusAll");
           break;
   
         case 2:
           $(".article").css("height", "69%");
+          $("." + class_recognizer).removeClass("MetaFocus");
+          $("." + class_recognizer).removeClass("MetaFocusAll");
           break;
         
         case 3:
           $(".article").css("height", "62%");
+          $("." + class_recognizer).removeClass("MetaFocus");
+          $("." + class_recognizer).removeClass("MetaFocusAll");
           break;
             
         case 4:
           $(".article").css("height", "52%");
+          $("." + class_recognizer).removeClass("MetaFocus");
+          $("." + class_recognizer).removeClass("MetaFocusAll");
           break;
-
       }
     }
 
@@ -166,6 +185,11 @@ $(document).ready(function(){
     $(".Organization").hide();
     $(".default").show();
     $(".article").css("height", "83%");
+    $(".mention").removeClass("MetaFocus");
+    $(".mention").removeClass("MetaFocusAll");
+    if ($(".problemCheckbox").prop("checked", true)){
+      $(".problemCheckbox").click();
+    }
   })
 })
 
