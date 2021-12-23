@@ -80,45 +80,70 @@ $(document).ready(function(){
 //Metadata checkbox
 
 $(document).ready(function() {
+  
+
   $('input[type="checkbox"].input').click(function(){
     if ($('input[type="checkbox"].input').is( ":checked" )){
       var inputValue = $(this).attr("value");
       $("." + inputValue).toggle();
       $(".default").hide();
-      
+
+      var numberOfChecked = $('input[type="checkbox"].input:checked').length;
+      switch (numberOfChecked){
+        case 1:
+          $(".article").css("height", "77%");
+          //if($("div.meta_one").hasClass("meta").toString() == "true"){
+            //$(".article").css("height", "66%");}
+          break;
+  
+        case 2:
+          $(".article").css("height", "69%");
+          break;
+        
+        case 3:
+          $(".article").css("height", "62%");
+          break;
+            
+        case 4:
+          $(".article").css("height", "52%");
+          break;
+  
+        case 5:
+          $(".article").css("height", "45%");
+          break;
+      }
     }
+
     else{
     var inputValue = $(this).attr("value");
       $("." + inputValue).hide();
       $(".default").show();
+      var numberOfChecked = $('input[type="checkbox"].input:checked').length;
+      switch (numberOfChecked){
+        case 0: 
+          $(".article").css("height", "83%");
+          break;
+
+        case 1:
+          $(".article").css("height", "77%");
+          break;
+  
+        case 2:
+          $(".article").css("height", "69%");
+          break;
+        
+        case 3:
+          $(".article").css("height", "62%");
+          break;
+            
+        case 4:
+          $(".article").css("height", "52%");
+          break;
+
+      }
     }
 
-    var numberOfChecked = $('input[type="checkbox"].input:checked').length;
-    console.log(numberOfChecked);
-
-    switch (numberOfChecked){
-      case 1:
-        $(".article").css("height", "77%");
-        //if($("div.meta_one").hasClass("meta").toString() == "true"){
-          //$(".article").css("height", "66%");}
-        break;
-
-      case 2:
-        $(".article").css("height", "69%");
-        break;
-      
-      case 3:
-        $(".article").css("height", "62%");
-        break;
-          
-      case 4:
-        $(".article").css("height", "52%");
-        break;
-
-      case 5:
-        $(".article").css("height", "45%");
-        break;
-    }
+    
 
   
   });
@@ -136,6 +161,7 @@ $(document).ready(function(){
     $(".Concept").hide();
     $(".Organization").hide();
     $(".default").show();
+    $(".article").css("height", "83%");
   })
 })
 
