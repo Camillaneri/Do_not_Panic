@@ -69,12 +69,12 @@
 <p>Many hands worked on the same codex with different duties, scribes would reproduce the text, leaving space for rubrication, marginalia and miniatures, often done by other copyists and artists. </p>
 <p>Rubrication was the usance of adding text in red ink for emphasis, it was usually done to mark important text, such as headings, the start of a new paragraph, or other division of a text; it was often important since no space was left between paragraphs or even different works bound in the same volume. </p>
 <p>Miniatures were small illustrations painted with colorful inks and often the addition of golden details to enrich the manuscripts, they were applied at the margins of the page or to decorate the initial letter of a paragraph. </p>
-<img id="middleage2" src="img_reference/Y300s/illum2.png"/>
+<img id="middleage2" src="img_reference/Y300s/illum2.jpg"/>
 <h3>Layout</h3>
 <p>We wanted to recreate the idea of a precious illuminated manuscript. </p>
 <p>On the page dedicated to the article display we used a filter to recreate the effect of parchment. </p>
 <p>We deleted most of the spacing between paragraphs and headers and used wide margins to recreate the dense and continuous text paragraph interrupted only by rubrics that we found in most manuscripts. </p>
-<p float="left"><img id="middleage1" src="img_reference/Y300s/med2.jpg" height="380"/> <img id="middleage1" src="img_reference/Y300s/rubrics.jpg" height="380"/></p>
+<p float="left"><img id="middleage1" src="img_reference/Y300s/med2.jpg" widht="45%"/> <img id="middleage1" src="img_reference/Y300s/rubrics.jpg" widht="45%"/></p>
 <p>We applied two fonts to the entire body of text: Candlebright that is very similar to Textura, the kid of script used in manuscripts from the 10th to 17th century throughout western Europe; and Camelot used for drop-caps exclusively on the first letter of headers and at the start of paragraphs to emulate the elaborate illuminated letters found in codices. </p>
 <p>The headers of the articles are colored in red in to reproduce rubrics, and on the cover page the icon in used to suggest a small miniature. </p>
 <p>We gave particular attention to the page layout and used a different text disposition depending on the number of issue’s articles showed on the page:
@@ -82,7 +82,7 @@ In an open codex the text is pushed upward and toward the center of the pages by
 <p>We recreated this layout when two article are shown aside, and displaying the text in two column when a single article is shown, while we decided to maintain a smaller margin when three articles are shown to not impair readability. </p>
 <h3>Colours</h3>
 <p>To reproduce the vibrant colours of miniatures we choose a palette of gold and blues for the archives and the menus, dark red for the article headers, and used images of original miniatures for the archive pages. </p>
-<p float="left"><img id="middleage2" src="img_reference/Y300s/med1.png"/> <img id="middleage2" src="img_reference/Y300s/sky.png"/> </p>
+<p float="left"><img id="middleage2" src="img_reference/Y300s/med1.png"/> <img id="middleage2" src="img_reference/Y300s/sky.jpg"/> </p>
 <h2 id="eight">1800 - Dayly Newspaper</h2> 
 
 <h3>Background</h3>
