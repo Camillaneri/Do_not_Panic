@@ -79,24 +79,32 @@
 <p>We gave particular attention to the page layout and used a different text disposition depending on the number of issue’s articles showed on the page:
 In an open codex the text is pushed upward and toward the center of the pages by small gutters and wide margin below and aside. </p>
 <p>We recreated this layout when two article are shown aside, and displaying the text in two column when a single article is shown, while we decided to maintain a smaller margin when three articles are shown to not impair readability. </p>
-<h3>Colors</h3>
-<p>To reproduce the vibrant colors of miniatures we choose a palette of gold and blues for the archives and the menus, dark red for the article headers, and used images of original miniatures for the archive pages. </p>
+<h3>Colours</h3>
+<p>To reproduce the vibrant colours of miniatures we choose a palette of gold and blues for the archives and the menus, dark red for the article headers, and used images of original miniatures for the archive pages. </p>
 <img id="middleage2" src="img_reference/Y300s/med1.png"/> 
-<h2 id="eight">1800</h2> 
-<p>This web page layout is inspired by daily newspapers of the 19th century</p>
-<p>The invention of the steam powered press, in 1812, made it possible to print over a thousand copies of a page per hour, this began to make newspapers available to a mass audience (which in turn helped spread literacy), and from the 1820s changed the nature of book production, forcing a greater standardization in titles and other metadata.</p>
-<p>The newspaper printed in this period are mass produced, characterized by a dense disposition of the text across multiple columns in the same page, with lesser line height and smaller margins. </p> 
-<p>The name of the newspaper at the top of the page is often characterized by wide, gothic and elaborate fonts, while the article titles are fond in various different fonts. </p>
-<p>Many stylistic choices were influenced by the need to optimize the use of paper and the dramatic presence of advertisements, which where necessary for the economy of the journals.</p> 
-<h3>Cover page</h3>
-<p>The ads of these period often show big illustrations and extravagant fonts, the cover page of the website is freely inspired by one of those, with a vertical layout and an eye-catching illustration (the web-page logo)</p>
-<h3>Article visualization page </h3>
-<p>We choose xxxxxx a decadent font for the headers very similar to the ones used at the time for the newspaper’s names, a more modest font for the smaller headers(xxxxx) inspired by the article headers, and a classic serifed font for the text (times new roman). </p>
-<p>To reproduce the tall and numerous columns of text used in newspapers layout I divided the text in two column when two articles are visualized side by side (four column in total), and in four when only an article is visualised.</p> 
-<p>We kept a small line height and small margins to imitate the crowded pages of the period.</p>
-<h3>palette</h3>
-<p>Finally, we kept the palette exclusively black and white and applied a filter to desaturate the pictures, while coloured print was available in the late 1800 only specialized magazines used colour print for illustrations, while daily newspapers where optimized to be cheap and produced quickly and where usually colourless. </p>
- 
+<h2 id="eight">1800 - Dayly Newspaper</h2> 
+<h3>Background</h3>
+<p>The 19th century was an age of great changes and revolutions. </p>
+<p>In the troubled political climate, where new nations where formed, consolidated empires like The British and the Russian empires secured and expanded their power over colonies. </p>
+<p>Many social changes took place: Slavery was abolished. The First and Second Industrial Revolutions led to massive urbanization and much higher levels of productivity, profit and prosperity. </p>
+<p>To different degrees manufacturing spread across Europe turning the continent into the world centre of industrialisation, finance and commerce. New technical innovations initiated industrial progress with steam power driving the development of heavy industry. Methods of production were totally transformed and large factories with thousands of workers mass produced industrial and consumer goods. </p>
+<p>Speed, dynamism and a belief in progress defined Europe by the end of the 19th century. Railways, electricity, cinema, photography and new theories in science and medicine affirmed Europe’s leading role in this technological coming of age. </p>
+<p>During this period the printing industry wasn’t immune to changes: the invention of the steam powered press, in 1812, made it possible to print over a thousand copies of a page per hour, this began to make newspapers available to a mass audience (which in turn helped spread literacy), and from the 1820s changed the nature of book production, forcing a greater standardization in titles and other metadata. </p>
+<p>The newspaper printed in this period are mass produced, characterized by large pages and a dense disposition of the text across multiple columns as they prioritized a fast and consistent production over the stylistic quality of the final product. </p>
+
+<h3>Layout</h3>
+<p>To capture the spirit of a 19th century newspaper we took inspiration from The Times one of the most influential news outlets of the time, founded by John Walter in 1784 and still printed today. </p>
+<img id="middleage1" src="img_reference/Y1800s/times1.png"/>
+<p>We choose Manuskript Gotish a decadent font for the headline that resembles Old English blackletters, very similar to the fonts used for most newspaper’s headers, and a more modest serifed font for the the article headers: Opulence. </p>
+<img id="middleage1" src="img_reference/Y1800s/header.jpg"/><img id="middleage1" src="img_reference/Y1800s/header2.jpg"/>
+<p>Of course, for the text body we used Times New Romans the most classic serif font and commissioned precisely by the Times. </p>
+<p>To reproduce the layout of the crowded newspaper’s pages we justified the text, kept a small line height, small margins, and divided the page in several columns (three or four depending on the number of articles visualized simultaneously). </p>
+<img id="middleage1" src="img_reference/Y1800s/j1.jpg"/><img id="middleage1" src="img_reference/Y1800s/j2.jpg"/><img id="middleage1" src="img_reference/Y1800s/j3.jpg"/>
+<p>The coper page is inspired by the adds that started gaining ground at the time: vertical layout and an eye-catching illustration (in this case the web-page logo) </p>
+<img id="middleage1" src="img_referenceY1800s/add.jpg"/><img id="middleage1" src="img_reference/Y1800s/add2.jpg"/>
+<h3>Colours</h3>
+<p>Finally, we kept the palette exclusively black and white and applied a filter to desaturate the pictures, while colored print was available in the late 1800, daily newspapers were optimized to be cheap and produced quickly and were usually colorless. </p>
+
  
 <h2 id="nine">1930 - Futurism </h2>
 <h3>Background </h3>
@@ -119,7 +127,7 @@ In an open codex the text is pushed upward and toward the center of the pages by
 <img id="futurism1" src="img_reference/Y40s/fut_5.jpg" />
 
  <h3>Colours</h3> 
-<p>The main colours of this style are pure red, black and white, in order to replicate as close as possible the palette of Futurism's magazines. The background of the pages is realized in a smooth yellow, to recall the paper quality of the period. The background of the website takes the colors of Cralli’s artworks, with a gradient from yellow to white and then blue and a set of moving lines in the tones of Boccioni’s work.</p> 
+<p>The main colours of this style are pure red, black and white, in order to replicate as close as possible the palette of Futurism's magazines. The background of the pages is realized in a smooth yellow, to recall the paper quality of the period. The background of the website takes the colours of Cralli’s artworks, with a gradient from yellow to white and then blue and a set of moving lines in the tones of Boccioni’s work.</p> 
 
 <img id="futurism1" src="img_reference/Y40s/fut_6.jpg" />
  
