@@ -3,7 +3,7 @@
 
 <h2>Table of content</h2>
 <dl>
-  <dt><a href="#one">THE CONCEPT</a></dt>
+  <dt><a href="#one" style= "text-decoration: none !important">THE CONCEPT</a></dt>
   <dt><a href="#two">LLL FRAMEWORK</a></dt>
   <dt><a href="#three">The articles and the typographical styles</a></dt>
   <dt><a href="#four">The metadata</a></dt>
@@ -144,10 +144,10 @@ In an open codex the text is pushed upward and toward the center of the pages by
  
 <h3>Layout</h3> 
  
-<p>This stylesheet takes inspiration from Omni magazine, a science and science fiction magazine published between 1978 and 1995 in the United States and the United Kingdom. It contained articles on science, parapsychology and short works of science fiction and fantasy. Its design was characterised by letters and words in a bright color, often against a darker background, and the typical use both those years of a sans-serif fonts with more pronounced angles and curves.</p>
-<p>For those motive we decide to use Artista-Pro font type, the free online available font similar to the Omni font, for the titles and Verdana font type, the one actually used by Omni magazine, for paragraph text.</p>
-<p>The metadata menu viewer, archive and notice page are inspired by the magazine's back cover, white text on a black background. The style of the article layout is instead inspired by the minimalist but bold style of the revival articles, taking advantage of blocks of justified text and full columns interspersed with thick dividing lines.</p> 
-<p>The illustrations on the cards in the archive page of the website wants to remember the dreamlike and  comics environment in full Omni style. While the images are altered with blur and hue filters to simulate the palette used in the illustrations found on the Omni pages.</p>
+<p>This stylesheet takes inspiration from Omni magazine, a science and science fiction magazine published between 1978 and 1995 in the United States and the United Kingdom. It contained articles on science, parapsychology, and short works of science fiction and fantasy. Its design was characterized by letters and words in a bright color, often against a darker background, and the typical use of both those years of sans-serif fonts with more pronounced angles and curves.</p>
+<p>For those motives, we decide to use Artista-Pro font type, the free online available font similar to the Omni font, for the titles and Verdana font type, the one used by Omni magazine, for paragraph text.</p>
+<p>The metadata menu viewer, archive, and notice page are inspired by the magazine's back cover, white text on a black background. The style of the article layout is instead inspired by the minimalist but bold style of the revival articles, taking advantage of blocks of justified text and full columns interspersed with thick dividing lines.</p> 
+<p>The illustrations on the cards on the archive page of the website want to remember the dreamlike and comics environment in full Omni style. While the images are altered with blur and hue filters to simulate the palette used in the illustrations found on the Omni pages.</p>
 
 <img src="img_reference/Y80s/reference_y80s_b.jpg" width="32%" height="auto" style="display: inline"/> <img src="img_reference/Y80s/reference-Y80s_c.jpg" width="32%" height="auto" style="display: inline" /> <img src="img_reference/Y80s/reference-Y80s_d.png" width="33%" height="auto" style="display: inline" />
 >>>>>>> 31427b0bda5a254a73e8a1ec59b6d89c7cf4171b
@@ -156,7 +156,7 @@ In an open codex the text is pushed upward and toward the center of the pages by
 
 <h3>Colours</h3> 
  
-<p>The main colours of this style are black and white, in order to replicate as close as possible the palette of Omni magazines. The background of the pages is in bright white, to recall the paper industrial quality of the period. The background of the website takes the gradient from the iconic series ‘Pictorial Number One’ from the artist Rudolf Hausner published on the Omni 0.5 issue during the 1983.</p>
+<p>The main colors of this style are black and white, to replicate as close as possible the palette of Omni magazines. The background of the pages is in bright white, to recall the paper industrial quality of the period. The background of the website takes the gradient from the iconic series ‘Pictorial Number One’ from the artist Rudolf Hausner published on the Omni 0.5 issue in 1983.</p>
 
 <img src="img_reference/Y80s/reference_80_a.jpg" width="100%" height="auto" />
 
