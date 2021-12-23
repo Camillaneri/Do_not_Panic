@@ -333,16 +333,17 @@ var currStyle;
 
 function styleSwitch(id) {
   
-  var theme = document.getElementsByTagName("link")[1];
+  var theme = document.getElementsByTagName("link");
+  console.log(theme[0]);
+  console.log(theme[1]);
   var new_style = "dont_panic/" + id + ".css";
 
-  console.log(theme);
 
 
   if (id != "no_style") {
     theme.setAttribute("href", new_style);
   } else {
-    theme.setAttribute("href", "dont_panic/style.css");
+    theme.setAttribute("href", "#");
   }
 
   var href = theme.getAttribute('href');
@@ -411,7 +412,7 @@ function changeItemForStyle() {
       world.setAttribute("src", "dont_panic/img/medioevosmall.gif");
       if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/1300inv2.svg");}
       break;
-    case 'dont_panic/style.css':
+    case '#':
       icon_selected.setAttribute("src", "dont_panic/img/dontPanic_logo.svg");
       world.setAttribute("src", "dont_panic/img/200w.gif");
       if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/dontPanic_logo.svg");}
@@ -435,10 +436,10 @@ function fromStyle() {
   
 
   if (cur_style){
-    if (cur_style !== '<link rel="stylesheet" type="text/css" href="dont_panic/style.css">'){
+    if (cur_style !== '<link rel="stylesheet" type="text/css" href="#">'){
       link.outerHTML = cur_style;
     } else {
-      link = '<link rel="stylesheet" type="text/css" href="dont_panic/style.css">';
+      link = '<link rel="stylesheet" type="text/css" href="#">';
     }
   }
   
