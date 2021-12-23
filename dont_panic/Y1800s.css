@@ -279,8 +279,8 @@ h1:first-letter, button:first-letter {
 /*ALERT*/
 
 .disclamer_text {
-  height: 40%;
-  min-height: 229px;
+  height: 55%;
+  min-height: 55%;
   overflow: hidden;
   overflow-y: scroll;
 } 
