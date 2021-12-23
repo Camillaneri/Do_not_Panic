@@ -679,6 +679,7 @@ body {
   overflow-y: scroll;
 }
 
+
 .disclamer hr {
   border: 1px solid rgb(179, 114, 18);
 }
@@ -687,6 +688,11 @@ body {
   color: rgb(0, 0, 0);
   font-size: 1.3em;
 }
+
+.team_box h3{
+  color: rgb(179, 114, 18);
+}
+
 
 .disclamer_link {
   width: 56%;

@@ -285,6 +285,10 @@ h1:first-letter, button:first-letter {
   overflow-y: scroll;
 } 
 
+.team_box h3{
+  color: rgb(197, 197, 197);
+}
+
 #allert {
   z-index: 7;
   position: absolute;
@@ -321,7 +325,7 @@ h1:first-letter, button:first-letter {
   border-color: rgb(0, 0, 0);
 }
 
-.disclamer p, .disclamer li, .team_box h3, .disclamer h1{
+.disclamer p, .disclamer li, .disclamer h1{
   color: rgb(0, 0, 0);
 }
 
@@ -363,7 +367,7 @@ h1:first-letter, button:first-letter {
 }
 
 .team_box .arrow {
-  border: solid rgb(0, 0, 0);
+  border: solid rgb(139, 139, 139);
   border-width: 0 0.3em 0.3em 0;
 }
 
