@@ -615,7 +615,7 @@ margin-right: 0%;
 /*DISCLAIMER POPUP BOX*/
 
 
-#allert{
+#alert{
   z-index: 7;
   position: absolute;
   top: 0;
@@ -626,7 +626,7 @@ margin-right: 0%;
   display: none;
 }
 
-#allert:target {
+#alert:target {
   visibility: visible;
   display: block;
 }
@@ -634,7 +634,7 @@ margin-right: 0%;
 .allert_box{
   border:  0.125em white solid;
   min-width: 700px;
-  min-height: 400px;
+  min-height: 470px;
   width: 60%;
     height: 60%;
     position: absolute;

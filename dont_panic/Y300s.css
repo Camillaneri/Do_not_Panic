@@ -639,7 +639,7 @@ body {
 
 /*ALERT*/
 
-#allert {
+#alert {
   z-index: 7;
   position: absolute;
   top: 0;

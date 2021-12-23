@@ -285,7 +285,7 @@ h1:first-letter, button:first-letter {
   overflow-y: scroll;
 } 
 
-#allert {
+#alert {
   z-index: 7;
   position: absolute;
   top: 0;
