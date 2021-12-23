@@ -341,10 +341,11 @@ var currStyle;
 
 function styleSwitch(id) {
   
-  var theme = document.getElementsByTagName("link")[1];
+  var theme = document.getElementsByTagName("link");
+  console.log(theme[0]);
+  console.log(theme[1]);
   var new_style = "dont_panic/" + id + ".css";
 
-  console.log(theme);
 
 
   if (id != "no_style") {
