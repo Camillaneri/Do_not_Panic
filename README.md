@@ -74,7 +74,7 @@
 <p>We wanted to recreate the idea of a precious illuminated manuscript. </p>
 <p>On the page dedicated to the article display we used a filter to recreate the effect of parchment. </p>
 <p>We deleted most of the spacing between paragraphs and headers and used wide margins to recreate the dense and continuous text paragraph interrupted only by rubrics that we found in most manuscripts. </p>
-<p float="left"><img id="middleage1" src="img_reference/Y300s/med2.jpg" width="48%"/> <img id="middleage1" src="img_reference/Y300s/rubrics2.jpg" width="48%"/></p>
+<p float="left"><img id="middleage1" src="img_reference/Y300s/rubrics2.jpg" width="48%"/> <img id="middleage1" src="img_reference/Y300s/rubrics.jpg" width="48%"/></p>
 <p>We applied two fonts to the entire body of text: Candlebright that is very similar to Textura, the kid of script used in manuscripts from the 10th to 17th century throughout western Europe; and Camelot used for drop-caps exclusively on the first letter of headers and at the start of paragraphs to emulate the elaborate illuminated letters found in codices. </p>
 <p>The headers of the articles are colored in red in to reproduce rubrics, and on the cover page the icon in used to suggest a small miniature. </p>
 <p>We gave particular attention to the page layout and used a different text disposition depending on the number of issue’s articles showed on the page:
