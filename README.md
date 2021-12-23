@@ -62,22 +62,26 @@
 
 <h1 id="six">TYPOGRAPHIC STYLES</h1>
   
-<h2 id="seven">1300</h2> 
-<p>This web page layout is inspired to the design of a manuscript of the XIV century even if the standardization of layout design as we know it today started with the emergence of the printed book, and no universal rule is followed in the production of manuscripts it’s easy to recognize common tendencies and recurring structures. </p>
-<p>The page layout is characterized by small paragraphs of text, a wide margin is left under and between, this space can be left empty but is often filled by miniatures.</p> 
-<p>The distinction between paragraphs of text is usually not signaled by an empty space, but the starting letter of the first line is bigger than the rest and differently colored. </p>
-<p>Headers can be recognized by a different color (usually red), bigger font size, and by the first letter often beautifully miniated and taking up to half the space dedicated to the text. </p>
-<h3>Article display </h3>
-<p>On the web page dedicated to the article display we used a filter to recreate the effect of parchment on the boxes where text is shown and we deleted most of the spacing between paragraphs. </p>
-<p>Since manuscripts are handwritten we choose to use a single font, modifying only the size and color, for all the written text : Candlebright that we thought was most similar to the hand-writing style used by the copyists.</p> 
-<p>The second font xxxxx is used exclusively on the first letter of headers and on the first letter of the first word of every paragraph to reproduce the elaborate drop caps. </p>
-<p>The Headers also decorated with a drop-cap are a deep red that simulates the rich inks used for miniatures.</p> 
-<p>To recreate the manuscript layout we used a different visualization depending on the number of the issue’s articles showed in the web page:</p>
-<p>When two articles are shown side by side we used ample margins on the left of the left article and on the right of the right article so the text is pushed on the upper-central part of the displaying area to suggest the idea of an open manuscript, a similar effect is obtained with two column when a single article is displayed.</p>
-<p>We decided to maintain a smallest margin when three articles are shown one beside the other to not impair readability.</p>
-<p><b>archive, menus, and cover page</b> </p>
-<p>For the style used in the archive, menus, and cover page we have been more liberal with the layout, I choose a palette of gold and blue inspired miniatures of starry skies, used the page icon to simulate a miniature in the cover page, and proceeded to use golden color fonts to give the idea of a precious miniated volume. </p>
- 
+<h2 id="seven">1300 - Illuminated Manuscript</h2> 
+<h3>Background</h3>
+<p>During the Middle Ages sharing and recording written text was a long and complex task. Most written texts where kept in the Monasteries, they were contained into codices, books made of parchment (more rarely vellum or papyrus) pressed between stiff boards. </p>
+<p>The only way to obtain a copy of a manuscript was to copy the original by hand: monks would travel to distant monasteries to obtain a new volume to be reproduced for their own monastery’s library. </p>
+<p>Many hands worked on the same codex with different duties, scribes would reproduce the text, leaving space for rubrication, marginalia and miniatures, often done by other copyists and artists. </p>
+<p>Rubrication was the usance of adding text in red ink for emphasis, it was usually done to mark important text, such as headings, the start of a new paragraph, or other division of a text; it was often important since no space was left between paragraphs or even different works bound in the same volume. </p>
+<p>Miniatures were small illustrations painted with colorful inks and often the addition of golden details to enrich the manuscripts, they were applied at the margins of the page or to decorate the initial letter of a paragraph. </p>
+<img id="middleage1" src="img_reference/Y300s/med2.jpg"/> 
+<h3>Layout</h3>
+<p>We wanted to recreate the idea of a precious illuminated manuscript. </p>
+<p>On the page dedicated to the article display we used a filter to recreate the effect of parchment. </p>
+<p>We deleted most of the spacing between paragraphs and headers and used wide margins to recreate the dense and continuous text paragraph interrupted only by rubrics that we found in most manuscripts. </p>
+<p>We applied two fonts to the entire body of text: Candlebright that is very similar to Textura, the kid of script used in manuscripts from the 10th to 17th century throughout western Europe; and Camelot used for drop-caps exclusively on the first letter of headers and at the start of paragraphs to emulate the elaborate illuminated letters found in codices. </p>
+<p>The headers of the articles are colored in red in to reproduce rubrics, and on the cover page the icon in used to suggest a small miniature. </p>
+<p>We gave particular attention to the page layout and used a different text disposition depending on the number of issue’s articles showed on the page:
+In an open codex the text is pushed upward and toward the center of the pages by small gutters and wide margin below and aside. </p>
+<p>We recreated this layout when two article are shown aside, and displaying the text in two column when a single article is shown, while we decided to maintain a smaller margin when three articles are shown to not impair readability. </p>
+<h3>Colors</h3>
+<p>To reproduce the vibrant colors of miniatures we choose a palette of gold and blues for the archives and the menus, dark red for the article headers, and used images of original miniatures for the archive pages. </p>
+<img id="middleage2" src="img_reference/Y300s/med1.png"/> 
 <h2 id="eight">1800</h2> 
 <p>This web page layout is inspired by daily newspapers of the 19th century</p>
 <p>The invention of the steam powered press, in 1812, made it possible to print over a thousand copies of a page per hour, this began to make newspapers available to a mass audience (which in turn helped spread literacy), and from the 1820s changed the nature of book production, forcing a greater standardization in titles and other metadata.</p>
