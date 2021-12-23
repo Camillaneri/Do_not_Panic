@@ -1,11 +1,3 @@
-// JavaScript Document
-
-
-//function doIt() {
-//  $( ".articles" ).show( "slow" );
-//}
-
-//$( "#hide_show" ).click( doIt );
 
 //Archive hide and show functions
 
