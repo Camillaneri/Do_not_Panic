@@ -99,7 +99,7 @@ In an open codex the text is pushed upward and toward the center of the pages by
 <p float="left"><img id="middleage1" src="img_reference/Y1800s/header.jpg" widht="200"/><img id="middleage1" src="img_reference/Y1800s/header2.jpg" widht="200"/></p>
 <p>Of course, for the text body we used Times New Romans the most classic serif font and commissioned precisely by the Times. </p>
 <p>To reproduce the layout of the crowded newspaper’s pages we justified the text, kept a small line height, small margins, and divided the page in several columns (three or four depending on the number of articles visualized simultaneously). </p>
-<img id="middleage1" src="img_reference/Y1800s/j1.jpg"/><img id="middleage1" src="img_reference/Y1800s/j2.jpg"/><img id="middleage1" src="img_reference/Y1800s/j3.jpg"/>
+<p float="left"><img id="middleage1" src="img_reference/Y1800s/j1.jpg" widht="20"/><img id="middleage1" src="img_reference/Y1800s/j2.jpg" widht="20"/><img id="middleage1" src="img_reference/Y1800s/j3.jpg" widht="20"/></p>
 <p>The coper page is inspired by the adds that started gaining ground at the time: vertical layout and an eye-catching illustration (in this case the web-page logo) </p>
 <img id="middleage1" src="img_referenceY1800s/add.jpg"/><img id="middleage1" src="img_reference/Y1800s/add2.jpg"/>
 <h3>Colours</h3>
