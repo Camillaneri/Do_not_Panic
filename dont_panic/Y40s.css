@@ -63,7 +63,7 @@ h1 {font-family: 'planet_n_compact_condensedCn' !important; color: white !import
 h2, h3, h4, h5, h6, button, label {font-family: 'preussischeiv44ausgabe3Rg', cursive !important; color:  white; text-transform: uppercase;} 
 p  {font-family: 'futura_regular', serif !important; color: white; font-size: 0.9em;}
 ul, li {font-family: 'futura_bold', sans-serif !important; color: red !important; font-size: 0.9em;}
-a {font-family: 'futura_bold', sans-serif !important; color: rgb(255, 0, 0) !important; font-size: 0.9em;}
+a, dl, dt, dd {font-family: 'futura_bold', sans-serif !important; color: rgb(255, 0, 0) !important; font-size: 0.9em;}
 figcaption  {font-family: 'futura_bold', serif !important; color: white; font-size: 0.9em;}
 
 .custom-select {
