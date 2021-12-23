@@ -95,14 +95,14 @@ In an open codex the text is pushed upward and toward the center of the pages by
 
 <h3>Layout</h3>
 <p>To capture the spirit of a 19th century newspaper we took inspiration from The Times one of the most influential news outlets of the time, founded by John Walter in 1784 and still printed today. </p>
-<img id="middleage1" src="img_reference/Y1800s/times1.png" width="32%" position= "center"/><img id="middleage1" src="img_reference/Y1800s/j1.jpg" width="32%"/><img id="middleage1" src="img_reference/Y1800s/j3.jpg" width="32%"/>
+<p float="left"><img id="middleage1" src="img_reference/Y1800s/times1.png" width="30%" position= "center"/><img id="middleage1" src="img_reference/Y1800s/j1.jpg" width="30%"/><img id="middleage1" src="img_reference/Y1800s/j3.jpg" width="30%"/></p>
 <p>We choose Manuskript Gotish a decadent font for the headline that resembles Old English blackletters, very similar to the fonts used for most newspaper’s headers, and a more modest serifed font for the the article headers: Opulence. </p>
-<p float="left"><img id="middleage1" src="img_reference/Y1800s/header.jpg" width="48%"/>     <img id="middleage1" src="img_reference/Y1800s/header2.jpg" width="48%"/></p>
+<p float="left"><p float="left"><img id="middleage1" src="img_reference/Y1800s/header.jpg" width="48%"/>     <img id="middleage1" src="img_reference/Y1800s/header2.jpg" width="48%"/></p>
 <p>Of course, for the text body we used Times New Romans the most classic serif font and commissioned precisely by the Times. </p>
 <p>To reproduce the layout of the crowded newspaper’s pages we justified the text, kept a small line height, small margins, and divided the page in several columns (three or four depending on the number of articles visualized simultaneously). </p>
 
 <p>The coper page is inspired by the adds that started gaining ground at the time: vertical layout and an eye-catching illustration (in this case the web-page logo) </p>
-<img id="middleage1" src="img_reference/Y1800s/add.jpg"/><img id="middleage1" src="img_reference/Y1800s/add2.jpg"/>
+<p float="left"><img id="middleage1" src="img_reference/Y1800s/add.jpg"/><img id="middleage1" src="img_reference/Y1800s/add2.jpg"/></p>
 <h3>Colours</h3>
 <p>Finally, we kept the palette exclusively black and white and applied a filter to desaturate the pictures, while colored print was available in the late 1800, daily newspapers were optimized to be cheap and produced quickly and were usually colorless. </p>
 
