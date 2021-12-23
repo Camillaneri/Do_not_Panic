@@ -28,19 +28,11 @@ body {
 
 }
 
-@font-face {
-  font-family: 'verdanaregular';
-  src: url('font/Y80s/verdana-webfont.woff2') format('woff2'),
-       url('font/Y80s/verdana-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
 
 @font-face {
   font-family: 'Plantin';
-  src: url('font/Y80s/PlantinMTProLight.woff2') format('woff2'),
-       url('font/Y80s/PlantinMTProLight.woff') format('woff');
+  src: url('font/Y1800s/PlantinMTProLight.woff2') format('woff2'),
+       url('font/Y1800s/PlantinMTProLight.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
