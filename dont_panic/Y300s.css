@@ -668,14 +668,19 @@ body {
   color: rgb(179, 114, 18);
 }
 
-.disclamer hr {
-  border: 1px solid rgb(179, 114, 18);
+.disclamer{
+  height: 94%;
 }
 
-.disclamer .large_button{
-  margin-bottom: 2%;
-  border-color: rgb(179, 114, 18);
-  max-width: 445px;
+.disclamer_text {
+  height: 64%;
+  min-height: 229px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.disclamer hr {
+  border: 1px solid rgb(179, 114, 18);
 }
 
 .disclamer p, .disclamer li, .team_box h3{
@@ -689,6 +694,12 @@ body {
   padding: 0.3em 1em;
   overflow: hidden scroll;
   border: 0em;
+}
+
+.disclamer .large_button {
+  margin-bottom: 0.3em;
+  border-color: rgb(179, 114, 18);
+  max-width: 445px;
 }
 
 .explain {
@@ -881,8 +892,10 @@ body {
 }
 .info_meta_explain {
   border-bottom: 0em ;
+  font-size: 1.2em;
 }
 
 .info_meta {
   filter: invert(42%) sepia(93%) saturate(430%) hue-rotate(351deg) brightness(90%) contrast(90%);
 }
+
