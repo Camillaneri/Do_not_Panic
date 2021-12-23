@@ -3,12 +3,18 @@
 
 <h2>Table of content</h2>
 <dl>
-  <dt><a href="#one">THE CONCEPT</a></dt>
+  <dt><a href="#one" style= "text-decoration: none !important;">THE CONCEPT</a></dt>
+  
   <dt><a href="#two">LLL FRAMEWORK</a></dt>
+  
   <dt><a href="#three">The articles and the typographical styles</a></dt>
+  
   <dt><a href="#four">The metadata</a></dt>
+  
   <dt><a href="#five">The Articles Markup</a></dt>
+  
   <dt><a href="#six">TYPOGRAPHIC STYLES</a></dt>
+  
     <dd><a href="#seven">1300</a></dd>
     <dd><a href="#eight">1800</a></dd>
     <dd><a href="#nine">1930 - Futurism</a></dd>
