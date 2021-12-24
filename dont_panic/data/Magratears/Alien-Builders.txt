@@ -19,7 +19,7 @@
                                     <hr>
                                     <p ><span id="C2" class="mention concept" about="interests" data-label="Travel">TRAVEL</span></p>
                                     <hr class="isolate">
-                                    <h1 class="medium" data-src="https://www.nationalgeographic.com/travel/article/ancient-sites-built-by-aliens">7 <span id="C3" class="mention concept" about="sights" data-label="Site">Ancient Sites</span> Some People Think Were Built by <span id="C4" class="mention concept" about="agents" data-label="Alien">Aliens</span></h1>
+                                    <h1 class="medium" data-src="https://www.nationalgeographic.com/travel/article/ancient-sites-built-by-aliens">Seven <span id="C3" class="mention concept" about="sights" data-label="Site">Ancient Sites</span> Some People Think Were Built by <span id="C4" class="mention concept" about="agents" data-label="Alien">Aliens</span></h1>
                                 </div>
 
                                 <p class="subtitle ">
