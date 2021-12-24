@@ -150,7 +150,6 @@ In an open codex the text is pushed upward and toward the center of the pages by
 <p>The illustrations on the cards on the archive page of the website want to remember the dreamlike and comics environment in full Omni style. While the images are altered with blur and hue filters to simulate the palette used in the illustrations found on the Omni pages.</p>
 
 <img src="img_reference/Y80s/reference_y80s_b.jpg" width="32%" height="auto" style="display: inline"/> <img src="img_reference/Y80s/reference-Y80s_c.jpg" width="32%" height="auto" style="display: inline" /> <img src="img_reference/Y80s/reference-Y80s_d.png" width="33%" height="auto" style="display: inline" />
->>>>>>> 31427b0bda5a254a73e8a1ec59b6d89c7cf4171b
 
 <img src="img_reference/Y80s/reference-Y80s_e.png" width="49%" height="auto" style="display: inline" /> <img src="img_reference/Y80s/reference-Y80s_f.png" width="49%" height="auto" style="display: inline" />
 
