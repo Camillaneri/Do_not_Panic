@@ -152,12 +152,6 @@ article p:first-of-type::first-letter{
   margin: 0em !important;
 }
 
-#text_3_1 h1.medium::first-letter{
-  float: none;
-  font-size: 3em;
-  text-transform: uppercase; 
-  font-family:'candlebright' !important; 
-}
 
 
 /*effetto pergamena*/

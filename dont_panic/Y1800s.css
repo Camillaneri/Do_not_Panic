@@ -537,7 +537,9 @@ h1:first-letter, button:first-letter {
     padding: 0em !important;
   }
   
-
+  .info_meta_explain img{
+    border: 0em !important;
+  }
 
 
 
