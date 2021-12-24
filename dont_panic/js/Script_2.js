@@ -603,6 +603,7 @@ function generate_metadata_calls(text, position, kind, text_id, selector){
 var counter=-1;
 
 function highlight_metadata(text_id, text_to_splice, selector){
+  if (document.getElementsByName("problemCheckbox")[0].checked==false){
   var text = text_to_splice.split(" (")[0];
   var text_to_call ="";
   var meta_focus_list = document.getElementById(text_id).querySelectorAll('['+selector+'="'+text+'"]');
@@ -693,6 +694,9 @@ function highlight_metadata(text_id, text_to_splice, selector){
     }
   }
   highlight_metadata(text_id, text, selector);
+}
+}else{
+  alert("You don't really care about this. This is not your problem. Have a nice life.")
 }
 }
 
