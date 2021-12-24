@@ -166,7 +166,7 @@ In an open codex the text is pushed upward and toward the center of the pages by
 <p>The period spanning from 1990 to 2000 is clearly a flow, more than a breaking point signed by the turning of the millennium. The world is still experiencing economic growth and economies around the world are becoming more and more interconnected with a strong jump ahead in the globalization process. The invention of the WWW is finally blossoming into social networking and blogs, with the birth of Twitter and Facebook at the beginning of the century.</p> 
 <p>The popular culture of this period can be considered iconic for the fast switching in trends and the unpredictable growth and decade of icons: especially for young people, following the latest news and trends, magazines become a way to keep on track with their favorite celebrities before finally and inevitably switching to social medias. </p> 
  <h3>Layout </h3>
-<p>For the 90s and early 2000s we took inspiration from Teen People, the youngsters version of "People” published from 1988 to 2006, and J-14 founded in 1998 which in 2007 was found to have been read from one American girl out of three from Experian Simmon Research, Florida. We chose to focus on the issues of 2000's.</p> 
+<p>For the 90s and early 2000s we took inspiration from Teen People, the youngsters version of "People” published from 1988 to 2006, and J-14 founded in 1998 which in 2007 was found to have been read from one American girl out of three from Experian Simmon Research, Florida.</p> 
  
  <img id="2000_1" src="img_reference/Y2000s/2000_1.jpg"  height="480" display="inline" style="display: inline"/>     <img id="2000_2" src="img_reference/Y2000s/2000_2.jpg"   height="480"  display="inline" style="display: inline"/> 
  
@@ -174,7 +174,7 @@ In an open codex the text is pushed upward and toward the center of the pages by
  
   <img id="2000_3" src="img_reference/Y2000s/2000_3.png"  height="450" display="inline" style="display: inline"/>     <img id="2000_4" src="img_reference/Y2000s/2000_4.jpg"   height="450"  display="inline" style="display: inline"/> 
  
-<p>The titles of the articles are in lowercase, to recall the typographical style of the magazines of the period. The font used for the title is the same as the one employed by “Teen People” and is called Egyptienne. For the subtitles we used Ginger, a font particularly used in the 2000, a typical Swiss sans serif, with a twirky geometric twist.</p>
+<p>The titles of the articles are in lowercase, to recall the typographical style of the magazines of the period. The font used for the title is the same as the one employed by “Teen People” and is called Egyptienne. For the subtitles we used Ginger, a font developed in 2013 and inspired by the Futura and Avant Garde Gothic, resulting in a typical Swiss sans serif, with a twirky geometric twist.</p>
 <p>The text uses Faustina fonts in bold, regular and italic variations for different sections (e.g. text, captions and emphasized parts): Faustina was designed by Alfonso Garcia for editorial typography (books, newspapers and magazines) in print and online and is a serif font. </p>
 <p>The body of the articles is displayed in 1, 2 or 3 columns, depending on the number of articles on the page, to recall the pagination of the magazines themselves.</p> 
  
