@@ -481,7 +481,7 @@ figcaption p{
 }
 
 #one_article article{
-  column-count: 3;
+  column-count: 4;
 }
 
 #three_article article{
@@ -489,7 +489,7 @@ figcaption p{
 }
 
 #two_article article{
-  column-count: 1;
+  column-count: 2;
 }
 
 .help{
