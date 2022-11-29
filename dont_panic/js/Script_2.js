@@ -406,6 +406,7 @@ function changeItemForStyle() {
       world.setAttribute("src", "dont_panic/img/futuro-gif.gif");
       icon_selected.setAttribute("src", "dont_panic/img/svg/3000inv.svg");
       if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/3000inv.svg");}
+      console.log('stile trovato')
       break;
     case 'dont_panic/Y2000s.css':
       icon_selected.setAttribute("src", "dont_panic/img/svg/2001.svg");
