@@ -347,7 +347,7 @@ function hover(event) {
 var currStyle;
 
 function styleSwitch(id) {
-  
+  console.log(id)
   var theme = document.getElementsByTagName("link")[1];
   var new_style = "dont_panic/" + id + ".css";
 
@@ -406,7 +406,6 @@ function changeItemForStyle() {
       world.setAttribute("src", "dont_panic/img/futuro-gif.gif");
       icon_selected.setAttribute("src", "dont_panic/img/svg/3000inv.svg");
       if (coverLogo){coverLogo.setAttribute("src", "dont_panic/img/svg/3000inv.svg");}
-      console.log('stile trovato')
       break;
     case 'dont_panic/Y2000s.css':
       icon_selected.setAttribute("src", "dont_panic/img/svg/2001.svg");
